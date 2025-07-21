@@ -30,3 +30,8 @@ Download the dataset from [here](https://holoassist.github.io/). Only "Videos" f
 
 - Open index.html file in the browser after downloading the dataset in respective folder.
 - Load the json file from `./data/labels/` folder. It will automatically load the corresponding video.
+
+
+## Online Testing
+- Visit [pyxploiter.github.io/HoloAssistViewer](pyxploiter.github.io/HoloAssistViewer)
+- Select `R007-7July-DSLR.json` for online testing
