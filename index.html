@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>HoloAssist Video-Label Viewer</title>
+
+    <!-- External stylesheet -->
+    <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+    <header>
+    <h1>HoloAssist Video-Label Viewer</h1>
+    <label>
+        Label JSON:
+        <input type="file" id="annoInput" accept=".json"/>
+    </label>
+    </header>
+
+    <main>
+    <!-- Left column: video + narration -->
+    <div id="videoColumn">
+        <div id="videoMeta" class="video-meta hidden"></div>
+        <video id="video" controls width="896" height="504"></video>
+        <div id="narrationContainer" class="narration hidden"></div>
+        
+    </div>
+
+    <!-- Right column: annotations -->
+    <div id="annotationContainer">
+        <div id="labelControls" class="label-controls">
+            <label>
+                <input type="checkbox" id="showConversation" checked/>
+                Show Conversations
+            </label>
+            <label>
+                <input type="checkbox" id="showFineGrainedActions" checked />
+                Show Fine Grained Actions
+            </label>
+        </div>
+        <div id="listContainer">
+        <p style="color:#777">Load a label JSON file to begin.</p>
+        </div>
+
+        <!-- Collapsible raw JSON viewer -->
+        <!-- <details id="rawJsonDetails">
+            <summary>Raw JSON</summary>
+            <pre id="rawJson"></pre>
+        </details> -->
+    </div>
+    </main>
+
+    <!-- External script -->
+    <script src="main.js"></script>
+</body>
+</html>

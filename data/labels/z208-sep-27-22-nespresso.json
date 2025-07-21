@@ -1,0 +1,1472 @@
+{
+  "batch": "202301_2221_10fps",
+  "videoMetadata": {
+    "audio": {
+      "codec": "aac",
+      "bitrate": "70",
+      "sample_rate": 48000,
+      "stream": 0,
+      "channels": {
+        "raw": "mono",
+        "value": 1
+      }
+    },
+    "video": {
+      "container": "mov",
+      "bitrate": 2825,
+      "stream": 0,
+      "codec": "h264",
+      "resolution": {
+        "w": 896,
+        "h": 504
+      },
+      "resolutionSquare": {
+        "w": 896,
+        "h": 504
+      },
+      "aspect": {
+        "x": 16,
+        "y": 9,
+        "string": "16:9",
+        "value": 1.7777777777777777
+      },
+      "rotate": 0,
+      "fps": 29.49,
+      "pixelString": "1:1",
+      "pixel": 1
+    },
+    "duration": {
+      "raw": "00:02:43.61",
+      "seconds": 163
+    }
+  },
+  "events": [
+    {
+      "id": 1,
+      "label": "Narration",
+      "start": 0.1,
+      "type": "range",
+      "attributes": {
+        "Long form description": "The student prepares a cup of coffee. First, the instructor tells her, please add some water to the machine; the student adds water. Then, the instructor tells her, please make a cup of coffee; the student makes a cup of coffee. After that, the instructor tells her empty the capsule container and the student does. Finally, the instructor tells her, please empty the drip tray and the student empties the drip tray."
+      },
+      "end": 162.1
+    },
+    {
+      "id": 2,
+      "label": "Conversation",
+      "start": 2.114,
+      "type": "range",
+      "attributes": {
+        "Conversation Purpose": "instructor-start-conversation_describing high-level instruction",
+        "sequence": "none",
+        "Transcription": "Let's start a task.",
+        "Transcription Confidence": "low-confidence-transcription"
+      },
+      "end": 3.514
+    },
+    {
+      "id": 3,
+      "label": "Conversation",
+      "start": 4.432,
+      "type": "range",
+      "attributes": {
+        "Conversation Purpose": "instructor-start-conversation_describing high-level instruction",
+        "sequence": "none",
+        "Transcription": "Please add some water to the machine.",
+        "Transcription Confidence": "none"
+      },
+      "end": 6.344
+    },
+    {
+      "id": 4,
+      "label": "Coarse grained action",
+      "start": 7.463,
+      "type": "range",
+      "attributes": {
+        "Action sentence": "The student pours the water into water container.",
+        "Verb": "pour",
+        "Adjective": "none",
+        "Noun": "water"
+      },
+      "end": 43.1
+    },
+    {
+      "id": 6,
+      "label": "Conversation",
+      "start": 8.888,
+      "type": "range",
+      "attributes": {
+        "Conversation Purpose": "instructor-start-conversation_describing high-level instruction",
+        "sequence": "none",
+        "Transcription": "Add water.",
+        "Transcription Confidence": "none"
+      },
+      "end": 9.997
+    },
+    {
+      "id": 7,
+      "label": "Fine grained action",
+      "start": 11.477,
+      "type": "range",
+      "attributes": {
+        "Action Correctness": "Correct Action",
+        "Incorrect Action Explanation": "none",
+        "Incorrect Action Corrected by": "none",
+        "Verb": "approach",
+        "Adjective": "none",
+        "Noun": "faucet",
+        "adverbial": "right hand"
+      },
+      "end": 13.477
+    },
+    {
+      "id": 8,
+      "label": "Fine grained action",
+      "start": 14.086,
+      "type": "range",
+      "attributes": {
+        "Action Correctness": "Wrong Action, corrected by instructor verbally",
+        "Incorrect Action Explanation": "The student grabs the cup instead of the water container.",
+        "Incorrect Action Corrected by": "11",
+        "Verb": "grab",
+        "Adjective": "none",
+        "Noun": "cup",
+        "adverbial": "right hand"
+      },
+      "end": 15.271
+    },
+    {
+      "id": 9,
+      "label": "Fine grained action",
+      "start": 15.34,
+      "type": "range",
+      "attributes": {
+        "Action Correctness": "Wrong Action, corrected by instructor verbally",
+        "Incorrect Action Explanation": "The student should add water into container",
+        "Incorrect Action Corrected by": "11",
+        "Verb": "touch",
+        "Adjective": "none",
+        "Noun": "faucet",
+        "adverbial": "left hand"
+      },
+      "end": 16.025
+    },
+    {
+      "id": 10,
+      "label": "Fine grained action",
+      "start": 16.1,
+      "type": "range",
+      "attributes": {
+        "Action Correctness": "Wrong Action, corrected by instructor verbally",
+        "Incorrect Action Explanation": "The student should add water into container",
+        "Incorrect Action Corrected by": "11",
+        "Verb": "open",
+        "Adjective": "none",
+        "Noun": "faucet",
+        "adverbial": "left hand"
+      },
+      "end": 16.997
+    },
+    {
+      "id": 11,
+      "label": "Conversation",
+      "start": 16.915,
+      "type": "range",
+      "attributes": {
+        "Conversation Purpose": "instructor-start-conversation_correct the wrong action",
+        "sequence": "8,9,10,12",
+        "Transcription": "No, no, into that water container.",
+        "Transcription Confidence": "none"
+      },
+      "end": 19.915
+    },
+    {
+      "id": 12,
+      "label": "Fine grained action",
+      "start": 17.073,
+      "type": "range",
+      "attributes": {
+        "Action Correctness": "Wrong Action, corrected by instructor verbally",
+        "Incorrect Action Explanation": "The student should add water into container",
+        "Incorrect Action Corrected by": "11",
+        "Verb": "load",
+        "Adjective": "none",
+        "Noun": "water",
+        "adverbial": "right hand"
+      },
+      "end": 18.073
+    },
+    {
+      "id": 13,
+      "label": "Fine grained action",
+      "start": 18.127,
+      "type": "range",
+      "attributes": {
+        "Action Correctness": "Correct Action",
+        "Incorrect Action Explanation": "none",
+        "Incorrect Action Corrected by": "none",
+        "Verb": "close",
+        "Adjective": "none",
+        "Noun": "faucet",
+        "adverbial": "left hand"
+      },
+      "end": 19.018
+    },
+    {
+      "id": 15,
+      "label": "Fine grained action",
+      "start": 20.1,
+      "type": "range",
+      "attributes": {
+        "Action Correctness": "Wrong Action, corrected by instructor verbally",
+        "Incorrect Action Explanation": "The student fills the cup instead of the water container.",
+        "Incorrect Action Corrected by": "instructor",
+        "Verb": "place",
+        "Adjective": "none",
+        "Noun": "cup",
+        "adverbial": "right hand"
+      },
+      "end": 22.504
+    },
+    {
+      "id": 16,
+      "label": "Fine grained action",
+      "start": 23.353,
+      "type": "range",
+      "attributes": {
+        "Action Correctness": "Correct Action",
+        "Incorrect Action Explanation": "none",
+        "Incorrect Action Corrected by": "none",
+        "Verb": "approach",
+        "Adjective": "none",
+        "Noun": "water_container",
+        "adverbial": "left hand"
+      },
+      "end": 24.353
+    },
+    {
+      "id": 17,
+      "label": "Fine grained action",
+      "start": 24.401,
+      "type": "range",
+      "attributes": {
+        "Action Correctness": "Correct Action",
+        "Incorrect Action Explanation": "none",
+        "Incorrect Action Corrected by": "none",
+        "Verb": "open",
+        "Adjective": "none",
+        "Noun": "lid",
+        "adverbial": "left hand"
+      },
+      "end": 26.038
+    },
+    {
+      "id": 18,
+      "label": "Fine grained action",
+      "start": 26.114,
+      "type": "range",
+      "attributes": {
+        "Action Correctness": "Correct Action",
+        "Incorrect Action Explanation": "none",
+        "Incorrect Action Corrected by": "none",
+        "Verb": "grab",
+        "Adjective": "none",
+        "Noun": "water_container",
+        "adverbial": "left hand"
+      },
+      "end": 27.182
+    },
+    {
+      "id": 19,
+      "label": "Fine grained action",
+      "start": 27.237,
+      "type": "range",
+      "attributes": {
+        "Action Correctness": "Correct Action",
+        "Incorrect Action Explanation": "none",
+        "Incorrect Action Corrected by": "none",
+        "Verb": "lift",
+        "Adjective": "none",
+        "Noun": "water_container",
+        "adverbial": "left hand"
+      },
+      "end": 28.415
+    },
+    {
+      "id": 20,
+      "label": "Fine grained action",
+      "start": 28.47,
+      "type": "range",
+      "attributes": {
+        "Action Correctness": "Correct Action",
+        "Incorrect Action Explanation": "none",
+        "Incorrect Action Corrected by": "none",
+        "Verb": "open",
+        "Adjective": "none",
+        "Noun": "lid",
+        "adverbial": "left hand"
+      },
+      "end": 29.962
+    },
+    {
+      "id": 21,
+      "label": "Fine grained action",
+      "start": 30.12,
+      "type": "range",
+      "attributes": {
+        "Action Correctness": "Correct Action",
+        "Incorrect Action Explanation": "none",
+        "Incorrect Action Corrected by": "none",
+        "Verb": "approach",
+        "Adjective": "none",
+        "Noun": "faucet",
+        "adverbial": "right hand"
+      },
+      "end": 30.648
+    },
+    {
+      "id": 22,
+      "label": "Fine grained action",
+      "start": 30.716,
+      "type": "range",
+      "attributes": {
+        "Action Correctness": "Correct Action",
+        "Incorrect Action Explanation": "none",
+        "Incorrect Action Corrected by": "none",
+        "Verb": "open",
+        "Adjective": "none",
+        "Noun": "faucet",
+        "adverbial": "right hand"
+      },
+      "end": 31.716
+    },
+    {
+      "id": 23,
+      "label": "Fine grained action",
+      "start": 31.751,
+      "type": "range",
+      "attributes": {
+        "Action Correctness": "Correct Action",
+        "Incorrect Action Explanation": "none",
+        "Incorrect Action Corrected by": "none",
+        "Verb": "load",
+        "Adjective": "none",
+        "Noun": "water_container",
+        "adverbial": "left hand"
+      },
+      "end": 36.216
+    },
+    {
+      "id": 24,
+      "label": "Fine grained action",
+      "start": 36.299,
+      "type": "range",
+      "attributes": {
+        "Action Correctness": "Correct Action",
+        "Incorrect Action Explanation": "none",
+        "Incorrect Action Corrected by": "none",
+        "Verb": "close",
+        "Adjective": "none",
+        "Noun": "lid",
+        "adverbial": "right hand"
+      },
+      "end": 38.148
+    },
+    {
+      "id": 25,
+      "label": "Fine grained action",
+      "start": 38.21,
+      "type": "range",
+      "attributes": {
+        "Action Correctness": "Correct Action",
+        "Incorrect Action Explanation": "none",
+        "Incorrect Action Corrected by": "none",
+        "Verb": "lift",
+        "Adjective": "none",
+        "Noun": "water_container",
+        "adverbial": "left hand"
+      },
+      "end": 39.833
+    },
+    {
+      "id": 26,
+      "label": "Fine grained action",
+      "start": 39.874,
+      "type": "range",
+      "attributes": {
+        "Action Correctness": "Correct Action",
+        "Incorrect Action Explanation": "none",
+        "Incorrect Action Corrected by": "none",
+        "Verb": "assemble",
+        "Adjective": "none",
+        "Noun": "water_container",
+        "adverbial": "left hand"
+      },
+      "end": 43.778
+    },
+    {
+      "id": 31,
+      "label": "Conversation",
+      "start": 45.1,
+      "type": "range",
+      "attributes": {
+        "Conversation Purpose": "instructor-start-conversation_describing high-level instruction",
+        "sequence": "none",
+        "Transcription": "Now, please make a cup of coffee.",
+        "Transcription Confidence": "none"
+      },
+      "end": 47.1
+    },
+    {
+      "id": 33,
+      "label": "Coarse grained action",
+      "start": 47.1,
+      "type": "range",
+      "attributes": {
+        "Action sentence": "The student makes a cup of coffee.",
+        "Verb": "make",
+        "Adjective": "none",
+        "Noun": "coffee"
+      },
+      "end": 94.258
+    },
+    {
+      "id": 28,
+      "label": "Fine grained action",
+      "start": 50.073,
+      "type": "range",
+      "attributes": {
+        "Action Correctness": "Correct Action",
+        "Incorrect Action Explanation": "none",
+        "Incorrect Action Corrected by": "instructor",
+        "Verb": "approach",
+        "Adjective": "left",
+        "Noun": "button",
+        "adverbial": "left hand"
+      },
+      "end": 51.518
+    },
+    {
+      "id": 34,
+      "label": "Conversation",
+      "start": 50.997,
+      "type": "range",
+      "attributes": {
+        "Conversation Purpose": "instructor-start-conversation_follow-up instruction",
+        "sequence": "28",
+        "Transcription": "No, you put the capsule in, lift up the bar.",
+        "Transcription Confidence": "none"
+      },
+      "end": 55.1
+    },
+    {
+      "id": 29,
+      "label": "Fine grained action",
+      "start": 54.292,
+      "type": "range",
+      "attributes": {
+        "Action Correctness": "Correct Action",
+        "Incorrect Action Explanation": "none",
+        "Incorrect Action Corrected by": "none",
+        "Verb": "grab",
+        "Adjective": "none",
+        "Noun": "capsule_box",
+        "adverbial": "right hand"
+      },
+      "end": 55.655
+    },
+    {
+      "id": 30,
+      "label": "Fine grained action",
+      "start": 55.696,
+      "type": "range",
+      "attributes": {
+        "Action Correctness": "Correct Action",
+        "Incorrect Action Explanation": "none",
+        "Incorrect Action Corrected by": "none",
+        "Verb": "pull",
+        "Adjective": "none",
+        "Noun": "lever",
+        "adverbial": "left hand"
+      },
+      "end": 57.264
+    },
+    {
+      "id": 40,
+      "label": "Conversation",
+      "start": 56.881,
+      "type": "range",
+      "attributes": {
+        "Conversation Purpose": "instructor-start-conversation_describing high-level instruction",
+        "sequence": "none",
+        "Transcription": "Put the capsule in.",
+        "Transcription Confidence": "none"
+      },
+      "end": 58.1
+    },
+    {
+      "id": 32,
+      "label": "Fine grained action",
+      "start": 57.326,
+      "type": "range",
+      "attributes": {
+        "Action Correctness": "Correct Action",
+        "Incorrect Action Explanation": "none",
+        "Incorrect Action Corrected by": "none",
+        "Verb": "grab",
+        "Adjective": "none",
+        "Noun": "capsule_box",
+        "adverbial": "right hand"
+      },
+      "end": 58.922
+    },
+    {
+      "id": 106,
+      "label": "Fine grained action",
+      "start": 58.969,
+      "type": "range",
+      "attributes": {
+        "Action Correctness": "Correct Action",
+        "Incorrect Action Explanation": "none",
+        "Incorrect Action Corrected by": "none",
+        "Verb": "grab",
+        "Adjective": "none",
+        "Noun": "coffee_capsule",
+        "adverbial": "left hand"
+      },
+      "end": 62.598
+    },
+    {
+      "id": 35,
+      "label": "Fine grained action",
+      "start": 62.655,
+      "type": "range",
+      "attributes": {
+        "Action Correctness": "otherwise",
+        "Incorrect Action Explanation": "Unnecessary action.",
+        "Incorrect Action Corrected by": "none",
+        "Verb": "slide",
+        "Adjective": "none",
+        "Noun": "capsule_box",
+        "adverbial": "right hand"
+      },
+      "end": 64.086
+    },
+    {
+      "id": 36,
+      "label": "Fine grained action",
+      "start": 65.395,
+      "type": "range",
+      "attributes": {
+        "Action Correctness": "Correct Action",
+        "Incorrect Action Explanation": "none",
+        "Incorrect Action Corrected by": "none",
+        "Verb": "lift",
+        "Adjective": "none",
+        "Noun": "coffee_capsule",
+        "adverbial": "left hand"
+      },
+      "end": 66.463
+    },
+    {
+      "id": 37,
+      "label": "Fine grained action",
+      "start": 66.552,
+      "type": "range",
+      "attributes": {
+        "Action Correctness": "Correct Action",
+        "Incorrect Action Explanation": "none",
+        "Incorrect Action Corrected by": "none",
+        "Verb": "insert",
+        "Adjective": "none",
+        "Noun": "coffee_capsule",
+        "adverbial": "left hand"
+      },
+      "end": 67.422
+    },
+    {
+      "id": 45,
+      "label": "Conversation",
+      "start": 67.9,
+      "type": "range",
+      "attributes": {
+        "Conversation Purpose": "instructor-start-conversation_confirming the previous action",
+        "sequence": "none",
+        "Transcription": "Okay.",
+        "Transcription Confidence": "none"
+      },
+      "end": 68.377
+    },
+    {
+      "id": 38,
+      "label": "Fine grained action",
+      "start": 68.192,
+      "type": "range",
+      "attributes": {
+        "Action Correctness": "Correct Action",
+        "Incorrect Action Explanation": "none",
+        "Incorrect Action Corrected by": "none",
+        "Verb": "approach",
+        "Adjective": "none",
+        "Noun": "lever",
+        "adverbial": "right hand"
+      },
+      "end": 68.531
+    },
+    {
+      "id": 47,
+      "label": "Conversation",
+      "start": 68.426,
+      "type": "range",
+      "attributes": {
+        "Conversation Purpose": "instructor-start-conversation_describing high-level instruction",
+        "sequence": "none",
+        "Transcription": "Now, push down, push down lever.",
+        "Transcription Confidence": "none"
+      },
+      "end": 70.1
+    },
+    {
+      "id": 39,
+      "label": "Fine grained action",
+      "start": 68.586,
+      "type": "range",
+      "attributes": {
+        "Action Correctness": "Correct Action",
+        "Incorrect Action Explanation": "none",
+        "Incorrect Action Corrected by": "none",
+        "Verb": "push",
+        "Adjective": "none",
+        "Noun": "lever",
+        "adverbial": "right hand"
+      },
+      "end": 71.052
+    },
+    {
+      "id": 50,
+      "label": "Conversation",
+      "start": 71.121,
+      "type": "range",
+      "attributes": {
+        "Conversation Purpose": "instructor-start-conversation_describing high-level instruction",
+        "sequence": "none",
+        "Transcription": "Choose any option.",
+        "Transcription Confidence": "none"
+      },
+      "end": 72.1
+    },
+    {
+      "id": 41,
+      "label": "Fine grained action",
+      "start": 71.6,
+      "type": "range",
+      "attributes": {
+        "Action Correctness": "Correct Action",
+        "Incorrect Action Explanation": "none",
+        "Incorrect Action Corrected by": "none",
+        "Verb": "approach",
+        "Adjective": "left",
+        "Noun": "button",
+        "adverbial": "left hand"
+      },
+      "end": 72.847
+    },
+    {
+      "id": 42,
+      "label": "Fine grained action",
+      "start": 72.977,
+      "type": "range",
+      "attributes": {
+        "Action Correctness": "Correct Action",
+        "Incorrect Action Explanation": "none",
+        "Incorrect Action Corrected by": "none",
+        "Verb": "press",
+        "Adjective": "left",
+        "Noun": "button",
+        "adverbial": "left hand"
+      },
+      "end": 73.97
+    },
+    {
+      "id": 53,
+      "label": "Conversation",
+      "start": 94.229,
+      "type": "range",
+      "attributes": {
+        "Conversation Purpose": "instructor-start-conversation_confirming the previous action",
+        "sequence": "none",
+        "Transcription": "Okay.",
+        "Transcription Confidence": "none"
+      },
+      "end": 94.512
+    },
+    {
+      "id": 54,
+      "label": "Conversation",
+      "start": 94.647,
+      "type": "range",
+      "attributes": {
+        "Conversation Purpose": "instructor-start-conversation_describing high-level instruction",
+        "sequence": "none",
+        "Transcription": "Now, remove the cup.",
+        "Transcription Confidence": "none"
+      },
+      "end": 95.968
+    },
+    {
+      "id": 44,
+      "label": "Fine grained action",
+      "start": 95.463,
+      "type": "range",
+      "attributes": {
+        "Action Correctness": "Correct Action",
+        "Incorrect Action Explanation": "none",
+        "Incorrect Action Corrected by": "none",
+        "Verb": "approach",
+        "Adjective": "none",
+        "Noun": "cup",
+        "adverbial": "right hand"
+      },
+      "end": 96.703
+    },
+    {
+      "id": 55,
+      "label": "Coarse grained action",
+      "start": 96.1,
+      "type": "range",
+      "attributes": {
+        "Action sentence": "The student empties the container of capsules.",
+        "Verb": "empty",
+        "Adjective": "none",
+        "Noun": "capsule_container"
+      },
+      "end": 134.1
+    },
+    {
+      "id": 46,
+      "label": "Fine grained action",
+      "start": 96.772,
+      "type": "range",
+      "attributes": {
+        "Action Correctness": "Correct Action",
+        "Incorrect Action Explanation": "none",
+        "Incorrect Action Corrected by": "none",
+        "Verb": "grab",
+        "Adjective": "none",
+        "Noun": "cup_sleeve",
+        "adverbial": "right hand"
+      },
+      "end": 97.093
+    },
+    {
+      "id": 48,
+      "label": "Fine grained action",
+      "start": 97.169,
+      "type": "range",
+      "attributes": {
+        "Action Correctness": "Correct Action",
+        "Incorrect Action Explanation": "none",
+        "Incorrect Action Corrected by": "none",
+        "Verb": "lift",
+        "Adjective": "none",
+        "Noun": "cup",
+        "adverbial": "right hand"
+      },
+      "end": 97.648
+    },
+    {
+      "id": 49,
+      "label": "Fine grained action",
+      "start": 97.682,
+      "type": "range",
+      "attributes": {
+        "Action Correctness": "Correct Action",
+        "Incorrect Action Explanation": "none",
+        "Incorrect Action Corrected by": "none",
+        "Verb": "place",
+        "Adjective": "none",
+        "Noun": "cup",
+        "adverbial": "right hand"
+      },
+      "end": 97.984
+    },
+    {
+      "id": 59,
+      "label": "Conversation",
+      "start": 98.011,
+      "type": "range",
+      "attributes": {
+        "Conversation Purpose": "instructor-start-conversation_follow-up instruction",
+        "sequence": "none",
+        "Transcription": "Lift up the lever.",
+        "Transcription Confidence": "none"
+      },
+      "end": 99.285
+    },
+    {
+      "id": 51,
+      "label": "Fine grained action",
+      "start": 99.628,
+      "type": "range",
+      "attributes": {
+        "Action Correctness": "Correct Action",
+        "Incorrect Action Explanation": "none",
+        "Incorrect Action Corrected by": "none",
+        "Verb": "approach",
+        "Adjective": "none",
+        "Noun": "lever",
+        "adverbial": "right hand"
+      },
+      "end": 100.121
+    },
+    {
+      "id": 52,
+      "label": "Fine grained action",
+      "start": 100.21,
+      "type": "range",
+      "attributes": {
+        "Action Correctness": "Correct Action",
+        "Incorrect Action Explanation": "none",
+        "Incorrect Action Corrected by": "none",
+        "Verb": "pull",
+        "Adjective": "none",
+        "Noun": "lever",
+        "adverbial": "right hand"
+      },
+      "end": 101.929
+    },
+    {
+      "id": 61,
+      "label": "Conversation",
+      "start": 102.634,
+      "type": "range",
+      "attributes": {
+        "Conversation Purpose": "instructor-start-conversation_describing high-level instruction",
+        "sequence": "none",
+        "Transcription": "And then, empty the capsule container.",
+        "Transcription Confidence": "none"
+      },
+      "end": 104.8
+    },
+    {
+      "id": 63,
+      "label": "Conversation",
+      "start": 107.696,
+      "type": "range",
+      "attributes": {
+        "Conversation Purpose": "instructor-start-conversation_describing high-level instruction",
+        "sequence": "none",
+        "Transcription": "Take out the drip tray.",
+        "Transcription Confidence": "none"
+      },
+      "end": 109.168
+    },
+    {
+      "id": 57,
+      "label": "Fine grained action",
+      "start": 109.018,
+      "type": "range",
+      "attributes": {
+        "Action Correctness": "Correct Action",
+        "Incorrect Action Explanation": "none",
+        "Incorrect Action Corrected by": "none",
+        "Verb": "grab",
+        "Adjective": "none",
+        "Noun": "drip_tray",
+        "adverbial": "right hand"
+      },
+      "end": 109.47
+    },
+    {
+      "id": 58,
+      "label": "Fine grained action",
+      "start": 109.518,
+      "type": "range",
+      "attributes": {
+        "Action Correctness": "Correct Action",
+        "Incorrect Action Explanation": "none",
+        "Incorrect Action Corrected by": "none",
+        "Verb": "align",
+        "Adjective": "none",
+        "Noun": "cup",
+        "adverbial": "left hand"
+      },
+      "end": 111.052
+    },
+    {
+      "id": 60,
+      "label": "Fine grained action",
+      "start": 111.121,
+      "type": "range",
+      "attributes": {
+        "Action Correctness": "Correct Action",
+        "Incorrect Action Explanation": "none",
+        "Incorrect Action Corrected by": "none",
+        "Verb": "withdraw",
+        "Adjective": "none",
+        "Noun": "drip_tray",
+        "adverbial": "right hand"
+      },
+      "end": 113.949
+    },
+    {
+      "id": 67,
+      "label": "Conversation",
+      "start": 113.881,
+      "type": "range",
+      "attributes": {
+        "Conversation Purpose": "instructor-start-conversation_follow-up instruction",
+        "sequence": "none",
+        "Transcription": "Only the capsule container.",
+        "Transcription Confidence": "none"
+      },
+      "end": 115.5
+    },
+    {
+      "id": 62,
+      "label": "Fine grained action",
+      "start": 114.025,
+      "type": "range",
+      "attributes": {
+        "Action Correctness": "Correct Action",
+        "Incorrect Action Explanation": "none",
+        "Incorrect Action Corrected by": "none",
+        "Verb": "lift",
+        "Adjective": "none",
+        "Noun": "capsule_container",
+        "adverbial": "left hand"
+      },
+      "end": 117.223
+    },
+    {
+      "id": 71,
+      "label": "Conversation",
+      "start": 118.984,
+      "type": "range",
+      "attributes": {
+        "Conversation Purpose": "instructor-start-conversation_follow-up instruction",
+        "sequence": "none",
+        "Transcription": "In the trash.",
+        "Transcription Confidence": "none"
+      },
+      "end": 120.1
+    },
+    {
+      "id": 64,
+      "label": "Fine grained action",
+      "start": 120.319,
+      "type": "range",
+      "attributes": {
+        "Action Correctness": "Correct Action",
+        "Incorrect Action Explanation": "none",
+        "Incorrect Action Corrected by": "none",
+        "Verb": "open",
+        "Adjective": "none",
+        "Noun": "garbage_bin",
+        "adverbial": "left hand"
+      },
+      "end": 123.1
+    },
+    {
+      "id": 65,
+      "label": "Fine grained action",
+      "start": 123.12,
+      "type": "range",
+      "attributes": {
+        "Action Correctness": "Correct Action",
+        "Incorrect Action Explanation": "none",
+        "Incorrect Action Corrected by": "none",
+        "Verb": "empty",
+        "Adjective": "none",
+        "Noun": "capsule_container",
+        "adverbial": "right hand"
+      },
+      "end": 125.374
+    },
+    {
+      "id": 76,
+      "label": "Conversation",
+      "start": 125.288,
+      "type": "range",
+      "attributes": {
+        "Conversation Purpose": "instructor-start-conversation_describing high-level instruction",
+        "sequence": "none",
+        "Transcription": "And put trays in back.",
+        "Transcription Confidence": "low-confidence-transcription"
+      },
+      "end": 127.1
+    },
+    {
+      "id": 66,
+      "label": "Fine grained action",
+      "start": 125.436,
+      "type": "range",
+      "attributes": {
+        "Action Correctness": "Correct Action",
+        "Incorrect Action Explanation": "none",
+        "Incorrect Action Corrected by": "none",
+        "Verb": "lift",
+        "Adjective": "none",
+        "Noun": "capsule_container",
+        "adverbial": "right hand"
+      },
+      "end": 128.039
+    },
+    {
+      "id": 68,
+      "label": "Fine grained action",
+      "start": 128.237,
+      "type": "range",
+      "attributes": {
+        "Action Correctness": "Correct Action",
+        "Incorrect Action Explanation": "none",
+        "Incorrect Action Corrected by": "none",
+        "Verb": "assemble",
+        "Adjective": "none",
+        "Noun": "capsule_container",
+        "adverbial": "left hand"
+      },
+      "end": 130.21
+    },
+    {
+      "id": 69,
+      "label": "Fine grained action",
+      "start": 130.504,
+      "type": "range",
+      "attributes": {
+        "Action Correctness": "Correct Action",
+        "Incorrect Action Explanation": "none",
+        "Incorrect Action Corrected by": "none",
+        "Verb": "assemble",
+        "Adjective": "none",
+        "Noun": "drip_tray",
+        "adverbial": "right hand"
+      },
+      "end": 132.723
+    },
+    {
+      "id": 80,
+      "label": "Conversation",
+      "start": 132.6,
+      "type": "range",
+      "attributes": {
+        "Conversation Purpose": "instructor-start-conversation_confirming the previous action",
+        "sequence": "none",
+        "Transcription": "Okay.",
+        "Transcription Confidence": "none"
+      },
+      "end": 132.857
+    },
+    {
+      "id": 70,
+      "label": "Fine grained action",
+      "start": 132.771,
+      "type": "range",
+      "attributes": {
+        "Action Correctness": "Wrong Action, corrected by student",
+        "Incorrect Action Explanation": "Unnecessary action.",
+        "Incorrect Action Corrected by": "none",
+        "Verb": "touch",
+        "Adjective": "none",
+        "Noun": "lever",
+        "adverbial": "left hand"
+      },
+      "end": 134.066
+    },
+    {
+      "id": 81,
+      "label": "Conversation",
+      "start": 132.952,
+      "type": "range",
+      "attributes": {
+        "Conversation Purpose": "instructor-start-conversation_describing high-level instruction",
+        "sequence": "none",
+        "Transcription": "Now, please empty the uh drip tray.",
+        "Transcription Confidence": "none"
+      },
+      "end": 135.1
+    },
+    {
+      "id": 83,
+      "label": "Coarse grained action",
+      "start": 135.1,
+      "type": "range",
+      "attributes": {
+        "Action sentence": "The student empties the drip tray.",
+        "Verb": "empty",
+        "Adjective": "none",
+        "Noun": "drip_tray"
+      },
+      "end": 160.6
+    },
+    {
+      "id": 73,
+      "label": "Fine grained action",
+      "start": 136.805,
+      "type": "range",
+      "attributes": {
+        "Action Correctness": "Correct Action",
+        "Incorrect Action Explanation": "none",
+        "Incorrect Action Corrected by": "instructor",
+        "Verb": "lift",
+        "Adjective": "none",
+        "Noun": "drip_tray",
+        "adverbial": "right hand"
+      },
+      "end": 138.621
+    },
+    {
+      "id": 87,
+      "label": "Conversation",
+      "start": 137.422,
+      "type": "range",
+      "attributes": {
+        "Conversation Purpose": "instructor-start-conversation_follow-up instruction",
+        "sequence": "none",
+        "Transcription": "It take it out.",
+        "Transcription Confidence": "none"
+      },
+      "end": 138.9
+    },
+    {
+      "id": 72,
+      "label": "Fine grained action",
+      "start": 138.668,
+      "type": "range",
+      "attributes": {
+        "Action Correctness": "Correct Action",
+        "Incorrect Action Explanation": "none",
+        "Incorrect Action Corrected by": "none",
+        "Verb": "pull",
+        "Adjective": "none",
+        "Noun": "drip_tray",
+        "adverbial": "right hand"
+      },
+      "end": 139.943
+    },
+    {
+      "id": 90,
+      "label": "Conversation",
+      "start": 139.922,
+      "type": "range",
+      "attributes": {
+        "Conversation Purpose": "instructor-start-conversation_describing high-level instruction",
+        "sequence": "none",
+        "Transcription": "Empty the water.",
+        "Transcription Confidence": "none"
+      },
+      "end": 141.004
+    },
+    {
+      "id": 74,
+      "label": "Fine grained action",
+      "start": 139.984,
+      "type": "range",
+      "attributes": {
+        "Action Correctness": "Correct Action",
+        "Incorrect Action Explanation": "none",
+        "Incorrect Action Corrected by": "none",
+        "Verb": "lift",
+        "Adjective": "none",
+        "Noun": "capsule_container",
+        "adverbial": "left hand"
+      },
+      "end": 140.949
+    },
+    {
+      "id": 79,
+      "label": "Fine grained action",
+      "start": 141.059,
+      "type": "range",
+      "attributes": {
+        "Action Correctness": "Correct Action",
+        "Incorrect Action Explanation": "none",
+        "Incorrect Action Corrected by": "none",
+        "Verb": "empty",
+        "Adjective": "none",
+        "Noun": "drip_tray",
+        "adverbial": "right hand"
+      },
+      "end": 144.011
+    },
+    {
+      "id": 78,
+      "label": "Fine grained action",
+      "start": 144.073,
+      "type": "range",
+      "attributes": {
+        "Action Correctness": "Correct Action",
+        "Incorrect Action Explanation": "none",
+        "Incorrect Action Corrected by": "none",
+        "Verb": "lift",
+        "Adjective": "none",
+        "Noun": "drip_tray",
+        "adverbial": "right hand"
+      },
+      "end": 144.908
+    },
+    {
+      "id": 77,
+      "label": "Fine grained action",
+      "start": 145.004,
+      "type": "range",
+      "attributes": {
+        "Action Correctness": "Correct Action",
+        "Incorrect Action Explanation": "none",
+        "Incorrect Action Corrected by": "none",
+        "Verb": "empty",
+        "Adjective": "none",
+        "Noun": "drip_tray",
+        "adverbial": "right hand"
+      },
+      "end": 146.655
+    },
+    {
+      "id": 94,
+      "label": "Conversation",
+      "start": 146.5,
+      "type": "range",
+      "attributes": {
+        "Conversation Purpose": "instructor-start-conversation_describing high-level instruction",
+        "sequence": "none",
+        "Transcription": "And then close everything.",
+        "Transcription Confidence": "low-confidence-transcription"
+      },
+      "end": 148.1
+    },
+    {
+      "id": 75,
+      "label": "Fine grained action",
+      "start": 146.71,
+      "type": "range",
+      "attributes": {
+        "Action Correctness": "Correct Action",
+        "Incorrect Action Explanation": "none",
+        "Incorrect Action Corrected by": "none",
+        "Verb": "approach",
+        "Adjective": "none",
+        "Noun": "faucet",
+        "adverbial": "left hand"
+      },
+      "end": 147.71
+    },
+    {
+      "id": 89,
+      "label": "Fine grained action",
+      "start": 147.799,
+      "type": "range",
+      "attributes": {
+        "Action Correctness": "Correct Action",
+        "Incorrect Action Explanation": "none",
+        "Incorrect Action Corrected by": "none",
+        "Verb": "open",
+        "Adjective": "none",
+        "Noun": "faucet",
+        "adverbial": "left hand"
+      },
+      "end": 148.498
+    },
+    {
+      "id": 91,
+      "label": "Fine grained action",
+      "start": 148.532,
+      "type": "range",
+      "attributes": {
+        "Action Correctness": "Correct Action",
+        "Incorrect Action Explanation": "none",
+        "Incorrect Action Corrected by": "none",
+        "Verb": "close",
+        "Adjective": "none",
+        "Noun": "faucet",
+        "adverbial": "left hand"
+      },
+      "end": 148.847
+    },
+    {
+      "id": 92,
+      "label": "Fine grained action",
+      "start": 148.943,
+      "type": "range",
+      "attributes": {
+        "Action Correctness": "Correct Action",
+        "Incorrect Action Explanation": "none",
+        "Incorrect Action Corrected by": "none",
+        "Verb": "empty",
+        "Adjective": "none",
+        "Noun": "drip_tray",
+        "adverbial": "right hand"
+      },
+      "end": 152.21
+    },
+    {
+      "id": 96,
+      "label": "Fine grained action",
+      "start": 152.436,
+      "type": "range",
+      "attributes": {
+        "Action Correctness": "Correct Action",
+        "Incorrect Action Explanation": "none",
+        "Incorrect Action Corrected by": "none",
+        "Verb": "lift",
+        "Adjective": "none",
+        "Noun": "drip_tray",
+        "adverbial": "right hand"
+      },
+      "end": 154.182
+    },
+    {
+      "id": 97,
+      "label": "Fine grained action",
+      "start": 154.251,
+      "type": "range",
+      "attributes": {
+        "Action Correctness": "Correct Action",
+        "Incorrect Action Explanation": "none",
+        "Incorrect Action Corrected by": "none",
+        "Verb": "place",
+        "Adjective": "none",
+        "Noun": "drip_tray",
+        "adverbial": "right hand"
+      },
+      "end": 154.847
+    },
+    {
+      "id": 98,
+      "label": "Fine grained action",
+      "start": 154.915,
+      "type": "range",
+      "attributes": {
+        "Action Correctness": "Correct Action",
+        "Incorrect Action Explanation": "none",
+        "Incorrect Action Corrected by": "none",
+        "Verb": "lift",
+        "Adjective": "none",
+        "Noun": "capsule_container",
+        "adverbial": "left hand"
+      },
+      "end": 155.216
+    },
+    {
+      "id": 99,
+      "label": "Fine grained action",
+      "start": 155.251,
+      "type": "range",
+      "attributes": {
+        "Action Correctness": "Correct Action",
+        "Incorrect Action Explanation": "none",
+        "Incorrect Action Corrected by": "none",
+        "Verb": "assemble",
+        "Adjective": "none",
+        "Noun": "capsule_container",
+        "adverbial": "left hand"
+      },
+      "end": 156.251
+    },
+    {
+      "id": 100,
+      "label": "Fine grained action",
+      "start": 156.34,
+      "type": "range",
+      "attributes": {
+        "Action Correctness": "Correct Action",
+        "Incorrect Action Explanation": "none",
+        "Incorrect Action Corrected by": "none",
+        "Verb": "lift",
+        "Adjective": "none",
+        "Noun": "drip_tray",
+        "adverbial": "right hand"
+      },
+      "end": 156.662
+    },
+    {
+      "id": 102,
+      "label": "Fine grained action",
+      "start": 156.716,
+      "type": "range",
+      "attributes": {
+        "Action Correctness": "Correct Action",
+        "Incorrect Action Explanation": "none",
+        "Incorrect Action Corrected by": "none",
+        "Verb": "assemble",
+        "Adjective": "none",
+        "Noun": "drip_tray",
+        "adverbial": "right hand"
+      },
+      "end": 158.36
+    },
+    {
+      "id": 103,
+      "label": "Fine grained action",
+      "start": 158.518,
+      "type": "range",
+      "attributes": {
+        "Action Correctness": "Correct Action",
+        "Incorrect Action Explanation": "none",
+        "Incorrect Action Corrected by": "none",
+        "Verb": "approach",
+        "Adjective": "none",
+        "Noun": "lever",
+        "adverbial": "left hand"
+      },
+      "end": 158.963
+    },
+    {
+      "id": 101,
+      "label": "Conversation",
+      "start": 158.895,
+      "type": "range",
+      "attributes": {
+        "Conversation Purpose": "instructor-start-conversation_describing high-level instruction",
+        "sequence": "none",
+        "Transcription": "Close everything.",
+        "Transcription Confidence": "none"
+      },
+      "end": 159.8
+    },
+    {
+      "id": 107,
+      "label": "Fine grained action",
+      "start": 159.032,
+      "type": "range",
+      "attributes": {
+        "Action Correctness": "Correct Action",
+        "Incorrect Action Explanation": "none",
+        "Incorrect Action Corrected by": "none",
+        "Verb": "push",
+        "Adjective": "none",
+        "Noun": "lever",
+        "adverbial": "left hand"
+      },
+      "end": 160.56
+    },
+    {
+      "id": 104,
+      "label": "Conversation",
+      "start": 160.581,
+      "type": "range",
+      "attributes": {
+        "Conversation Purpose": "instructor-start-conversation_confirming the previous action",
+        "sequence": "none",
+        "Transcription": "Great.",
+        "Transcription Confidence": "none"
+      },
+      "end": 160.862
+    },
+    {
+      "id": 105,
+      "label": "Conversation",
+      "start": 160.924,
+      "type": "range",
+      "attributes": {
+        "Conversation Purpose": "instructor-start-conversation_closing remarks",
+        "sequence": "none",
+        "Transcription": "You can stop recording.",
+        "Transcription Confidence": "none"
+      },
+      "end": 162.1
+    }
+  ],
+  "taskId": "63dadfe288cfbe9d6c00f1fa",
+  "taskType": "make coffee with nespresso machine",
+  "video_name": "z208-sep-27-22-nespresso"
+}

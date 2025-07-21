@@ -1,0 +1,1692 @@
+{
+  "batch": "202301_2221_10fps",
+  "videoMetadata": {
+    "audio": {
+      "codec": "aac",
+      "bitrate": "70",
+      "sample_rate": 48000,
+      "stream": 0,
+      "channels": {
+        "raw": "mono",
+        "value": 1
+      }
+    },
+    "video": {
+      "container": "mov",
+      "bitrate": 4482,
+      "stream": 0,
+      "codec": "h264",
+      "resolution": {
+        "w": 896,
+        "h": 504
+      },
+      "resolutionSquare": {
+        "w": 896,
+        "h": 504
+      },
+      "aspect": {
+        "x": 16,
+        "y": 9,
+        "string": "16:9",
+        "value": 1.7777777777777777
+      },
+      "rotate": 0,
+      "fps": 23.83,
+      "pixelString": "1:1",
+      "pixel": 1
+    },
+    "duration": {
+      "raw": "00:04:55.19",
+      "seconds": 295
+    }
+  },
+  "events": [
+    {
+      "id": 1,
+      "label": "Conversation",
+      "start": 0.1,
+      "type": "range",
+      "attributes": {
+        "Conversation Purpose": "student-start-conversation_other",
+        "Transcription": "Capturing",
+        "Conversation Purpose -- Other": "none"
+      },
+      "end": 0.6
+    },
+    {
+      "id": 2,
+      "label": "Narration",
+      "start": 0.1,
+      "type": "range",
+      "attributes": {
+        "Long form description": "The student approaches the computer tower and unplugs the power and HDMI cable. Then he places the computer tower on the table and opens the computer tower cover. The student touches the computer tower and finds the graphics card. The student finds the lock of the graphic cards and unlocks it heavily. The student detaches the graphic cards and then checks the lock pin of the graphic cards. The student installs the graphic cards safely and locks them securely. After that, the student attaches the computer tower cover. The student places back the computer tower under the table and plugs in the power and HDMI cable."
+      },
+      "end": 294.1
+    },
+    {
+      "id": 3,
+      "label": "Conversation",
+      "start": 2.1,
+      "type": "range",
+      "attributes": {
+        "Conversation Purpose": "instructor-start-conversation_confirming the previous action",
+        "Transcription": "Perfect."
+      },
+      "end": 2.6
+    },
+    {
+      "id": 117,
+      "label": "Conversation",
+      "start": 2.758,
+      "type": "range",
+      "attributes": {
+        "Conversation Purpose": "instructor-start-conversation_confirming the previous action",
+        "sequence": "none",
+        "Transcription": "Alright",
+        "Transcription Confidence": "none"
+      },
+      "end": 3.308
+    },
+    {
+      "id": 4,
+      "label": "Conversation",
+      "start": 3.363,
+      "type": "range",
+      "attributes": {
+        "Conversation Purpose": "instructor-start-conversation_describing high-level instruction",
+        "sequence": "none",
+        "Transcription": "lets go back to that tower and just like before we are gonna unplug it.",
+        "Transcription Confidence": "none"
+      },
+      "end": 8.014
+    },
+    {
+      "id": 5,
+      "label": "Coarse grained action",
+      "start": 9.1,
+      "type": "range",
+      "attributes": {
+        "Action sentence": "The student unplugs the computer power supply and HDMI cable.",
+        "Verb": "withdraw",
+        "Noun": "computer_tower"
+      },
+      "end": 15
+    },
+    {
+      "id": 6,
+      "label": "Fine grained action",
+      "start": 9.2,
+      "type": "range",
+      "attributes": {
+        "Action Correctness": "Correct Action",
+        "Incorrect Action Explanation": "none",
+        "Incorrect Action Corrected by": "none",
+        "Verb": "grab",
+        "Adjective": "none",
+        "Noun": "cable_power_supply",
+        "adverbial": "none"
+      },
+      "end": 10.645
+    },
+    {
+      "id": 7,
+      "label": "Fine grained action",
+      "start": 11.149,
+      "type": "range",
+      "attributes": {
+        "Action Correctness": "Correct Action",
+        "Incorrect Action Explanation": "none",
+        "Incorrect Action Corrected by": "none",
+        "Verb": "withdraw",
+        "Adjective": "none",
+        "Noun": "cable_power_supply",
+        "adverbial": "none"
+      },
+      "end": 12.162
+    },
+    {
+      "id": 8,
+      "label": "Fine grained action",
+      "start": 12.249,
+      "type": "range",
+      "attributes": {
+        "Action Correctness": "Correct Action",
+        "Incorrect Action Explanation": "none",
+        "Incorrect Action Corrected by": "none",
+        "Verb": "grab",
+        "Adjective": "none",
+        "Noun": "hdmi_cable",
+        "adverbial": "none"
+      },
+      "end": 13.25
+    },
+    {
+      "id": 123,
+      "label": "Fine grained action",
+      "start": 13.354,
+      "type": "range",
+      "attributes": {
+        "Action Correctness": "Correct Action",
+        "Incorrect Action Explanation": "none",
+        "Incorrect Action Corrected by": "none",
+        "Verb": "withdraw",
+        "Adjective": "none",
+        "Noun": "cable_power_supply",
+        "adverbial": "none"
+      },
+      "end": 14.8
+    },
+    {
+      "id": 9,
+      "label": "Fine grained action",
+      "start": 15.2,
+      "type": "range",
+      "attributes": {
+        "Action Correctness": "Correct Action",
+        "Incorrect Action Explanation": "none",
+        "Incorrect Action Corrected by": "none",
+        "Verb": "grab",
+        "Adjective": "none",
+        "Noun": "computer_tower",
+        "adverbial": "none"
+      },
+      "end": 17.3
+    },
+    {
+      "id": 10,
+      "label": "Coarse grained action",
+      "start": 15.2,
+      "type": "range",
+      "attributes": {
+        "Action sentence": "The student places the computer on the table.",
+        "Verb": "place",
+        "Noun": "computer_tower"
+      },
+      "end": 28.9
+    },
+    {
+      "id": 12,
+      "label": "Fine grained action",
+      "start": 18.2,
+      "type": "range",
+      "attributes": {
+        "Action Correctness": "Correct Action",
+        "Incorrect Action Explanation": "none",
+        "Incorrect Action Corrected by": "none",
+        "Verb": "lift",
+        "Adjective": "none",
+        "Noun": "computer_tower",
+        "adverbial": "none"
+      },
+      "end": 21.976
+    },
+    {
+      "id": 13,
+      "label": "Fine grained action",
+      "start": 22.025,
+      "type": "range",
+      "attributes": {
+        "Action Correctness": "Correct Action",
+        "Incorrect Action Explanation": "none",
+        "Incorrect Action Corrected by": "none",
+        "Verb": "place",
+        "Adjective": "none",
+        "Noun": "computer_tower",
+        "adverbial": "none"
+      },
+      "end": 28.4
+    },
+    {
+      "id": 14,
+      "label": "Conversation",
+      "start": 26.1,
+      "type": "range",
+      "attributes": {
+        "Conversation Purpose": "instructor-start-conversation_confirming the previous action",
+        "Transcription": "Yes."
+      },
+      "end": 26.3
+    },
+    {
+      "id": 15,
+      "label": "Conversation",
+      "start": 27.108,
+      "type": "range",
+      "attributes": {
+        "Conversation Purpose": "instructor-start-conversation_describing high-level instruction",
+        "Transcription": "Like before we can go ahead and reopen them."
+      },
+      "end": 29.646
+    },
+    {
+      "id": 16,
+      "label": "Fine grained action",
+      "start": 29.1,
+      "type": "range",
+      "attributes": {
+        "Action Correctness": "Correct Action",
+        "Incorrect Action Explanation": "none",
+        "Incorrect Action Corrected by": "none",
+        "Verb": "grab",
+        "Adjective": "none",
+        "Noun": "handle",
+        "adverbial": "none"
+      },
+      "end": 30.29
+    },
+    {
+      "id": 17,
+      "label": "Coarse grained action",
+      "start": 29.1,
+      "type": "range",
+      "attributes": {
+        "Action sentence": "The student opens the computer tower.",
+        "Verb": "withdraw",
+        "Noun": "computer_tower"
+      },
+      "end": 35.2
+    },
+    {
+      "id": 18,
+      "label": "Fine grained action",
+      "start": 30.413,
+      "type": "range",
+      "attributes": {
+        "Action Correctness": "Correct Action",
+        "Incorrect Action Explanation": "none",
+        "Incorrect Action Corrected by": "none",
+        "Verb": "open",
+        "Adjective": "none",
+        "Noun": "cover",
+        "adverbial": "none"
+      },
+      "end": 32.352
+    },
+    {
+      "id": 19,
+      "label": "Conversation",
+      "start": 32.3,
+      "type": "range",
+      "attributes": {
+        "Conversation Purpose": "instructor-start-conversation_describing high-level instruction",
+        "Transcription": "Go ahead and ground yourself."
+      },
+      "end": 34.5
+    },
+    {
+      "id": 20,
+      "label": "Fine grained action",
+      "start": 32.456,
+      "type": "range",
+      "attributes": {
+        "Action Correctness": "Correct Action",
+        "Incorrect Action Explanation": "none",
+        "Incorrect Action Corrected by": "none",
+        "Verb": "place",
+        "Adjective": "none",
+        "Noun": "cover",
+        "adverbial": "none"
+      },
+      "end": 34.3
+    },
+    {
+      "id": 22,
+      "label": "Fine grained action",
+      "start": 35.2,
+      "type": "range",
+      "attributes": {
+        "Action Correctness": "Correct Action",
+        "Incorrect Action Explanation": "none",
+        "Incorrect Action Corrected by": "none",
+        "Verb": "touch",
+        "Adjective": "none",
+        "Noun": "computer_tower",
+        "adverbial": "none"
+      },
+      "end": 45.8
+    },
+    {
+      "id": 23,
+      "label": "Conversation",
+      "start": 40.1,
+      "type": "range",
+      "attributes": {
+        "Conversation Purpose": "instructor-start-conversation_confirming the previous action",
+        "Transcription": "It is."
+      },
+      "end": 40.5
+    },
+    {
+      "id": 24,
+      "label": "Conversation",
+      "start": 42.089,
+      "type": "range",
+      "attributes": {
+        "Conversation Purpose": "instructor-start-conversation_describing high-level instruction",
+        "Transcription": "Now we are gonna look to these graphic cards that they should be on the top core."
+      },
+      "end": 46.272
+    },
+    {
+      "id": 25,
+      "label": "Coarse grained action",
+      "start": 46.3,
+      "type": "range",
+      "attributes": {
+        "Action sentence": "The student inspects the computer tower.",
+        "Verb": "inspect",
+        "Noun": "computer_tower"
+      },
+      "end": 74
+    },
+    {
+      "id": 27,
+      "label": "Conversation",
+      "start": 47.2,
+      "type": "range",
+      "attributes": {
+        "Conversation Purpose": "student-start-conversation_other",
+        "Transcription": "Yes.",
+        "Conversation Purpose -- Other": "none"
+      },
+      "end": 48.828
+    },
+    {
+      "id": 28,
+      "label": "Conversation",
+      "start": 49.4,
+      "type": "range",
+      "attributes": {
+        "Conversation Purpose": "instructor-start-conversation_confirming the previous action",
+        "Transcription": "Alright."
+      },
+      "end": 50.589
+    },
+    {
+      "id": 29,
+      "label": "Conversation",
+      "start": 52.675,
+      "type": "range",
+      "attributes": {
+        "Conversation Purpose": "instructor-start-conversation_describing high-level instruction",
+        "Transcription": "Oh the first step to removing them is you are going to look on the outside of the tower and there should be two black latches with green like rectangles or lock on them, ummm look at the right side on the outside."
+      },
+      "end": 71.304
+    },
+    {
+      "id": 30,
+      "label": "Fine grained action",
+      "start": 53.1,
+      "type": "range",
+      "attributes": {
+        "Action Correctness": "Correct Action",
+        "Incorrect Action Explanation": "none",
+        "Incorrect Action Corrected by": "none",
+        "Verb": "touch",
+        "Adjective": "none",
+        "Noun": "graphic_card",
+        "adverbial": "none"
+      },
+      "end": 56.418
+    },
+    {
+      "id": 31,
+      "label": "Fine grained action",
+      "start": 56.46,
+      "type": "range",
+      "attributes": {
+        "Action Correctness": "Correct Action",
+        "Incorrect Action Explanation": "none",
+        "Incorrect Action Corrected by": "none",
+        "Verb": "inspect",
+        "Adjective": "none",
+        "Noun": "computer_tower",
+        "adverbial": "none"
+      },
+      "end": 73.3
+    },
+    {
+      "id": 32,
+      "label": "Conversation",
+      "start": 73.266,
+      "type": "range",
+      "attributes": {
+        "Conversation Purpose": "instructor-start-conversation_follow-up instruction",
+        "Transcription": "So up , top is."
+      },
+      "end": 77.075
+    },
+    {
+      "id": 50,
+      "label": "Coarse grained action",
+      "start": 74.15623283030492,
+      "type": "range",
+      "attributes": {
+        "Action sentence": "The student removes the first graphic card.",
+        "Verb": "withdraw",
+        "Adjective": "first",
+        "Noun": "graphic_card"
+      },
+      "end": 151
+    },
+    {
+      "id": 34,
+      "label": "Fine grained action",
+      "start": 74.2,
+      "type": "range",
+      "attributes": {
+        "Action Correctness": "Correct Action",
+        "Incorrect Action Explanation": "none",
+        "Incorrect Action Corrected by": "none",
+        "Verb": "grab",
+        "Adjective": "none",
+        "Noun": "computer_tab",
+        "adverbial": "none"
+      },
+      "end": 76.394
+    },
+    {
+      "id": 35,
+      "label": "Fine grained action",
+      "start": 76.548,
+      "type": "range",
+      "attributes": {
+        "Action Correctness": "Wrong Action, corrected by student",
+        "Incorrect Action Explanation": "The student is pushing the tab the wrong direction.",
+        "Incorrect Action Corrected by": "none",
+        "Verb": "push",
+        "Adjective": "none",
+        "Noun": "computer_tab",
+        "adverbial": "none"
+      },
+      "end": 82.402
+    },
+    {
+      "id": 36,
+      "label": "Conversation",
+      "start": 78.124,
+      "type": "range",
+      "attributes": {
+        "Conversation Purpose": "instructor-start-conversation_confirming the previous action",
+        "Transcription": "Yeah."
+      },
+      "end": 78.7
+    },
+    {
+      "id": 37,
+      "label": "Conversation",
+      "start": 79.567,
+      "type": "range",
+      "attributes": {
+        "Conversation Purpose": "instructor-start-conversation_follow-up instruction",
+        "Transcription": "We are gonna go ahead and push those latches down."
+      },
+      "end": 82.476
+    },
+    {
+      "id": 38,
+      "label": "Fine grained action",
+      "start": 82.491,
+      "type": "range",
+      "attributes": {
+        "Action Correctness": "Correct Action",
+        "Incorrect Action Explanation": "none",
+        "Incorrect Action Corrected by": "none",
+        "Verb": "grab",
+        "Adjective": "none",
+        "Noun": "computer_tab",
+        "adverbial": "none"
+      },
+      "end": 85.241
+    },
+    {
+      "id": 39,
+      "label": "Conversation",
+      "start": 83.673,
+      "type": "range",
+      "attributes": {
+        "Conversation Purpose": "instructor-start-conversation_follow-up instruction",
+        "Transcription": "You can push them up at the same time, maybe, it depends on how they feel."
+      },
+      "end": 87.8
+    },
+    {
+      "id": 40,
+      "label": "Fine grained action",
+      "start": 85.382,
+      "type": "range",
+      "attributes": {
+        "Action Correctness": "Wrong Action, corrected by student",
+        "Incorrect Action Explanation": "The student pushes the tabs in the wrong direction.",
+        "Incorrect Action Corrected by": "none",
+        "Verb": "push",
+        "Adjective": "none",
+        "Noun": "computer_tab",
+        "adverbial": "none"
+      },
+      "end": 88.3
+    },
+    {
+      "id": 41,
+      "label": "Conversation",
+      "start": 88.344,
+      "type": "range",
+      "attributes": {
+        "Conversation Purpose": "student-start-conversation_other",
+        "Transcription": "We will see.",
+        "Conversation Purpose -- Other": "none"
+      },
+      "end": 89.689
+    },
+    {
+      "id": 42,
+      "label": "Fine grained action",
+      "start": 89.2,
+      "type": "range",
+      "attributes": {
+        "Action Correctness": "Wrong Action, corrected by student",
+        "Incorrect Action Explanation": "The student is pushing the tabs in the wrong direction.",
+        "Incorrect Action Corrected by": "none",
+        "Verb": "push",
+        "Adjective": "none",
+        "Noun": "computer_tab",
+        "adverbial": "none"
+      },
+      "end": 98.509
+    },
+    {
+      "id": 43,
+      "label": "Conversation",
+      "start": 97.405,
+      "type": "range",
+      "attributes": {
+        "Conversation Purpose": "instructor-start-conversation_follow-up instruction",
+        "Transcription": "That end like down towards the bottom of the part."
+      },
+      "end": 100.57
+    },
+    {
+      "id": 44,
+      "label": "Fine grained action",
+      "start": 98.616,
+      "type": "range",
+      "attributes": {
+        "Action Correctness": "Wrong Action, corrected by student",
+        "Incorrect Action Explanation": "The student pushes the tabs in the wrong direction.",
+        "Incorrect Action Corrected by": "none",
+        "Verb": "push",
+        "Adjective": "none",
+        "Noun": "computer_tab",
+        "adverbial": "none"
+      },
+      "end": 103.647
+    },
+    {
+      "id": 45,
+      "label": "Conversation",
+      "start": 100.139,
+      "type": "range",
+      "attributes": {
+        "Conversation Purpose": "student-start-conversation_other",
+        "Transcription": "Oh okay.",
+        "Conversation Purpose -- Other": "Affirmation"
+      },
+      "end": 102.668
+    },
+    {
+      "id": 46,
+      "label": "Fine grained action",
+      "start": 103.782,
+      "type": "range",
+      "attributes": {
+        "Action Correctness": "Correct Action",
+        "Incorrect Action Explanation": "none",
+        "Incorrect Action Corrected by": "none",
+        "Verb": "push",
+        "Adjective": "none",
+        "Noun": "computer_tab",
+        "adverbial": "none"
+      },
+      "end": 109.5
+    },
+    {
+      "id": 47,
+      "label": "Conversation",
+      "start": 104.75,
+      "type": "range",
+      "attributes": {
+        "Conversation Purpose": "student-start-conversation_other",
+        "Transcription": "Confirming the previous action",
+        "Conversation Purpose -- Other": "none"
+      },
+      "end": 106.25
+    },
+    {
+      "id": 118,
+      "label": "Conversation",
+      "start": 105.205,
+      "type": "range",
+      "attributes": {
+        "Conversation Purpose": "instructor-start-conversation_confirming the previous action",
+        "sequence": "none",
+        "Transcription": "Yeah",
+        "Transcription Confidence": "none"
+      },
+      "end": 105.405
+    },
+    {
+      "id": 48,
+      "label": "Conversation",
+      "start": 105.405,
+      "type": "range",
+      "attributes": {
+        "Conversation Purpose": "instructor-start-conversation_confirming the previous action",
+        "Transcription": "there you go yeah."
+      },
+      "end": 106.4
+    },
+    {
+      "id": 119,
+      "label": "Conversation",
+      "start": 108.563,
+      "type": "range",
+      "attributes": {
+        "Conversation Purpose": "instructor-start-conversation_confirming the previous action",
+        "sequence": "none",
+        "Transcription": "Alright",
+        "Transcription Confidence": "none"
+      },
+      "end": 109.113
+    },
+    {
+      "id": 49,
+      "label": "Conversation",
+      "start": 109.152,
+      "type": "range",
+      "attributes": {
+        "Conversation Purpose": "instructor-start-conversation_describing high-level instruction",
+        "Transcription": "now earlier you locate those little green patches inside, you can go ahead, sometimes they are useless but you can push down on them and pull the cards out, if is easiest for you some people push up, yeah I think."
+      },
+      "end": 130.052
+    },
+    {
+      "id": 52,
+      "label": "Fine grained action",
+      "start": 119.1,
+      "type": "range",
+      "attributes": {
+        "Action Correctness": "Correct Action",
+        "Incorrect Action Explanation": "none",
+        "Incorrect Action Corrected by": "none",
+        "Verb": "grab",
+        "Adjective": "none",
+        "Noun": "computer_tab",
+        "adverbial": "none"
+      },
+      "end": 120.451
+    },
+    {
+      "id": 53,
+      "label": "Fine grained action",
+      "start": 120.496,
+      "type": "range",
+      "attributes": {
+        "Action Correctness": "Wrong Action, corrected by student",
+        "Incorrect Action Explanation": "The student can't unlock the tab.",
+        "Incorrect Action Corrected by": "none",
+        "Verb": "unlock",
+        "Adjective": "none",
+        "Noun": "computer_tab",
+        "adverbial": "none"
+      },
+      "end": 135.147
+    },
+    {
+      "id": 54,
+      "label": "Conversation",
+      "start": 131.442,
+      "type": "range",
+      "attributes": {
+        "Conversation Purpose": "instructor-start-conversation_follow-up instruction",
+        "Transcription": "While you are pulling it up."
+      },
+      "end": 132.934
+    },
+    {
+      "id": 55,
+      "label": "Fine grained action",
+      "start": 135.213,
+      "type": "range",
+      "attributes": {
+        "Action Correctness": "Wrong Action, corrected by student",
+        "Incorrect Action Explanation": "The student tries to unlock the tab.",
+        "Incorrect Action Corrected by": "none",
+        "Verb": "unlock",
+        "Adjective": "none",
+        "Noun": "computer_tab",
+        "adverbial": "none"
+      },
+      "end": 138.9
+    },
+    {
+      "id": 56,
+      "label": "Conversation",
+      "start": 136.128,
+      "type": "range",
+      "attributes": {
+        "Conversation Purpose": "student-start-conversation_other",
+        "Transcription": "Push up ok.",
+        "Conversation Purpose -- Other": "Affirmation"
+      },
+      "end": 136.7
+    },
+    {
+      "id": 57,
+      "label": "Fine grained action",
+      "start": 139.1,
+      "type": "range",
+      "attributes": {
+        "Action Correctness": "Wrong Action, corrected by student",
+        "Incorrect Action Explanation": "The student pulls the graphic card without unlocking the tab first.",
+        "Incorrect Action Corrected by": "none",
+        "Verb": "pull",
+        "Adjective": "none",
+        "Noun": "graphic_card",
+        "adverbial": "none"
+      },
+      "end": 148.3
+    },
+    {
+      "id": 58,
+      "label": "Conversation",
+      "start": 140.824,
+      "type": "range",
+      "attributes": {
+        "Conversation Purpose": "instructor-start-conversation_other",
+        "sequence": "none",
+        "Transcription": "Its been a while since I have instructed myself.",
+        "Transcription Confidence": "none",
+        "Conversation Purpose -- Other": "none"
+      },
+      "end": 143.9
+    },
+    {
+      "id": 59,
+      "label": "Fine grained action",
+      "start": 149.1,
+      "type": "range",
+      "attributes": {
+        "Action Correctness": "Correct Action",
+        "Incorrect Action Explanation": "none",
+        "Incorrect Action Corrected by": "none",
+        "Verb": "unlock",
+        "Adjective": "none",
+        "Noun": "computer_tab",
+        "adverbial": "none"
+      },
+      "end": 150.3
+    },
+    {
+      "id": 60,
+      "label": "Conversation",
+      "start": 149.1,
+      "type": "range",
+      "attributes": {
+        "Conversation Purpose": "student-start-conversation_other",
+        "Transcription": "I think its dam is down, its good.",
+        "Transcription Confidence": "none",
+        "Conversation Purpose -- Other": "none"
+      },
+      "end": 154.7
+    },
+    {
+      "id": 61,
+      "label": "Coarse grained action",
+      "start": 151.1,
+      "type": "range",
+      "attributes": {
+        "Action sentence": "The student removes the second graphic card.",
+        "Verb": "withdraw",
+        "Adjective": "second",
+        "Noun": "graphic_card"
+      },
+      "end": 188.79946165691405
+    },
+    {
+      "id": 62,
+      "label": "Fine grained action",
+      "start": 151.2,
+      "type": "range",
+      "attributes": {
+        "Action Correctness": "Correct Action",
+        "Incorrect Action Explanation": "none",
+        "Incorrect Action Corrected by": "none",
+        "Verb": "withdraw",
+        "Adjective": "first",
+        "Noun": "graphic_card",
+        "adverbial": "none"
+      },
+      "end": 153.4
+    },
+    {
+      "id": 63,
+      "label": "Conversation",
+      "start": 152.1,
+      "type": "range",
+      "attributes": {
+        "Conversation Purpose": "instructor-start-conversation_confirming the previous action",
+        "Transcription": "Perfect."
+      },
+      "end": 152.6
+    },
+    {
+      "id": 64,
+      "label": "Fine grained action",
+      "start": 154.2,
+      "type": "range",
+      "attributes": {
+        "Action Correctness": "Correct Action",
+        "Incorrect Action Explanation": "none",
+        "Incorrect Action Corrected by": "none",
+        "Verb": "place",
+        "Adjective": "first",
+        "Noun": "graphic_card",
+        "adverbial": "none"
+      },
+      "end": 156.221
+    },
+    {
+      "id": 65,
+      "label": "Fine grained action",
+      "start": 156.283,
+      "type": "range",
+      "attributes": {
+        "Action Correctness": "Correct Action",
+        "Incorrect Action Explanation": "none",
+        "Incorrect Action Corrected by": "none",
+        "Verb": "grab",
+        "Adjective": "none",
+        "Noun": "graphic_card",
+        "adverbial": "none"
+      },
+      "end": 157.618
+    },
+    {
+      "id": 66,
+      "label": "Fine grained action",
+      "start": 157.836,
+      "type": "range",
+      "attributes": {
+        "Action Correctness": "Correct Action",
+        "Incorrect Action Explanation": "none",
+        "Incorrect Action Corrected by": "none",
+        "Verb": "unlock",
+        "Adjective": "none",
+        "Noun": "computer_tab",
+        "adverbial": "none"
+      },
+      "end": 172.426
+    },
+    {
+      "id": 67,
+      "label": "Fine grained action",
+      "start": 172.557,
+      "type": "range",
+      "attributes": {
+        "Action Correctness": "Correct Action",
+        "Incorrect Action Explanation": "none",
+        "Incorrect Action Corrected by": "none",
+        "Verb": "withdraw",
+        "Adjective": "none",
+        "Noun": "graphic_card",
+        "adverbial": "none"
+      },
+      "end": 173.624
+    },
+    {
+      "id": 68,
+      "label": "Fine grained action",
+      "start": 173.939,
+      "type": "range",
+      "attributes": {
+        "Action Correctness": "Correct Action",
+        "Incorrect Action Explanation": "none",
+        "Incorrect Action Corrected by": "none",
+        "Verb": "place",
+        "Adjective": "second",
+        "Noun": "graphic_card",
+        "adverbial": "none"
+      },
+      "end": 176.3
+    },
+    {
+      "id": 124,
+      "label": "Conversation",
+      "start": 175.446,
+      "type": "range",
+      "attributes": {
+        "Conversation Purpose": "instructor-start-conversation_confirming the previous action",
+        "sequence": "none",
+        "Transcription": "Alright.",
+        "Transcription Confidence": "none"
+      },
+      "end": 176.583
+    },
+    {
+      "id": 70,
+      "label": "Fine grained action",
+      "start": 177.2,
+      "type": "range",
+      "attributes": {
+        "Action Correctness": "Correct Action",
+        "Incorrect Action Explanation": "none",
+        "Incorrect Action Corrected by": "none",
+        "Verb": "touch",
+        "Adjective": "none",
+        "Noun": "computer_tab",
+        "adverbial": "none"
+      },
+      "end": 178.4
+    },
+    {
+      "id": 71,
+      "label": "Fine grained action",
+      "start": 179.1,
+      "type": "range",
+      "attributes": {
+        "Action Correctness": "Correct Action",
+        "Incorrect Action Explanation": "none",
+        "Incorrect Action Corrected by": "none",
+        "Verb": "touch",
+        "Adjective": "none",
+        "Noun": "computer_tab",
+        "adverbial": "none"
+      },
+      "end": 181.3
+    },
+    {
+      "id": 125,
+      "label": "Conversation",
+      "start": 181.946,
+      "type": "range",
+      "attributes": {
+        "Conversation Purpose": "student-start-conversation_other",
+        "sequence": "none",
+        "Transcription": "I guess it is *unintelligible*",
+        "Transcription Confidence": "low-confidence-transcription",
+        "Conversation Purpose -- Other": "none"
+      },
+      "end": 185.219
+    },
+    {
+      "id": 72,
+      "label": "Fine grained action",
+      "start": 182.1,
+      "type": "range",
+      "attributes": {
+        "Action Correctness": "Correct Action",
+        "Incorrect Action Explanation": "none",
+        "Incorrect Action Corrected by": "none",
+        "Verb": "touch",
+        "Adjective": "none",
+        "Noun": "computer_tab",
+        "adverbial": "none"
+      },
+      "end": 185.169
+    },
+    {
+      "id": 73,
+      "label": "Fine grained action",
+      "start": 185.263,
+      "type": "range",
+      "attributes": {
+        "Action Correctness": "Correct Action",
+        "Incorrect Action Explanation": "none",
+        "Incorrect Action Corrected by": "none",
+        "Verb": "touch",
+        "Adjective": "none",
+        "Noun": "computer_tab",
+        "adverbial": "none"
+      },
+      "end": 187.6
+    },
+    {
+      "id": 126,
+      "label": "Conversation",
+      "start": 187.21807175854636,
+      "type": "range",
+      "attributes": {
+        "Conversation Purpose": "student-start-conversation_other",
+        "sequence": "none",
+        "Transcription": "Okay.",
+        "Transcription Confidence": "none",
+        "Conversation Purpose -- Other": "Affirmation"
+      },
+      "end": 188.71807175854636
+    },
+    {
+      "id": 120,
+      "label": "Conversation",
+      "start": 189.225,
+      "type": "range",
+      "attributes": {
+        "Conversation Purpose": "instructor-start-conversation_confirming the previous action",
+        "sequence": "none",
+        "Transcription": "Alright",
+        "Transcription Confidence": "none"
+      },
+      "end": 189.975
+    },
+    {
+      "id": 75,
+      "label": "Conversation",
+      "start": 190.0873572528488,
+      "type": "range",
+      "attributes": {
+        "Conversation Purpose": "instructor-start-conversation_describing high-level instruction",
+        "Transcription": "now we can go ahead and place those in, back in, just pretend they are brand new ones."
+      },
+      "end": 194.93735725284878
+    },
+    {
+      "id": 76,
+      "label": "Fine grained action",
+      "start": 193.063,
+      "type": "range",
+      "attributes": {
+        "Action Correctness": "Correct Action",
+        "Incorrect Action Explanation": "none",
+        "Incorrect Action Corrected by": "none",
+        "Verb": "grab",
+        "Adjective": "none",
+        "Noun": "graphic_card",
+        "adverbial": "none"
+      },
+      "end": 193.525
+    },
+    {
+      "id": 77,
+      "label": "Fine grained action",
+      "start": 194.2,
+      "type": "range",
+      "attributes": {
+        "Action Correctness": "Correct Action",
+        "Incorrect Action Explanation": "none",
+        "Incorrect Action Corrected by": "none",
+        "Verb": "grab",
+        "Adjective": "none",
+        "Noun": "graphic_card",
+        "adverbial": "none"
+      },
+      "end": 195.9
+    },
+    {
+      "id": 78,
+      "label": "Coarse grained action",
+      "start": 194.2,
+      "type": "range",
+      "attributes": {
+        "Action sentence": "The student inserts the graphics cards.",
+        "Verb": "insert",
+        "Noun": "graphic_card"
+      },
+      "end": 236.2
+    },
+    {
+      "id": 79,
+      "label": "Fine grained action",
+      "start": 196.1,
+      "type": "range",
+      "attributes": {
+        "Action Correctness": "Correct Action",
+        "Incorrect Action Explanation": "none",
+        "Incorrect Action Corrected by": "none",
+        "Verb": "lift",
+        "Adjective": "none",
+        "Noun": "graphic_card",
+        "adverbial": "none"
+      },
+      "end": 197.6
+    },
+    {
+      "id": 80,
+      "label": "Fine grained action",
+      "start": 198.3,
+      "type": "range",
+      "attributes": {
+        "Action Correctness": "Correct Action",
+        "Incorrect Action Explanation": "none",
+        "Incorrect Action Corrected by": "none",
+        "Verb": "insert",
+        "Adjective": "none",
+        "Noun": "graphic_card",
+        "adverbial": "none"
+      },
+      "end": 207.619
+    },
+    {
+      "id": 81,
+      "label": "Fine grained action",
+      "start": 207.665,
+      "type": "range",
+      "attributes": {
+        "Action Correctness": "Correct Action",
+        "Incorrect Action Explanation": "none",
+        "Incorrect Action Corrected by": "none",
+        "Verb": "lock",
+        "Adjective": "none",
+        "Noun": "computer_tab",
+        "adverbial": "none"
+      },
+      "end": 216.259
+    },
+    {
+      "id": 82,
+      "label": "Fine grained action",
+      "start": 216.293,
+      "type": "range",
+      "attributes": {
+        "Action Correctness": "Correct Action",
+        "Incorrect Action Explanation": "none",
+        "Incorrect Action Corrected by": "none",
+        "Verb": "touch",
+        "Adjective": "none",
+        "Noun": "graphic_card",
+        "adverbial": "none"
+      },
+      "end": 217.378
+    },
+    {
+      "id": 83,
+      "label": "Fine grained action",
+      "start": 217.446,
+      "type": "range",
+      "attributes": {
+        "Action Correctness": "Correct Action",
+        "Incorrect Action Explanation": "none",
+        "Incorrect Action Corrected by": "none",
+        "Verb": "grab",
+        "Adjective": "none",
+        "Noun": "graphic_card",
+        "adverbial": "none"
+      },
+      "end": 219.335
+    },
+    {
+      "id": 84,
+      "label": "Conversation",
+      "start": 218.05,
+      "type": "range",
+      "attributes": {
+        "Conversation Purpose": "instructor-start-conversation_confirming the previous action",
+        "Transcription": "Perfect."
+      },
+      "end": 218.45
+    },
+    {
+      "id": 85,
+      "label": "Fine grained action",
+      "start": 219.451,
+      "type": "range",
+      "attributes": {
+        "Action Correctness": "Correct Action",
+        "Incorrect Action Explanation": "none",
+        "Incorrect Action Corrected by": "none",
+        "Verb": "lift",
+        "Adjective": "none",
+        "Noun": "graphic_card",
+        "adverbial": "none"
+      },
+      "end": 222.337
+    },
+    {
+      "id": 87,
+      "label": "Fine grained action",
+      "start": 222.486,
+      "type": "range",
+      "attributes": {
+        "Action Correctness": "Correct Action",
+        "Incorrect Action Explanation": "none",
+        "Incorrect Action Corrected by": "none",
+        "Verb": "press",
+        "Adjective": "none",
+        "Noun": "computer_tab",
+        "adverbial": "none"
+      },
+      "end": 224.357
+    },
+    {
+      "id": 88,
+      "label": "Conversation",
+      "start": 223.23,
+      "type": "range",
+      "attributes": {
+        "Conversation Purpose": "student-start-conversation_other",
+        "Transcription": "Just making sure.",
+        "Conversation Purpose -- Other": "none"
+      },
+      "end": 225.612
+    },
+    {
+      "id": 89,
+      "label": "Fine grained action",
+      "start": 224.448,
+      "type": "range",
+      "attributes": {
+        "Action Correctness": "Correct Action",
+        "Incorrect Action Explanation": "none",
+        "Incorrect Action Corrected by": "none",
+        "Verb": "align",
+        "Adjective": "none",
+        "Noun": "graphic_card",
+        "adverbial": "none"
+      },
+      "end": 236.503
+    },
+    {
+      "id": 90,
+      "label": "Conversation",
+      "start": 228.225,
+      "type": "range",
+      "attributes": {
+        "Conversation Purpose": "instructor-start-conversation_follow-up instruction",
+        "Transcription": "Sometimes its the team to try to get them to actually.",
+        "Transcription Confidence": "none"
+      },
+      "end": 230.975
+    },
+    {
+      "id": 92,
+      "label": "Coarse grained action",
+      "start": 236.3,
+      "type": "range",
+      "attributes": {
+        "Action sentence": "The student inserts the graphic cards.",
+        "Verb": "insert",
+        "Noun": "graphic_card"
+      },
+      "end": 259.1
+    },
+    {
+      "id": 91,
+      "label": "Fine grained action",
+      "start": 236.517,
+      "type": "range",
+      "attributes": {
+        "Action Correctness": "Correct Action",
+        "Incorrect Action Explanation": "none",
+        "Incorrect Action Corrected by": "none",
+        "Verb": "insert",
+        "Adjective": "none",
+        "Noun": "graphic_card",
+        "adverbial": "none"
+      },
+      "end": 241.6
+    },
+    {
+      "id": 93,
+      "label": "Fine grained action",
+      "start": 242.2,
+      "type": "range",
+      "attributes": {
+        "Action Correctness": "Correct Action",
+        "Incorrect Action Explanation": "none",
+        "Incorrect Action Corrected by": "none",
+        "Verb": "lock",
+        "Adjective": "none",
+        "Noun": "computer_tab",
+        "adverbial": "none"
+      },
+      "end": 250.985
+    },
+    {
+      "id": 121,
+      "label": "Conversation",
+      "start": 249.565,
+      "type": "range",
+      "attributes": {
+        "Conversation Purpose": "instructor-start-conversation_confirming the previous action",
+        "sequence": "none",
+        "Transcription": "Alright",
+        "Transcription Confidence": "none"
+      },
+      "end": 250.115
+    },
+    {
+      "id": 94,
+      "label": "Conversation",
+      "start": 250.33,
+      "type": "range",
+      "attributes": {
+        "Conversation Purpose": "instructor-start-conversation_describing high-level instruction",
+        "Transcription": "i can go ahead and pull those back up."
+      },
+      "end": 252.931
+    },
+    {
+      "id": 95,
+      "label": "Fine grained action",
+      "start": 251.026,
+      "type": "range",
+      "attributes": {
+        "Action Correctness": "Correct Action",
+        "Incorrect Action Explanation": "none",
+        "Incorrect Action Corrected by": "none",
+        "Verb": "lock",
+        "Adjective": "none",
+        "Noun": "computer_tab",
+        "adverbial": "none"
+      },
+      "end": 258.5
+    },
+    {
+      "id": 96,
+      "label": "Conversation",
+      "start": 255.3,
+      "type": "range",
+      "attributes": {
+        "Conversation Purpose": "instructor-start-conversation_confirming the previous action",
+        "Transcription": "Here it goes."
+      },
+      "end": 256.332
+    },
+    {
+      "id": 97,
+      "label": "Conversation",
+      "start": 257.044,
+      "type": "range",
+      "attributes": {
+        "Conversation Purpose": "instructor-start-conversation_confirming the previous action",
+        "Transcription": "Awesome."
+      },
+      "end": 257.853
+    },
+    {
+      "id": 98,
+      "label": "Conversation",
+      "start": 258.41,
+      "type": "range",
+      "attributes": {
+        "Conversation Purpose": "instructor-start-conversation_describing high-level instruction",
+        "Transcription": "Close it back up."
+      },
+      "end": 259.6
+    },
+    {
+      "id": 99,
+      "label": "Fine grained action",
+      "start": 259.2,
+      "type": "range",
+      "attributes": {
+        "Action Correctness": "Correct Action",
+        "Incorrect Action Explanation": "none",
+        "Incorrect Action Corrected by": "none",
+        "Verb": "grab",
+        "Adjective": "none",
+        "Noun": "cover",
+        "adverbial": "none"
+      },
+      "end": 260.423
+    },
+    {
+      "id": 100,
+      "label": "Coarse grained action",
+      "start": 259.2,
+      "type": "range",
+      "attributes": {
+        "Action sentence": "The student closes the computer tower.",
+        "Verb": "close",
+        "Noun": "computer_tower"
+      },
+      "end": 273
+    },
+    {
+      "id": 101,
+      "label": "Fine grained action",
+      "start": 260.543,
+      "type": "range",
+      "attributes": {
+        "Action Correctness": "Correct Action",
+        "Incorrect Action Explanation": "none",
+        "Incorrect Action Corrected by": "none",
+        "Verb": "lift",
+        "Adjective": "none",
+        "Noun": "cover",
+        "adverbial": "none"
+      },
+      "end": 261.3
+    },
+    {
+      "id": 102,
+      "label": "Fine grained action",
+      "start": 262.2,
+      "type": "range",
+      "attributes": {
+        "Action Correctness": "Correct Action",
+        "Incorrect Action Explanation": "none",
+        "Incorrect Action Corrected by": "none",
+        "Verb": "align",
+        "Adjective": "none",
+        "Noun": "cover",
+        "adverbial": "none"
+      },
+      "end": 265.309
+    },
+    {
+      "id": 103,
+      "label": "Fine grained action",
+      "start": 265.366,
+      "type": "range",
+      "attributes": {
+        "Action Correctness": "Correct Action",
+        "Incorrect Action Explanation": "none",
+        "Incorrect Action Corrected by": "none",
+        "Verb": "close",
+        "Adjective": "none",
+        "Noun": "cover",
+        "adverbial": "none"
+      },
+      "end": 273
+    },
+    {
+      "id": 122,
+      "label": "Conversation",
+      "start": 271.041,
+      "type": "range",
+      "attributes": {
+        "Conversation Purpose": "instructor-start-conversation_confirming the previous action",
+        "sequence": "none",
+        "Transcription": "Perfect",
+        "Transcription Confidence": "none"
+      },
+      "end": 271.341
+    },
+    {
+      "id": 104,
+      "label": "Conversation",
+      "start": 271.439,
+      "type": "range",
+      "attributes": {
+        "Conversation Purpose": "instructor-start-conversation_describing high-level instruction",
+        "sequence": "none",
+        "Transcription": "now you can go ahead and put it back where it was before.",
+        "Transcription Confidence": "none"
+      },
+      "end": 275.238
+    },
+    {
+      "id": 105,
+      "label": "Fine grained action",
+      "start": 273.2,
+      "type": "range",
+      "attributes": {
+        "Action Correctness": "Correct Action",
+        "Incorrect Action Explanation": "none",
+        "Incorrect Action Corrected by": "none",
+        "Verb": "grab",
+        "Adjective": "none",
+        "Noun": "computer_tower",
+        "adverbial": "none"
+      },
+      "end": 274.28
+    },
+    {
+      "id": 106,
+      "label": "Coarse grained action",
+      "start": 273.3,
+      "type": "range",
+      "attributes": {
+        "Action sentence": "The student places the tower in the computer furniture.",
+        "Verb": "place",
+        "Noun": "computer_tower"
+      },
+      "end": 282
+    },
+    {
+      "id": 107,
+      "label": "Fine grained action",
+      "start": 274.42,
+      "type": "range",
+      "attributes": {
+        "Action Correctness": "Correct Action",
+        "Incorrect Action Explanation": "none",
+        "Incorrect Action Corrected by": "none",
+        "Verb": "lift",
+        "Adjective": "none",
+        "Noun": "computer_tower",
+        "adverbial": "none"
+      },
+      "end": 277.4
+    },
+    {
+      "id": 108,
+      "label": "Fine grained action",
+      "start": 278.2,
+      "type": "range",
+      "attributes": {
+        "Action Correctness": "Correct Action",
+        "Incorrect Action Explanation": "none",
+        "Incorrect Action Corrected by": "none",
+        "Verb": "place",
+        "Adjective": "none",
+        "Noun": "computer_tower",
+        "adverbial": "none"
+      },
+      "end": 281.7
+    },
+    {
+      "id": 109,
+      "label": "Conversation",
+      "start": 279.153,
+      "type": "range",
+      "attributes": {
+        "Conversation Purpose": "instructor-start-conversation_describing high-level instruction",
+        "Transcription": "Plug in those wires.",
+        "Transcription Confidence": "none"
+      },
+      "end": 280.705
+    },
+    {
+      "id": 111,
+      "label": "Coarse grained action",
+      "start": 282.063,
+      "type": "range",
+      "attributes": {
+        "Action sentence": "The student plugs in the HDMI cable and the power supply.",
+        "Verb": "insert",
+        "Noun": "hdmi_cable"
+      },
+      "end": 290.163
+    },
+    {
+      "id": 110,
+      "label": "Fine grained action",
+      "start": 282.1,
+      "type": "range",
+      "attributes": {
+        "Action Correctness": "Correct Action",
+        "Incorrect Action Explanation": "none",
+        "Incorrect Action Corrected by": "none",
+        "Verb": "grab",
+        "Adjective": "none",
+        "Noun": "hdmi_cable",
+        "adverbial": "none"
+      },
+      "end": 283.6
+    },
+    {
+      "id": 112,
+      "label": "Fine grained action",
+      "start": 284.1,
+      "type": "range",
+      "attributes": {
+        "Action Correctness": "Correct Action",
+        "Incorrect Action Explanation": "none",
+        "Incorrect Action Corrected by": "none",
+        "Verb": "assemble",
+        "Adjective": "none",
+        "Noun": "hdmi_cable",
+        "adverbial": "none"
+      },
+      "end": 286.424
+    },
+    {
+      "id": 113,
+      "label": "Fine grained action",
+      "start": 286.975,
+      "type": "range",
+      "attributes": {
+        "Action Correctness": "Correct Action",
+        "Incorrect Action Explanation": "none",
+        "Incorrect Action Corrected by": "none",
+        "Verb": "grab",
+        "Adjective": "none",
+        "Noun": "cable_power_supply",
+        "adverbial": "none"
+      },
+      "end": 287.477
+    },
+    {
+      "id": 114,
+      "label": "Fine grained action",
+      "start": 287.499,
+      "type": "range",
+      "attributes": {
+        "Action Correctness": "Correct Action",
+        "Incorrect Action Explanation": "none",
+        "Incorrect Action Corrected by": "none",
+        "Verb": "assemble",
+        "Adjective": "none",
+        "Noun": "cable_power_supply",
+        "adverbial": "none"
+      },
+      "end": 289.4
+    },
+    {
+      "id": 115,
+      "label": "Conversation",
+      "start": 290.911,
+      "type": "range",
+      "attributes": {
+        "Conversation Purpose": "instructor-start-conversation_confirming the previous action",
+        "Transcription": "Awesome."
+      },
+      "end": 291.411
+    },
+    {
+      "id": 116,
+      "label": "Conversation",
+      "start": 291.467,
+      "type": "range",
+      "attributes": {
+        "Conversation Purpose": "instructor-start-conversation_closing remarks",
+        "Transcription": "You can stop the recording.",
+        "Transcription Confidence": "none"
+      },
+      "end": 293.598
+    }
+  ],
+  "taskId": "63dadf793f3920ace5989639",
+  "taskType": "assemble computer",
+  "video_name": "R198-1Nov-Graphicscard"
+}

@@ -1,0 +1,822 @@
+{
+  "batch": "202301_2221_10fps",
+  "videoMetadata": {
+    "audio": {
+      "codec": "aac",
+      "bitrate": "71",
+      "sample_rate": 48000,
+      "stream": 0,
+      "channels": {
+        "raw": "mono",
+        "value": 1
+      }
+    },
+    "video": {
+      "container": "mov",
+      "bitrate": 4137,
+      "stream": 0,
+      "codec": "h264",
+      "resolution": {
+        "w": 896,
+        "h": 504
+      },
+      "resolutionSquare": {
+        "w": 896,
+        "h": 504
+      },
+      "aspect": {
+        "x": 16,
+        "y": 9,
+        "string": "16:9",
+        "value": 1.7777777777777777
+      },
+      "rotate": 0,
+      "fps": 29.93,
+      "pixelString": "1:1",
+      "pixel": 1
+    },
+    "duration": {
+      "raw": "00:00:53.53",
+      "seconds": 53
+    }
+  },
+  "events": [
+    {
+      "id": 1,
+      "label": "Narration",
+      "start": 0.002,
+      "type": "range",
+      "attributes": {
+        "Long form description": "The student begins by unlocking the front panel door with the key and after inspecting some parts of the machine removes the damaged belt and then inspects the damaged area, then grabs the new belt and installs it in the machine then the student pulls the red lever to tighten it when the student finishes installing she close the front panel door and waits for new instructions, the instructor tells to open the front panel door and change the new belt with the damaged one when the student finishes the student close the front panel door and lock it."
+      },
+      "end": 53.414
+    },
+    {
+      "id": 2,
+      "label": "Coarse grained action",
+      "start": 1.1,
+      "type": "range",
+      "attributes": {
+        "Action sentence": "The student opens the front panel door.",
+        "Verb": "open",
+        "Adjective": "none",
+        "Noun": "front_panel_door"
+      },
+      "end": 5.1
+    },
+    {
+      "id": 4,
+      "label": "Fine grained action",
+      "start": 1.306,
+      "type": "range",
+      "attributes": {
+        "Action Correctness": "Correct Action",
+        "Incorrect Action Explanation": "none",
+        "Incorrect Action Corrected by": "none",
+        "Verb": "unlock",
+        "Adjective": "none",
+        "Noun": "front_panel_door",
+        "adverbial": "none"
+      },
+      "end": 2.635
+    },
+    {
+      "id": 51,
+      "label": "Conversation",
+      "start": 1.539,
+      "type": "range",
+      "attributes": {
+        "Conversation Purpose": "instructor-start-conversation_describing high-level instruction",
+        "sequence": "none",
+        "Transcription": "Okay, unlock it.",
+        "Transcription Confidence": "none"
+      },
+      "end": 2.814
+    },
+    {
+      "id": 5,
+      "label": "Fine grained action",
+      "start": 2.641,
+      "type": "range",
+      "attributes": {
+        "Action Correctness": "Correct Action",
+        "Incorrect Action Explanation": "none",
+        "Incorrect Action Corrected by": "none",
+        "Verb": "open",
+        "Adjective": "none",
+        "Noun": "front_panel_door",
+        "adverbial": "none"
+      },
+      "end": 4.141
+    },
+    {
+      "id": 6,
+      "label": "Conversation",
+      "start": 4.494,
+      "type": "range",
+      "attributes": {
+        "Conversation Purpose": "instructor-start-conversation_describing high-level instruction",
+        "sequence": "none",
+        "Transcription": "Check the belt.",
+        "Transcription Confidence": "none"
+      },
+      "end": 6.5
+    },
+    {
+      "id": 8,
+      "label": "Coarse grained action",
+      "start": 6.447,
+      "type": "range",
+      "attributes": {
+        "Action sentence": "The student inspects the old belt.",
+        "Verb": "inspect",
+        "Adjective": "old",
+        "Noun": "belt"
+      },
+      "end": 13.853
+    },
+    {
+      "id": 9,
+      "label": "Fine grained action",
+      "start": 7.174,
+      "type": "range",
+      "attributes": {
+        "Action Correctness": "Correct Action",
+        "Incorrect Action Explanation": "none",
+        "Incorrect Action Corrected by": "none",
+        "Verb": "inspect",
+        "Adjective": "none",
+        "Noun": "belt",
+        "adverbial": "none"
+      },
+      "end": 7.888
+    },
+    {
+      "id": 7,
+      "label": "Conversation",
+      "start": 7.3,
+      "type": "range",
+      "attributes": {
+        "Conversation Purpose": "instructor-start-conversation_follow-up instruction",
+        "sequence": "none",
+        "Transcription": "Lift up the red handle.",
+        "Transcription Confidence": "none"
+      },
+      "end": 8.6
+    },
+    {
+      "id": 11,
+      "label": "Fine grained action",
+      "start": 8.183,
+      "type": "range",
+      "attributes": {
+        "Action Correctness": "Correct Action",
+        "Incorrect Action Explanation": "none",
+        "Incorrect Action Corrected by": "none",
+        "Verb": "pull",
+        "Adjective": "red",
+        "Noun": "lever",
+        "adverbial": "none"
+      },
+      "end": 9.177
+    },
+    {
+      "id": 53,
+      "label": "Conversation",
+      "start": 9.108,
+      "type": "range",
+      "attributes": {
+        "Conversation Purpose": "instructor-start-conversation_follow-up instruction",
+        "sequence": "none",
+        "Transcription": "Okay, keep *unintelligible* belts.",
+        "Transcription Confidence": "low-confidence-transcription"
+      },
+      "end": 11.246
+    },
+    {
+      "id": 14,
+      "label": "Fine grained action",
+      "start": 9.376,
+      "type": "range",
+      "attributes": {
+        "Action Correctness": "Correct Action",
+        "Incorrect Action Explanation": "none",
+        "Incorrect Action Corrected by": "none",
+        "Verb": "withdraw",
+        "Adjective": "old",
+        "Noun": "belt",
+        "adverbial": "none"
+      },
+      "end": 11.694
+    },
+    {
+      "id": 15,
+      "label": "Conversation",
+      "start": 11.688,
+      "type": "range",
+      "attributes": {
+        "Conversation Purpose": "instructor-start-conversation_follow-up instruction",
+        "sequence": "none",
+        "Transcription": "Check again.",
+        "Transcription Confidence": "none"
+      },
+      "end": 12.941
+    },
+    {
+      "id": 16,
+      "label": "Fine grained action",
+      "start": 11.729,
+      "type": "range",
+      "attributes": {
+        "Action Correctness": "Correct Action",
+        "Incorrect Action Explanation": "none",
+        "Incorrect Action Corrected by": "none",
+        "Verb": "inspect",
+        "Adjective": "none",
+        "Noun": "belt",
+        "adverbial": "none"
+      },
+      "end": 13.873
+    },
+    {
+      "id": 17,
+      "label": "Conversation",
+      "start": 13.443,
+      "type": "range",
+      "attributes": {
+        "Conversation Purpose": "instructor-start-conversation_describing high-level instruction",
+        "sequence": "none",
+        "Transcription": "Discard the belt.",
+        "Transcription Confidence": "none"
+      },
+      "end": 14.69
+    },
+    {
+      "id": 54,
+      "label": "Coarse grained action",
+      "start": 13.972,
+      "type": "range",
+      "attributes": {
+        "Action sentence": "The student grabs the belt.",
+        "Verb": "grab",
+        "Adjective": "new",
+        "Noun": "belt"
+      },
+      "end": 17.648
+    },
+    {
+      "id": 19,
+      "label": "Fine grained action",
+      "start": 14.423,
+      "type": "range",
+      "attributes": {
+        "Action Correctness": "Correct Action",
+        "Incorrect Action Explanation": "none",
+        "Incorrect Action Corrected by": "none",
+        "Verb": "grab",
+        "Adjective": "new",
+        "Noun": "belt",
+        "adverbial": "none"
+      },
+      "end": 15.5
+    },
+    {
+      "id": 20,
+      "label": "Fine grained action",
+      "start": 15.541,
+      "type": "range",
+      "attributes": {
+        "Action Correctness": "Correct Action",
+        "Incorrect Action Explanation": "none",
+        "Incorrect Action Corrected by": "none",
+        "Verb": "lift",
+        "Adjective": "new",
+        "Noun": "belt",
+        "adverbial": "none"
+      },
+      "end": 17.497
+    },
+    {
+      "id": 21,
+      "label": "Conversation",
+      "start": 17.1,
+      "type": "range",
+      "attributes": {
+        "Conversation Purpose": "instructor-start-conversation_describing high-level instruction",
+        "sequence": "none",
+        "Transcription": "Put the new belt back on.",
+        "Transcription Confidence": "none"
+      },
+      "end": 18.418
+    },
+    {
+      "id": 55,
+      "label": "Coarse grained action",
+      "start": 18.066,
+      "type": "range",
+      "attributes": {
+        "Action sentence": "The student assembles new belt.",
+        "Verb": "assemble",
+        "Adjective": "new",
+        "Noun": "belt"
+      },
+      "end": 22.429
+    },
+    {
+      "id": 22,
+      "label": "Fine grained action",
+      "start": 18.156,
+      "type": "range",
+      "attributes": {
+        "Action Correctness": "Correct Action",
+        "Incorrect Action Explanation": "none",
+        "Incorrect Action Corrected by": "none",
+        "Verb": "assemble",
+        "Adjective": "none",
+        "Noun": "belt",
+        "adverbial": "none"
+      },
+      "end": 22.327
+    },
+    {
+      "id": 60,
+      "label": "Conversation",
+      "start": 22.576,
+      "type": "range",
+      "attributes": {
+        "Conversation Purpose": "instructor-start-conversation_confirming the previous action",
+        "sequence": "none",
+        "Transcription": "Okay.",
+        "Transcription Confidence": "none"
+      },
+      "end": 22.781
+    },
+    {
+      "id": 23,
+      "label": "Conversation",
+      "start": 22.792,
+      "type": "range",
+      "attributes": {
+        "Conversation Purpose": "instructor-start-conversation_describing high-level instruction",
+        "sequence": "none",
+        "Transcription": "Put the red lever back.",
+        "Transcription Confidence": "none"
+      },
+      "end": 24.486
+    },
+    {
+      "id": 56,
+      "label": "Coarse grained action",
+      "start": 22.845,
+      "type": "range",
+      "attributes": {
+        "Action sentence": "The student pushes the red lever.",
+        "Verb": "push",
+        "Adjective": "red",
+        "Noun": "lever"
+      },
+      "end": 24.963
+    },
+    {
+      "id": 25,
+      "label": "Fine grained action",
+      "start": 22.938,
+      "type": "range",
+      "attributes": {
+        "Action Correctness": "Correct Action",
+        "Incorrect Action Explanation": "none",
+        "Incorrect Action Corrected by": "none",
+        "Verb": "push",
+        "Adjective": "red",
+        "Noun": "lever",
+        "adverbial": "none"
+      },
+      "end": 24.738
+    },
+    {
+      "id": 57,
+      "label": "Conversation",
+      "start": 24.649,
+      "type": "range",
+      "attributes": {
+        "Conversation Purpose": "instructor-start-conversation_confirming the previous action",
+        "sequence": "none",
+        "Transcription": "Alright.",
+        "Transcription Confidence": "none"
+      },
+      "end": 24.982
+    },
+    {
+      "id": 26,
+      "label": "Conversation",
+      "start": 25.002,
+      "type": "range",
+      "attributes": {
+        "Conversation Purpose": "instructor-start-conversation_describing high-level instruction",
+        "sequence": "none",
+        "Transcription": "Close the door.",
+        "Transcription Confidence": "none"
+      },
+      "end": 25.686
+    },
+    {
+      "id": 61,
+      "label": "Fine grained action",
+      "start": 25.046,
+      "type": "range",
+      "attributes": {
+        "Action Correctness": "Correct Action",
+        "Incorrect Action Explanation": "none",
+        "Incorrect Action Corrected by": "none",
+        "Verb": "drop",
+        "Adjective": "old",
+        "Noun": "belt",
+        "adverbial": "none"
+      },
+      "end": 25.605
+    },
+    {
+      "id": 27,
+      "label": "Coarse grained action",
+      "start": 25.047,
+      "type": "range",
+      "attributes": {
+        "Action sentence": "The student closes the front panel door.",
+        "Verb": "close",
+        "Adjective": "none",
+        "Noun": "front_panel_door"
+      },
+      "end": 27.79
+    },
+    {
+      "id": 29,
+      "label": "Fine grained action",
+      "start": 26.1,
+      "type": "range",
+      "attributes": {
+        "Action Correctness": "Correct Action",
+        "Incorrect Action Explanation": "none",
+        "Incorrect Action Corrected by": "none",
+        "Verb": "close",
+        "Adjective": "none",
+        "Noun": "front_panel_door",
+        "adverbial": "none"
+      },
+      "end": 27.702
+    },
+    {
+      "id": 31,
+      "label": "Conversation",
+      "start": 27.776,
+      "type": "range",
+      "attributes": {
+        "Conversation Purpose": "instructor-start-conversation_describing high-level instruction",
+        "sequence": "none",
+        "Transcription": "Lock it.",
+        "Transcription Confidence": "none"
+      },
+      "end": 28.537
+    },
+    {
+      "id": 58,
+      "label": "Coarse grained action",
+      "start": 27.815,
+      "type": "range",
+      "attributes": {
+        "Action sentence": "The student locks the front panel door.",
+        "Verb": "lock",
+        "Adjective": "none",
+        "Noun": "front_panel_door"
+      },
+      "end": 29.178
+    },
+    {
+      "id": 30,
+      "label": "Fine grained action",
+      "start": 27.827,
+      "type": "range",
+      "attributes": {
+        "Action Correctness": "Correct Action",
+        "Incorrect Action Explanation": "none",
+        "Incorrect Action Corrected by": "none",
+        "Verb": "lock",
+        "Adjective": "none",
+        "Noun": "front_panel_door",
+        "adverbial": "none"
+      },
+      "end": 29.161
+    },
+    {
+      "id": 32,
+      "label": "Conversation",
+      "start": 29.376,
+      "type": "range",
+      "attributes": {
+        "Conversation Purpose": "instructor-start-conversation_describing high-level instruction",
+        "sequence": "none",
+        "Transcription": "Open the door.",
+        "Transcription Confidence": "none"
+      },
+      "end": 30.665
+    },
+    {
+      "id": 33,
+      "label": "Coarse grained action",
+      "start": 30.808,
+      "type": "range",
+      "attributes": {
+        "Action sentence": "The student opens the front panel door.",
+        "Verb": "open",
+        "Adjective": "none",
+        "Noun": "front_panel_door"
+      },
+      "end": 33.908
+    },
+    {
+      "id": 34,
+      "label": "Fine grained action",
+      "start": 31.1,
+      "type": "range",
+      "attributes": {
+        "Action Correctness": "Correct Action",
+        "Incorrect Action Explanation": "none",
+        "Incorrect Action Corrected by": "none",
+        "Verb": "unlock",
+        "Adjective": "none",
+        "Noun": "front_panel_door",
+        "adverbial": "none"
+      },
+      "end": 32.076
+    },
+    {
+      "id": 35,
+      "label": "Fine grained action",
+      "start": 32.115,
+      "type": "range",
+      "attributes": {
+        "Action Correctness": "Correct Action",
+        "Incorrect Action Explanation": "none",
+        "Incorrect Action Corrected by": "none",
+        "Verb": "open",
+        "Adjective": "none",
+        "Noun": "front_panel_door",
+        "adverbial": "none"
+      },
+      "end": 33.615
+    },
+    {
+      "id": 37,
+      "label": "Conversation",
+      "start": 34.071,
+      "type": "range",
+      "attributes": {
+        "Conversation Purpose": "instructor-start-conversation_describing high-level instruction",
+        "sequence": "none",
+        "Transcription": "Open, flip the red lever.",
+        "Transcription Confidence": "none"
+      },
+      "end": 35.771
+    },
+    {
+      "id": 59,
+      "label": "Coarse grained action",
+      "start": 34.09,
+      "type": "range",
+      "attributes": {
+        "Action sentence": "The student lifts the red lever.",
+        "Verb": "pull",
+        "Adjective": "red",
+        "Noun": "lever"
+      },
+      "end": 35.904
+    },
+    {
+      "id": 39,
+      "label": "Fine grained action",
+      "start": 34.468,
+      "type": "range",
+      "attributes": {
+        "Action Correctness": "Correct Action",
+        "Incorrect Action Explanation": "none",
+        "Incorrect Action Corrected by": "none",
+        "Verb": "pull",
+        "Adjective": "red",
+        "Noun": "lever",
+        "adverbial": "none"
+      },
+      "end": 35.762
+    },
+    {
+      "id": 36,
+      "label": "Coarse grained action",
+      "start": 36.065,
+      "type": "range",
+      "attributes": {
+        "Action sentence": "The student assembles the old belt.",
+        "Verb": "assemble",
+        "Adjective": "old",
+        "Noun": "belt"
+      },
+      "end": 47.72
+    },
+    {
+      "id": 40,
+      "label": "Fine grained action",
+      "start": 36.1,
+      "type": "range",
+      "attributes": {
+        "Action Correctness": "Correct Action",
+        "Incorrect Action Explanation": "none",
+        "Incorrect Action Corrected by": "none",
+        "Verb": "withdraw",
+        "Adjective": "new",
+        "Noun": "belt",
+        "adverbial": "none"
+      },
+      "end": 38
+    },
+    {
+      "id": 41,
+      "label": "Fine grained action",
+      "start": 38.026,
+      "type": "range",
+      "attributes": {
+        "Action Correctness": "Correct Action",
+        "Incorrect Action Explanation": "none",
+        "Incorrect Action Corrected by": "none",
+        "Verb": "place",
+        "Adjective": "new",
+        "Noun": "belt",
+        "adverbial": "none"
+      },
+      "end": 38.765
+    },
+    {
+      "id": 43,
+      "label": "Fine grained action",
+      "start": 39.056,
+      "type": "range",
+      "attributes": {
+        "Action Correctness": "Correct Action",
+        "Incorrect Action Explanation": "none",
+        "Incorrect Action Corrected by": "none",
+        "Verb": "approach",
+        "Adjective": "old",
+        "Noun": "belt",
+        "adverbial": "none"
+      },
+      "end": 39.653
+    },
+    {
+      "id": 42,
+      "label": "Conversation",
+      "start": 39.159,
+      "type": "range",
+      "attributes": {
+        "Conversation Purpose": "instructor-start-conversation_describing high-level instruction",
+        "sequence": "none",
+        "Transcription": "Put in the old belt.",
+        "Transcription Confidence": "none"
+      },
+      "end": 40.494
+    },
+    {
+      "id": 62,
+      "label": "Fine grained action",
+      "start": 39.664,
+      "type": "range",
+      "attributes": {
+        "Action Correctness": "Correct Action",
+        "Incorrect Action Explanation": "none",
+        "Incorrect Action Corrected by": "none",
+        "Verb": "grab",
+        "Adjective": "old",
+        "Noun": "belt",
+        "adverbial": "none"
+      },
+      "end": 40.414
+    },
+    {
+      "id": 44,
+      "label": "Fine grained action",
+      "start": 40.424,
+      "type": "range",
+      "attributes": {
+        "Action Correctness": "Correct Action",
+        "Incorrect Action Explanation": "none",
+        "Incorrect Action Corrected by": "none",
+        "Verb": "lift",
+        "Adjective": "none",
+        "Noun": "belt",
+        "adverbial": "none"
+      },
+      "end": 40.924
+    },
+    {
+      "id": 45,
+      "label": "Fine grained action",
+      "start": 40.965,
+      "type": "range",
+      "attributes": {
+        "Action Correctness": "Correct Action",
+        "Incorrect Action Explanation": "none",
+        "Incorrect Action Corrected by": "none",
+        "Verb": "assemble",
+        "Adjective": "none",
+        "Noun": "belt",
+        "adverbial": "none"
+      },
+      "end": 47.7
+    },
+    {
+      "id": 63,
+      "label": "Coarse grained action",
+      "start": 47.768,
+      "type": "range",
+      "attributes": {
+        "Action sentence": "The student pushes the red lever.",
+        "Verb": "push",
+        "Adjective": "red",
+        "Noun": "lever"
+      },
+      "end": 49.327
+    },
+    {
+      "id": 46,
+      "label": "Fine grained action",
+      "start": 47.818,
+      "type": "range",
+      "attributes": {
+        "Action Correctness": "Correct Action",
+        "Incorrect Action Explanation": "none",
+        "Incorrect Action Corrected by": "none",
+        "Verb": "push",
+        "Adjective": "none",
+        "Noun": "lever",
+        "adverbial": "none"
+      },
+      "end": 49.018
+    },
+    {
+      "id": 49,
+      "label": "Coarse grained action",
+      "start": 49.791,
+      "type": "range",
+      "attributes": {
+        "Action sentence": "The student locks the front panel door.",
+        "Verb": "lock",
+        "Adjective": "none",
+        "Noun": "front_panel_door"
+      },
+      "end": 53
+    },
+    {
+      "id": 48,
+      "label": "Fine grained action",
+      "start": 49.9,
+      "type": "range",
+      "attributes": {
+        "Action Correctness": "Correct Action",
+        "Incorrect Action Explanation": "none",
+        "Incorrect Action Corrected by": "none",
+        "Verb": "close",
+        "Adjective": "none",
+        "Noun": "front_panel_door",
+        "adverbial": "none"
+      },
+      "end": 51
+    },
+    {
+      "id": 47,
+      "label": "Conversation",
+      "start": 50.041,
+      "type": "range",
+      "attributes": {
+        "Conversation Purpose": "instructor-start-conversation_describing high-level instruction",
+        "sequence": "none",
+        "Transcription": "Close the door and lock it.",
+        "Transcription Confidence": "none"
+      },
+      "end": 52.618
+    },
+    {
+      "id": 50,
+      "label": "Fine grained action",
+      "start": 51.068,
+      "type": "range",
+      "attributes": {
+        "Action Correctness": "Correct Action",
+        "Incorrect Action Explanation": "none",
+        "Incorrect Action Corrected by": "none",
+        "Verb": "lock",
+        "Adjective": "none",
+        "Noun": "front_panel_door",
+        "adverbial": "none"
+      },
+      "end": 52.468
+    }
+  ],
+  "taskId": "63dadf74c218c7bdc948b7a1",
+  "taskType": "change belt",
+  "video_name": "R095-28July-Belt"
+}

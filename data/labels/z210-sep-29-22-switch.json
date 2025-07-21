@@ -1,0 +1,1880 @@
+{
+  "batch": "202301_2221_10fps",
+  "videoMetadata": {
+    "audio": {
+      "codec": "aac",
+      "bitrate": "70",
+      "sample_rate": 48000,
+      "stream": 0,
+      "channels": {
+        "raw": "mono",
+        "value": 1
+      }
+    },
+    "video": {
+      "container": "mov",
+      "bitrate": 2490,
+      "stream": 0,
+      "codec": "h264",
+      "resolution": {
+        "w": 896,
+        "h": 504
+      },
+      "resolutionSquare": {
+        "w": 896,
+        "h": 504
+      },
+      "aspect": {
+        "x": 16,
+        "y": 9,
+        "string": "16:9",
+        "value": 1.7777777777777777
+      },
+      "rotate": 0,
+      "fps": 29.94,
+      "pixelString": "1:1",
+      "pixel": 1
+    },
+    "duration": {
+      "raw": "00:04:17.13",
+      "seconds": 257
+    }
+  },
+  "events": [
+    {
+      "id": 1,
+      "label": "Narration",
+      "start": 0.1,
+      "type": "range",
+      "attributes": {
+        "Long form description": "The student begins by changing the joy controllers to the comfort grip, when he finishes the student waits for new instructions. The instructor tells that he need no change the comfort grip to the joycon strap after that the student placed back the joycons on the Nintendo Switch and stand it using the kickstand, then he exchanged de game cartridge and the SD card to finally turn on and off the Nintendo Switch."
+      },
+      "end": 257.1
+    },
+    {
+      "id": 2,
+      "label": "Conversation",
+      "start": 2.675,
+      "type": "range",
+      "attributes": {
+        "Conversation Purpose": "instructor-start-conversation_opening remarks",
+        "Transcription": "Let's do this task.",
+        "Transcription Confidence": "none"
+      },
+      "end": 3.596
+    },
+    {
+      "id": 3,
+      "label": "Conversation",
+      "start": 4.707,
+      "type": "range",
+      "attributes": {
+        "Conversation Purpose": "instructor-start-conversation_describing high-level instruction",
+        "Transcription": "Please take two controllers, and put in on the handheld."
+      },
+      "end": 8.73
+    },
+    {
+      "id": 4,
+      "label": "Coarse grained action",
+      "start": 10.2,
+      "type": "range",
+      "attributes": {
+        "Action sentence": "The student places the joy-con controllers on the comfort grip.",
+        "Verb": "place",
+        "Noun": "joy_con_controller"
+      },
+      "end": 54
+    },
+    {
+      "id": 5,
+      "label": "Fine grained action",
+      "start": 10.2,
+      "type": "range",
+      "attributes": {
+        "Action Correctness": "Correct Action",
+        "Incorrect Action Explanation": "none",
+        "Incorrect Action Corrected by": "none",
+        "Verb": "grab",
+        "Adjective": "none",
+        "Noun": "joy_con_controller",
+        "adverbial": "none"
+      },
+      "end": 12.6
+    },
+    {
+      "id": 6,
+      "label": "Conversation",
+      "start": 12.2,
+      "type": "range",
+      "attributes": {
+        "Conversation Purpose": "instructor-start-conversation_follow-up instruction",
+        "Transcription": "So you take the handheld from the table, the right controller inserts from top to bottom on the right, and the blue on the left."
+      },
+      "end": 21.281
+    },
+    {
+      "id": 7,
+      "label": "Fine grained action",
+      "start": 16.2,
+      "type": "range",
+      "attributes": {
+        "Action Correctness": "Correct Action",
+        "Incorrect Action Explanation": "none",
+        "Incorrect Action Corrected by": "none",
+        "Verb": "grab",
+        "Adjective": "none",
+        "Noun": "comfort_grip",
+        "adverbial": "none"
+      },
+      "end": 17.3
+    },
+    {
+      "id": 8,
+      "label": "Fine grained action",
+      "start": 18.2,
+      "type": "range",
+      "attributes": {
+        "Action Correctness": "Correct Action",
+        "Incorrect Action Explanation": "none",
+        "Incorrect Action Corrected by": "none",
+        "Verb": "hold",
+        "Adjective": "none",
+        "Noun": "comfort_grip",
+        "adverbial": "none"
+      },
+      "end": 20.706
+    },
+    {
+      "id": 9,
+      "label": "Fine grained action",
+      "start": 21.157,
+      "type": "range",
+      "attributes": {
+        "Action Correctness": "Wrong Action, corrected by instructor verbally",
+        "Incorrect Action Explanation": "The student didn't  slide the joy_con controller from the right spot.",
+        "Incorrect Action Corrected by": "10",
+        "Verb": "slide",
+        "Adjective": "blue",
+        "Noun": "joy_con_controller",
+        "adverbial": "none"
+      },
+      "end": 23.4
+    },
+    {
+      "id": 10,
+      "label": "Conversation",
+      "start": 22.194,
+      "type": "range",
+      "attributes": {
+        "Conversation Purpose": "instructor-start-conversation_correct the wrong action",
+        "sequence": "9",
+        "Transcription": "From very top to bottom."
+      },
+      "end": 25.84
+    },
+    {
+      "id": 11,
+      "label": "Fine grained action",
+      "start": 24.1,
+      "type": "range",
+      "attributes": {
+        "Action Correctness": "Wrong Action, corrected by student",
+        "Incorrect Action Explanation": "The student places the joy_con controller on the bottom of the comfort grip.",
+        "Incorrect Action Corrected by": "none",
+        "Verb": "place",
+        "Adjective": "blue",
+        "Noun": "joy_con_controller",
+        "adverbial": "none"
+      },
+      "end": 24.821
+    },
+    {
+      "id": 12,
+      "label": "Fine grained action",
+      "start": 25.091,
+      "type": "range",
+      "attributes": {
+        "Action Correctness": "Wrong Action, corrected by instructor verbally",
+        "Incorrect Action Explanation": "The student tries to insert the joy_con controller through the middle.",
+        "Incorrect Action Corrected by": "13",
+        "Verb": "insert",
+        "Adjective": "blue",
+        "Noun": "joy_con_controller",
+        "adverbial": "none"
+      },
+      "end": 28
+    },
+    {
+      "id": 13,
+      "label": "Conversation",
+      "start": 27.141,
+      "type": "range",
+      "attributes": {
+        "Conversation Purpose": "instructor-start-conversation_correct the wrong action",
+        "sequence": "12",
+        "Transcription": "The controllers goes very tall."
+      },
+      "end": 28.625
+    },
+    {
+      "id": 14,
+      "label": "Fine grained action",
+      "start": 28.1,
+      "type": "range",
+      "attributes": {
+        "Action Correctness": "Correct Action",
+        "Incorrect Action Explanation": "none",
+        "Incorrect Action Corrected by": "none",
+        "Verb": "withdraw",
+        "Adjective": "blue",
+        "Noun": "joy_con_controller",
+        "adverbial": "none"
+      },
+      "end": 29.6
+    },
+    {
+      "id": 15,
+      "label": "Fine grained action",
+      "start": 31.1,
+      "type": "range",
+      "attributes": {
+        "Action Correctness": "Wrong Action, corrected by student",
+        "Incorrect Action Explanation": "The student didn't place the joy_con controller correctly.",
+        "Incorrect Action Corrected by": "none",
+        "Verb": "place",
+        "Adjective": "blue",
+        "Noun": "joy_con_controller",
+        "adverbial": "none"
+      },
+      "end": 34.005
+    },
+    {
+      "id": 16,
+      "label": "Fine grained action",
+      "start": 34.11,
+      "type": "range",
+      "attributes": {
+        "Action Correctness": "Correct Action",
+        "Incorrect Action Explanation": "none",
+        "Incorrect Action Corrected by": "none",
+        "Verb": "align",
+        "Adjective": "blue",
+        "Noun": "joy_con_controller",
+        "adverbial": "none"
+      },
+      "end": 34.762
+    },
+    {
+      "id": 17,
+      "label": "Fine grained action",
+      "start": 34.899,
+      "type": "range",
+      "attributes": {
+        "Action Correctness": "Wrong Action, corrected by student",
+        "Incorrect Action Explanation": "The student didn't slide the joy_con controller correctly on the comfort grip.",
+        "Incorrect Action Corrected by": "none",
+        "Verb": "slide",
+        "Adjective": "blue",
+        "Noun": "joy_con_controller",
+        "adverbial": "none"
+      },
+      "end": 37.277
+    },
+    {
+      "id": 18,
+      "label": "Fine grained action",
+      "start": 37.354,
+      "type": "range",
+      "attributes": {
+        "Action Correctness": "Wrong Action, corrected by student",
+        "Incorrect Action Explanation": "The student can't find the right way to assemble the joy_con controller on the comfort grip.",
+        "Incorrect Action Corrected by": "none",
+        "Verb": "withdraw",
+        "Adjective": "blue",
+        "Noun": "joy_con_controller",
+        "adverbial": "none"
+      },
+      "end": 37.905
+    },
+    {
+      "id": 19,
+      "label": "Fine grained action",
+      "start": 37.98,
+      "type": "range",
+      "attributes": {
+        "Action Correctness": "Wrong Action, corrected by student",
+        "Incorrect Action Explanation": "The student is not placing the joy_con controller in the right positon",
+        "Incorrect Action Corrected by": "none",
+        "Verb": "place",
+        "Adjective": "blue",
+        "Noun": "joy_con_controller",
+        "adverbial": "none"
+      },
+      "end": 40.308
+    },
+    {
+      "id": 20,
+      "label": "Fine grained action",
+      "start": 40.438,
+      "type": "range",
+      "attributes": {
+        "Action Correctness": "Wrong Action, corrected by instructor verbally",
+        "Incorrect Action Explanation": "The student didn't slide the joy_con controller on the confort grip correctly.",
+        "Incorrect Action Corrected by": "21",
+        "Verb": "slide",
+        "Adjective": "blue",
+        "Noun": "joy_con_controller",
+        "adverbial": "none"
+      },
+      "end": 43
+    },
+    {
+      "id": 21,
+      "label": "Conversation",
+      "start": 42.431,
+      "type": "range",
+      "attributes": {
+        "Conversation Purpose": "instructor-start-conversation_correct the wrong action",
+        "sequence": "20",
+        "Transcription": "No, top, very very top."
+      },
+      "end": 45.464
+    },
+    {
+      "id": 22,
+      "label": "Fine grained action",
+      "start": 44.1,
+      "type": "range",
+      "attributes": {
+        "Action Correctness": "Correct Action",
+        "Incorrect Action Explanation": "none",
+        "Incorrect Action Corrected by": "none",
+        "Verb": "hold",
+        "Adjective": "none",
+        "Noun": "comfort_grip",
+        "adverbial": "none"
+      },
+      "end": 45.369
+    },
+    {
+      "id": 23,
+      "label": "Fine grained action",
+      "start": 45.537,
+      "type": "range",
+      "attributes": {
+        "Action Correctness": "Correct Action",
+        "Incorrect Action Explanation": "none",
+        "Incorrect Action Corrected by": "none",
+        "Verb": "align",
+        "Adjective": "blue",
+        "Noun": "joy_con_controller",
+        "adverbial": "none"
+      },
+      "end": 47.411
+    },
+    {
+      "id": 24,
+      "label": "Fine grained action",
+      "start": 47.543,
+      "type": "range",
+      "attributes": {
+        "Action Correctness": "Correct Action",
+        "Incorrect Action Explanation": "none",
+        "Incorrect Action Corrected by": "none",
+        "Verb": "slide",
+        "Adjective": "blue",
+        "Noun": "joy_con_controller",
+        "adverbial": "none"
+      },
+      "end": 48.486
+    },
+    {
+      "id": 25,
+      "label": "Conversation",
+      "start": 48.1,
+      "type": "range",
+      "attributes": {
+        "Conversation Purpose": "instructor-start-conversation_confirming the previous action",
+        "Transcription": "Yes."
+      },
+      "end": 48.5
+    },
+    {
+      "id": 26,
+      "label": "Fine grained action",
+      "start": 48.643,
+      "type": "range",
+      "attributes": {
+        "Action Correctness": "Correct Action",
+        "Incorrect Action Explanation": "none",
+        "Incorrect Action Corrected by": "none",
+        "Verb": "slide",
+        "Adjective": "blue",
+        "Noun": "joy_con_controller",
+        "adverbial": "none"
+      },
+      "end": 49.604
+    },
+    {
+      "id": 27,
+      "label": "Fine grained action",
+      "start": 49.704,
+      "type": "range",
+      "attributes": {
+        "Action Correctness": "Correct Action",
+        "Incorrect Action Explanation": "none",
+        "Incorrect Action Corrected by": "none",
+        "Verb": "align",
+        "Adjective": "red",
+        "Noun": "joy_con_controller",
+        "adverbial": "none"
+      },
+      "end": 50.422
+    },
+    {
+      "id": 28,
+      "label": "Fine grained action",
+      "start": 50.576,
+      "type": "range",
+      "attributes": {
+        "Action Correctness": "Correct Action",
+        "Incorrect Action Explanation": "none",
+        "Incorrect Action Corrected by": "none",
+        "Verb": "slide",
+        "Adjective": "red",
+        "Noun": "joy_con_controller",
+        "adverbial": "none"
+      },
+      "end": 51.9
+    },
+    {
+      "id": 29,
+      "label": "Conversation",
+      "start": 52.306,
+      "type": "range",
+      "attributes": {
+        "Conversation Purpose": "instructor-start-conversation_confirming the previous action",
+        "Transcription": "Good."
+      },
+      "end": 52.854
+    },
+    {
+      "id": 30,
+      "label": "Conversation",
+      "start": 53.112,
+      "type": "range",
+      "attributes": {
+        "Conversation Purpose": "instructor-start-conversation_describing high-level instruction",
+        "Transcription": "Now please change the controller to the pad."
+      },
+      "end": 56.275
+    },
+    {
+      "id": 31,
+      "label": "Coarse grained action",
+      "start": 57.1,
+      "type": "range",
+      "attributes": {
+        "Action sentence": "The student changes the joy_con controllers  from the comfort grip to the nintendo switch.",
+        "Verb": "mount",
+        "Noun": "joy_con_controller"
+      },
+      "end": 80
+    },
+    {
+      "id": 32,
+      "label": "Fine grained action",
+      "start": 57.2,
+      "type": "range",
+      "attributes": {
+        "Action Correctness": "Correct Action",
+        "Incorrect Action Explanation": "none",
+        "Incorrect Action Corrected by": "none",
+        "Verb": "withdraw",
+        "Adjective": "blue",
+        "Noun": "joy_con_controller",
+        "adverbial": "none"
+      },
+      "end": 58.81
+    },
+    {
+      "id": 33,
+      "label": "Fine grained action",
+      "start": 59.093,
+      "type": "range",
+      "attributes": {
+        "Action Correctness": "Correct Action",
+        "Incorrect Action Explanation": "none",
+        "Incorrect Action Corrected by": "none",
+        "Verb": "withdraw",
+        "Adjective": "blue",
+        "Noun": "joy_con_controller",
+        "adverbial": "none"
+      },
+      "end": 60.643
+    },
+    {
+      "id": 34,
+      "label": "Fine grained action",
+      "start": 61.071,
+      "type": "range",
+      "attributes": {
+        "Action Correctness": "Correct Action",
+        "Incorrect Action Explanation": "none",
+        "Incorrect Action Corrected by": "none",
+        "Verb": "withdraw",
+        "Adjective": "red",
+        "Noun": "joy_con_controller",
+        "adverbial": "none"
+      },
+      "end": 62.231
+    },
+    {
+      "id": 35,
+      "label": "Conversation",
+      "start": 62.1,
+      "type": "range",
+      "attributes": {
+        "Conversation Purpose": "instructor-start-conversation_confirming the previous action",
+        "Transcription": "Yes."
+      },
+      "end": 62.4
+    },
+    {
+      "id": 36,
+      "label": "Fine grained action",
+      "start": 62.337,
+      "type": "range",
+      "attributes": {
+        "Action Correctness": "Correct Action",
+        "Incorrect Action Explanation": "none",
+        "Incorrect Action Corrected by": "none",
+        "Verb": "withdraw",
+        "Adjective": "red",
+        "Noun": "joy_con_controller",
+        "adverbial": "none"
+      },
+      "end": 64
+    },
+    {
+      "id": 37,
+      "label": "Fine grained action",
+      "start": 67.3,
+      "type": "range",
+      "attributes": {
+        "Action Correctness": "Correct Action",
+        "Incorrect Action Explanation": "none",
+        "Incorrect Action Corrected by": "none",
+        "Verb": "grab",
+        "Adjective": "none",
+        "Noun": "nintendo_switch",
+        "adverbial": "none"
+      },
+      "end": 69.879
+    },
+    {
+      "id": 38,
+      "label": "Fine grained action",
+      "start": 70.047,
+      "type": "range",
+      "attributes": {
+        "Action Correctness": "Correct Action",
+        "Incorrect Action Explanation": "none",
+        "Incorrect Action Corrected by": "none",
+        "Verb": "hold",
+        "Adjective": "none",
+        "Noun": "joy_con_controller",
+        "adverbial": "none"
+      },
+      "end": 71.5
+    },
+    {
+      "id": 39,
+      "label": "Fine grained action",
+      "start": 72.3,
+      "type": "range",
+      "attributes": {
+        "Action Correctness": "Correct Action",
+        "Incorrect Action Explanation": "none",
+        "Incorrect Action Corrected by": "none",
+        "Verb": "align",
+        "Adjective": "red",
+        "Noun": "joy_con_controller",
+        "adverbial": "none"
+      },
+      "end": 74.1
+    },
+    {
+      "id": 40,
+      "label": "Fine grained action",
+      "start": 74.2,
+      "type": "range",
+      "attributes": {
+        "Action Correctness": "Correct Action",
+        "Incorrect Action Explanation": "none",
+        "Incorrect Action Corrected by": "none",
+        "Verb": "slide",
+        "Adjective": "red",
+        "Noun": "joy_con_controller",
+        "adverbial": "none"
+      },
+      "end": 75.895
+    },
+    {
+      "id": 41,
+      "label": "Fine grained action",
+      "start": 76.379,
+      "type": "range",
+      "attributes": {
+        "Action Correctness": "Correct Action",
+        "Incorrect Action Explanation": "none",
+        "Incorrect Action Corrected by": "none",
+        "Verb": "align",
+        "Adjective": "blue",
+        "Noun": "joy_con_controller",
+        "adverbial": "none"
+      },
+      "end": 76.955
+    },
+    {
+      "id": 42,
+      "label": "Fine grained action",
+      "start": 77.124,
+      "type": "range",
+      "attributes": {
+        "Action Correctness": "Correct Action",
+        "Incorrect Action Explanation": "none",
+        "Incorrect Action Corrected by": "none",
+        "Verb": "slide",
+        "Adjective": "blue",
+        "Noun": "joy_con_controller",
+        "adverbial": "none"
+      },
+      "end": 78.8
+    },
+    {
+      "id": 126,
+      "label": "Conversation",
+      "start": 80.095,
+      "type": "range",
+      "attributes": {
+        "Conversation Purpose": "instructor-start-conversation_confirming the previous action",
+        "sequence": "none",
+        "Transcription": "Alright",
+        "Transcription Confidence": "none"
+      },
+      "end": 80.364
+    },
+    {
+      "id": 43,
+      "label": "Conversation",
+      "start": 80.414,
+      "type": "range",
+      "attributes": {
+        "Conversation Purpose": "instructor-start-conversation_describing high-level instruction",
+        "Transcription": "now please change the controller to two joysticks."
+      },
+      "end": 84.575
+    },
+    {
+      "id": 44,
+      "label": "Fine grained action",
+      "start": 85.1,
+      "type": "range",
+      "attributes": {
+        "Action Correctness": "Correct Action",
+        "Incorrect Action Explanation": "none",
+        "Incorrect Action Corrected by": "none",
+        "Verb": "push",
+        "Adjective": "blue",
+        "Noun": "joy_con_controller",
+        "adverbial": "none"
+      },
+      "end": 87.861
+    },
+    {
+      "id": 45,
+      "label": "Coarse grained action",
+      "start": 85.1,
+      "type": "range",
+      "attributes": {
+        "Action sentence": "The student changes the joy-con controllers from the Nintendo Switch to joy-con strap.",
+        "Verb": "exchange",
+        "Noun": "joy_con_controller"
+      },
+      "end": 151
+    },
+    {
+      "id": 46,
+      "label": "Fine grained action",
+      "start": 88.018,
+      "type": "range",
+      "attributes": {
+        "Action Correctness": "Correct Action",
+        "Incorrect Action Explanation": "none",
+        "Incorrect Action Corrected by": "none",
+        "Verb": "withdraw",
+        "Adjective": "blue",
+        "Noun": "joy_con_controller",
+        "adverbial": "none"
+      },
+      "end": 89.296
+    },
+    {
+      "id": 47,
+      "label": "Fine grained action",
+      "start": 89.409,
+      "type": "range",
+      "attributes": {
+        "Action Correctness": "Correct Action",
+        "Incorrect Action Explanation": "none",
+        "Incorrect Action Corrected by": "none",
+        "Verb": "push",
+        "Adjective": "red",
+        "Noun": "joy_con_controller",
+        "adverbial": "none"
+      },
+      "end": 89.953
+    },
+    {
+      "id": 48,
+      "label": "Fine grained action",
+      "start": 90.104,
+      "type": "range",
+      "attributes": {
+        "Action Correctness": "Correct Action",
+        "Incorrect Action Explanation": "none",
+        "Incorrect Action Corrected by": "none",
+        "Verb": "withdraw",
+        "Adjective": "red",
+        "Noun": "joy_con_controller",
+        "adverbial": "none"
+      },
+      "end": 90.629
+    },
+    {
+      "id": 49,
+      "label": "Fine grained action",
+      "start": 93.2,
+      "type": "range",
+      "attributes": {
+        "Action Correctness": "Correct Action",
+        "Incorrect Action Explanation": "none",
+        "Incorrect Action Corrected by": "none",
+        "Verb": "grab",
+        "Adjective": "none",
+        "Noun": "joy_con_controller",
+        "adverbial": "none"
+      },
+      "end": 96.5
+    },
+    {
+      "id": 50,
+      "label": "Fine grained action",
+      "start": 98.2,
+      "type": "range",
+      "attributes": {
+        "Action Correctness": "Wrong Action, corrected by instructor verbally",
+        "Incorrect Action Explanation": "The student align the joycon strap the wrong way.",
+        "Incorrect Action Corrected by": "51",
+        "Verb": "align",
+        "Adjective": "red",
+        "Noun": "joy_con_controller",
+        "adverbial": "none"
+      },
+      "end": 103.4
+    },
+    {
+      "id": 51,
+      "label": "Conversation",
+      "start": 101.756,
+      "type": "range",
+      "attributes": {
+        "Conversation Purpose": "instructor-start-conversation_correct the wrong action",
+        "sequence": "50",
+        "Transcription": "There are a plus and a minus sign on both controllers and they should match"
+      },
+      "end": 107.441
+    },
+    {
+      "id": 52,
+      "label": "Fine grained action",
+      "start": 104.2,
+      "type": "range",
+      "attributes": {
+        "Action Correctness": "Correct Action",
+        "Incorrect Action Explanation": "none",
+        "Incorrect Action Corrected by": "none",
+        "Verb": "hold",
+        "Adjective": "red",
+        "Noun": "joy_con_controller",
+        "adverbial": "none"
+      },
+      "end": 106.848
+    },
+    {
+      "id": 53,
+      "label": "Fine grained action",
+      "start": 106.927,
+      "type": "range",
+      "attributes": {
+        "Action Correctness": "Wrong Action, corrected by instructor verbally",
+        "Incorrect Action Explanation": "The student is trying to insert the joy-con controller on the strap the wrong way.",
+        "Incorrect Action Corrected by": "54",
+        "Verb": "insert",
+        "Adjective": "red",
+        "Noun": "joy_con_controller",
+        "adverbial": "none"
+      },
+      "end": 110.864
+    },
+    {
+      "id": 54,
+      "label": "Conversation",
+      "start": 109.49,
+      "type": "range",
+      "attributes": {
+        "Conversation Purpose": "instructor-start-conversation_correct the wrong action",
+        "sequence": "53",
+        "Transcription": "So right now you're holding the right mark, the right controller, it has plus, take another stick, yes."
+      },
+      "end": 116.815
+    },
+    {
+      "id": 55,
+      "label": "Fine grained action",
+      "start": 111.141,
+      "type": "range",
+      "attributes": {
+        "Action Correctness": "Correct Action",
+        "Incorrect Action Explanation": "none",
+        "Incorrect Action Corrected by": "none",
+        "Verb": "exchange",
+        "Adjective": "none",
+        "Noun": "joy_con_strap",
+        "adverbial": "none"
+      },
+      "end": 113.9
+    },
+    {
+      "id": 56,
+      "label": "Fine grained action",
+      "start": 114.1,
+      "type": "range",
+      "attributes": {
+        "Action Correctness": "Correct Action",
+        "Incorrect Action Explanation": "none",
+        "Incorrect Action Corrected by": "none",
+        "Verb": "inspect",
+        "Adjective": "none",
+        "Noun": "joy_con_strap",
+        "adverbial": "none"
+      },
+      "end": 116.306
+    },
+    {
+      "id": 57,
+      "label": "Fine grained action",
+      "start": 116.465,
+      "type": "range",
+      "attributes": {
+        "Action Correctness": "Correct Action",
+        "Incorrect Action Explanation": "none",
+        "Incorrect Action Corrected by": "none",
+        "Verb": "rotate",
+        "Adjective": "none",
+        "Noun": "joy_con_strap",
+        "adverbial": "none"
+      },
+      "end": 118.5
+    },
+    {
+      "id": 58,
+      "label": "Conversation",
+      "start": 117.125,
+      "type": "range",
+      "attributes": {
+        "Conversation Purpose": "instructor-start-conversation_confirming the previous action",
+        "Transcription": "Yes."
+      },
+      "end": 117.741
+    },
+    {
+      "id": 59,
+      "label": "Fine grained action",
+      "start": 119.2,
+      "type": "range",
+      "attributes": {
+        "Action Correctness": "Wrong Action, corrected by instructor verbally",
+        "Incorrect Action Explanation": "The student slides the joy-con controller the wrong way.",
+        "Incorrect Action Corrected by": "60",
+        "Verb": "slide",
+        "Adjective": "red",
+        "Noun": "joy_con_controller",
+        "adverbial": "none"
+      },
+      "end": 120.811
+    },
+    {
+      "id": 60,
+      "label": "Conversation",
+      "start": 120.1,
+      "type": "range",
+      "attributes": {
+        "Conversation Purpose": "instructor-start-conversation_correct the wrong action",
+        "sequence": "59",
+        "Transcription": "Joysticks on top."
+      },
+      "end": 121.181
+    },
+    {
+      "id": 61,
+      "label": "Fine grained action",
+      "start": 121.119,
+      "type": "range",
+      "attributes": {
+        "Action Correctness": "Wrong Action, corrected by instructor verbally",
+        "Incorrect Action Explanation": "The student flips the joy-con strap but it was already the right way.",
+        "Incorrect Action Corrected by": "62",
+        "Verb": "flip",
+        "Adjective": "none",
+        "Noun": "joy_con_strap",
+        "adverbial": "none"
+      },
+      "end": 122.996
+    },
+    {
+      "id": 62,
+      "label": "Conversation",
+      "start": 122.561,
+      "type": "range",
+      "attributes": {
+        "Conversation Purpose": "instructor-start-conversation_correct the wrong action",
+        "sequence": "61",
+        "Transcription": "Joysticks from top, no don't flip it."
+      },
+      "end": 124.894
+    },
+    {
+      "id": 63,
+      "label": "Fine grained action",
+      "start": 123.118,
+      "type": "range",
+      "attributes": {
+        "Action Correctness": "Correct Action",
+        "Incorrect Action Explanation": "none",
+        "Incorrect Action Corrected by": "none",
+        "Verb": "flip",
+        "Adjective": "none",
+        "Noun": "joy_con_strap",
+        "adverbial": "none"
+      },
+      "end": 124.718
+    },
+    {
+      "id": 65,
+      "label": "Fine grained action",
+      "start": 125.084,
+      "type": "range",
+      "attributes": {
+        "Action Correctness": "Correct Action",
+        "Incorrect Action Explanation": "none",
+        "Incorrect Action Corrected by": "none",
+        "Verb": "insert",
+        "Adjective": "red",
+        "Noun": "joy_con_controller",
+        "adverbial": "none"
+      },
+      "end": 127.999
+    },
+    {
+      "id": 64,
+      "label": "Conversation",
+      "start": 125.125,
+      "type": "range",
+      "attributes": {
+        "Conversation Purpose": "instructor-start-conversation_confirming the previous action",
+        "Transcription": "That's right, yeah."
+      },
+      "end": 126.075
+    },
+    {
+      "id": 127,
+      "label": "Conversation",
+      "start": 126.8,
+      "type": "range",
+      "attributes": {
+        "Conversation Purpose": "instructor-start-conversation_confirming the previous action",
+        "sequence": "none",
+        "Transcription": "Okay",
+        "Transcription Confidence": "none"
+      },
+      "end": 127
+    },
+    {
+      "id": 66,
+      "label": "Conversation",
+      "start": 127.101,
+      "type": "range",
+      "attributes": {
+        "Conversation Purpose": "instructor-start-conversation_follow-up instruction",
+        "Transcription": "now lock the white part in the bottom."
+      },
+      "end": 130.48
+    },
+    {
+      "id": 67,
+      "label": "Fine grained action",
+      "start": 128.174,
+      "type": "range",
+      "attributes": {
+        "Action Correctness": "Wrong Action, corrected by instructor verbally",
+        "Incorrect Action Explanation": "The student has to lock the joy-con strap before assebling the second joy-con controller.",
+        "Incorrect Action Corrected by": "68",
+        "Verb": "grab",
+        "Adjective": "blue",
+        "Noun": "joy_con_controller",
+        "adverbial": "none"
+      },
+      "end": 131.265
+    },
+    {
+      "id": 68,
+      "label": "Conversation",
+      "start": 130.719,
+      "type": "range",
+      "attributes": {
+        "Conversation Purpose": "instructor-start-conversation_correct the wrong action",
+        "sequence": "67,69",
+        "Transcription": "Lock the white part."
+      },
+      "end": 131.719
+    },
+    {
+      "id": 69,
+      "label": "Fine grained action",
+      "start": 131.323,
+      "type": "range",
+      "attributes": {
+        "Action Correctness": "Wrong Action, corrected by instructor verbally",
+        "Incorrect Action Explanation": "The student does not find the lock button.",
+        "Incorrect Action Corrected by": "68",
+        "Verb": "inspect",
+        "Adjective": "red",
+        "Noun": "joy_con_controller",
+        "adverbial": "none"
+      },
+      "end": 134.3
+    },
+    {
+      "id": 70,
+      "label": "Conversation",
+      "start": 132.979,
+      "type": "range",
+      "attributes": {
+        "Conversation Purpose": "instructor-start-conversation_follow-up instruction",
+        "Transcription": "The white, at the very very bottom, pushit it up, the white."
+      },
+      "end": 138.351
+    },
+    {
+      "id": 71,
+      "label": "Fine grained action",
+      "start": 135.1,
+      "type": "range",
+      "attributes": {
+        "Action Correctness": "Correct Action",
+        "Incorrect Action Explanation": "none",
+        "Incorrect Action Corrected by": "none",
+        "Verb": "flip",
+        "Adjective": "red",
+        "Noun": "joy_con_controller",
+        "adverbial": "none"
+      },
+      "end": 136.9
+    },
+    {
+      "id": 72,
+      "label": "Fine grained action",
+      "start": 137.1,
+      "type": "range",
+      "attributes": {
+        "Action Correctness": "Correct Action",
+        "Incorrect Action Explanation": "The student pushes on the joy-con controller not on the joy-con controller lock.",
+        "Incorrect Action Corrected by": "none",
+        "Verb": "push",
+        "Adjective": "red",
+        "Noun": "joy_con_controller",
+        "adverbial": "none"
+      },
+      "end": 137.623
+    },
+    {
+      "id": 73,
+      "label": "Fine grained action",
+      "start": 138.067,
+      "type": "range",
+      "attributes": {
+        "Action Correctness": "Correct Action",
+        "Incorrect Action Explanation": "none",
+        "Incorrect Action Corrected by": "none",
+        "Verb": "lock",
+        "Adjective": "none",
+        "Noun": "joy_con_strap_lock",
+        "adverbial": "none"
+      },
+      "end": 139.8
+    },
+    {
+      "id": 74,
+      "label": "Conversation",
+      "start": 139.216,
+      "type": "range",
+      "attributes": {
+        "Conversation Purpose": "instructor-start-conversation_confirming the previous action",
+        "Transcription": "Yeah, thah's right."
+      },
+      "end": 140.665
+    },
+    {
+      "id": 76,
+      "label": "Fine grained action",
+      "start": 141.2,
+      "type": "range",
+      "attributes": {
+        "Action Correctness": "Correct Action",
+        "Incorrect Action Explanation": "none",
+        "Incorrect Action Corrected by": "none",
+        "Verb": "grab",
+        "Adjective": "blue",
+        "Noun": "joy_con_controller",
+        "adverbial": "none"
+      },
+      "end": 143.973
+    },
+    {
+      "id": 75,
+      "label": "Conversation",
+      "start": 141.203,
+      "type": "range",
+      "attributes": {
+        "Conversation Purpose": "instructor-start-conversation_follow-up instruction",
+        "Transcription": "And now do the other."
+      },
+      "end": 143.531
+    },
+    {
+      "id": 77,
+      "label": "Fine grained action",
+      "start": 144.124,
+      "type": "range",
+      "attributes": {
+        "Action Correctness": "Correct Action",
+        "Incorrect Action Explanation": "none",
+        "Incorrect Action Corrected by": "none",
+        "Verb": "flip",
+        "Adjective": "none",
+        "Noun": "joy_con_strap",
+        "adverbial": "none"
+      },
+      "end": 146.483
+    },
+    {
+      "id": 78,
+      "label": "Fine grained action",
+      "start": 146.708,
+      "type": "range",
+      "attributes": {
+        "Action Correctness": "Correct Action",
+        "Incorrect Action Explanation": "none",
+        "Incorrect Action Corrected by": "none",
+        "Verb": "insert",
+        "Adjective": "blue",
+        "Noun": "joy_con_controller",
+        "adverbial": "none"
+      },
+      "end": 148.373
+    },
+    {
+      "id": 79,
+      "label": "Fine grained action",
+      "start": 148.474,
+      "type": "range",
+      "attributes": {
+        "Action Correctness": "Correct Action",
+        "Incorrect Action Explanation": "none",
+        "Incorrect Action Corrected by": "none",
+        "Verb": "lock",
+        "Adjective": "blue",
+        "Noun": "joy_con_strap_lock",
+        "adverbial": "none"
+      },
+      "end": 150.3
+    },
+    {
+      "id": 80,
+      "label": "Conversation",
+      "start": 151,
+      "type": "range",
+      "attributes": {
+        "Conversation Purpose": "instructor-start-conversation_confirming the previous action",
+        "sequence": "none",
+        "Transcription": "Oh good.",
+        "Transcription Confidence": "none"
+      },
+      "end": 151.4
+    },
+    {
+      "id": 81,
+      "label": "Conversation",
+      "start": 152.2,
+      "type": "range",
+      "attributes": {
+        "Conversation Purpose": "instructor-start-conversation_follow-up instruction",
+        "Transcription": "Now please leave those on the table, leave it on the table."
+      },
+      "end": 158.204
+    },
+    {
+      "id": 82,
+      "label": "Conversation",
+      "start": 158.9,
+      "type": "range",
+      "attributes": {
+        "Conversation Purpose": "instructor-start-conversation_describing high-level instruction",
+        "Transcription": "You can take the pad, and make it stand up with the kickstand on the back."
+      },
+      "end": 165.015
+    },
+    {
+      "id": 83,
+      "label": "Coarse grained action",
+      "start": 164,
+      "type": "range",
+      "attributes": {
+        "Action sentence": "The instructor opens the Nintendo switch kickstand and places it on the table.",
+        "Verb": "stand",
+        "Adjective": "none",
+        "Noun": "nintendo_switch"
+      },
+      "end": 170.3
+    },
+    {
+      "id": 84,
+      "label": "Fine grained action",
+      "start": 164.2,
+      "type": "range",
+      "attributes": {
+        "Action Correctness": "Correct Action",
+        "Incorrect Action Explanation": "none",
+        "Incorrect Action Corrected by": "none",
+        "Verb": "grab",
+        "Adjective": "none",
+        "Noun": "nintendo_switch",
+        "adverbial": "none"
+      },
+      "end": 165.869
+    },
+    {
+      "id": 85,
+      "label": "Fine grained action",
+      "start": 166.019,
+      "type": "range",
+      "attributes": {
+        "Action Correctness": "Correct Action",
+        "Incorrect Action Explanation": "none",
+        "Incorrect Action Corrected by": "none",
+        "Verb": "open",
+        "Adjective": "none",
+        "Noun": "kickstand",
+        "adverbial": "none"
+      },
+      "end": 167.4
+    },
+    {
+      "id": 86,
+      "label": "Conversation",
+      "start": 166.519,
+      "type": "range",
+      "attributes": {
+        "Conversation Purpose": "instructor-start-conversation_follow-up instruction",
+        "Transcription": "Just open it an put it on the table."
+      },
+      "end": 170.037
+    },
+    {
+      "id": 87,
+      "label": "Fine grained action",
+      "start": 168.2,
+      "type": "range",
+      "attributes": {
+        "Action Correctness": "Correct Action",
+        "Incorrect Action Explanation": "none",
+        "Incorrect Action Corrected by": "none",
+        "Verb": "place",
+        "Adjective": "none",
+        "Noun": "nintendo_switch",
+        "adverbial": "none"
+      },
+      "end": 169.4
+    },
+    {
+      "id": 88,
+      "label": "Conversation",
+      "start": 170.248,
+      "type": "range",
+      "attributes": {
+        "Conversation Purpose": "instructor-start-conversation_describing high-level instruction",
+        "Transcription": "And now please change the game card."
+      },
+      "end": 172.801
+    },
+    {
+      "id": 89,
+      "label": "Coarse grained action",
+      "start": 176.8,
+      "type": "range",
+      "attributes": {
+        "Action sentence": "The student removes the game card from the slot on the back.",
+        "Verb": "withdraw",
+        "Noun": "game_card"
+      },
+      "end": 189.2
+    },
+    {
+      "id": 90,
+      "label": "Fine grained action",
+      "start": 177,
+      "type": "range",
+      "attributes": {
+        "Action Correctness": "Correct Action",
+        "Incorrect Action Explanation": "none",
+        "Incorrect Action Corrected by": "none",
+        "Verb": "grab",
+        "Adjective": "none",
+        "Noun": "nintendo_switch",
+        "adverbial": "none"
+      },
+      "end": 177.817
+    },
+    {
+      "id": 91,
+      "label": "Fine grained action",
+      "start": 178.163,
+      "type": "range",
+      "attributes": {
+        "Action Correctness": "Correct Action",
+        "Incorrect Action Explanation": "none",
+        "Incorrect Action Corrected by": "none",
+        "Verb": "grab",
+        "Adjective": "none",
+        "Noun": "nintendo_switch",
+        "adverbial": "none"
+      },
+      "end": 179.151
+    },
+    {
+      "id": 92,
+      "label": "Conversation",
+      "start": 178.61,
+      "type": "range",
+      "attributes": {
+        "Conversation Purpose": "instructor-start-conversation_follow-up instruction",
+        "Transcription": "From the top."
+      },
+      "end": 179.239
+    },
+    {
+      "id": 93,
+      "label": "Fine grained action",
+      "start": 179.29,
+      "type": "range",
+      "attributes": {
+        "Action Correctness": "Correct Action",
+        "Incorrect Action Explanation": "The student inspects the wrong part of the nintendo switch.",
+        "Incorrect Action Corrected by": "none",
+        "Verb": "inspect",
+        "Adjective": "none",
+        "Noun": "nintendo_switch",
+        "adverbial": "none"
+      },
+      "end": 179.989
+    },
+    {
+      "id": 94,
+      "label": "Fine grained action",
+      "start": 180.122,
+      "type": "range",
+      "attributes": {
+        "Action Correctness": "Correct Action",
+        "Incorrect Action Explanation": "none",
+        "Incorrect Action Corrected by": "none",
+        "Verb": "flip",
+        "Adjective": "none",
+        "Noun": "nintendo_switch",
+        "adverbial": "none"
+      },
+      "end": 180.747
+    },
+    {
+      "id": 95,
+      "label": "Fine grained action",
+      "start": 180.848,
+      "type": "range",
+      "attributes": {
+        "Action Correctness": "Correct Action",
+        "Incorrect Action Explanation": "none",
+        "Incorrect Action Corrected by": "none",
+        "Verb": "open",
+        "Adjective": "none",
+        "Noun": "nintendo_switch",
+        "adverbial": "none"
+      },
+      "end": 184.864
+    },
+    {
+      "id": 96,
+      "label": "Fine grained action",
+      "start": 184.962,
+      "type": "range",
+      "attributes": {
+        "Action Correctness": "Correct Action",
+        "Incorrect Action Explanation": "none",
+        "Incorrect Action Corrected by": "none",
+        "Verb": "withdraw",
+        "Adjective": "old",
+        "Noun": "game_card",
+        "adverbial": "none"
+      },
+      "end": 188.9
+    },
+    {
+      "id": 97,
+      "label": "Fine grained action",
+      "start": 189.4,
+      "type": "range",
+      "attributes": {
+        "Action Correctness": "Wrong Action, corrected by student",
+        "Incorrect Action Explanation": "The student inserts the game card the wrong way.",
+        "Incorrect Action Corrected by": "none",
+        "Verb": "insert",
+        "Adjective": "new",
+        "Noun": "game_card",
+        "adverbial": "none"
+      },
+      "end": 193.085
+    },
+    {
+      "id": 98,
+      "label": "Coarse grained action",
+      "start": 189.4,
+      "type": "range",
+      "attributes": {
+        "Action sentence": "The student inserts another game card into the slot on the back.",
+        "Verb": "insert",
+        "Noun": "game_card"
+      },
+      "end": 208
+    },
+    {
+      "id": 99,
+      "label": "Fine grained action",
+      "start": 193.214,
+      "type": "range",
+      "attributes": {
+        "Action Correctness": "Correct Action",
+        "Incorrect Action Explanation": "none",
+        "Incorrect Action Corrected by": "none",
+        "Verb": "rotate",
+        "Adjective": "new",
+        "Noun": "game_card",
+        "adverbial": "none"
+      },
+      "end": 193.951
+    },
+    {
+      "id": 100,
+      "label": "Fine grained action",
+      "start": 194.119,
+      "type": "range",
+      "attributes": {
+        "Action Correctness": "Wrong Action, corrected by instructor verbally",
+        "Incorrect Action Explanation": "The student inserts the game card the wrong way.",
+        "Incorrect Action Corrected by": "101",
+        "Verb": "insert",
+        "Adjective": "new",
+        "Noun": "game_card",
+        "adverbial": "none"
+      },
+      "end": 198.9
+    },
+    {
+      "id": 101,
+      "label": "Conversation",
+      "start": 197.515,
+      "type": "range",
+      "attributes": {
+        "Conversation Purpose": "instructor-start-conversation_correct the wrong action",
+        "sequence": "100",
+        "Transcription": "Flip it to the other side."
+      },
+      "end": 200.509
+    },
+    {
+      "id": 102,
+      "label": "Fine grained action",
+      "start": 199.1,
+      "type": "range",
+      "attributes": {
+        "Action Correctness": "Correct Action",
+        "Incorrect Action Explanation": "none",
+        "Incorrect Action Corrected by": "none",
+        "Verb": "rotate",
+        "Adjective": "new",
+        "Noun": "game_card",
+        "adverbial": "none"
+      },
+      "end": 202.38
+    },
+    {
+      "id": 103,
+      "label": "Fine grained action",
+      "start": 202.511,
+      "type": "range",
+      "attributes": {
+        "Action Correctness": "Correct Action",
+        "Incorrect Action Explanation": "none",
+        "Incorrect Action Corrected by": "none",
+        "Verb": "insert",
+        "Adjective": "new",
+        "Noun": "game_card",
+        "adverbial": "none"
+      },
+      "end": 204.318
+    },
+    {
+      "id": 104,
+      "label": "Fine grained action",
+      "start": 204.423,
+      "type": "range",
+      "attributes": {
+        "Action Correctness": "Correct Action",
+        "Incorrect Action Explanation": "none",
+        "Incorrect Action Corrected by": "none",
+        "Verb": "press",
+        "Adjective": "new",
+        "Noun": "game_card",
+        "adverbial": "none"
+      },
+      "end": 205.956
+    },
+    {
+      "id": 105,
+      "label": "Fine grained action",
+      "start": 206.096,
+      "type": "range",
+      "attributes": {
+        "Action Correctness": "Correct Action",
+        "Incorrect Action Explanation": "none",
+        "Incorrect Action Corrected by": "none",
+        "Verb": "close",
+        "Adjective": "none",
+        "Noun": "game_slot",
+        "adverbial": "none"
+      },
+      "end": 206.631
+    },
+    {
+      "id": 128,
+      "label": "Conversation",
+      "start": 206.179,
+      "type": "range",
+      "attributes": {
+        "Conversation Purpose": "instructor-start-conversation_confirming the previous action",
+        "sequence": "none",
+        "Transcription": "Alright",
+        "Transcription Confidence": "none"
+      },
+      "end": 206.514
+    },
+    {
+      "id": 106,
+      "label": "Conversation",
+      "start": 206.551,
+      "type": "range",
+      "attributes": {
+        "Conversation Purpose": "instructor-start-conversation_describing high-level instruction",
+        "Transcription": "and now please change the SD card."
+      },
+      "end": 209.318
+    },
+    {
+      "id": 107,
+      "label": "Coarse grained action",
+      "start": 213.6,
+      "type": "range",
+      "attributes": {
+        "Action sentence": "The student changes an sd card into the slot of the kickstand compartment.",
+        "Verb": "insert",
+        "Noun": "sd_card"
+      },
+      "end": 231
+    },
+    {
+      "id": 108,
+      "label": "Conversation",
+      "start": 214.1,
+      "type": "range",
+      "attributes": {
+        "Conversation Purpose": "instructor-start-conversation_follow-up instruction",
+        "Transcription": "It's under the kickstand."
+      },
+      "end": 215.5
+    },
+    {
+      "id": 109,
+      "label": "Fine grained action",
+      "start": 214.1,
+      "type": "range",
+      "attributes": {
+        "Action Correctness": "Correct Action",
+        "Incorrect Action Explanation": "none",
+        "Incorrect Action Corrected by": "none",
+        "Verb": "inspect",
+        "Adjective": "none",
+        "Noun": "nintendo_switch",
+        "adverbial": "none"
+      },
+      "end": 216.305
+    },
+    {
+      "id": 110,
+      "label": "Fine grained action",
+      "start": 216.396,
+      "type": "range",
+      "attributes": {
+        "Action Correctness": "Correct Action",
+        "Incorrect Action Explanation": "none",
+        "Incorrect Action Corrected by": "none",
+        "Verb": "rotate",
+        "Adjective": "none",
+        "Noun": "nintendo_switch",
+        "adverbial": "none"
+      },
+      "end": 217.347
+    },
+    {
+      "id": 111,
+      "label": "Fine grained action",
+      "start": 217.511,
+      "type": "range",
+      "attributes": {
+        "Action Correctness": "Correct Action",
+        "Incorrect Action Explanation": "none",
+        "Incorrect Action Corrected by": "none",
+        "Verb": "withdraw",
+        "Adjective": "old",
+        "Noun": "sd_card",
+        "adverbial": "none"
+      },
+      "end": 220.5
+    },
+    {
+      "id": 112,
+      "label": "Fine grained action",
+      "start": 222.1,
+      "type": "range",
+      "attributes": {
+        "Action Correctness": "Correct Action",
+        "Incorrect Action Explanation": "none",
+        "Incorrect Action Corrected by": "none",
+        "Verb": "flip",
+        "Adjective": "new",
+        "Noun": "sd_card",
+        "adverbial": "none"
+      },
+      "end": 222.723
+    },
+    {
+      "id": 113,
+      "label": "Fine grained action",
+      "start": 222.909,
+      "type": "range",
+      "attributes": {
+        "Action Correctness": "Correct Action",
+        "Incorrect Action Explanation": "none",
+        "Incorrect Action Corrected by": "none",
+        "Verb": "insert",
+        "Adjective": "new",
+        "Noun": "sd_card",
+        "adverbial": "none"
+      },
+      "end": 227.4
+    },
+    {
+      "id": 114,
+      "label": "Fine grained action",
+      "start": 228.57,
+      "type": "range",
+      "attributes": {
+        "Action Correctness": "Correct Action",
+        "Incorrect Action Explanation": "none",
+        "Incorrect Action Corrected by": "none",
+        "Verb": "grab",
+        "Adjective": "old",
+        "Noun": "sd_card",
+        "adverbial": "none"
+      },
+      "end": 229.097
+    },
+    {
+      "id": 115,
+      "label": "Fine grained action",
+      "start": 229.224,
+      "type": "range",
+      "attributes": {
+        "Action Correctness": "Correct Action",
+        "Incorrect Action Explanation": "none",
+        "Incorrect Action Corrected by": "none",
+        "Verb": "withdraw",
+        "Adjective": "old",
+        "Noun": "sd_card",
+        "adverbial": "none"
+      },
+      "end": 230.6
+    },
+    {
+      "id": 129,
+      "label": "Conversation",
+      "start": 231.299,
+      "type": "range",
+      "attributes": {
+        "Conversation Purpose": "instructor-start-conversation_confirming the previous action",
+        "sequence": "none",
+        "Transcription": "Ok",
+        "Transcription Confidence": "none"
+      },
+      "end": 231.369
+    },
+    {
+      "id": 116,
+      "label": "Conversation",
+      "start": 231.436,
+      "type": "range",
+      "attributes": {
+        "Conversation Purpose": "instructor-start-conversation_describing high-level instruction",
+        "Transcription": "now please turn on the switch."
+      },
+      "end": 233.356
+    },
+    {
+      "id": 117,
+      "label": "Coarse grained action",
+      "start": 234.2,
+      "type": "range",
+      "attributes": {
+        "Action sentence": "The student turns on the Nintendo switch with the off/on  button.",
+        "Verb": "turn_on",
+        "Noun": "nintendo_switch"
+      },
+      "end": 241.3
+    },
+    {
+      "id": 118,
+      "label": "Fine grained action",
+      "start": 234.2,
+      "type": "range",
+      "attributes": {
+        "Action Correctness": "Correct Action",
+        "Incorrect Action Explanation": "none",
+        "Incorrect Action Corrected by": "none",
+        "Verb": "inspect",
+        "Adjective": "none",
+        "Noun": "nintendo_switch",
+        "adverbial": "none"
+      },
+      "end": 235.797
+    },
+    {
+      "id": 119,
+      "label": "Fine grained action",
+      "start": 235.947,
+      "type": "range",
+      "attributes": {
+        "Action Correctness": "Correct Action",
+        "Incorrect Action Explanation": "none",
+        "Incorrect Action Corrected by": "none",
+        "Verb": "push",
+        "Adjective": "none",
+        "Noun": "power_button",
+        "adverbial": "none"
+      },
+      "end": 239.7
+    },
+    {
+      "id": 120,
+      "label": "Conversation",
+      "start": 243.8,
+      "type": "range",
+      "attributes": {
+        "Conversation Purpose": "instructor-start-conversation_describing high-level instruction",
+        "Transcription": "And please turn it off by pressing it longer."
+      },
+      "end": 247.035
+    },
+    {
+      "id": 122,
+      "label": "Coarse grained action",
+      "start": 246.1,
+      "type": "range",
+      "attributes": {
+        "Action sentence": "The student turns off the Nintendo switch with the off/on button.",
+        "Verb": "turn_off",
+        "Noun": "nintendo_switch"
+      },
+      "end": 253.2
+    },
+    {
+      "id": 123,
+      "label": "Fine grained action",
+      "start": 246.6,
+      "type": "range",
+      "attributes": {
+        "Action Correctness": "Correct Action",
+        "Incorrect Action Explanation": "none",
+        "Incorrect Action Corrected by": "none",
+        "Verb": "push",
+        "Adjective": "none",
+        "Noun": "power_button",
+        "adverbial": "none"
+      },
+      "end": 250.5
+    },
+    {
+      "id": 124,
+      "label": "Conversation",
+      "start": 250.116,
+      "type": "range",
+      "attributes": {
+        "Conversation Purpose": "instructor-start-conversation_confirming the previous action",
+        "Transcription": "Oh good."
+      },
+      "end": 250.876
+    },
+    {
+      "id": 125,
+      "label": "Conversation",
+      "start": 251.766,
+      "type": "range",
+      "attributes": {
+        "Conversation Purpose": "instructor-start-conversation_closing remarks",
+        "Transcription": "Now you can leave it aside and stop the recording."
+      },
+      "end": 254.816
+    }
+  ],
+  "taskId": "63dadeeb4cc12c20152c21f1",
+  "taskType": "setup switch",
+  "video_name": "z210-sep-29-22-switch"
+}

@@ -1,0 +1,778 @@
+{
+  "batch": "202301_2221_10fps",
+  "videoMetadata": {
+    "audio": {
+      "codec": "aac",
+      "bitrate": "70",
+      "sample_rate": 48000,
+      "stream": 0,
+      "channels": {
+        "raw": "mono",
+        "value": 1
+      }
+    },
+    "video": {
+      "container": "mov",
+      "bitrate": 3101,
+      "stream": 0,
+      "codec": "h264",
+      "resolution": {
+        "w": 896,
+        "h": 504
+      },
+      "resolutionSquare": {
+        "w": 896,
+        "h": 504
+      },
+      "aspect": {
+        "x": 16,
+        "y": 9,
+        "string": "16:9",
+        "value": 1.7777777777777777
+      },
+      "rotate": 0,
+      "fps": 29.9,
+      "pixelString": "1:1",
+      "pixel": 1
+    },
+    "duration": {
+      "raw": "00:02:59.56",
+      "seconds": 179
+    }
+  },
+  "events": [
+    {
+      "id": 55,
+      "label": "Narration",
+      "start": 0,
+      "type": "range",
+      "attributes": {
+        "Long form description": "The student turns on the printer and loads the paper stack into the printer. The student opens the cartridge tray and replaces the first ink cartridge in the printer. The student replaces the second ink cartridge in the printer. The student replaces the third ink cartridge in the printer. The student replaces the fourth ink cartridge in the printer."
+      },
+      "end": 179.234
+    },
+    {
+      "id": 1,
+      "label": "Conversation",
+      "start": 1.2,
+      "type": "range",
+      "attributes": {
+        "Conversation Purpose": "instructor-start-conversation_opening remarks",
+        "sequence": "none",
+        "Transcription": "Hello, thank you for apointing our meeting. In front of you, you´ll see a laser printer. We'll be using it for this task.",
+        "Transcription Confidence": "none"
+      },
+      "end": 8.371
+    },
+    {
+      "id": 2,
+      "label": "Conversation",
+      "start": 8.447,
+      "type": "range",
+      "attributes": {
+        "Conversation Purpose": "instructor-start-conversation_describing high-level instruction",
+        "sequence": "none",
+        "Transcription": "First can you please wake the printer up from sleep.",
+        "Transcription Confidence": "none"
+      },
+      "end": 11.547
+    },
+    {
+      "id": 3,
+      "label": "Coarse grained action",
+      "start": 11.5,
+      "type": "range",
+      "attributes": {
+        "Action sentence": "The student turns on the printer.",
+        "Verb": "turn_on",
+        "Adjective": "none",
+        "Noun": "printer"
+      },
+      "end": 23.2
+    },
+    {
+      "id": 4,
+      "label": "Fine grained action",
+      "start": 12.2,
+      "type": "range",
+      "attributes": {
+        "Action Correctness": "Wrong Action, corrected by instructor verbally",
+        "Incorrect Action Explanation": "The student presses the wrong button.",
+        "Incorrect Action Corrected by": "5",
+        "Verb": "press",
+        "Adjective": "white",
+        "Noun": "button",
+        "adverbial": "none"
+      },
+      "end": 13.4
+    },
+    {
+      "id": 5,
+      "label": "Conversation",
+      "start": 13.588,
+      "type": "range",
+      "attributes": {
+        "Conversation Purpose": "instructor-start-conversation_correct the wrong action",
+        "sequence": "4",
+        "Transcription": "To wake the printer from sleep please use the moon button on the top right.",
+        "Transcription Confidence": "none"
+      },
+      "end": 17.418
+    },
+    {
+      "id": 6,
+      "label": "Fine grained action",
+      "start": 16.1,
+      "type": "range",
+      "attributes": {
+        "Action Correctness": "Correct Action",
+        "Verb": "press",
+        "Adjective": "blue",
+        "Noun": "button",
+        "Incorrect Action Explanation": "none",
+        "Incorrect Action Corrected by": "none",
+        "adverbial": "none"
+      },
+      "end": 17.2
+    },
+    {
+      "id": 7,
+      "label": "Conversation",
+      "start": 18.041,
+      "type": "range",
+      "attributes": {
+        "Conversation Purpose": "instructor-start-conversation_adjusting to capture better quality video",
+        "sequence": "none",
+        "Transcription": "Please make sure both of you hands within the camera view.",
+        "Transcription Confidence": "none"
+      },
+      "end": 21.212
+    },
+    {
+      "id": 8,
+      "label": "Conversation",
+      "start": 21.612,
+      "type": "range",
+      "attributes": {
+        "Conversation Purpose": "instructor-start-conversation_describing high-level instruction",
+        "sequence": "none",
+        "Transcription": "Next, please put the printer back into sl-sleep.",
+        "Transcription Confidence": "none"
+      },
+      "end": 25.53
+    },
+    {
+      "id": 10,
+      "label": "Coarse grained action",
+      "start": 24.124,
+      "type": "range",
+      "attributes": {
+        "Action sentence": "The student turns off the printer.",
+        "Verb": "turn_off",
+        "Adjective": "none",
+        "Noun": "printer"
+      },
+      "end": 33.024
+    },
+    {
+      "id": 9,
+      "label": "Fine grained action",
+      "start": 24.3,
+      "type": "range",
+      "attributes": {
+        "Action Correctness": "Correct Action",
+        "Verb": "press",
+        "Adjective": "black",
+        "Noun": "button",
+        "Incorrect Action Explanation": "none",
+        "Incorrect Action Corrected by": "none",
+        "adverbial": "none"
+      },
+      "end": 25.3
+    },
+    {
+      "id": 56,
+      "label": "Fine grained action",
+      "start": 27.585,
+      "type": "range",
+      "attributes": {
+        "Action Correctness": "Wrong Action, corrected by instructor verbally",
+        "Incorrect Action Explanation": "The student tries the press\nthe moon_button again.",
+        "Incorrect Action Corrected by": "11",
+        "Verb": "touch",
+        "Adjective": "none",
+        "Noun": "moon_button",
+        "adverbial": "none"
+      },
+      "end": 28.735
+    },
+    {
+      "id": 11,
+      "label": "Conversation",
+      "start": 28.3,
+      "type": "range",
+      "attributes": {
+        "Conversation Purpose": "instructor-start-conversation_correct the wrong action",
+        "sequence": "56",
+        "Transcription": "Please wait for the printer closed.",
+        "Transcription Confidence": "none"
+      },
+      "end": 30.7
+    },
+    {
+      "id": 12,
+      "label": "Conversation",
+      "start": 31.6,
+      "type": "range",
+      "attributes": {
+        "Conversation Purpose": "instructor-start-conversation_describing high-level instruction",
+        "sequence": "none",
+        "Transcription": "Next, please load paper in the printer.",
+        "Transcription Confidence": "none"
+      },
+      "end": 34.153
+    },
+    {
+      "id": 14,
+      "label": "Coarse grained action",
+      "start": 33.694,
+      "type": "range",
+      "attributes": {
+        "Action sentence": "The student loads the paper stack into the printer.",
+        "Verb": "load",
+        "Adjective": "none",
+        "Noun": "paper_stack"
+      },
+      "end": 60.394
+    },
+    {
+      "id": 13,
+      "label": "Fine grained action",
+      "start": 34.1,
+      "type": "range",
+      "attributes": {
+        "Action Correctness": "Correct Action",
+        "Verb": "approach",
+        "Noun": "paper_tray",
+        "Incorrect Action Explanation": "none",
+        "Incorrect Action Corrected by": "none",
+        "Adjective": "none",
+        "adverbial": "none"
+      },
+      "end": 36.9
+    },
+    {
+      "id": 15,
+      "label": "Fine grained action",
+      "start": 39.2,
+      "type": "range",
+      "attributes": {
+        "Action Correctness": "Correct Action",
+        "Verb": "open",
+        "Adjective": "white",
+        "Noun": "paper_tray",
+        "Incorrect Action Explanation": "none",
+        "Incorrect Action Corrected by": "none",
+        "adverbial": "none"
+      },
+      "end": 41.7
+    },
+    {
+      "id": 16,
+      "label": "Fine grained action",
+      "start": 43.1,
+      "type": "range",
+      "attributes": {
+        "Action Correctness": "Correct Action",
+        "Verb": "grab",
+        "Adjective": "white",
+        "Noun": "paper_stack",
+        "Incorrect Action Explanation": "none",
+        "Incorrect Action Corrected by": "none",
+        "adverbial": "none"
+      },
+      "end": 46.7
+    },
+    {
+      "id": 17,
+      "label": "Fine grained action",
+      "start": 47.1,
+      "type": "range",
+      "attributes": {
+        "Action Correctness": "Correct Action",
+        "Verb": "place",
+        "Adjective": "white",
+        "Noun": "paper_stack",
+        "Incorrect Action Explanation": "none",
+        "Incorrect Action Corrected by": "none",
+        "adverbial": "none"
+      },
+      "end": 55.8
+    },
+    {
+      "id": 18,
+      "label": "Fine grained action",
+      "start": 57.1,
+      "type": "range",
+      "attributes": {
+        "Action Correctness": "Correct Action",
+        "Verb": "close",
+        "Adjective": "white",
+        "Noun": "paper_tray",
+        "Incorrect Action Explanation": "none",
+        "Incorrect Action Corrected by": "none",
+        "adverbial": "none"
+      },
+      "end": 60.4
+    },
+    {
+      "id": 19,
+      "label": "Conversation",
+      "start": 61.3,
+      "type": "range",
+      "attributes": {
+        "Conversation Purpose": "instructor-start-conversation_describing high-level instruction",
+        "sequence": "none",
+        "Transcription": "Please change the ink cartridges in the printer.",
+        "Transcription Confidence": "none"
+      },
+      "end": 64.647
+    },
+    {
+      "id": 27,
+      "label": "Coarse grained action",
+      "start": 66.699,
+      "type": "range",
+      "attributes": {
+        "Action sentence": "The student replaces the ink cartridge in the printer.",
+        "Verb": "exchange",
+        "Adjective": "none",
+        "Noun": "ink_cartridge"
+      },
+      "end": 174.753
+    },
+    {
+      "id": 23,
+      "label": "Conversation",
+      "start": 67.1,
+      "type": "range",
+      "attributes": {
+        "Conversation Purpose": "instructor-start-conversation_follow-up instruction",
+        "sequence": "none",
+        "Transcription": "Open the door, please, pull  on them out using the two notches on the sides.",
+        "Transcription Confidence": "none"
+      },
+      "end": 72.3
+    },
+    {
+      "id": 22,
+      "label": "Fine grained action",
+      "start": 67.2,
+      "type": "range",
+      "attributes": {
+        "Action Correctness": "Correct Action",
+        "Verb": "inspect",
+        "Adjective": "white",
+        "Noun": "cartridge_gate",
+        "Incorrect Action Explanation": "none",
+        "Incorrect Action Corrected by": "none",
+        "adverbial": "none"
+      },
+      "end": 69.6
+    },
+    {
+      "id": 24,
+      "label": "Fine grained action",
+      "start": 73.1,
+      "type": "range",
+      "attributes": {
+        "Action Correctness": "Correct Action",
+        "Verb": "open",
+        "Adjective": "white",
+        "Noun": "cartridge_gate",
+        "Incorrect Action Explanation": "none",
+        "Incorrect Action Corrected by": "none",
+        "adverbial": "none"
+      },
+      "end": 78.8
+    },
+    {
+      "id": 25,
+      "label": "Fine grained action",
+      "start": 83.2,
+      "type": "range",
+      "attributes": {
+        "Action Correctness": "Correct Action",
+        "Verb": "grab",
+        "Adjective": "first",
+        "Noun": "ink_cartridge",
+        "Incorrect Action Explanation": "none",
+        "Incorrect Action Corrected by": "none",
+        "adverbial": "none"
+      },
+      "end": 85.8
+    },
+    {
+      "id": 26,
+      "label": "Conversation",
+      "start": 83.3,
+      "type": "range",
+      "attributes": {
+        "Conversation Purpose": "instructor-start-conversation_describing high-level instruction",
+        "sequence": "none",
+        "Transcription": "Remove the ink, please go on.",
+        "Transcription Confidence": "none"
+      },
+      "end": 86.194
+    },
+    {
+      "id": 29,
+      "label": "Fine grained action",
+      "start": 86.2,
+      "type": "range",
+      "attributes": {
+        "Action Correctness": "Correct Action",
+        "Verb": "withdraw",
+        "Adjective": "first",
+        "Noun": "ink_cartridge",
+        "Incorrect Action Explanation": "none",
+        "Incorrect Action Corrected by": "none",
+        "adverbial": "none"
+      },
+      "end": 91.8
+    },
+    {
+      "id": 30,
+      "label": "Fine grained action",
+      "start": 92.1,
+      "type": "range",
+      "attributes": {
+        "Action Correctness": "Correct Action",
+        "Verb": "place",
+        "Adjective": "first",
+        "Noun": "ink_cartridge",
+        "Incorrect Action Explanation": "none",
+        "Incorrect Action Corrected by": "none",
+        "adverbial": "none"
+      },
+      "end": 95.4
+    },
+    {
+      "id": 31,
+      "label": "Fine grained action",
+      "start": 97.2,
+      "type": "range",
+      "attributes": {
+        "Action Correctness": "Correct Action",
+        "Verb": "grab",
+        "Adjective": "new",
+        "Noun": "ink_cartridge",
+        "Incorrect Action Explanation": "none",
+        "Incorrect Action Corrected by": "none",
+        "adverbial": "none"
+      },
+      "end": 99.796
+    },
+    {
+      "id": 32,
+      "label": "Fine grained action",
+      "start": 99.882,
+      "type": "range",
+      "attributes": {
+        "Action Correctness": "Wrong Action, corrected by instructor verbally",
+        "Incorrect Action Explanation": "The student should rotate the ink_cartridge with the flat end facing upward.",
+        "Incorrect Action Corrected by": "33",
+        "Verb": "insert",
+        "Adjective": "new",
+        "Noun": "ink_cartridge",
+        "adverbial": "none"
+      },
+      "end": 102.5
+    },
+    {
+      "id": 33,
+      "label": "Conversation",
+      "start": 100.753,
+      "type": "range",
+      "attributes": {
+        "Conversation Purpose": "instructor-start-conversation_correct the wrong action",
+        "sequence": "32",
+        "Transcription": "Please rotate the cartdrige such as that the flat end is facing down.",
+        "Transcription Confidence": "none"
+      },
+      "end": 105.4
+    },
+    {
+      "id": 34,
+      "label": "Fine grained action",
+      "start": 109.1,
+      "type": "range",
+      "attributes": {
+        "Action Correctness": "Correct Action",
+        "Verb": "grab",
+        "Adjective": "second",
+        "Noun": "ink_cartridge",
+        "Incorrect Action Explanation": "none",
+        "Incorrect Action Corrected by": "none",
+        "adverbial": "none"
+      },
+      "end": 110.125
+    },
+    {
+      "id": 36,
+      "label": "Fine grained action",
+      "start": 110.2,
+      "type": "range",
+      "attributes": {
+        "Action Correctness": "Correct Action",
+        "Verb": "withdraw",
+        "Adjective": "second",
+        "Noun": "ink_cartridge",
+        "Incorrect Action Explanation": "none",
+        "Incorrect Action Corrected by": "none",
+        "adverbial": "none"
+      },
+      "end": 112.3
+    },
+    {
+      "id": 37,
+      "label": "Fine grained action",
+      "start": 114.1,
+      "type": "range",
+      "attributes": {
+        "Action Correctness": "Correct Action",
+        "Verb": "place",
+        "Adjective": "second",
+        "Noun": "ink_cartridge",
+        "Incorrect Action Explanation": "none",
+        "Incorrect Action Corrected by": "none",
+        "adverbial": "none"
+      },
+      "end": 117.8
+    },
+    {
+      "id": 38,
+      "label": "Fine grained action",
+      "start": 123.2,
+      "type": "range",
+      "attributes": {
+        "Action Correctness": "Correct Action",
+        "Verb": "grab",
+        "Adjective": "new",
+        "Noun": "ink_cartridge",
+        "Incorrect Action Explanation": "none",
+        "Incorrect Action Corrected by": "none",
+        "adverbial": "none"
+      },
+      "end": 125.8
+    },
+    {
+      "id": 39,
+      "label": "Fine grained action",
+      "start": 126.1,
+      "type": "range",
+      "attributes": {
+        "Action Correctness": "Correct Action",
+        "Verb": "insert",
+        "Adjective": "new",
+        "Noun": "ink_cartridge",
+        "Incorrect Action Explanation": "none",
+        "Incorrect Action Corrected by": "none",
+        "adverbial": "none"
+      },
+      "end": 130.063
+    },
+    {
+      "id": 41,
+      "label": "Fine grained action",
+      "start": 131.1,
+      "type": "range",
+      "attributes": {
+        "Action Correctness": "Correct Action",
+        "Verb": "grab",
+        "Adjective": "third",
+        "Noun": "ink_cartridge",
+        "Incorrect Action Explanation": "none",
+        "Incorrect Action Corrected by": "none",
+        "adverbial": "none"
+      },
+      "end": 131.9
+    },
+    {
+      "id": 42,
+      "label": "Fine grained action",
+      "start": 132.1,
+      "type": "range",
+      "attributes": {
+        "Action Correctness": "Correct Action",
+        "Verb": "withdraw",
+        "Adjective": "third",
+        "Noun": "ink_cartridge",
+        "Incorrect Action Explanation": "none",
+        "Incorrect Action Corrected by": "none",
+        "adverbial": "none"
+      },
+      "end": 134.9
+    },
+    {
+      "id": 43,
+      "label": "Fine grained action",
+      "start": 137.2,
+      "type": "range",
+      "attributes": {
+        "Action Correctness": "Correct Action",
+        "Verb": "place",
+        "Adjective": "third",
+        "Noun": "ink_cartridge",
+        "Incorrect Action Explanation": "none",
+        "Incorrect Action Corrected by": "none",
+        "adverbial": "none"
+      },
+      "end": 139.6
+    },
+    {
+      "id": 44,
+      "label": "Fine grained action",
+      "start": 143.2,
+      "type": "range",
+      "attributes": {
+        "Action Correctness": "Correct Action",
+        "Verb": "grab",
+        "Adjective": "new",
+        "Noun": "ink_cartridge",
+        "Incorrect Action Explanation": "none",
+        "Incorrect Action Corrected by": "none",
+        "adverbial": "none"
+      },
+      "end": 148.8
+    },
+    {
+      "id": 45,
+      "label": "Fine grained action",
+      "start": 149.2,
+      "type": "range",
+      "attributes": {
+        "Action Correctness": "Correct Action",
+        "Verb": "insert",
+        "Adjective": "new",
+        "Noun": "ink_cartridge",
+        "Incorrect Action Explanation": "none",
+        "Incorrect Action Corrected by": "none",
+        "adverbial": "none"
+      },
+      "end": 153.204
+    },
+    {
+      "id": 46,
+      "label": "Fine grained action",
+      "start": 154.1,
+      "type": "range",
+      "attributes": {
+        "Action Correctness": "Correct Action",
+        "Verb": "grab",
+        "Adjective": "fourth",
+        "Noun": "ink_cartridge",
+        "Incorrect Action Explanation": "none",
+        "Incorrect Action Corrected by": "none",
+        "adverbial": "none"
+      },
+      "end": 154.9
+    },
+    {
+      "id": 48,
+      "label": "Fine grained action",
+      "start": 155.1,
+      "type": "range",
+      "attributes": {
+        "Action Correctness": "Correct Action",
+        "Verb": "withdraw",
+        "Adjective": "fourth",
+        "Noun": "ink_cartridge",
+        "Incorrect Action Explanation": "none",
+        "Incorrect Action Corrected by": "none",
+        "adverbial": "none"
+      },
+      "end": 159.6
+    },
+    {
+      "id": 49,
+      "label": "Fine grained action",
+      "start": 160.2,
+      "type": "range",
+      "attributes": {
+        "Action Correctness": "Correct Action",
+        "Verb": "place",
+        "Adjective": "fourth",
+        "Noun": "ink_cartridge",
+        "Incorrect Action Explanation": "none",
+        "Incorrect Action Corrected by": "none",
+        "adverbial": "none"
+      },
+      "end": 162.4
+    },
+    {
+      "id": 50,
+      "label": "Fine grained action",
+      "start": 164.1,
+      "type": "range",
+      "attributes": {
+        "Action Correctness": "Correct Action",
+        "Verb": "grab",
+        "Adjective": "new",
+        "Noun": "ink_cartridge",
+        "Incorrect Action Explanation": "none",
+        "Incorrect Action Corrected by": "none",
+        "adverbial": "none"
+      },
+      "end": 165.5
+    },
+    {
+      "id": 51,
+      "label": "Fine grained action",
+      "start": 165.688,
+      "type": "range",
+      "attributes": {
+        "Action Correctness": "Correct Action",
+        "Verb": "insert",
+        "Adjective": "new",
+        "Noun": "ink_cartridge",
+        "Incorrect Action Explanation": "none",
+        "Incorrect Action Corrected by": "none",
+        "adverbial": "none"
+      },
+      "end": 171.7
+    },
+    {
+      "id": 52,
+      "label": "Fine grained action",
+      "start": 172.218,
+      "type": "range",
+      "attributes": {
+        "Action Correctness": "Correct Action",
+        "Verb": "close",
+        "Adjective": "white",
+        "Noun": "cartridge_gate",
+        "Incorrect Action Explanation": "none",
+        "Incorrect Action Corrected by": "none",
+        "adverbial": "none"
+      },
+      "end": 174.518
+    },
+    {
+      "id": 53,
+      "label": "Conversation",
+      "start": 174.476,
+      "type": "range",
+      "attributes": {
+        "Conversation Purpose": "instructor-start-conversation_closing remarks",
+        "sequence": "none",
+        "Transcription": "That was everything for this task, you may now press the stop buttom.",
+        "Transcription Confidence": "none"
+      },
+      "end": 178.488
+    }
+  ],
+  "taskId": "63dadf4df865ed7082a2b0c0",
+  "taskType": "setup big printer",
+  "video_name": "z054-june-27-22-printer_big"
+}

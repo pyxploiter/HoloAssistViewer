@@ -1,0 +1,752 @@
+{
+  "batch": "202301_2221_10fps",
+  "videoMetadata": {
+    "audio": {
+      "codec": "aac",
+      "bitrate": "69",
+      "sample_rate": 48000,
+      "stream": 0,
+      "channels": {
+        "raw": "mono",
+        "value": 1
+      }
+    },
+    "video": {
+      "container": "mov",
+      "bitrate": 2369,
+      "stream": 0,
+      "codec": "h264",
+      "resolution": {
+        "w": 896,
+        "h": 504
+      },
+      "resolutionSquare": {
+        "w": 896,
+        "h": 504
+      },
+      "aspect": {
+        "x": 16,
+        "y": 9,
+        "string": "16:9",
+        "value": 1.7777777777777777
+      },
+      "rotate": 0,
+      "fps": 29.24,
+      "pixelString": "1:1",
+      "pixel": 1
+    },
+    "duration": {
+      "raw": "00:01:55.05",
+      "seconds": 115
+    }
+  },
+  "events": [
+    {
+      "id": 1,
+      "label": "Narration",
+      "start": 0.002,
+      "type": "range",
+      "attributes": {
+        "Long form description": "The student turns on the printer from the sleeping mode by pressing the power button. Next, the student turns off the printer and puts it back to sleep mode. Finally, the student add the paper stack in the paper tray of the printer"
+      },
+      "end": 114.002
+    },
+    {
+      "id": 2,
+      "label": "Conversation",
+      "start": 0.006,
+      "type": "range",
+      "attributes": {
+        "Conversation Purpose": "instructor-start-conversation_opening remarks",
+        "sequence": "none",
+        "Transcription": "Yes. Okay.",
+        "Transcription Confidence": "none"
+      },
+      "end": 3.018
+    },
+    {
+      "id": 3,
+      "label": "Conversation",
+      "start": 5.104,
+      "type": "range",
+      "attributes": {
+        "Conversation Purpose": "instructor-start-conversation_describing high-level instruction",
+        "sequence": "none",
+        "Transcription": "Go ahead, and wake up the printer.",
+        "Transcription Confidence": "none"
+      },
+      "end": 8.8
+    },
+    {
+      "id": 4,
+      "label": "Coarse grained action",
+      "start": 9.4,
+      "type": "range",
+      "attributes": {
+        "Action sentence": "The student turns on the printer.",
+        "Verb": "turn_on",
+        "Adjective": "none",
+        "Noun": "printer"
+      },
+      "end": 35.2
+    },
+    {
+      "id": 6,
+      "label": "Fine grained action",
+      "start": 9.786,
+      "type": "range",
+      "attributes": {
+        "Action Correctness": "Wrong Action, corrected by instructor verbally",
+        "Incorrect Action Explanation": "The student attempts to turn on the printer by touching the touch screen multiple times.",
+        "Incorrect Action Corrected by": "7",
+        "Verb": "touch",
+        "Adjective": "none",
+        "Noun": "touch_screen",
+        "adverbial": "none"
+      },
+      "end": 13.48
+    },
+    {
+      "id": 7,
+      "label": "Conversation",
+      "start": 13.659,
+      "type": "range",
+      "attributes": {
+        "Conversation Purpose": "instructor-start-conversation_correct the wrong action",
+        "sequence": "6",
+        "Transcription": "Put your ...",
+        "Transcription Confidence": "none"
+      },
+      "end": 14.592
+    },
+    {
+      "id": 8,
+      "label": "Fine grained action",
+      "start": 13.855,
+      "type": "range",
+      "attributes": {
+        "Action Correctness": "Wrong Action, corrected by instructor verbally",
+        "Incorrect Action Explanation": "The student can't find the turn on button.",
+        "Incorrect Action Corrected by": "10",
+        "Verb": "inspect",
+        "Adjective": "none",
+        "Noun": "button",
+        "adverbial": "none"
+      },
+      "end": 18.696
+    },
+    {
+      "id": 9,
+      "label": "Conversation",
+      "start": 14.6,
+      "type": "range",
+      "attributes": {
+        "Conversation Purpose": "instructor-start-conversation_confirming the previous action",
+        "sequence": "none",
+        "Transcription": "Yeah.",
+        "Transcription Confidence": "none"
+      },
+      "end": 14.986
+    },
+    {
+      "id": 10,
+      "label": "Conversation",
+      "start": 15.1,
+      "type": "range",
+      "attributes": {
+        "Conversation Purpose": "instructor-start-conversation_correct the wrong action",
+        "sequence": "8",
+        "Transcription": "Go to that, mmm, glowing button.",
+        "Transcription Confidence": "none"
+      },
+      "end": 18.6
+    },
+    {
+      "id": 11,
+      "label": "Fine grained action",
+      "start": 18.789,
+      "type": "range",
+      "attributes": {
+        "Action Correctness": "Wrong Action, corrected by instructor verbally",
+        "Incorrect Action Explanation": "The student clicks the wrong button.",
+        "Incorrect Action Corrected by": "12",
+        "Verb": "press",
+        "Adjective": "green",
+        "Noun": "button",
+        "adverbial": "none"
+      },
+      "end": 20.016
+    },
+    {
+      "id": 12,
+      "label": "Conversation",
+      "start": 20.596,
+      "type": "range",
+      "attributes": {
+        "Conversation Purpose": "instructor-start-conversation_correct the wrong action",
+        "sequence": "11",
+        "Transcription": "Mmm, the top right corner.",
+        "Transcription Confidence": "none"
+      },
+      "end": 23.618
+    },
+    {
+      "id": 13,
+      "label": "Fine grained action",
+      "start": 26.288,
+      "type": "range",
+      "attributes": {
+        "Action Correctness": "Correct Action",
+        "Incorrect Action Explanation": "none",
+        "Incorrect Action Corrected by": "none",
+        "Verb": "press",
+        "Adjective": "none",
+        "Noun": "moon_button",
+        "adverbial": "none"
+      },
+      "end": 27.888
+    },
+    {
+      "id": 14,
+      "label": "Conversation",
+      "start": 26.674,
+      "type": "range",
+      "attributes": {
+        "Conversation Purpose": "instructor-start-conversation_confirming the previous action",
+        "sequence": "none",
+        "Transcription": "Yeah.",
+        "Transcription Confidence": "none"
+      },
+      "end": 27.5
+    },
+    {
+      "id": 16,
+      "label": "Conversation",
+      "start": 34.629,
+      "type": "range",
+      "attributes": {
+        "Conversation Purpose": "instructor-start-conversation_confirming the previous action",
+        "sequence": "none",
+        "Transcription": "Alright.",
+        "Transcription Confidence": "none"
+      },
+      "end": 35.5
+    },
+    {
+      "id": 17,
+      "label": "Conversation",
+      "start": 35.925,
+      "type": "range",
+      "attributes": {
+        "Conversation Purpose": "instructor-start-conversation_describing high-level instruction",
+        "sequence": "none",
+        "Transcription": "Now we are going to put it back into sleep mode.",
+        "Transcription Confidence": "none"
+      },
+      "end": 39
+    },
+    {
+      "id": 18,
+      "label": "Coarse grained action",
+      "start": 40.992,
+      "type": "range",
+      "attributes": {
+        "Action sentence": "The student turns off the printer.",
+        "Verb": "turn_off",
+        "Adjective": "none",
+        "Noun": "printer"
+      },
+      "end": 57.629
+    },
+    {
+      "id": 20,
+      "label": "Fine grained action",
+      "start": 41.11,
+      "type": "range",
+      "attributes": {
+        "Action Correctness": "Wrong Action, corrected by instructor verbally",
+        "Incorrect Action Explanation": "The student presses the blue button to turn off the printer but the instructor corrects him.",
+        "Incorrect Action Corrected by": "23",
+        "Verb": "press",
+        "Adjective": "none",
+        "Noun": "moon_button",
+        "adverbial": "none"
+      },
+      "end": 42.127
+    },
+    {
+      "id": 19,
+      "label": "Fine grained action",
+      "start": 42.287,
+      "type": "range",
+      "attributes": {
+        "Action Correctness": "Wrong Action, corrected by instructor verbally",
+        "Incorrect Action Explanation": "The student presses the blue button to turn off the printer but the instructor corrects him.",
+        "Incorrect Action Corrected by": "23",
+        "Verb": "press",
+        "Adjective": "none",
+        "Noun": "moon_button",
+        "adverbial": "none"
+      },
+      "end": 43.427
+    },
+    {
+      "id": 22,
+      "label": "Fine grained action",
+      "start": 44.69,
+      "type": "range",
+      "attributes": {
+        "Action Correctness": "Wrong Action, corrected by instructor verbally",
+        "Incorrect Action Explanation": "The student presses the blue button to turn off the printer but the instructor corrects him.",
+        "Incorrect Action Corrected by": "23",
+        "Verb": "press",
+        "Adjective": "none",
+        "Noun": "moon_button",
+        "adverbial": "none"
+      },
+      "end": 45.99
+    },
+    {
+      "id": 23,
+      "label": "Conversation",
+      "start": 46.984,
+      "type": "range",
+      "attributes": {
+        "Conversation Purpose": "instructor-start-conversation_correct the wrong action",
+        "sequence": "20,19,22",
+        "Transcription": "On screen, I believe there is a.",
+        "Transcription Confidence": "none"
+      },
+      "end": 50.8
+    },
+    {
+      "id": 24,
+      "label": "Fine grained action",
+      "start": 49.708,
+      "type": "range",
+      "attributes": {
+        "Action Correctness": "Wrong Action, corrected by student",
+        "Incorrect Action Explanation": "The student tries to turn off the printer by clicking on the touch screen, but touches the wrong place.",
+        "Incorrect Action Corrected by": "none",
+        "Verb": "tap",
+        "Adjective": "wrong",
+        "Noun": "touch_screen",
+        "adverbial": "none"
+      },
+      "end": 52.4
+    },
+    {
+      "id": 54,
+      "label": "Fine grained action",
+      "start": 52.775,
+      "type": "range",
+      "attributes": {
+        "Action Correctness": "Correct Action",
+        "Incorrect Action Explanation": "none",
+        "Incorrect Action Corrected by": "none",
+        "Verb": "tap",
+        "Adjective": "none",
+        "Noun": "touch_screen",
+        "adverbial": "none"
+      },
+      "end": 53.833
+    },
+    {
+      "id": 25,
+      "label": "Conversation",
+      "start": 53.237,
+      "type": "range",
+      "attributes": {
+        "Conversation Purpose": "instructor-start-conversation_confirming the previous action",
+        "sequence": "none",
+        "Transcription": "Yes. Yeah.",
+        "Transcription Confidence": "none"
+      },
+      "end": 54.184
+    },
+    {
+      "id": 27,
+      "label": "Conversation",
+      "start": 57.1,
+      "type": "range",
+      "attributes": {
+        "Conversation Purpose": "instructor-start-conversation_confirming the previous action",
+        "sequence": "none",
+        "Transcription": "Alright.",
+        "Transcription Confidence": "none"
+      },
+      "end": 57.8
+    },
+    {
+      "id": 28,
+      "label": "Conversation",
+      "start": 59.973,
+      "type": "range",
+      "attributes": {
+        "Conversation Purpose": "instructor-start-conversation_describing high-level instruction",
+        "sequence": "none",
+        "Transcription": "Now we are going to add paper.",
+        "Transcription Confidence": "none"
+      },
+      "end": 61.873
+    },
+    {
+      "id": 29,
+      "label": "Coarse grained action",
+      "start": 63.3,
+      "type": "range",
+      "attributes": {
+        "Action sentence": "The student loads a paper stack into the printer's paper tray.",
+        "Verb": "load",
+        "Adjective": "none",
+        "Noun": "paper_stack"
+      },
+      "end": 108.1
+    },
+    {
+      "id": 31,
+      "label": "Fine grained action",
+      "start": 65.2,
+      "type": "range",
+      "attributes": {
+        "Action Correctness": "Correct Action",
+        "Incorrect Action Explanation": "none",
+        "Incorrect Action Corrected by": "none",
+        "Verb": "grab",
+        "Adjective": "none",
+        "Noun": "paper_stack",
+        "adverbial": "none"
+      },
+      "end": 67.9
+    },
+    {
+      "id": 33,
+      "label": "Fine grained action",
+      "start": 71.237,
+      "type": "range",
+      "attributes": {
+        "Action Correctness": "Wrong Action, corrected by instructor verbally",
+        "Incorrect Action Explanation": "The student tries to open the wrong tray.",
+        "Incorrect Action Corrected by": "35",
+        "Verb": "lift",
+        "Adjective": "wrong",
+        "Noun": "paper_tray",
+        "adverbial": "none"
+      },
+      "end": 74.337
+    },
+    {
+      "id": 34,
+      "label": "Conversation",
+      "start": 73.581,
+      "type": "range",
+      "attributes": {
+        "Conversation Purpose": "student-start-conversation_other",
+        "sequence": "none",
+        "Transcription": "Okay",
+        "Transcription Confidence": "none",
+        "Conversation Purpose -- Other": "Affirmation"
+      },
+      "end": 74.357
+    },
+    {
+      "id": 35,
+      "label": "Conversation",
+      "start": 74.414,
+      "type": "range",
+      "attributes": {
+        "Conversation Purpose": "instructor-start-conversation_correct the wrong action",
+        "sequence": "33",
+        "Transcription": "Yep.",
+        "Transcription Confidence": "none"
+      },
+      "end": 75.306
+    },
+    {
+      "id": 37,
+      "label": "Fine grained action",
+      "start": 76.747,
+      "type": "range",
+      "attributes": {
+        "Action Correctness": "Wrong Action, corrected by instructor verbally",
+        "Incorrect Action Explanation": "The student opens the wrong tray and the instructor corrects him.",
+        "Incorrect Action Corrected by": "38",
+        "Verb": "open",
+        "Adjective": "top",
+        "Noun": "paper_tray",
+        "adverbial": "none"
+      },
+      "end": 79.4
+    },
+    {
+      "id": 38,
+      "label": "Conversation",
+      "start": 79.292,
+      "type": "range",
+      "attributes": {
+        "Conversation Purpose": "instructor-start-conversation_correct the wrong action",
+        "sequence": "37",
+        "Transcription": "Not that one.",
+        "Transcription Confidence": "none"
+      },
+      "end": 81.363
+    },
+    {
+      "id": 39,
+      "label": "Fine grained action",
+      "start": 79.896,
+      "type": "range",
+      "attributes": {
+        "Action Correctness": "Correct Action",
+        "Incorrect Action Explanation": "none",
+        "Incorrect Action Corrected by": "none",
+        "Verb": "close",
+        "Adjective": "fisrt",
+        "Noun": "paper_tray",
+        "adverbial": "none"
+      },
+      "end": 82.096
+    },
+    {
+      "id": 40,
+      "label": "Conversation",
+      "start": 82.1,
+      "type": "range",
+      "attributes": {
+        "Conversation Purpose": "instructor-start-conversation_follow-up instruction",
+        "sequence": "none",
+        "Transcription": "The one down.",
+        "Transcription Confidence": "none"
+      },
+      "end": 84.4
+    },
+    {
+      "id": 41,
+      "label": "Fine grained action",
+      "start": 83.19,
+      "type": "range",
+      "attributes": {
+        "Action Correctness": "Wrong Action, corrected by instructor verbally",
+        "Incorrect Action Explanation": "The student opens the wrong tray and the instructor corrects him.",
+        "Incorrect Action Corrected by": "42",
+        "Verb": "open",
+        "Adjective": "second",
+        "Noun": "paper_tray",
+        "adverbial": "none"
+      },
+      "end": 85.29
+    },
+    {
+      "id": 42,
+      "label": "Conversation",
+      "start": 85.855,
+      "type": "range",
+      "attributes": {
+        "Conversation Purpose": "instructor-start-conversation_correct the wrong action",
+        "sequence": "41,43",
+        "Transcription": "Uhmm.",
+        "Transcription Confidence": "none"
+      },
+      "end": 86.841
+    },
+    {
+      "id": 43,
+      "label": "Fine grained action",
+      "start": 85.896,
+      "type": "range",
+      "attributes": {
+        "Action Correctness": "Wrong Action, corrected by instructor verbally",
+        "Incorrect Action Explanation": "The student adds paper to the wrong tray.",
+        "Incorrect Action Corrected by": "42",
+        "Verb": "insert",
+        "Adjective": "none",
+        "Noun": "paper_stack",
+        "adverbial": "none"
+      },
+      "end": 87.597
+    },
+    {
+      "id": 55,
+      "label": "Fine grained action",
+      "start": 87.645,
+      "type": "range",
+      "attributes": {
+        "Action Correctness": "Correct Action",
+        "Incorrect Action Explanation": "none",
+        "Incorrect Action Corrected by": "none",
+        "Verb": "withdraw",
+        "Adjective": "none",
+        "Noun": "paper_stack",
+        "adverbial": "none"
+      },
+      "end": 88.286
+    },
+    {
+      "id": 44,
+      "label": "Fine grained action",
+      "start": 88.346,
+      "type": "range",
+      "attributes": {
+        "Action Correctness": "Correct Action",
+        "Incorrect Action Explanation": "none",
+        "Incorrect Action Corrected by": "none",
+        "Verb": "close",
+        "Adjective": "second",
+        "Noun": "paper_tray",
+        "adverbial": "none"
+      },
+      "end": 90.151
+    },
+    {
+      "id": 45,
+      "label": "Fine grained action",
+      "start": 92.033,
+      "type": "range",
+      "attributes": {
+        "Action Correctness": "Wrong Action, corrected by instructor verbally",
+        "Incorrect Action Explanation": "The student opens the wrong tray.",
+        "Incorrect Action Corrected by": "56",
+        "Verb": "open",
+        "Adjective": "third",
+        "Noun": "paper_tray",
+        "adverbial": "none"
+      },
+      "end": 94.733
+    },
+    {
+      "id": 56,
+      "label": "Conversation",
+      "start": 94.706,
+      "type": "range",
+      "attributes": {
+        "Conversation Purpose": "instructor-start-conversation_correct the wrong action",
+        "sequence": "45",
+        "Transcription": "Ummm.",
+        "Transcription Confidence": "none"
+      },
+      "end": 95.402
+    },
+    {
+      "id": 47,
+      "label": "Fine grained action",
+      "start": 95.149,
+      "type": "range",
+      "attributes": {
+        "Action Correctness": "Correct Action",
+        "Incorrect Action Explanation": "none",
+        "Incorrect Action Corrected by": "none",
+        "Verb": "open",
+        "Adjective": "forth",
+        "Noun": "paper_tray",
+        "adverbial": "none"
+      },
+      "end": 96.507
+    },
+    {
+      "id": 46,
+      "label": "Conversation",
+      "start": 96.263,
+      "type": "range",
+      "attributes": {
+        "Conversation Purpose": "instructor-start-conversation_confirming the previous action",
+        "sequence": "none",
+        "Transcription": "Yeah.",
+        "Transcription Confidence": "none"
+      },
+      "end": 97.478
+    },
+    {
+      "id": 48,
+      "label": "Fine grained action",
+      "start": 96.611,
+      "type": "range",
+      "attributes": {
+        "Action Correctness": "Correct Action",
+        "Incorrect Action Explanation": "none",
+        "Incorrect Action Corrected by": "none",
+        "Verb": "close",
+        "Adjective": "third",
+        "Noun": "paper_tray",
+        "adverbial": "none"
+      },
+      "end": 97.837
+    },
+    {
+      "id": 49,
+      "label": "Fine grained action",
+      "start": 99.1,
+      "type": "range",
+      "attributes": {
+        "Action Correctness": "Correct Action",
+        "Incorrect Action Explanation": "none",
+        "Incorrect Action Corrected by": "none",
+        "Verb": "pull",
+        "Adjective": "middle",
+        "Noun": "paper_tray",
+        "adverbial": "none"
+      },
+      "end": 100.256
+    },
+    {
+      "id": 50,
+      "label": "Fine grained action",
+      "start": 100.349,
+      "type": "range",
+      "attributes": {
+        "Action Correctness": "Correct Action",
+        "Incorrect Action Explanation": "none",
+        "Incorrect Action Corrected by": "none",
+        "Verb": "insert",
+        "Adjective": "none",
+        "Noun": "paper_stack",
+        "adverbial": "none"
+      },
+      "end": 102.6
+    },
+    {
+      "id": 51,
+      "label": "Fine grained action",
+      "start": 104.1,
+      "type": "range",
+      "attributes": {
+        "Action Correctness": "Correct Action",
+        "Incorrect Action Explanation": "none",
+        "Incorrect Action Corrected by": "none",
+        "Verb": "close",
+        "Adjective": "none",
+        "Noun": "paper_tray",
+        "adverbial": "none"
+      },
+      "end": 106.2
+    },
+    {
+      "id": 52,
+      "label": "Conversation",
+      "start": 110.085,
+      "type": "range",
+      "attributes": {
+        "Conversation Purpose": "instructor-start-conversation_confirming the previous action",
+        "sequence": "none",
+        "Transcription": "Alright, you're done.",
+        "Transcription Confidence": "none"
+      },
+      "end": 112.485
+    },
+    {
+      "id": 53,
+      "label": "Conversation",
+      "start": 112.506,
+      "type": "range",
+      "attributes": {
+        "Conversation Purpose": "instructor-start-conversation_closing remarks",
+        "sequence": "none",
+        "Transcription": "You can go ahead and push stop.",
+        "Transcription Confidence": "none"
+      },
+      "end": 115.006
+    }
+  ],
+  "taskId": "63dadeed4f9c89f558f9e9ee",
+  "taskType": "setup big printer",
+  "video_name": "R042-13July-BigPrinter"
+}

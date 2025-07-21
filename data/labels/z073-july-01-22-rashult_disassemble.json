@@ -1,0 +1,912 @@
+{
+  "batch": "202301_2221_10fps",
+  "videoMetadata": {
+    "audio": {
+      "codec": "aac",
+      "bitrate": "69",
+      "sample_rate": 48000,
+      "stream": 0,
+      "channels": {
+        "raw": "mono",
+        "value": 1
+      }
+    },
+    "video": {
+      "container": "mov",
+      "bitrate": 2637,
+      "stream": 0,
+      "codec": "h264",
+      "resolution": {
+        "w": 896,
+        "h": 504
+      },
+      "resolutionSquare": {
+        "w": 896,
+        "h": 504
+      },
+      "aspect": {
+        "x": 16,
+        "y": 9,
+        "string": "16:9",
+        "value": 1.7777777777777777
+      },
+      "rotate": 0,
+      "fps": 29.91,
+      "pixelString": "1:1",
+      "pixel": 1
+    },
+    "duration": {
+      "raw": "00:12:05.44",
+      "seconds": 725
+    }
+  },
+  "events": [
+    {
+      "id": 1,
+      "label": "Narration",
+      "start": 0.1,
+      "type": "range",
+      "attributes": {
+        "Long form description": "The student is instructed to disassemble a furniture. First, the student will have to unscrew with a wrench the screws that join the legs and the trays. Then, keep unscrewing the screws for each tray, and remove the bars and the brackets that keep them together. Then, remove the top trays, and unscrew the bottom screws of the bracket for each side. Finally, the student will unscrew the two base frames of the furniture and detach the side bars."
+      },
+      "end": 500.1
+    },
+    {
+      "id": 2,
+      "label": "Conversation",
+      "start": 1.115,
+      "type": "range",
+      "attributes": {
+        "Conversation Purpose": "instructor-start-conversation_describing high-level instruction",
+        "Transcription": "Now, please disassemble this shelf.",
+        "Transcription Confidence": "low-confidence-transcription"
+      },
+      "end": 3.814
+    },
+    {
+      "id": 4,
+      "label": "Coarse grained action",
+      "start": 5.927452813103941,
+      "type": "range",
+      "attributes": {
+        "Action sentence": "The student disassembles the first wheel of the rolling cart.",
+        "Verb": "disassemble",
+        "Adjective": "first",
+        "Noun": "wheel"
+      },
+      "end": 24.1
+    },
+    {
+      "id": 3,
+      "label": "Fine grained action",
+      "start": 6.1,
+      "type": "range",
+      "attributes": {
+        "Action Correctness": "Correct Action",
+        "Incorrect Action Explanation": "none",
+        "Incorrect Action Corrected by": "none",
+        "Verb": "flip",
+        "Adjective": "none",
+        "Noun": "utility_cart",
+        "adverbial": "none"
+      },
+      "end": 10.9
+    },
+    {
+      "id": 5,
+      "label": "Fine grained action",
+      "start": 13.1,
+      "type": "range",
+      "attributes": {
+        "Action Correctness": "Correct Action",
+        "Incorrect Action Explanation": "none",
+        "Incorrect Action Corrected by": "none",
+        "Verb": "unscrew",
+        "Adjective": "first",
+        "Noun": "wheel",
+        "adverbial": "none"
+      },
+      "end": 22.7
+    },
+    {
+      "id": 6,
+      "label": "Coarse grained action",
+      "start": 25.4,
+      "type": "range",
+      "attributes": {
+        "Action sentence": "The student disassembles the second wheel of the rolling cart.",
+        "Verb": "disassemble",
+        "Adjective": "second",
+        "Noun": "screw"
+      },
+      "end": 37.3
+    },
+    {
+      "id": 7,
+      "label": "Fine grained action",
+      "start": 26.2,
+      "type": "range",
+      "attributes": {
+        "Action Correctness": "Correct Action",
+        "Incorrect Action Explanation": "none",
+        "Incorrect Action Corrected by": "none",
+        "Verb": "unscrew",
+        "Adjective": "second",
+        "Noun": "wheel",
+        "adverbial": "none"
+      },
+      "end": 35.5
+    },
+    {
+      "id": 8,
+      "label": "Coarse grained action",
+      "start": 37.4,
+      "type": "range",
+      "attributes": {
+        "Action sentence": "The student disassembles the third wheel of the rolling cart.",
+        "Verb": "disassemble",
+        "Adjective": "third",
+        "Noun": "wheel"
+      },
+      "end": 46.1
+    },
+    {
+      "id": 9,
+      "label": "Fine grained action",
+      "start": 38.2,
+      "type": "range",
+      "attributes": {
+        "Action Correctness": "Correct Action",
+        "Incorrect Action Explanation": "none",
+        "Incorrect Action Corrected by": "none",
+        "Verb": "unscrew",
+        "Adjective": "third",
+        "Noun": "wheel",
+        "adverbial": "none"
+      },
+      "end": 44.4
+    },
+    {
+      "id": 10,
+      "label": "Fine grained action",
+      "start": 47.2,
+      "type": "range",
+      "attributes": {
+        "Action Correctness": "Correct Action",
+        "Incorrect Action Explanation": "none",
+        "Incorrect Action Corrected by": "none",
+        "Verb": "unscrew",
+        "Adjective": "fourth",
+        "Noun": "wheel",
+        "adverbial": "none"
+      },
+      "end": 56.4
+    },
+    {
+      "id": 11,
+      "label": "Coarse grained action",
+      "start": 47.3,
+      "type": "range",
+      "attributes": {
+        "Action sentence": "The student disassembles the fourth wheel of the rolling cart.",
+        "Verb": "disassemble",
+        "Adjective": "fourth",
+        "Noun": "wheel"
+      },
+      "end": 57.1
+    },
+    {
+      "id": 12,
+      "label": "Coarse grained action",
+      "start": 60.4,
+      "type": "range",
+      "attributes": {
+        "Action sentence": "The student unscrews the first screw of the rolling cart's tray.",
+        "Verb": "unscrew",
+        "Adjective": "first",
+        "Noun": "grid_tray"
+      },
+      "end": 222.1
+    },
+    {
+      "id": 13,
+      "label": "Fine grained action",
+      "start": 62.2,
+      "type": "range",
+      "attributes": {
+        "Action Correctness": "Correct Action",
+        "Incorrect Action Explanation": "none",
+        "Incorrect Action Corrected by": "none",
+        "Verb": "flip",
+        "Adjective": "none",
+        "Noun": "utility_cart",
+        "adverbial": "none"
+      },
+      "end": 66.8
+    },
+    {
+      "id": 14,
+      "label": "Fine grained action",
+      "start": 73.2,
+      "type": "range",
+      "attributes": {
+        "Action Correctness": "Correct Action",
+        "Incorrect Action Explanation": "none",
+        "Incorrect Action Corrected by": "none",
+        "Verb": "unscrew",
+        "Adjective": "first",
+        "Noun": "screw",
+        "adverbial": "none"
+      },
+      "end": 170.3
+    },
+    {
+      "id": 15,
+      "label": "Fine grained action",
+      "start": 172.2,
+      "type": "range",
+      "attributes": {
+        "Action Correctness": "Correct Action",
+        "Incorrect Action Explanation": "none",
+        "Incorrect Action Corrected by": "none",
+        "Verb": "unscrew",
+        "Adjective": "first",
+        "Noun": "screw",
+        "adverbial": "none"
+      },
+      "end": 220.3
+    },
+    {
+      "id": 16,
+      "label": "Coarse grained action",
+      "start": 227.1,
+      "type": "range",
+      "attributes": {
+        "Action sentence": "The student unscrews the fourth screw of the rolling cart's tray.",
+        "Verb": "unscrew",
+        "Adjective": "fourth",
+        "Noun": "screw"
+      },
+      "end": 309.1
+    },
+    {
+      "id": 17,
+      "label": "Fine grained action",
+      "start": 233.2,
+      "type": "range",
+      "attributes": {
+        "Action Correctness": "Wrong Action, corrected by instructor verbally",
+        "Incorrect Action Explanation": "The student unscrews the screw in a wrong way.",
+        "Incorrect Action Corrected by": "18",
+        "Verb": "unscrew",
+        "Adjective": "second",
+        "Noun": "screw",
+        "adverbial": "none"
+      },
+      "end": 297.9
+    },
+    {
+      "id": 18,
+      "label": "Conversation",
+      "start": 238.2,
+      "type": "range",
+      "attributes": {
+        "Conversation Purpose": "instructor-start-conversation_correct the wrong action",
+        "sequence": "17",
+        "Transcription": "You should place your finger on top of the screw so you can turn it."
+      },
+      "end": 242.844
+    },
+    {
+      "id": 19,
+      "label": "Fine grained action",
+      "start": 299.2,
+      "type": "range",
+      "attributes": {
+        "Action Correctness": "Correct Action",
+        "Incorrect Action Explanation": "none",
+        "Incorrect Action Corrected by": "none",
+        "Verb": "grab",
+        "Adjective": "none",
+        "Noun": "bracket",
+        "adverbial": "none"
+      },
+      "end": 302.9
+    },
+    {
+      "id": 20,
+      "label": "Coarse grained action",
+      "start": 309.1,
+      "type": "range",
+      "attributes": {
+        "Action sentence": "The student unscrews the screw from the first top tray.",
+        "Verb": "unscrew",
+        "Adjective": "first",
+        "Noun": "screw"
+      },
+      "end": 378.2
+    },
+    {
+      "id": 21,
+      "label": "Fine grained action",
+      "start": 310.2,
+      "type": "range",
+      "attributes": {
+        "Action Correctness": "Correct Action",
+        "Incorrect Action Explanation": "none",
+        "Incorrect Action Corrected by": "none",
+        "Verb": "unscrew",
+        "Adjective": "third",
+        "Noun": "screw",
+        "adverbial": "none"
+      },
+      "end": 370.7
+    },
+    {
+      "id": 22,
+      "label": "Coarse grained action",
+      "start": 378.4,
+      "type": "range",
+      "attributes": {
+        "Action sentence": "The student unscrews the screw from the second top tray.",
+        "Verb": "unscrew",
+        "Adjective": "second",
+        "Noun": "screw"
+      },
+      "end": 422
+    },
+    {
+      "id": 23,
+      "label": "Fine grained action",
+      "start": 382.1,
+      "type": "range",
+      "attributes": {
+        "Action Correctness": "Correct Action",
+        "Incorrect Action Explanation": "none",
+        "Incorrect Action Corrected by": "none",
+        "Verb": "unscrew",
+        "Adjective": "fourth",
+        "Noun": "screw",
+        "adverbial": "none"
+      },
+      "end": 412.8
+    },
+    {
+      "id": 24,
+      "label": "Fine grained action",
+      "start": 418.1,
+      "type": "range",
+      "attributes": {
+        "Action Correctness": "Correct Action",
+        "Incorrect Action Explanation": "none",
+        "Incorrect Action Corrected by": "none",
+        "Verb": "grab",
+        "Adjective": "none",
+        "Noun": "bracket",
+        "adverbial": "none"
+      },
+      "end": 421.7
+    },
+    {
+      "id": 25,
+      "label": "Fine grained action",
+      "start": 426.2,
+      "type": "range",
+      "attributes": {
+        "Action Correctness": "Correct Action",
+        "Incorrect Action Explanation": "none",
+        "Incorrect Action Corrected by": "none",
+        "Verb": "withdraw",
+        "Adjective": "upper",
+        "Noun": "tray",
+        "adverbial": "none"
+      },
+      "end": 435.5
+    },
+    {
+      "id": 26,
+      "label": "Coarse grained action",
+      "start": 426.5,
+      "type": "range",
+      "attributes": {
+        "Action sentence": "The student disassembles the top and middle trays.",
+        "Verb": "disassemble",
+        "Noun": "grid_tray"
+      },
+      "end": 447
+    },
+    {
+      "id": 27,
+      "label": "Fine grained action",
+      "start": 442.1,
+      "type": "range",
+      "attributes": {
+        "Action Correctness": "Correct Action",
+        "Incorrect Action Explanation": "none",
+        "Incorrect Action Corrected by": "none",
+        "Verb": "flip",
+        "Adjective": "none",
+        "Noun": "utility_cart",
+        "adverbial": "none"
+      },
+      "end": 446.6
+    },
+    {
+      "id": 28,
+      "label": "Coarse grained action",
+      "start": 450.2,
+      "type": "range",
+      "attributes": {
+        "Action sentence": "The student unscrews the third tray of the rolling cart.",
+        "Verb": "unscrew",
+        "Adjective": "third",
+        "Noun": "screw"
+      },
+      "end": 506.2
+    },
+    {
+      "id": 29,
+      "label": "Fine grained action",
+      "start": 458.1,
+      "type": "range",
+      "attributes": {
+        "Action Correctness": "Correct Action",
+        "Incorrect Action Explanation": "none",
+        "Incorrect Action Corrected by": "none",
+        "Verb": "unscrew",
+        "Adjective": "fifth",
+        "Noun": "screw",
+        "adverbial": "none"
+      },
+      "end": 493.4
+    },
+    {
+      "id": 30,
+      "label": "Fine grained action",
+      "start": 496.2,
+      "type": "range",
+      "attributes": {
+        "Action Correctness": "Correct Action",
+        "Incorrect Action Explanation": "none",
+        "Incorrect Action Corrected by": "none",
+        "Verb": "withdraw",
+        "Adjective": "none",
+        "Noun": "bracket",
+        "adverbial": "none"
+      },
+      "end": 505.3
+    },
+    {
+      "id": 31,
+      "label": "Coarse grained action",
+      "start": 509.2,
+      "type": "range",
+      "attributes": {
+        "Action sentence": "The student unscrews the third tray of the rolling cart.",
+        "Verb": "unscrew",
+        "Adjective": "second",
+        "Noun": "screw"
+      },
+      "end": 556.2
+    },
+    {
+      "id": 32,
+      "label": "Fine grained action",
+      "start": 527.2,
+      "type": "range",
+      "attributes": {
+        "Action Correctness": "Correct Action",
+        "Incorrect Action Explanation": "none",
+        "Incorrect Action Corrected by": "none",
+        "Verb": "unscrew",
+        "Adjective": "sixth",
+        "Noun": "screw",
+        "adverbial": "none"
+      },
+      "end": 544.4
+    },
+    {
+      "id": 33,
+      "label": "Fine grained action",
+      "start": 545.3,
+      "type": "range",
+      "attributes": {
+        "Action Correctness": "Correct Action",
+        "Incorrect Action Explanation": "none",
+        "Incorrect Action Corrected by": "none",
+        "Verb": "withdraw",
+        "Adjective": "none",
+        "Noun": "bracket",
+        "adverbial": "none"
+      },
+      "end": 555.2
+    },
+    {
+      "id": 34,
+      "label": "Coarse grained action",
+      "start": 557.2,
+      "type": "range",
+      "attributes": {
+        "Action sentence": "The student disassembles the bottom tray.",
+        "Verb": "disassemble",
+        "Adjective": "bottom",
+        "Noun": "grid_tray"
+      },
+      "end": 566.3
+    },
+    {
+      "id": 35,
+      "label": "Fine grained action",
+      "start": 558.2,
+      "type": "range",
+      "attributes": {
+        "Action Correctness": "Correct Action",
+        "Incorrect Action Explanation": "none",
+        "Incorrect Action Corrected by": "none",
+        "Verb": "withdraw",
+        "Adjective": "none",
+        "Noun": "tray",
+        "adverbial": "none"
+      },
+      "end": 565.5
+    },
+    {
+      "id": 36,
+      "label": "Coarse grained action",
+      "start": 567.3,
+      "type": "range",
+      "attributes": {
+        "Action sentence": "The student removes the first side bars from the base frame.",
+        "Verb": "disassemble",
+        "Noun": "leg"
+      },
+      "end": 610.1
+    },
+    {
+      "id": 237,
+      "label": "Fine grained action",
+      "start": 572.5,
+      "type": "range",
+      "attributes": {
+        "Action Correctness": "Wrong Action, corrected by instructor verbally",
+        "Incorrect Action Explanation": "The student should start by unscrewing the bottom screws.",
+        "Incorrect Action Corrected by": "38",
+        "Verb": "insert",
+        "Adjective": "seventh",
+        "Noun": "screwdriver",
+        "adverbial": "none"
+      },
+      "end": 572.887
+    },
+    {
+      "id": 38,
+      "label": "Conversation",
+      "start": 572.825,
+      "type": "range",
+      "attributes": {
+        "Conversation Purpose": "instructor-start-conversation_correct the wrong action",
+        "sequence": "237,238",
+        "Transcription": "Please start by unscrewing the bottom screws."
+      },
+      "end": 575.075
+    },
+    {
+      "id": 238,
+      "label": "Fine grained action",
+      "start": 572.89,
+      "type": "range",
+      "attributes": {
+        "Action Correctness": "Wrong Action, corrected by instructor verbally",
+        "Incorrect Action Explanation": "The student should start by unscrewing the bottom screws.",
+        "Incorrect Action Corrected by": "38",
+        "Verb": "withdraw",
+        "Adjective": "none",
+        "Noun": "screwdriver",
+        "adverbial": "none"
+      },
+      "end": 573.287
+    },
+    {
+      "id": 37,
+      "label": "Fine grained action",
+      "start": 579.1,
+      "type": "range",
+      "attributes": {
+        "Action Correctness": "Correct Action",
+        "Incorrect Action Explanation": "none",
+        "Incorrect Action Corrected by": "none",
+        "Verb": "unscrew",
+        "Adjective": "seventh",
+        "Noun": "screw",
+        "adverbial": "none"
+      },
+      "end": 595.687
+    },
+    {
+      "id": 39,
+      "label": "Fine grained action",
+      "start": 595.729,
+      "type": "range",
+      "attributes": {
+        "Action Correctness": "Correct Action",
+        "Incorrect Action Explanation": "none",
+        "Incorrect Action Corrected by": "none",
+        "Verb": "withdraw",
+        "Adjective": "seventh",
+        "Noun": "screw",
+        "adverbial": "none"
+      },
+      "end": 597.3
+    },
+    {
+      "id": 40,
+      "label": "Fine grained action",
+      "start": 598.2,
+      "type": "range",
+      "attributes": {
+        "Action Correctness": "Correct Action",
+        "Incorrect Action Explanation": "none",
+        "Incorrect Action Corrected by": "none",
+        "Verb": "unscrew",
+        "Adjective": "eighth",
+        "Noun": "screw",
+        "adverbial": "none"
+      },
+      "end": 605.3
+    },
+    {
+      "id": 41,
+      "label": "Fine grained action",
+      "start": 606.2,
+      "type": "range",
+      "attributes": {
+        "Action Correctness": "Correct Action",
+        "Incorrect Action Explanation": "none",
+        "Incorrect Action Corrected by": "none",
+        "Verb": "unscrew",
+        "Adjective": "seventh",
+        "Noun": "screw",
+        "adverbial": "none"
+      },
+      "end": 608.7
+    },
+    {
+      "id": 42,
+      "label": "Coarse grained action",
+      "start": 610.3,
+      "type": "range",
+      "attributes": {
+        "Action sentence": "The student disassembles the second side bars of the rolling cart.",
+        "Verb": "disassemble",
+        "Adjective": "second",
+        "Noun": "leg"
+      },
+      "end": 676.5647640285436
+    },
+    {
+      "id": 43,
+      "label": "Fine grained action",
+      "start": 611.1,
+      "type": "range",
+      "attributes": {
+        "Action Correctness": "Correct Action",
+        "Incorrect Action Explanation": "none",
+        "Incorrect Action Corrected by": "none",
+        "Verb": "screw",
+        "Adjective": "ninth",
+        "Noun": "screw",
+        "adverbial": "none"
+      },
+      "end": 633.432
+    },
+    {
+      "id": 44,
+      "label": "Fine grained action",
+      "start": 633.516,
+      "type": "range",
+      "attributes": {
+        "Action Correctness": "Correct Action",
+        "Incorrect Action Explanation": "none",
+        "Incorrect Action Corrected by": "none",
+        "Verb": "withdraw",
+        "Adjective": "ninth",
+        "Noun": "screw",
+        "adverbial": "none"
+      },
+      "end": 634.6
+    },
+    {
+      "id": 45,
+      "label": "Fine grained action",
+      "start": 637.1,
+      "type": "range",
+      "attributes": {
+        "Action Correctness": "Correct Action",
+        "Incorrect Action Explanation": "none",
+        "Incorrect Action Corrected by": "none",
+        "Verb": "unscrew",
+        "Adjective": "tenth",
+        "Noun": "screw",
+        "adverbial": "none"
+      },
+      "end": 645.978
+    },
+    {
+      "id": 46,
+      "label": "Fine grained action",
+      "start": 646.053,
+      "type": "range",
+      "attributes": {
+        "Action Correctness": "Correct Action",
+        "Incorrect Action Explanation": "none",
+        "Incorrect Action Corrected by": "none",
+        "Verb": "withdraw",
+        "Adjective": "tenth",
+        "Noun": "screw",
+        "adverbial": "none"
+      },
+      "end": 648.185
+    },
+    {
+      "id": 47,
+      "label": "Fine grained action",
+      "start": 648.293,
+      "type": "range",
+      "attributes": {
+        "Action Correctness": "Correct Action",
+        "Incorrect Action Explanation": "none",
+        "Incorrect Action Corrected by": "none",
+        "Verb": "withdraw",
+        "Adjective": "first",
+        "Noun": "leg",
+        "adverbial": "none"
+      },
+      "end": 650.182
+    },
+    {
+      "id": 48,
+      "label": "Fine grained action",
+      "start": 650.268,
+      "type": "range",
+      "attributes": {
+        "Action Correctness": "Correct Action",
+        "Incorrect Action Explanation": "none",
+        "Incorrect Action Corrected by": "none",
+        "Verb": "withdraw",
+        "Adjective": "second",
+        "Noun": "leg",
+        "adverbial": "none"
+      },
+      "end": 653.3
+    },
+    {
+      "id": 49,
+      "label": "Fine grained action",
+      "start": 657.2,
+      "type": "range",
+      "attributes": {
+        "Action Correctness": "Correct Action",
+        "Incorrect Action Explanation": "none",
+        "Incorrect Action Corrected by": "none",
+        "Verb": "disassemble",
+        "Adjective": "none",
+        "Noun": "half_frame",
+        "adverbial": "none"
+      },
+      "end": 660.804
+    },
+    {
+      "id": 50,
+      "label": "Fine grained action",
+      "start": 661.039,
+      "type": "range",
+      "attributes": {
+        "Action Correctness": "Correct Action",
+        "Incorrect Action Explanation": "none",
+        "Incorrect Action Corrected by": "none",
+        "Verb": "disassemble",
+        "Adjective": "none",
+        "Noun": "half_frame",
+        "adverbial": "none"
+      },
+      "end": 665.6
+    },
+    {
+      "id": 52,
+      "label": "Fine grained action",
+      "start": 670.1,
+      "type": "range",
+      "attributes": {
+        "Action Correctness": "Correct Action",
+        "Incorrect Action Explanation": "none",
+        "Incorrect Action Corrected by": "none",
+        "Verb": "slide",
+        "Adjective": "none",
+        "Noun": "leg",
+        "adverbial": "none"
+      },
+      "end": 676.4
+    },
+    {
+      "id": 54,
+      "label": "Coarse grained action",
+      "start": 687.018,
+      "type": "range",
+      "attributes": {
+        "Action sentence": "The student unscrews the side bars of the rolling cart.",
+        "Verb": "disassemble",
+        "Adjective": "none",
+        "Noun": "leg"
+      },
+      "end": 724
+    },
+    {
+      "id": 53,
+      "label": "Fine grained action",
+      "start": 687.2,
+      "type": "range",
+      "attributes": {
+        "Action Correctness": "Correct Action",
+        "Incorrect Action Explanation": "none",
+        "Incorrect Action Corrected by": "none",
+        "Verb": "unscrew",
+        "Adjective": "none",
+        "Noun": "screw",
+        "adverbial": "none"
+      },
+      "end": 694.6
+    },
+    {
+      "id": 55,
+      "label": "Fine grained action",
+      "start": 700.1,
+      "type": "range",
+      "attributes": {
+        "Action Correctness": "Correct Action",
+        "Incorrect Action Explanation": "none",
+        "Incorrect Action Corrected by": "none",
+        "Verb": "unscrew",
+        "Adjective": "none",
+        "Noun": "screw",
+        "adverbial": "none"
+      },
+      "end": 709.5
+    },
+    {
+      "id": 56,
+      "label": "Conversation",
+      "start": 722.075,
+      "type": "range",
+      "attributes": {
+        "Conversation Purpose": "instructor-start-conversation_confirming the previous action",
+        "Transcription": "Perfect, thank you."
+      },
+      "end": 722.816
+    },
+    {
+      "id": 57,
+      "label": "Conversation",
+      "start": 722.899,
+      "type": "range",
+      "attributes": {
+        "Conversation Purpose": "instructor-start-conversation_closing remarks",
+        "Transcription": "You can press the stop button."
+      },
+      "end": 723.901
+    },
+    {
+      "id": 58,
+      "label": "Conversation",
+      "start": 723.998,
+      "type": "range",
+      "attributes": {
+        "Conversation Purpose": "instructor-start-conversation_closing remarks",
+        "Transcription": "You can press the stop button."
+      },
+      "end": 725.2
+    }
+  ],
+  "taskId": "63dadf89c218c7bdc948bddd",
+  "taskType": "disassemble utility cart",
+  "video_name": "z073-july-01-22-rashult_disassemble"
+}

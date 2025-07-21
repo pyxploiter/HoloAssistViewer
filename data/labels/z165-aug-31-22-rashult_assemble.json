@@ -1,0 +1,375 @@
+{
+  "batch": "202301_2221_10fps",
+  "videoMetadata": {
+    "audio": {
+      "codec": "aac",
+      "bitrate": "69",
+      "sample_rate": 48000,
+      "stream": 0,
+      "channels": {
+        "raw": "mono",
+        "value": 1
+      }
+    },
+    "video": {
+      "container": "mov",
+      "bitrate": 2628,
+      "stream": 0,
+      "codec": "h264",
+      "resolution": {
+        "w": 896,
+        "h": 504
+      },
+      "resolutionSquare": {
+        "w": 896,
+        "h": 504
+      },
+      "aspect": {
+        "x": 16,
+        "y": 9,
+        "string": "16:9",
+        "value": 1.7777777777777777
+      },
+      "rotate": 0,
+      "fps": 29.54,
+      "pixelString": "1:1",
+      "pixel": 1
+    },
+    "duration": {
+      "raw": "00:13:25.74",
+      "seconds": 805
+    }
+  },
+  "events": [
+    {
+      "id": 23,
+      "label": "Narration",
+      "start": 0.2,
+      "type": "range",
+      "attributes": {
+        "Long form description": "The student is assembling a piece of furniture. He starts by putting together the base frame, then add the sidebars on both the top and bottom. Next, he adds the bottom tray, followed by the middle tray. Finally, he assembles the top tray and add the wheels."
+      },
+      "end": 80.5
+    },
+    {
+      "id": 1,
+      "label": "Conversation",
+      "start": 0.59,
+      "type": "range",
+      "attributes": {
+        "Conversation Purpose": "instructor-start-conversation_describing high-level instruction",
+        "sequence": "none",
+        "Transcription": "Now please assesamble the furniture.",
+        "Transcription Confidence": "none"
+      },
+      "end": 2.735
+    },
+    {
+      "id": 2,
+      "label": "Coarse grained action",
+      "start": 2.773,
+      "type": "range",
+      "attributes": {
+        "Action sentence": "The student assembles the base frame of the furniture.",
+        "Verb": "assemble",
+        "Adjective": "none",
+        "Noun": "half_frame"
+      },
+      "end": 61.3
+    },
+    {
+      "id": 3,
+      "label": "Fine grained action",
+      "start": 6.3,
+      "type": "range",
+      "attributes": {
+        "Action Correctness": "Wrong Action, corrected by instructor verbally",
+        "Incorrect Action Explanation": "The student should start by putting together the curve tubes.",
+        "Incorrect Action Corrected by": "4",
+        "Verb": "grab",
+        "Adjective": "none",
+        "Noun": "half_frame",
+        "adverbial": "none"
+      },
+      "end": 8.8
+    },
+    {
+      "id": 4,
+      "label": "Conversation",
+      "start": 8.3,
+      "type": "range",
+      "attributes": {
+        "Conversation Purpose": "instructor-start-conversation_correct the wrong action",
+        "sequence": "3",
+        "Transcription": "Start by putting together the curve the curve tubes.",
+        "Transcription Confidence": "none"
+      },
+      "end": 11.898
+    },
+    {
+      "id": 5,
+      "label": "Fine grained action",
+      "start": 12.1,
+      "type": "range",
+      "attributes": {
+        "Action Correctness": "Correct Action",
+        "Verb": "approach",
+        "Noun": "leg",
+        "Incorrect Action Explanation": "none",
+        "Incorrect Action Corrected by": "none",
+        "Adjective": "none",
+        "adverbial": "none"
+      },
+      "end": 13.3
+    },
+    {
+      "id": 6,
+      "label": "Fine grained action",
+      "start": 15.2,
+      "type": "range",
+      "attributes": {
+        "Action Correctness": "Wrong Action, corrected by instructor verbally",
+        "Incorrect Action Explanation": "The student might have to change one of them.",
+        "Incorrect Action Corrected by": "7",
+        "Verb": "hold",
+        "Adjective": "none",
+        "Noun": "half_frame",
+        "adverbial": "none"
+      },
+      "end": 22.708
+    },
+    {
+      "id": 7,
+      "label": "Conversation",
+      "start": 19.3,
+      "type": "range",
+      "attributes": {
+        "Conversation Purpose": "instructor-start-conversation_correct the wrong action",
+        "sequence": "6",
+        "Transcription": "The long side should. You might have to change one of them.",
+        "Transcription Confidence": "none"
+      },
+      "end": 22.7
+    },
+    {
+      "id": 8,
+      "label": "Conversation",
+      "start": 54.7,
+      "type": "range",
+      "attributes": {
+        "Conversation Purpose": "instructor-start-conversation_follow-up instruction",
+        "sequence": "none",
+        "Transcription": "Make sure that the next to each other with the thing that's open looking upwards in the middle.",
+        "Transcription Confidence": "none"
+      },
+      "end": 59.9
+    },
+    {
+      "id": 11,
+      "label": "Coarse grained action",
+      "start": 61.394,
+      "type": "range",
+      "attributes": {
+        "Action sentence": "The student assembles the top side bars of the furniture.",
+        "Verb": "assemble",
+        "Adjective": "none",
+        "Noun": "frame"
+      },
+      "end": 300.296
+    },
+    {
+      "id": 24,
+      "label": "Fine grained action",
+      "start": 75.036,
+      "type": "range",
+      "attributes": {
+        "Action Correctness": "Wrong Action, corrected by instructor verbally",
+        "Incorrect Action Explanation": "The student should make sure that the bent is inwards.",
+        "Incorrect Action Corrected by": "10",
+        "Verb": "assemble",
+        "Adjective": "none",
+        "Noun": "half_frame",
+        "adverbial": "none"
+      },
+      "end": 78.193
+    },
+    {
+      "id": 10,
+      "label": "Conversation",
+      "start": 78.188,
+      "type": "range",
+      "attributes": {
+        "Conversation Purpose": "instructor-start-conversation_correct the wrong action",
+        "sequence": "24",
+        "Transcription": "And make sure that the bent is inwards so that you can screw them on properly",
+        "Transcription Confidence": "none"
+      },
+      "end": 82.6
+    },
+    {
+      "id": 13,
+      "label": "Coarse grained action",
+      "start": 300.371,
+      "type": "range",
+      "attributes": {
+        "Action sentence": "The student assembles the bottom grid tray.",
+        "Verb": "assemble",
+        "Adjective": "bottom",
+        "Noun": "grid_tray"
+      },
+      "end": 415
+    },
+    {
+      "id": 25,
+      "label": "Fine grained action",
+      "start": 301.167,
+      "type": "range",
+      "attributes": {
+        "Action Correctness": "Wrong Action, corrected by instructor verbally",
+        "Incorrect Action Explanation": "The student should take the biggest tray and put it at the bottom of what he just built.",
+        "Incorrect Action Corrected by": "12",
+        "Verb": "grab",
+        "Adjective": "none",
+        "Noun": "wheel",
+        "adverbial": "none"
+      },
+      "end": 303.422
+    },
+    {
+      "id": 12,
+      "label": "Conversation",
+      "start": 301.524,
+      "type": "range",
+      "attributes": {
+        "Conversation Purpose": "instructor-start-conversation_correct the wrong action",
+        "sequence": "25",
+        "Transcription": "Now take the biggest tray and put it at the bottom of what you just built.",
+        "Transcription Confidence": "none"
+      },
+      "end": 305.8
+    },
+    {
+      "id": 17,
+      "label": "Coarse grained action",
+      "start": 415.102,
+      "type": "range",
+      "attributes": {
+        "Action sentence": "The student assembles the top tray into the furniture.",
+        "Verb": "assemble",
+        "Adjective": "top",
+        "Noun": "grid_tray"
+      },
+      "end": 574.275
+    },
+    {
+      "id": 26,
+      "label": "Fine grained action",
+      "start": 419.248,
+      "type": "range",
+      "attributes": {
+        "Action Correctness": "Wrong Action, corrected by instructor verbally",
+        "Incorrect Action Explanation": "The student should first, take the second biggest tray and put it at the bottom.",
+        "Incorrect Action Corrected by": "15",
+        "Verb": "grab",
+        "Adjective": "middle",
+        "Noun": "grid_tray",
+        "adverbial": "none"
+      },
+      "end": 425.032
+    },
+    {
+      "id": 15,
+      "label": "Conversation",
+      "start": 425.2,
+      "type": "range",
+      "attributes": {
+        "Conversation Purpose": "instructor-start-conversation_correct the wrong action",
+        "sequence": "26",
+        "Transcription": "First, take the second biggest tray and put it at the bottom.",
+        "Transcription Confidence": "none"
+      },
+      "end": 428.204
+    },
+    {
+      "id": 16,
+      "label": "Conversation",
+      "start": 440.6,
+      "type": "range",
+      "attributes": {
+        "Conversation Purpose": "instructor-start-conversation_follow-up instruction",
+        "sequence": "none",
+        "Transcription": "Leave it at the bottom for now and attach the top piece.",
+        "Transcription Confidence": "none"
+      },
+      "end": 443.7
+    },
+    {
+      "id": 18,
+      "label": "Coarse grained action",
+      "start": 574.324,
+      "type": "range",
+      "attributes": {
+        "Action sentence": "The student assembles the middle tray.",
+        "Verb": "assemble",
+        "Adjective": "middle",
+        "Noun": "grid_tray"
+      },
+      "end": 709
+    },
+    {
+      "id": 19,
+      "label": "Conversation",
+      "start": 650.5,
+      "type": "range",
+      "attributes": {
+        "Conversation Purpose": "instructor-start-conversation_follow-up instruction",
+        "sequence": "none",
+        "Transcription": "Make sure that the tray is more or less in middle.",
+        "Transcription Confidence": "low-confidence-transcription"
+      },
+      "end": 653.3
+    },
+    {
+      "id": 20,
+      "label": "Coarse grained action",
+      "start": 709.075,
+      "type": "range",
+      "attributes": {
+        "Action sentence": "The student assembles the wheels.",
+        "Verb": "assemble",
+        "Adjective": "none",
+        "Noun": "wheel"
+      },
+      "end": 805.567
+    },
+    {
+      "id": 21,
+      "label": "Conversation",
+      "start": 802.1,
+      "type": "range",
+      "attributes": {
+        "Conversation Purpose": "instructor-start-conversation_confirming the previous action",
+        "sequence": "none",
+        "Transcription": "Nice, well done.",
+        "Transcription Confidence": "none"
+      },
+      "end": 802.856
+    },
+    {
+      "id": 22,
+      "label": "Conversation",
+      "start": 803.012,
+      "type": "range",
+      "attributes": {
+        "Conversation Purpose": "instructor-start-conversation_closing remarks",
+        "sequence": "none",
+        "Transcription": "You can stop the recording now.",
+        "Transcription Confidence": "none"
+      },
+      "end": 804.273
+    }
+  ],
+  "taskId": "63dadf315fa1e26dda8cb40e",
+  "taskType": "assemble utility cart",
+  "video_name": "z165-aug-31-22-rashult_assemble"
+}

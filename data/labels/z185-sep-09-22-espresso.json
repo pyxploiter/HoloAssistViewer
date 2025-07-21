@@ -1,0 +1,982 @@
+{
+  "batch": "202301_2221_10fps",
+  "videoMetadata": {
+    "audio": {
+      "codec": "aac",
+      "bitrate": "70",
+      "sample_rate": 48000,
+      "stream": 0,
+      "channels": {
+        "raw": "mono",
+        "value": 1
+      }
+    },
+    "video": {
+      "container": "mov",
+      "bitrate": 2714,
+      "stream": 0,
+      "codec": "h264",
+      "resolution": {
+        "w": 896,
+        "h": 504
+      },
+      "resolutionSquare": {
+        "w": 896,
+        "h": 504
+      },
+      "aspect": {
+        "x": 16,
+        "y": 9,
+        "string": "16:9",
+        "value": 1.7777777777777777
+      },
+      "rotate": 0,
+      "fps": 29.25,
+      "pixelString": "1:1",
+      "pixel": 1
+    },
+    "duration": {
+      "raw": "00:03:21.49",
+      "seconds": 201
+    }
+  },
+  "events": [
+    {
+      "id": 2,
+      "label": "Narration",
+      "start": 0.1,
+      "type": "range",
+      "attributes": {
+        "Long form description": "The student adds coffee beans to the espresso machine, makes a cup of coffee, adds milk, and stirs it. Lastly, he empties the drip tray."
+      },
+      "end": 200.1
+    },
+    {
+      "id": 1,
+      "label": "Conversation",
+      "start": 0.2,
+      "type": "range",
+      "attributes": {
+        "Conversation Purpose": "instructor-start-conversation_describing high-level instruction",
+        "Transcription": "Please add coffee beans to the coffee machine."
+      },
+      "end": 3.187
+    },
+    {
+      "id": 3,
+      "label": "Coarse grained action",
+      "start": 3.8,
+      "type": "range",
+      "attributes": {
+        "Action sentence": "The student adds coffee beans to the espresso machine.",
+        "Verb": "load",
+        "Noun": "coffee_bean"
+      },
+      "end": 28
+    },
+    {
+      "id": 5,
+      "label": "Fine grained action",
+      "start": 5.1,
+      "type": "range",
+      "attributes": {
+        "Action Correctness": "Correct Action",
+        "Incorrect Action Explanation": "none",
+        "Incorrect Action Corrected by": "none",
+        "Verb": "open",
+        "Adjective": "none",
+        "Noun": "bean_hopper",
+        "adverbial": "none"
+      },
+      "end": 8.359
+    },
+    {
+      "id": 7,
+      "label": "Fine grained action",
+      "start": 8.463,
+      "type": "range",
+      "attributes": {
+        "Action Correctness": "Correct Action",
+        "Incorrect Action Explanation": "none",
+        "Incorrect Action Corrected by": "none",
+        "Verb": "place",
+        "Adjective": "none",
+        "Noun": "bean_hopper_lid",
+        "adverbial": "none"
+      },
+      "end": 9.266
+    },
+    {
+      "id": 8,
+      "label": "Fine grained action",
+      "start": 9.405,
+      "type": "range",
+      "attributes": {
+        "Action Correctness": "Correct Action",
+        "Incorrect Action Explanation": "none",
+        "Incorrect Action Corrected by": "none",
+        "Verb": "grab",
+        "Adjective": "none",
+        "Noun": "coffee_bean_bag",
+        "adverbial": "none"
+      },
+      "end": 10.3
+    },
+    {
+      "id": 10,
+      "label": "Fine grained action",
+      "start": 12.1,
+      "type": "range",
+      "attributes": {
+        "Action Correctness": "Correct Action",
+        "Incorrect Action Explanation": "none",
+        "Incorrect Action Corrected by": "none",
+        "Verb": "pour",
+        "Adjective": "none",
+        "Noun": "coffee_bean_bag",
+        "adverbial": "none"
+      },
+      "end": 15.692
+    },
+    {
+      "id": 11,
+      "label": "Fine grained action",
+      "start": 15.821,
+      "type": "range",
+      "attributes": {
+        "Action Correctness": "Correct Action",
+        "Incorrect Action Explanation": "none",
+        "Incorrect Action Corrected by": "none",
+        "Verb": "lift",
+        "Adjective": "none",
+        "Noun": "coffee_bean_bag",
+        "adverbial": "none"
+      },
+      "end": 17.807
+    },
+    {
+      "id": 12,
+      "label": "Fine grained action",
+      "start": 17.986,
+      "type": "range",
+      "attributes": {
+        "Action Correctness": "Correct Action",
+        "Incorrect Action Explanation": "none",
+        "Incorrect Action Corrected by": "none",
+        "Verb": "pour",
+        "Adjective": "none",
+        "Noun": "coffee_bean_bag",
+        "adverbial": "none"
+      },
+      "end": 20.801
+    },
+    {
+      "id": 14,
+      "label": "Fine grained action",
+      "start": 20.962,
+      "type": "range",
+      "attributes": {
+        "Action Correctness": "Correct Action",
+        "Incorrect Action Explanation": "none",
+        "Incorrect Action Corrected by": "none",
+        "Verb": "place",
+        "Adjective": "none",
+        "Noun": "coffee_bean_bag",
+        "adverbial": "none"
+      },
+      "end": 24.771
+    },
+    {
+      "id": 16,
+      "label": "Fine grained action",
+      "start": 25.067,
+      "type": "range",
+      "attributes": {
+        "Action Correctness": "Correct Action",
+        "Incorrect Action Explanation": "none",
+        "Incorrect Action Corrected by": "none",
+        "Verb": "close",
+        "Adjective": "none",
+        "Noun": "bean_hopper",
+        "adverbial": "none"
+      },
+      "end": 27.9
+    },
+    {
+      "id": 17,
+      "label": "Conversation",
+      "start": 28.117,
+      "type": "range",
+      "attributes": {
+        "Conversation Purpose": "instructor-start-conversation_confirming the previous action",
+        "Transcription": "Nice, well done."
+      },
+      "end": 29.195
+    },
+    {
+      "id": 18,
+      "label": "Conversation",
+      "start": 29.522,
+      "type": "range",
+      "attributes": {
+        "Conversation Purpose": "instructor-start-conversation_describing high-level instruction",
+        "Transcription": "Now, please make a cup of coffee."
+      },
+      "end": 31.953
+    },
+    {
+      "id": 19,
+      "label": "Coarse grained action",
+      "start": 30.4,
+      "type": "range",
+      "attributes": {
+        "Action sentence": "The student makes a cup of coffee.",
+        "Verb": "make",
+        "Noun": "coffee"
+      },
+      "end": 109
+    },
+    {
+      "id": 21,
+      "label": "Fine grained action",
+      "start": 31.1,
+      "type": "range",
+      "attributes": {
+        "Action Correctness": "Correct Action",
+        "Incorrect Action Explanation": "none",
+        "Incorrect Action Corrected by": "none",
+        "Verb": "grab",
+        "Adjective": "none",
+        "Noun": "cup",
+        "adverbial": "none"
+      },
+      "end": 32.3
+    },
+    {
+      "id": 121,
+      "label": "Fine grained action",
+      "start": 32.41,
+      "type": "range",
+      "attributes": {
+        "Action Correctness": "Wrong Action, corrected by instructor verbally",
+        "Incorrect Action Explanation": "The student should place the cup under the right dispenser.",
+        "Incorrect Action Corrected by": "23",
+        "Verb": "hold",
+        "Adjective": "none",
+        "Noun": "cup",
+        "adverbial": "none"
+      },
+      "end": 34.13
+    },
+    {
+      "id": 23,
+      "label": "Conversation",
+      "start": 33.2,
+      "type": "range",
+      "attributes": {
+        "Conversation Purpose": "instructor-start-conversation_correct the wrong action",
+        "sequence": "121",
+        "Transcription": "Put it under the right one"
+      },
+      "end": 35.315
+    },
+    {
+      "id": 24,
+      "label": "Fine grained action",
+      "start": 34.2,
+      "type": "range",
+      "attributes": {
+        "Action Correctness": "Correct Action",
+        "Incorrect Action Explanation": "none",
+        "Incorrect Action Corrected by": "none",
+        "Verb": "hold",
+        "Adjective": "none",
+        "Noun": "cup",
+        "adverbial": "none"
+      },
+      "end": 36.587
+    },
+    {
+      "id": 25,
+      "label": "Fine grained action",
+      "start": 36.671,
+      "type": "range",
+      "attributes": {
+        "Action Correctness": "Correct Action",
+        "Incorrect Action Explanation": "none",
+        "Incorrect Action Corrected by": "none",
+        "Verb": "grab",
+        "Adjective": "none",
+        "Noun": "dispenser",
+        "adverbial": "none"
+      },
+      "end": 38.327
+    },
+    {
+      "id": 26,
+      "label": "Fine grained action",
+      "start": 38.391,
+      "type": "range",
+      "attributes": {
+        "Action Correctness": "Correct Action",
+        "Incorrect Action Explanation": "none",
+        "Incorrect Action Corrected by": "none",
+        "Verb": "lift",
+        "Adjective": "none",
+        "Noun": "dispenser",
+        "adverbial": "none"
+      },
+      "end": 39.779
+    },
+    {
+      "id": 27,
+      "label": "Fine grained action",
+      "start": 39.836,
+      "type": "range",
+      "attributes": {
+        "Action Correctness": "Correct Action",
+        "Incorrect Action Explanation": "none",
+        "Incorrect Action Corrected by": "none",
+        "Verb": "place",
+        "Adjective": "none",
+        "Noun": "cup",
+        "adverbial": "none"
+      },
+      "end": 40.254
+    },
+    {
+      "id": 28,
+      "label": "Fine grained action",
+      "start": 40.339,
+      "type": "range",
+      "attributes": {
+        "Action Correctness": "Correct Action",
+        "Incorrect Action Explanation": "none",
+        "Incorrect Action Corrected by": "none",
+        "Verb": "pull",
+        "Adjective": "none",
+        "Noun": "dispenser",
+        "adverbial": "none"
+      },
+      "end": 41.576
+    },
+    {
+      "id": 82,
+      "label": "Fine grained action",
+      "start": 41.674,
+      "type": "range",
+      "attributes": {
+        "Action Correctness": "Correct Action",
+        "Incorrect Action Explanation": "none",
+        "Incorrect Action Corrected by": "none",
+        "Verb": "place",
+        "Adjective": "none",
+        "Noun": "cup",
+        "adverbial": "none"
+      },
+      "end": 42.098
+    },
+    {
+      "id": 30,
+      "label": "Fine grained action",
+      "start": 42.203,
+      "type": "range",
+      "attributes": {
+        "Action Correctness": "Correct Action",
+        "Incorrect Action Explanation": "none",
+        "Incorrect Action Corrected by": "none",
+        "Verb": "click",
+        "Adjective": "none",
+        "Noun": "button",
+        "adverbial": "none"
+      },
+      "end": 43.4
+    },
+    {
+      "id": 33,
+      "label": "Fine grained action",
+      "start": 105.3,
+      "type": "range",
+      "attributes": {
+        "Action Correctness": "Correct Action",
+        "Incorrect Action Explanation": "none",
+        "Incorrect Action Corrected by": "none",
+        "Verb": "grab",
+        "Adjective": "none",
+        "Noun": "cup",
+        "adverbial": "none"
+      },
+      "end": 106.418
+    },
+    {
+      "id": 34,
+      "label": "Fine grained action",
+      "start": 106.505,
+      "type": "range",
+      "attributes": {
+        "Action Correctness": "Correct Action",
+        "Incorrect Action Explanation": "none",
+        "Incorrect Action Corrected by": "none",
+        "Verb": "place",
+        "Adjective": "none",
+        "Noun": "cup",
+        "adverbial": "none"
+      },
+      "end": 108.9
+    },
+    {
+      "id": 35,
+      "label": "Conversation",
+      "start": 108.55,
+      "type": "range",
+      "attributes": {
+        "Conversation Purpose": "instructor-start-conversation_confirming the previous action",
+        "Transcription": "Nice. Well done."
+      },
+      "end": 109.258
+    },
+    {
+      "id": 36,
+      "label": "Conversation",
+      "start": 109.323,
+      "type": "range",
+      "attributes": {
+        "Conversation Purpose": "instructor-start-conversation_describing high-level instruction",
+        "Transcription": "Now please add some milk and stir."
+      },
+      "end": 112.197
+    },
+    {
+      "id": 37,
+      "label": "Coarse grained action",
+      "start": 112.3,
+      "type": "range",
+      "attributes": {
+        "Action sentence": "The student adds milk and stirs.",
+        "Verb": "load",
+        "Noun": "milk"
+      },
+      "end": 128.3
+    },
+    {
+      "id": 39,
+      "label": "Fine grained action",
+      "start": 114.2,
+      "type": "range",
+      "attributes": {
+        "Action Correctness": "Correct Action",
+        "Incorrect Action Explanation": "none",
+        "Incorrect Action Corrected by": "none",
+        "Verb": "grab",
+        "Adjective": "none",
+        "Noun": "milk",
+        "adverbial": "none"
+      },
+      "end": 115.209
+    },
+    {
+      "id": 40,
+      "label": "Fine grained action",
+      "start": 115.339,
+      "type": "range",
+      "attributes": {
+        "Action Correctness": "Correct Action",
+        "Incorrect Action Explanation": "none",
+        "Incorrect Action Corrected by": "none",
+        "Verb": "open",
+        "Adjective": "none",
+        "Noun": "milk",
+        "adverbial": "none"
+      },
+      "end": 117
+    },
+    {
+      "id": 42,
+      "label": "Fine grained action",
+      "start": 118.2,
+      "type": "range",
+      "attributes": {
+        "Action Correctness": "Correct Action",
+        "Incorrect Action Explanation": "none",
+        "Incorrect Action Corrected by": "none",
+        "Verb": "pour",
+        "Adjective": "none",
+        "Noun": "milk",
+        "adverbial": "none"
+      },
+      "end": 120.414
+    },
+    {
+      "id": 43,
+      "label": "Fine grained action",
+      "start": 120.465,
+      "type": "range",
+      "attributes": {
+        "Action Correctness": "Correct Action",
+        "Incorrect Action Explanation": "none",
+        "Incorrect Action Corrected by": "none",
+        "Verb": "close",
+        "Adjective": "none",
+        "Noun": "milk",
+        "adverbial": "none"
+      },
+      "end": 122.833
+    },
+    {
+      "id": 44,
+      "label": "Fine grained action",
+      "start": 122.861,
+      "type": "range",
+      "attributes": {
+        "Action Correctness": "Correct Action",
+        "Incorrect Action Explanation": "none",
+        "Incorrect Action Corrected by": "none",
+        "Verb": "grab",
+        "Adjective": "none",
+        "Noun": "spoon",
+        "adverbial": "none"
+      },
+      "end": 123.755
+    },
+    {
+      "id": 45,
+      "label": "Fine grained action",
+      "start": 123.844,
+      "type": "range",
+      "attributes": {
+        "Action Correctness": "Correct Action",
+        "Incorrect Action Explanation": "none",
+        "Incorrect Action Corrected by": "none",
+        "Verb": "mix/stir",
+        "Adjective": "none",
+        "Noun": "milk",
+        "adverbial": "none"
+      },
+      "end": 127.4
+    },
+    {
+      "id": 46,
+      "label": "Conversation",
+      "start": 126.975,
+      "type": "range",
+      "attributes": {
+        "Conversation Purpose": "instructor-start-conversation_confirming the previous action",
+        "Transcription": "Nice. Good job."
+      },
+      "end": 127.725
+    },
+    {
+      "id": 47,
+      "label": "Conversation",
+      "start": 128.2,
+      "type": "range",
+      "attributes": {
+        "Conversation Purpose": "instructor-start-conversation_describing high-level instruction",
+        "Transcription": "Now, please empty the container.",
+        "Transcription Confidence": "none"
+      },
+      "end": 132.056
+    },
+    {
+      "id": 48,
+      "label": "Coarse grained action",
+      "start": 132.2,
+      "type": "range",
+      "attributes": {
+        "Action sentence": "The student empties the drip tray.",
+        "Verb": "empty",
+        "Noun": "drip_tray"
+      },
+      "end": 198.1
+    },
+    {
+      "id": 50,
+      "label": "Fine grained action",
+      "start": 134.2,
+      "type": "range",
+      "attributes": {
+        "Action Correctness": "Correct Action",
+        "Incorrect Action Explanation": "none",
+        "Incorrect Action Corrected by": "none",
+        "Verb": "grab",
+        "Adjective": "none",
+        "Noun": "drip_tray",
+        "adverbial": "none"
+      },
+      "end": 136.525
+    },
+    {
+      "id": 51,
+      "label": "Fine grained action",
+      "start": 136.609,
+      "type": "range",
+      "attributes": {
+        "Action Correctness": "Correct Action",
+        "Incorrect Action Explanation": "none",
+        "Incorrect Action Corrected by": "none",
+        "Verb": "lift",
+        "Adjective": "none",
+        "Noun": "drip_tray",
+        "adverbial": "none"
+      },
+      "end": 140.4
+    },
+    {
+      "id": 52,
+      "label": "Fine grained action",
+      "start": 141.3,
+      "type": "range",
+      "attributes": {
+        "Action Correctness": "Correct Action",
+        "Incorrect Action Explanation": "none",
+        "Incorrect Action Corrected by": "none",
+        "Verb": "withdraw",
+        "Adjective": "top",
+        "Noun": "drip_tray",
+        "adverbial": "none"
+      },
+      "end": 143.9
+    },
+    {
+      "id": 55,
+      "label": "Fine grained action",
+      "start": 146.1,
+      "type": "range",
+      "attributes": {
+        "Action Correctness": "Correct Action",
+        "Incorrect Action Explanation": "none",
+        "Incorrect Action Corrected by": "none",
+        "Verb": "grab",
+        "Adjective": "none",
+        "Noun": "drip_tray",
+        "adverbial": "none"
+      },
+      "end": 147.848
+    },
+    {
+      "id": 56,
+      "label": "Fine grained action",
+      "start": 147.924,
+      "type": "range",
+      "attributes": {
+        "Action Correctness": "Correct Action",
+        "Incorrect Action Explanation": "none",
+        "Incorrect Action Corrected by": "none",
+        "Verb": "withdraw",
+        "Adjective": "top",
+        "Noun": "drip_tray",
+        "adverbial": "none"
+      },
+      "end": 149.62
+    },
+    {
+      "id": 57,
+      "label": "Fine grained action",
+      "start": 149.693,
+      "type": "range",
+      "attributes": {
+        "Action Correctness": "Correct Action",
+        "Incorrect Action Explanation": "none",
+        "Incorrect Action Corrected by": "none",
+        "Verb": "slide",
+        "Adjective": "top",
+        "Noun": "drip_tray",
+        "adverbial": "none"
+      },
+      "end": 150.215
+    },
+    {
+      "id": 58,
+      "label": "Fine grained action",
+      "start": 150.282,
+      "type": "range",
+      "attributes": {
+        "Action Correctness": "Correct Action",
+        "Incorrect Action Explanation": "none",
+        "Incorrect Action Corrected by": "none",
+        "Verb": "grab",
+        "Adjective": "none",
+        "Noun": "drip_tray",
+        "adverbial": "none"
+      },
+      "end": 150.781
+    },
+    {
+      "id": 59,
+      "label": "Fine grained action",
+      "start": 150.835,
+      "type": "range",
+      "attributes": {
+        "Action Correctness": "Correct Action",
+        "Incorrect Action Explanation": "none",
+        "Incorrect Action Corrected by": "none",
+        "Verb": "withdraw",
+        "Adjective": "none",
+        "Noun": "drip_tray",
+        "adverbial": "none"
+      },
+      "end": 157.3
+    },
+    {
+      "id": 61,
+      "label": "Fine grained action",
+      "start": 159.2,
+      "type": "range",
+      "attributes": {
+        "Action Correctness": "Correct Action",
+        "Incorrect Action Explanation": "none",
+        "Incorrect Action Corrected by": "none",
+        "Verb": "place",
+        "Adjective": "none",
+        "Noun": "drip_tray",
+        "adverbial": "none"
+      },
+      "end": 160.479
+    },
+    {
+      "id": 62,
+      "label": "Fine grained action",
+      "start": 160.615,
+      "type": "range",
+      "attributes": {
+        "Action Correctness": "Correct Action",
+        "Incorrect Action Explanation": "none",
+        "Incorrect Action Corrected by": "none",
+        "Verb": "grab",
+        "Adjective": "none",
+        "Noun": "drip_tray",
+        "adverbial": "none"
+      },
+      "end": 162.713
+    },
+    {
+      "id": 63,
+      "label": "Fine grained action",
+      "start": 162.815,
+      "type": "range",
+      "attributes": {
+        "Action Correctness": "Correct Action",
+        "Incorrect Action Explanation": "none",
+        "Incorrect Action Corrected by": "none",
+        "Verb": "inspect",
+        "Adjective": "none",
+        "Noun": "drip_tray",
+        "adverbial": "none"
+      },
+      "end": 163.3
+    },
+    {
+      "id": 65,
+      "label": "Fine grained action",
+      "start": 165.1,
+      "type": "range",
+      "attributes": {
+        "Action Correctness": "Correct Action",
+        "Incorrect Action Explanation": "none",
+        "Incorrect Action Corrected by": "none",
+        "Verb": "grab",
+        "Adjective": "none",
+        "Noun": "drip_tray",
+        "adverbial": "none"
+      },
+      "end": 166.5
+    },
+    {
+      "id": 67,
+      "label": "Fine grained action",
+      "start": 168.3,
+      "type": "range",
+      "attributes": {
+        "Action Correctness": "Correct Action",
+        "Incorrect Action Explanation": "none",
+        "Incorrect Action Corrected by": "none",
+        "Verb": "pour",
+        "Adjective": "top",
+        "Noun": "drip_tray",
+        "adverbial": "none"
+      },
+      "end": 173.207
+    },
+    {
+      "id": 68,
+      "label": "Fine grained action",
+      "start": 173.275,
+      "type": "range",
+      "attributes": {
+        "Action Correctness": "Correct Action",
+        "Incorrect Action Explanation": "none",
+        "Incorrect Action Corrected by": "none",
+        "Verb": "place",
+        "Adjective": "none",
+        "Noun": "drip_tray",
+        "adverbial": "none"
+      },
+      "end": 174.704
+    },
+    {
+      "id": 70,
+      "label": "Fine grained action",
+      "start": 175.006,
+      "type": "range",
+      "attributes": {
+        "Action Correctness": "Correct Action",
+        "Incorrect Action Explanation": "none",
+        "Incorrect Action Corrected by": "none",
+        "Verb": "grab",
+        "Adjective": "none",
+        "Noun": "drip_tray",
+        "adverbial": "none"
+      },
+      "end": 178.081
+    },
+    {
+      "id": 71,
+      "label": "Fine grained action",
+      "start": 178.172,
+      "type": "range",
+      "attributes": {
+        "Action Correctness": "Correct Action",
+        "Incorrect Action Explanation": "none",
+        "Incorrect Action Corrected by": "none",
+        "Verb": "assemble",
+        "Adjective": "none",
+        "Noun": "drip_tray",
+        "adverbial": "none"
+      },
+      "end": 179.523
+    },
+    {
+      "id": 72,
+      "label": "Fine grained action",
+      "start": 179.662,
+      "type": "range",
+      "attributes": {
+        "Action Correctness": "Correct Action",
+        "Incorrect Action Explanation": "none",
+        "Incorrect Action Corrected by": "none",
+        "Verb": "assemble",
+        "Adjective": "none",
+        "Noun": "drip_tray",
+        "adverbial": "none"
+      },
+      "end": 180.159
+    },
+    {
+      "id": 73,
+      "label": "Fine grained action",
+      "start": 180.258,
+      "type": "range",
+      "attributes": {
+        "Action Correctness": "Correct Action",
+        "Incorrect Action Explanation": "none",
+        "Incorrect Action Corrected by": "none",
+        "Verb": "grab",
+        "Adjective": "none",
+        "Noun": "drip_tray",
+        "adverbial": "none"
+      },
+      "end": 182.4
+    },
+    {
+      "id": 75,
+      "label": "Fine grained action",
+      "start": 184.3,
+      "type": "range",
+      "attributes": {
+        "Action Correctness": "Correct Action",
+        "Incorrect Action Explanation": "none",
+        "Incorrect Action Corrected by": "none",
+        "Verb": "insert",
+        "Adjective": "none",
+        "Noun": "drip_tray",
+        "adverbial": "none"
+      },
+      "end": 189.695
+    },
+    {
+      "id": 76,
+      "label": "Fine grained action",
+      "start": 189.806,
+      "type": "range",
+      "attributes": {
+        "Action Correctness": "Correct Action",
+        "Incorrect Action Explanation": "none",
+        "Incorrect Action Corrected by": "none",
+        "Verb": "grab",
+        "Adjective": "top",
+        "Noun": "drip_tray",
+        "adverbial": "none"
+      },
+      "end": 191.358
+    },
+    {
+      "id": 77,
+      "label": "Fine grained action",
+      "start": 191.514,
+      "type": "range",
+      "attributes": {
+        "Action Correctness": "Correct Action",
+        "Incorrect Action Explanation": "none",
+        "Incorrect Action Corrected by": "none",
+        "Verb": "assemble",
+        "Adjective": "top",
+        "Noun": "drip_tray",
+        "adverbial": "none"
+      },
+      "end": 194
+    },
+    {
+      "id": 79,
+      "label": "Fine grained action",
+      "start": 195.1,
+      "type": "range",
+      "attributes": {
+        "Action Correctness": "Correct Action",
+        "Incorrect Action Explanation": "none",
+        "Incorrect Action Corrected by": "none",
+        "Verb": "pull",
+        "Adjective": "top",
+        "Noun": "bean_hopper",
+        "adverbial": "none"
+      },
+      "end": 196.4
+    },
+    {
+      "id": 78,
+      "label": "Conversation",
+      "start": 195.386,
+      "type": "range",
+      "attributes": {
+        "Conversation Purpose": "instructor-start-conversation_follow-up instruction",
+        "Transcription": "And pull the top.",
+        "Transcription Confidence": "none"
+      },
+      "end": 197.009
+    },
+    {
+      "id": 80,
+      "label": "Conversation",
+      "start": 198.075,
+      "type": "range",
+      "attributes": {
+        "Conversation Purpose": "instructor-start-conversation_confirming the previous action",
+        "Transcription": "Nice. Well done."
+      },
+      "end": 198.841
+    },
+    {
+      "id": 81,
+      "label": "Conversation",
+      "start": 198.853,
+      "type": "range",
+      "attributes": {
+        "Conversation Purpose": "instructor-start-conversation_closing remarks",
+        "Transcription": "You can stop the recording now."
+      },
+      "end": 200.325
+    }
+  ],
+  "taskId": "63dadfe5c218c7bdc948d703",
+  "taskType": "make coffee with espresso machine",
+  "video_name": "z185-sep-09-22-espresso"
+}

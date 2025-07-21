@@ -1,0 +1,1234 @@
+{
+  "batch": "202301_2221_10fps",
+  "videoMetadata": {
+    "audio": {
+      "codec": "aac",
+      "bitrate": "70",
+      "sample_rate": 48000,
+      "stream": 0,
+      "channels": {
+        "raw": "mono",
+        "value": 1
+      }
+    },
+    "video": {
+      "container": "mov",
+      "bitrate": 2133,
+      "stream": 0,
+      "codec": "h264",
+      "resolution": {
+        "w": 896,
+        "h": 504
+      },
+      "resolutionSquare": {
+        "w": 896,
+        "h": 504
+      },
+      "aspect": {
+        "x": 16,
+        "y": 9,
+        "string": "16:9",
+        "value": 1.7777777777777777
+      },
+      "rotate": 0,
+      "fps": 29.98,
+      "pixelString": "1:1",
+      "pixel": 1
+    },
+    "duration": {
+      "raw": "00:01:43.10",
+      "seconds": 103
+    }
+  },
+  "events": [
+    {
+      "id": 1,
+      "label": "Narration",
+      "start": 0.1,
+      "type": "range",
+      "attributes": {
+        "Long form description": "The student detaches the lens from the DSLR, then reattaches the lens of the camera. He detaches the lens cover, then reattaches the lens cover. After, the student turns on the camera, then turns off the DSLR. Later, the student opens the battery door and changes to a new one. Finally, the student opens the same gate, grabs the old memory card, takes a new one and changes the memory card, then closes the battery door."
+      },
+      "end": 103
+    },
+    {
+      "id": 2,
+      "label": "Conversation",
+      "start": 0.7,
+      "type": "range",
+      "attributes": {
+        "Conversation Purpose": "instructor-start-conversation_opening remarks",
+        "Transcription": "Hello and welcome to our study."
+      },
+      "end": 2.403
+    },
+    {
+      "id": 3,
+      "label": "Conversation",
+      "start": 4.444,
+      "type": "range",
+      "attributes": {
+        "Conversation Purpose": "instructor-start-conversation_describing high-level instruction",
+        "Transcription": "In front of you, you will see a Canon DSLR camera. We'll be using it for this task. First, please detach the lens from the camera."
+      },
+      "end": 10.833
+    },
+    {
+      "id": 5,
+      "label": "Fine grained action",
+      "start": 11.069,
+      "type": "range",
+      "attributes": {
+        "Action Correctness": "Correct Action",
+        "Incorrect Action Explanation": "none",
+        "Incorrect Action Corrected by": "none",
+        "Verb": "rotate",
+        "Adjective": "black",
+        "Noun": "dslr",
+        "adverbial": "none"
+      },
+      "end": 11.593
+    },
+    {
+      "id": 4,
+      "label": "Coarse grained action",
+      "start": 11.1,
+      "type": "range",
+      "attributes": {
+        "Action sentence": "The student detaches the lens from the DSLR camera.",
+        "Verb": "disassemble",
+        "Noun": "lens"
+      },
+      "end": 26.1
+    },
+    {
+      "id": 6,
+      "label": "Fine grained action",
+      "start": 11.646,
+      "type": "range",
+      "attributes": {
+        "Action Correctness": "Correct Action",
+        "Incorrect Action Explanation": "none",
+        "Incorrect Action Corrected by": "none",
+        "Verb": "lift",
+        "Adjective": "black",
+        "Noun": "dslr",
+        "adverbial": "none"
+      },
+      "end": 12.097
+    },
+    {
+      "id": 8,
+      "label": "Fine grained action",
+      "start": 12.135,
+      "type": "range",
+      "attributes": {
+        "Action Correctness": "Correct Action",
+        "Incorrect Action Explanation": "none",
+        "Incorrect Action Corrected by": "none",
+        "Verb": "grab",
+        "Adjective": "rounded",
+        "Noun": "lens",
+        "adverbial": "none"
+      },
+      "end": 13.046
+    },
+    {
+      "id": 9,
+      "label": "Fine grained action",
+      "start": 13.189,
+      "type": "range",
+      "attributes": {
+        "Action Correctness": "Wrong Action, corrected by student",
+        "Incorrect Action Explanation": "The student should press the button to the left to detach the lens.",
+        "Incorrect Action Corrected by": "none",
+        "Verb": "rotate",
+        "Adjective": "rounded",
+        "Noun": "lens",
+        "adverbial": "none"
+      },
+      "end": 14.043
+    },
+    {
+      "id": 10,
+      "label": "Fine grained action",
+      "start": 14.119,
+      "type": "range",
+      "attributes": {
+        "Action Correctness": "Wrong Action, corrected by instructor verbally",
+        "Incorrect Action Explanation": "The student should press the button to the left to detach the lens.",
+        "Incorrect Action Corrected by": "11",
+        "Verb": "press",
+        "Adjective": "little",
+        "Noun": "button",
+        "adverbial": "none"
+      },
+      "end": 17.1
+    },
+    {
+      "id": 11,
+      "label": "Conversation",
+      "start": 17.408,
+      "type": "range",
+      "attributes": {
+        "Conversation Purpose": "instructor-start-conversation_correct the wrong action",
+        "sequence": "10",
+        "Transcription": "To detach the lens from the camera, please use the last cushion button underneath EOS."
+      },
+      "end": 21.249
+    },
+    {
+      "id": 12,
+      "label": "Fine grained action",
+      "start": 18.1,
+      "type": "range",
+      "attributes": {
+        "Action Correctness": "Wrong Action, corrected by student",
+        "Incorrect Action Explanation": "The student should press the button to the left to detach the lens.",
+        "Incorrect Action Corrected by": "none",
+        "Verb": "rotate",
+        "Adjective": "rounded",
+        "Noun": "lens",
+        "adverbial": "none"
+      },
+      "end": 19.039
+    },
+    {
+      "id": 13,
+      "label": "Fine grained action",
+      "start": 19.16,
+      "type": "range",
+      "attributes": {
+        "Action Correctness": "Correct Action",
+        "Incorrect Action Explanation": "none",
+        "Incorrect Action Corrected by": "none",
+        "Verb": "rotate",
+        "Adjective": "black",
+        "Noun": "dslr",
+        "adverbial": "none"
+      },
+      "end": 20.1
+    },
+    {
+      "id": 15,
+      "label": "Fine grained action",
+      "start": 21.1,
+      "type": "range",
+      "attributes": {
+        "Action Correctness": "Correct Action",
+        "Incorrect Action Explanation": "none",
+        "Incorrect Action Corrected by": "none",
+        "Verb": "press",
+        "Adjective": "left",
+        "Noun": "button",
+        "adverbial": "none"
+      },
+      "end": 22.001
+    },
+    {
+      "id": 16,
+      "label": "Fine grained action",
+      "start": 22.123,
+      "type": "range",
+      "attributes": {
+        "Action Correctness": "Correct Action",
+        "Incorrect Action Explanation": "none",
+        "Incorrect Action Corrected by": "none",
+        "Verb": "rotate",
+        "Adjective": "rounded",
+        "Noun": "lens",
+        "adverbial": "none"
+      },
+      "end": 23.263
+    },
+    {
+      "id": 17,
+      "label": "Fine grained action",
+      "start": 23.353,
+      "type": "range",
+      "attributes": {
+        "Action Correctness": "Correct Action",
+        "Incorrect Action Explanation": "none",
+        "Incorrect Action Corrected by": "none",
+        "Verb": "withdraw",
+        "Adjective": "rounded",
+        "Noun": "lens",
+        "adverbial": "none"
+      },
+      "end": 24.046
+    },
+    {
+      "id": 18,
+      "label": "Fine grained action",
+      "start": 24.145,
+      "type": "range",
+      "attributes": {
+        "Action Correctness": "Correct Action",
+        "Incorrect Action Explanation": "none",
+        "Incorrect Action Corrected by": "none",
+        "Verb": "place",
+        "Adjective": "black",
+        "Noun": "dslr",
+        "adverbial": "none"
+      },
+      "end": 25.281
+    },
+    {
+      "id": 19,
+      "label": "Fine grained action",
+      "start": 25.344,
+      "type": "range",
+      "attributes": {
+        "Action Correctness": "Correct Action",
+        "Incorrect Action Explanation": "none",
+        "Incorrect Action Corrected by": "none",
+        "Verb": "place",
+        "Adjective": "none",
+        "Noun": "lens",
+        "adverbial": "none"
+      },
+      "end": 26.1
+    },
+    {
+      "id": 20,
+      "label": "Conversation",
+      "start": 26.074,
+      "type": "range",
+      "attributes": {
+        "Conversation Purpose": "instructor-start-conversation_describing high-level instruction",
+        "sequence": "none",
+        "Transcription": "Next, please reattach the lens to the camera.",
+        "Transcription Confidence": "none"
+      },
+      "end": 28.435
+    },
+    {
+      "id": 21,
+      "label": "Coarse grained action",
+      "start": 28.1,
+      "type": "range",
+      "attributes": {
+        "Action sentence": "The student attaches the lens to the DSLR camera.",
+        "Verb": "assemble",
+        "Noun": "lens"
+      },
+      "end": 44.1
+    },
+    {
+      "id": 23,
+      "label": "Fine grained action",
+      "start": 28.888,
+      "type": "range",
+      "attributes": {
+        "Action Correctness": "Correct Action",
+        "Incorrect Action Explanation": "none",
+        "Incorrect Action Corrected by": "none",
+        "Verb": "grab",
+        "Adjective": "rounded",
+        "Noun": "lens",
+        "adverbial": "none"
+      },
+      "end": 29.458
+    },
+    {
+      "id": 24,
+      "label": "Fine grained action",
+      "start": 29.499,
+      "type": "range",
+      "attributes": {
+        "Action Correctness": "Correct Action",
+        "Incorrect Action Explanation": "none",
+        "Incorrect Action Corrected by": "none",
+        "Verb": "lift",
+        "Adjective": "rounded",
+        "Noun": "lens",
+        "adverbial": "none"
+      },
+      "end": 30.052
+    },
+    {
+      "id": 25,
+      "label": "Fine grained action",
+      "start": 30.131,
+      "type": "range",
+      "attributes": {
+        "Action Correctness": "Correct Action",
+        "Incorrect Action Explanation": "none",
+        "Incorrect Action Corrected by": "none",
+        "Verb": "rotate",
+        "Adjective": "black",
+        "Noun": "dslr",
+        "adverbial": "none"
+      },
+      "end": 30.632
+    },
+    {
+      "id": 27,
+      "label": "Fine grained action",
+      "start": 31.588,
+      "type": "range",
+      "attributes": {
+        "Action Correctness": "Wrong Action, corrected by student",
+        "Incorrect Action Explanation": "The student should align the red mark at the middle first.",
+        "Incorrect Action Corrected by": "none",
+        "Verb": "assemble",
+        "Adjective": "rounded",
+        "Noun": "lens",
+        "adverbial": "none"
+      },
+      "end": 32.168
+    },
+    {
+      "id": 28,
+      "label": "Fine grained action",
+      "start": 32.238,
+      "type": "range",
+      "attributes": {
+        "Action Correctness": "Wrong Action, corrected by student",
+        "Incorrect Action Explanation": "The student should align the red mark at the middle first.",
+        "Incorrect Action Corrected by": "none",
+        "Verb": "rotate",
+        "Adjective": "rounded",
+        "Noun": "lens",
+        "adverbial": "none"
+      },
+      "end": 35.026
+    },
+    {
+      "id": 29,
+      "label": "Fine grained action",
+      "start": 35.105,
+      "type": "range",
+      "attributes": {
+        "Action Correctness": "Correct Action",
+        "Incorrect Action Explanation": "none",
+        "Incorrect Action Corrected by": "none",
+        "Verb": "withdraw",
+        "Adjective": "rounded",
+        "Noun": "lens",
+        "adverbial": "none"
+      },
+      "end": 36.033
+    },
+    {
+      "id": 30,
+      "label": "Fine grained action",
+      "start": 36.17,
+      "type": "range",
+      "attributes": {
+        "Action Correctness": "Wrong Action, corrected by student",
+        "Incorrect Action Explanation": "The student should align the red mark at the middle first.",
+        "Incorrect Action Corrected by": "none",
+        "Verb": "assemble",
+        "Adjective": "rounded",
+        "Noun": "lens",
+        "adverbial": "none"
+      },
+      "end": 36.629
+    },
+    {
+      "id": 31,
+      "label": "Fine grained action",
+      "start": 36.768,
+      "type": "range",
+      "attributes": {
+        "Action Correctness": "Wrong Action, corrected by student",
+        "Incorrect Action Explanation": "The student should align the red mark at the middle first.",
+        "Incorrect Action Corrected by": "none",
+        "Verb": "rotate",
+        "Adjective": "rounded",
+        "Noun": "lens",
+        "adverbial": "none"
+      },
+      "end": 39.07
+    },
+    {
+      "id": 32,
+      "label": "Fine grained action",
+      "start": 39.154,
+      "type": "range",
+      "attributes": {
+        "Action Correctness": "Correct Action",
+        "Incorrect Action Explanation": "none",
+        "Incorrect Action Corrected by": "none",
+        "Verb": "withdraw",
+        "Adjective": "rounded",
+        "Noun": "lens",
+        "adverbial": "none"
+      },
+      "end": 39.636
+    },
+    {
+      "id": 33,
+      "label": "Fine grained action",
+      "start": 39.671,
+      "type": "range",
+      "attributes": {
+        "Action Correctness": "Correct Action",
+        "Incorrect Action Explanation": "none",
+        "Incorrect Action Corrected by": "none",
+        "Verb": "assemble",
+        "Adjective": "rounded",
+        "Noun": "lens",
+        "adverbial": "none"
+      },
+      "end": 40.125
+    },
+    {
+      "id": 34,
+      "label": "Fine grained action",
+      "start": 41.1,
+      "type": "range",
+      "attributes": {
+        "Action Correctness": "Correct Action",
+        "Incorrect Action Explanation": "none",
+        "Incorrect Action Corrected by": "none",
+        "Verb": "rotate",
+        "Adjective": "rounded",
+        "Noun": "lens",
+        "adverbial": "none"
+      },
+      "end": 43.5
+    },
+    {
+      "id": 35,
+      "label": "Conversation",
+      "start": 44.375,
+      "type": "range",
+      "attributes": {
+        "Conversation Purpose": "instructor-start-conversation_describing high-level instruction",
+        "sequence": "none",
+        "Transcription": "Next, please detach the lens cover.",
+        "Transcription Confidence": "none"
+      },
+      "end": 46.125
+    },
+    {
+      "id": 36,
+      "label": "Coarse grained action",
+      "start": 45.1,
+      "type": "range",
+      "attributes": {
+        "Action sentence": "The student detaches the lens cover.",
+        "Verb": "disassemble",
+        "Noun": "lens_cover"
+      },
+      "end": 48.1
+    },
+    {
+      "id": 38,
+      "label": "Fine grained action",
+      "start": 46.1,
+      "type": "range",
+      "attributes": {
+        "Action Correctness": "Correct Action",
+        "Incorrect Action Explanation": "none",
+        "Incorrect Action Corrected by": "none",
+        "Verb": "withdraw",
+        "Adjective": "rounded",
+        "Noun": "lens_cover",
+        "adverbial": "none"
+      },
+      "end": 47.8
+    },
+    {
+      "id": 39,
+      "label": "Conversation",
+      "start": 48.213,
+      "type": "range",
+      "attributes": {
+        "Conversation Purpose": "instructor-start-conversation_describing high-level instruction",
+        "sequence": "none",
+        "Transcription": "Next, please reattach the lens cover.",
+        "Transcription Confidence": "none"
+      },
+      "end": 50
+    },
+    {
+      "id": 40,
+      "label": "Coarse grained action",
+      "start": 49.1,
+      "type": "range",
+      "attributes": {
+        "Action sentence": "The student attaches the lens cover.",
+        "Verb": "assemble",
+        "Noun": "lens_cover"
+      },
+      "end": 52.1
+    },
+    {
+      "id": 42,
+      "label": "Fine grained action",
+      "start": 49.772,
+      "type": "range",
+      "attributes": {
+        "Action Correctness": "Correct Action",
+        "Incorrect Action Explanation": "none",
+        "Incorrect Action Corrected by": "none",
+        "Verb": "grab",
+        "Adjective": "rounded",
+        "Noun": "lens_cover",
+        "adverbial": "none"
+      },
+      "end": 50.146
+    },
+    {
+      "id": 44,
+      "label": "Fine grained action",
+      "start": 50.201,
+      "type": "range",
+      "attributes": {
+        "Action Correctness": "Correct Action",
+        "Incorrect Action Explanation": "none",
+        "Incorrect Action Corrected by": "none",
+        "Verb": "lift",
+        "Adjective": "rounded",
+        "Noun": "lens_cover",
+        "adverbial": "none"
+      },
+      "end": 51.031
+    },
+    {
+      "id": 99,
+      "label": "Fine grained action",
+      "start": 51.14,
+      "type": "range",
+      "attributes": {
+        "Action Correctness": "Correct Action",
+        "Incorrect Action Explanation": "none",
+        "Incorrect Action Corrected by": "none",
+        "Verb": "assemble",
+        "Adjective": "rounded",
+        "Noun": "lens_cover",
+        "adverbial": "none"
+      },
+      "end": 51.569
+    },
+    {
+      "id": 46,
+      "label": "Fine grained action",
+      "start": 51.668,
+      "type": "range",
+      "attributes": {
+        "Action Correctness": "Correct Action",
+        "Incorrect Action Explanation": "none",
+        "Incorrect Action Corrected by": "none",
+        "Verb": "assemble",
+        "Adjective": "rounded",
+        "Noun": "lens_cover",
+        "adverbial": "none"
+      },
+      "end": 52.136
+    },
+    {
+      "id": 47,
+      "label": "Conversation",
+      "start": 52.309,
+      "type": "range",
+      "attributes": {
+        "Conversation Purpose": "instructor-start-conversation_describing high-level instruction",
+        "sequence": "none",
+        "Transcription": "Next, please turn on the camera.",
+        "Transcription Confidence": "none"
+      },
+      "end": 54.175
+    },
+    {
+      "id": 48,
+      "label": "Coarse grained action",
+      "start": 54.1,
+      "type": "range",
+      "attributes": {
+        "Action sentence": "The student turns on their DSLR.",
+        "Verb": "turn_on",
+        "Noun": "dslr"
+      },
+      "end": 58.1
+    },
+    {
+      "id": 49,
+      "label": "Fine grained action",
+      "start": 54.1,
+      "type": "range",
+      "attributes": {
+        "Action Correctness": "Correct Action",
+        "Incorrect Action Explanation": "none",
+        "Incorrect Action Corrected by": "none",
+        "Verb": "rotate",
+        "Adjective": "black",
+        "Noun": "dslr",
+        "adverbial": "none"
+      },
+      "end": 55.519
+    },
+    {
+      "id": 51,
+      "label": "Fine grained action",
+      "start": 56.053,
+      "type": "range",
+      "attributes": {
+        "Action Correctness": "Correct Action",
+        "Incorrect Action Explanation": "none",
+        "Incorrect Action Corrected by": "none",
+        "Verb": "press",
+        "Adjective": "top",
+        "Noun": "button",
+        "adverbial": "none"
+      },
+      "end": 57.1
+    },
+    {
+      "id": 52,
+      "label": "Conversation",
+      "start": 58.29,
+      "type": "range",
+      "attributes": {
+        "Conversation Purpose": "instructor-start-conversation_describing high-level instruction",
+        "sequence": "none",
+        "Transcription": "Next, please turn off the camera.",
+        "Transcription Confidence": "none"
+      },
+      "end": 59.982
+    },
+    {
+      "id": 53,
+      "label": "Coarse grained action",
+      "start": 60.1,
+      "type": "range",
+      "attributes": {
+        "Action sentence": "The student turns off their DSLR.",
+        "Verb": "turn_off",
+        "Noun": "dslr"
+      },
+      "end": 61.99
+    },
+    {
+      "id": 55,
+      "label": "Fine grained action",
+      "start": 60.983,
+      "type": "range",
+      "attributes": {
+        "Action Correctness": "Correct Action",
+        "Incorrect Action Explanation": "none",
+        "Incorrect Action Corrected by": "none",
+        "Verb": "press",
+        "Adjective": "top",
+        "Noun": "button",
+        "adverbial": "none"
+      },
+      "end": 61.603
+    },
+    {
+      "id": 56,
+      "label": "Conversation",
+      "start": 62,
+      "type": "range",
+      "attributes": {
+        "Conversation Purpose": "instructor-start-conversation_describing high-level instruction",
+        "sequence": "none",
+        "Transcription": "Next, please change the battery of the camera.",
+        "Transcription Confidence": "none"
+      },
+      "end": 64.5
+    },
+    {
+      "id": 57,
+      "label": "Coarse grained action",
+      "start": 64.1,
+      "type": "range",
+      "attributes": {
+        "Action sentence": "The student changes the battery of their DSLR.",
+        "Verb": "exchange",
+        "Noun": "battery"
+      },
+      "end": 84.7
+    },
+    {
+      "id": 59,
+      "label": "Fine grained action",
+      "start": 64.1,
+      "type": "range",
+      "attributes": {
+        "Action Correctness": "Correct Action",
+        "Incorrect Action Explanation": "none",
+        "Incorrect Action Corrected by": "none",
+        "Verb": "grab",
+        "Adjective": "black",
+        "Noun": "dslr",
+        "adverbial": "none"
+      },
+      "end": 64.944
+    },
+    {
+      "id": 60,
+      "label": "Fine grained action",
+      "start": 64.966,
+      "type": "range",
+      "attributes": {
+        "Action Correctness": "Correct Action",
+        "Incorrect Action Explanation": "none",
+        "Incorrect Action Corrected by": "none",
+        "Verb": "lift",
+        "Adjective": "black",
+        "Noun": "dslr",
+        "adverbial": "none"
+      },
+      "end": 65.43
+    },
+    {
+      "id": 61,
+      "label": "Fine grained action",
+      "start": 65.443,
+      "type": "range",
+      "attributes": {
+        "Action Correctness": "Correct Action",
+        "Incorrect Action Explanation": "none",
+        "Incorrect Action Corrected by": "none",
+        "Verb": "rotate",
+        "Adjective": "black",
+        "Noun": "dslr",
+        "adverbial": "none"
+      },
+      "end": 66.467
+    },
+    {
+      "id": 63,
+      "label": "Fine grained action",
+      "start": 67.078,
+      "type": "range",
+      "attributes": {
+        "Action Correctness": "Correct Action",
+        "Incorrect Action Explanation": "none",
+        "Incorrect Action Corrected by": "none",
+        "Verb": "press",
+        "Adjective": "little",
+        "Noun": "button",
+        "adverbial": "none"
+      },
+      "end": 69.48
+    },
+    {
+      "id": 64,
+      "label": "Fine grained action",
+      "start": 69.595,
+      "type": "range",
+      "attributes": {
+        "Action Correctness": "Correct Action",
+        "Incorrect Action Explanation": "none",
+        "Incorrect Action Corrected by": "none",
+        "Verb": "open",
+        "Adjective": "rectangular",
+        "Noun": "battery_door",
+        "adverbial": "none"
+      },
+      "end": 70.3
+    },
+    {
+      "id": 66,
+      "label": "Fine grained action",
+      "start": 72.069,
+      "type": "range",
+      "attributes": {
+        "Action Correctness": "Correct Action",
+        "Incorrect Action Explanation": "none",
+        "Incorrect Action Corrected by": "none",
+        "Verb": "press",
+        "Adjective": "color_- other",
+        "Noun": "button",
+        "adverbial": "none"
+      },
+      "end": 72.605
+    },
+    {
+      "id": 67,
+      "label": "Fine grained action",
+      "start": 72.608,
+      "type": "range",
+      "attributes": {
+        "Action Correctness": "Wrong Action, corrected by student",
+        "Incorrect Action Explanation": "The student should grab it instead.",
+        "Incorrect Action Corrected by": "none",
+        "Verb": "push",
+        "Adjective": "old",
+        "Noun": "battery",
+        "adverbial": "none"
+      },
+      "end": 73.11
+    },
+    {
+      "id": 68,
+      "label": "Fine grained action",
+      "start": 73.165,
+      "type": "range",
+      "attributes": {
+        "Action Correctness": "Correct Action",
+        "Incorrect Action Explanation": "none",
+        "Incorrect Action Corrected by": "none",
+        "Verb": "grab",
+        "Adjective": "old",
+        "Noun": "battery",
+        "adverbial": "none"
+      },
+      "end": 74.375
+    },
+    {
+      "id": 69,
+      "label": "Fine grained action",
+      "start": 74.466,
+      "type": "range",
+      "attributes": {
+        "Action Correctness": "Correct Action",
+        "Incorrect Action Explanation": "none",
+        "Incorrect Action Corrected by": "none",
+        "Verb": "place",
+        "Adjective": "old",
+        "Noun": "battery",
+        "adverbial": "none"
+      },
+      "end": 75.62
+    },
+    {
+      "id": 71,
+      "label": "Fine grained action",
+      "start": 76.158,
+      "type": "range",
+      "attributes": {
+        "Action Correctness": "Correct Action",
+        "Incorrect Action Explanation": "none",
+        "Incorrect Action Corrected by": "none",
+        "Verb": "grab",
+        "Adjective": "new",
+        "Noun": "battery",
+        "adverbial": "none"
+      },
+      "end": 76.653
+    },
+    {
+      "id": 72,
+      "label": "Fine grained action",
+      "start": 76.688,
+      "type": "range",
+      "attributes": {
+        "Action Correctness": "Correct Action",
+        "Incorrect Action Explanation": "none",
+        "Incorrect Action Corrected by": "none",
+        "Verb": "lift",
+        "Adjective": "new",
+        "Noun": "battery",
+        "adverbial": "none"
+      },
+      "end": 77.203
+    },
+    {
+      "id": 74,
+      "label": "Fine grained action",
+      "start": 78.1,
+      "type": "range",
+      "attributes": {
+        "Action Correctness": "Correct Action",
+        "Incorrect Action Explanation": "none",
+        "Incorrect Action Corrected by": "none",
+        "Verb": "insert",
+        "Adjective": "new",
+        "Noun": "battery",
+        "adverbial": "none"
+      },
+      "end": 82.3
+    },
+    {
+      "id": 75,
+      "label": "Fine grained action",
+      "start": 83.1,
+      "type": "range",
+      "attributes": {
+        "Action Correctness": "Correct Action",
+        "Incorrect Action Explanation": "none",
+        "Incorrect Action Corrected by": "none",
+        "Verb": "close",
+        "Adjective": "rectangular",
+        "Noun": "battery_door",
+        "adverbial": "none"
+      },
+      "end": 84.3
+    },
+    {
+      "id": 77,
+      "label": "Conversation",
+      "start": 85.112,
+      "type": "range",
+      "attributes": {
+        "Conversation Purpose": "instructor-start-conversation_describing high-level instruction",
+        "sequence": "none",
+        "Transcription": "Lastly, please change the SD card in the camera.",
+        "Transcription Confidence": "none"
+      },
+      "end": 87.903
+    },
+    {
+      "id": 79,
+      "label": "Fine grained action",
+      "start": 85.17,
+      "type": "range",
+      "attributes": {
+        "Action Correctness": "Correct Action",
+        "Incorrect Action Explanation": "none",
+        "Incorrect Action Corrected by": "none",
+        "Verb": "rotate",
+        "Adjective": "black",
+        "Noun": "dslr",
+        "adverbial": "none"
+      },
+      "end": 85.612
+    },
+    {
+      "id": 78,
+      "label": "Coarse grained action",
+      "start": 85.2,
+      "type": "range",
+      "attributes": {
+        "Action sentence": "The student changes the SD card in the DSLR.",
+        "Verb": "exchange",
+        "Noun": "sd_card"
+      },
+      "end": 101.1
+    },
+    {
+      "id": 80,
+      "label": "Fine grained action",
+      "start": 85.687,
+      "type": "range",
+      "attributes": {
+        "Action Correctness": "Correct Action",
+        "Incorrect Action Explanation": "none",
+        "Incorrect Action Corrected by": "none",
+        "Verb": "lift",
+        "Adjective": "black",
+        "Noun": "dslr",
+        "adverbial": "none"
+      },
+      "end": 86.092
+    },
+    {
+      "id": 81,
+      "label": "Fine grained action",
+      "start": 86.156,
+      "type": "range",
+      "attributes": {
+        "Action Correctness": "Correct Action",
+        "Incorrect Action Explanation": "none",
+        "Incorrect Action Corrected by": "none",
+        "Verb": "rotate",
+        "Adjective": "black",
+        "Noun": "dslr",
+        "adverbial": "none"
+      },
+      "end": 87.059
+    },
+    {
+      "id": 83,
+      "label": "Fine grained action",
+      "start": 87.163,
+      "type": "range",
+      "attributes": {
+        "Action Correctness": "Correct Action",
+        "Incorrect Action Explanation": "none",
+        "Incorrect Action Corrected by": "none",
+        "Verb": "place",
+        "Adjective": "black",
+        "Noun": "dslr",
+        "adverbial": "none"
+      },
+      "end": 88.073
+    },
+    {
+      "id": 84,
+      "label": "Fine grained action",
+      "start": 88.144,
+      "type": "range",
+      "attributes": {
+        "Action Correctness": "Correct Action",
+        "Incorrect Action Explanation": "none",
+        "Incorrect Action Corrected by": "none",
+        "Verb": "press",
+        "Adjective": "little",
+        "Noun": "button",
+        "adverbial": "none"
+      },
+      "end": 88.821
+    },
+    {
+      "id": 85,
+      "label": "Fine grained action",
+      "start": 88.876,
+      "type": "range",
+      "attributes": {
+        "Action Correctness": "Correct Action",
+        "Incorrect Action Explanation": "none",
+        "Incorrect Action Corrected by": "none",
+        "Verb": "open",
+        "Adjective": "rectangular",
+        "Noun": "battery_door",
+        "adverbial": "none"
+      },
+      "end": 89.358
+    },
+    {
+      "id": 87,
+      "label": "Fine grained action",
+      "start": 89.954,
+      "type": "range",
+      "attributes": {
+        "Action Correctness": "Correct Action",
+        "Incorrect Action Explanation": "none",
+        "Incorrect Action Corrected by": "none",
+        "Verb": "push",
+        "Adjective": "old",
+        "Noun": "sd_card",
+        "adverbial": "none"
+      },
+      "end": 90.552
+    },
+    {
+      "id": 88,
+      "label": "Fine grained action",
+      "start": 90.566,
+      "type": "range",
+      "attributes": {
+        "Action Correctness": "Correct Action",
+        "Incorrect Action Explanation": "none",
+        "Incorrect Action Corrected by": "none",
+        "Verb": "grab",
+        "Adjective": "old",
+        "Noun": "sd_card",
+        "adverbial": "none"
+      },
+      "end": 91.058
+    },
+    {
+      "id": 89,
+      "label": "Fine grained action",
+      "start": 91.128,
+      "type": "range",
+      "attributes": {
+        "Action Correctness": "Correct Action",
+        "Incorrect Action Explanation": "none",
+        "Incorrect Action Corrected by": "none",
+        "Verb": "place",
+        "Adjective": "old",
+        "Noun": "sd_card",
+        "adverbial": "none"
+      },
+      "end": 92.07
+    },
+    {
+      "id": 91,
+      "label": "Fine grained action",
+      "start": 92.154,
+      "type": "range",
+      "attributes": {
+        "Action Correctness": "Correct Action",
+        "Incorrect Action Explanation": "none",
+        "Incorrect Action Corrected by": "none",
+        "Verb": "lift",
+        "Adjective": "new",
+        "Noun": "sd_card",
+        "adverbial": "none"
+      },
+      "end": 92.697
+    },
+    {
+      "id": 92,
+      "label": "Fine grained action",
+      "start": 92.774,
+      "type": "range",
+      "attributes": {
+        "Action Correctness": "Correct Action",
+        "Incorrect Action Explanation": "none",
+        "Incorrect Action Corrected by": "none",
+        "Verb": "grab",
+        "Adjective": "new",
+        "Noun": "sd_card",
+        "adverbial": "none"
+      },
+      "end": 93.3
+    },
+    {
+      "id": 94,
+      "label": "Fine grained action",
+      "start": 94.1,
+      "type": "range",
+      "attributes": {
+        "Action Correctness": "Correct Action",
+        "Incorrect Action Explanation": "none",
+        "Incorrect Action Corrected by": "none",
+        "Verb": "insert",
+        "Adjective": "new",
+        "Noun": "sd_card",
+        "adverbial": "none"
+      },
+      "end": 97.172
+    },
+    {
+      "id": 95,
+      "label": "Fine grained action",
+      "start": 97.276,
+      "type": "range",
+      "attributes": {
+        "Action Correctness": "Correct Action",
+        "Incorrect Action Explanation": "none",
+        "Incorrect Action Corrected by": "none",
+        "Verb": "close",
+        "Adjective": "rectangular",
+        "Noun": "battery_door",
+        "adverbial": "none"
+      },
+      "end": 99.009
+    },
+    {
+      "id": 97,
+      "label": "Conversation",
+      "start": 98.25,
+      "type": "range",
+      "attributes": {
+        "Conversation Purpose": "instructor-start-conversation_closing remarks",
+        "Transcription": "That concludes everything in this task. You may now press the stop button."
+      },
+      "end": 101.95
+    },
+    {
+      "id": 96,
+      "label": "Fine grained action",
+      "start": 99.149,
+      "type": "range",
+      "attributes": {
+        "Action Correctness": "Correct Action",
+        "Incorrect Action Explanation": "none",
+        "Incorrect Action Corrected by": "none",
+        "Verb": "rotate",
+        "Adjective": "black",
+        "Noun": "dslr",
+        "adverbial": "none"
+      },
+      "end": 100.065
+    },
+    {
+      "id": 98,
+      "label": "Fine grained action",
+      "start": 100.12,
+      "type": "range",
+      "attributes": {
+        "Action Correctness": "Correct Action",
+        "Incorrect Action Explanation": "none",
+        "Incorrect Action Corrected by": "none",
+        "Verb": "place",
+        "Adjective": "black",
+        "Noun": "dslr",
+        "adverbial": "none"
+      },
+      "end": 101.1
+    }
+  ],
+  "taskId": "63dadf0e3f3920ace5987062",
+  "taskType": "setup camera",
+  "video_name": "z069-june-29-22-dslr"
+}

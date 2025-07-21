@@ -1,0 +1,880 @@
+{
+  "batch": "202301_2221_10fps",
+  "videoMetadata": {
+    "audio": {
+      "codec": "aac",
+      "bitrate": "70",
+      "sample_rate": 48000,
+      "stream": 0,
+      "channels": {
+        "raw": "mono",
+        "value": 1
+      }
+    },
+    "video": {
+      "container": "mov",
+      "bitrate": 2045,
+      "stream": 0,
+      "codec": "h264",
+      "resolution": {
+        "w": 896,
+        "h": 504
+      },
+      "resolutionSquare": {
+        "w": 896,
+        "h": 504
+      },
+      "aspect": {
+        "x": 16,
+        "y": 9,
+        "string": "16:9",
+        "value": 1.7777777777777777
+      },
+      "rotate": 0,
+      "fps": 29.92,
+      "pixelString": "1:1",
+      "pixel": 1
+    },
+    "duration": {
+      "raw": "00:03:46.75",
+      "seconds": 226
+    }
+  },
+  "events": [
+    {
+      "id": 1,
+      "label": "Narration",
+      "start": 0.1,
+      "type": "range",
+      "attributes": {
+        "Long form description": "The student picks up the GoPro from the table and tries to open the battery door, but fails."
+      },
+      "end": 225.1
+    },
+    {
+      "id": 59,
+      "label": "Conversation",
+      "start": 2.142,
+      "type": "range",
+      "attributes": {
+        "Conversation Purpose": "instructor-start-conversation_confirming the previous action",
+        "sequence": "none",
+        "Transcription": "Okay",
+        "Transcription Confidence": "none"
+      },
+      "end": 2.256
+    },
+    {
+      "id": 61,
+      "label": "Conversation",
+      "start": 2.33,
+      "type": "range",
+      "attributes": {
+        "Conversation Purpose": "instructor-start-conversation_describing high-level instruction",
+        "Transcription": "Grab the gopro."
+      },
+      "end": 4.391
+    },
+    {
+      "id": 3,
+      "label": "Coarse grained action",
+      "start": 4.3,
+      "type": "range",
+      "attributes": {
+        "Action sentence": "The student grabs the GoPro.",
+        "Verb": "grab",
+        "Noun": "gopro"
+      },
+      "end": 10.3
+    },
+    {
+      "id": 4,
+      "label": "Conversation",
+      "start": 4.46,
+      "type": "range",
+      "attributes": {
+        "Conversation Purpose": "instructor-start-conversation_follow-up instruction",
+        "Transcription": "Turn it on."
+      },
+      "end": 5.4
+    },
+    {
+      "id": 6,
+      "label": "Fine grained action",
+      "start": 5.2,
+      "type": "range",
+      "attributes": {
+        "Action Correctness": "Correct Action",
+        "Incorrect Action Explanation": "none",
+        "Incorrect Action Corrected by": "none",
+        "Verb": "grab",
+        "Adjective": "none",
+        "Noun": "gopro",
+        "adverbial": "none"
+      },
+      "end": 7.429
+    },
+    {
+      "id": 7,
+      "label": "Fine grained action",
+      "start": 7.524,
+      "type": "range",
+      "attributes": {
+        "Action Correctness": "Correct Action",
+        "Incorrect Action Explanation": "none",
+        "Incorrect Action Corrected by": "none",
+        "Verb": "lift",
+        "Adjective": "none",
+        "Noun": "gopro",
+        "adverbial": "none"
+      },
+      "end": 9.5
+    },
+    {
+      "id": 8,
+      "label": "Conversation",
+      "start": 14.127,
+      "type": "range",
+      "attributes": {
+        "Conversation Purpose": "instructor-start-conversation_describing high-level instruction",
+        "Transcription": "Change the battery."
+      },
+      "end": 15.336
+    },
+    {
+      "id": 10,
+      "label": "Fine grained action",
+      "start": 15.1,
+      "type": "range",
+      "attributes": {
+        "Action Correctness": "Wrong Action, corrected by student",
+        "Incorrect Action Explanation": "The student cannot satisfactorily complete the task.",
+        "Incorrect Action Corrected by": "none",
+        "Verb": "inspect",
+        "Adjective": "none",
+        "Noun": "gopro",
+        "adverbial": "none"
+      },
+      "end": 24.2
+    },
+    {
+      "id": 9,
+      "label": "Coarse grained action",
+      "start": 15.3,
+      "type": "range",
+      "attributes": {
+        "Action sentence": "The student changes the battery of GoPro.",
+        "Verb": "exchange",
+        "Adjective": "none",
+        "Noun": "battery"
+      },
+      "end": 221.1
+    },
+    {
+      "id": 11,
+      "label": "Fine grained action",
+      "start": 25.2,
+      "type": "range",
+      "attributes": {
+        "Action Correctness": "Wrong Action, corrected by student",
+        "Incorrect Action Explanation": "The student cannot satisfactorily complete the task.",
+        "Incorrect Action Corrected by": "none",
+        "Verb": "pull",
+        "Adjective": "none",
+        "Noun": "battery_door",
+        "adverbial": "none"
+      },
+      "end": 30.538
+    },
+    {
+      "id": 12,
+      "label": "Conversation",
+      "start": 26.104,
+      "type": "range",
+      "attributes": {
+        "Conversation Purpose": "instructor-reply-to-student_follow-up instruction",
+        "Transcription": "Try the other way."
+      },
+      "end": 28.601
+    },
+    {
+      "id": 13,
+      "label": "Fine grained action",
+      "start": 30.979,
+      "type": "range",
+      "attributes": {
+        "Action Correctness": "Wrong Action, corrected by student",
+        "Incorrect Action Explanation": "The student cannot satisfactorily complete the task.",
+        "Incorrect Action Corrected by": "none",
+        "Verb": "press",
+        "Adjective": "none",
+        "Noun": "battery_door",
+        "adverbial": "none"
+      },
+      "end": 38.953
+    },
+    {
+      "id": 14,
+      "label": "Conversation",
+      "start": 37.3,
+      "type": "range",
+      "attributes": {
+        "Conversation Purpose": "instructor-start-conversation_follow-up instruction",
+        "Transcription": "So you are gonna lift up and then pull out."
+      },
+      "end": 39.5
+    },
+    {
+      "id": 15,
+      "label": "Fine grained action",
+      "start": 38.97,
+      "type": "range",
+      "attributes": {
+        "Action Correctness": "Wrong Action, corrected by student",
+        "Incorrect Action Explanation": "The student cannot satisfactorily complete the task.",
+        "Incorrect Action Corrected by": "none",
+        "Verb": "pull",
+        "Adjective": "none",
+        "Noun": "battery_door",
+        "adverbial": "none"
+      },
+      "end": 43.507
+    },
+    {
+      "id": 16,
+      "label": "Fine grained action",
+      "start": 43.615,
+      "type": "range",
+      "attributes": {
+        "Action Correctness": "Correct Action",
+        "Incorrect Action Explanation": "none",
+        "Incorrect Action Corrected by": "none",
+        "Verb": "rotate",
+        "Adjective": "none",
+        "Noun": "gopro",
+        "adverbial": "none"
+      },
+      "end": 44.681
+    },
+    {
+      "id": 17,
+      "label": "Fine grained action",
+      "start": 45.082,
+      "type": "range",
+      "attributes": {
+        "Action Correctness": "Wrong Action, corrected by student",
+        "Incorrect Action Explanation": "The student cannot satisfactorily complete the task.",
+        "Incorrect Action Corrected by": "none",
+        "Verb": "pull",
+        "Adjective": "none",
+        "Noun": "battery_door",
+        "adverbial": "none"
+      },
+      "end": 46.823
+    },
+    {
+      "id": 18,
+      "label": "Fine grained action",
+      "start": 46.958,
+      "type": "range",
+      "attributes": {
+        "Action Correctness": "Wrong Action, corrected by student",
+        "Incorrect Action Explanation": "The student cannot satisfactorily complete the task.",
+        "Incorrect Action Corrected by": "none",
+        "Verb": "rotate",
+        "Adjective": "none",
+        "Noun": "battery_door",
+        "adverbial": "none"
+      },
+      "end": 47.462
+    },
+    {
+      "id": 19,
+      "label": "Fine grained action",
+      "start": 47.515,
+      "type": "range",
+      "attributes": {
+        "Action Correctness": "Correct Action",
+        "Incorrect Action Explanation": "none",
+        "Incorrect Action Corrected by": "none",
+        "Verb": "rotate",
+        "Adjective": "none",
+        "Noun": "gopro",
+        "adverbial": "none"
+      },
+      "end": 48.003
+    },
+    {
+      "id": 20,
+      "label": "Fine grained action",
+      "start": 48.2,
+      "type": "range",
+      "attributes": {
+        "Action Correctness": "Wrong Action, corrected by student",
+        "Incorrect Action Explanation": "The student cannot satisfactorily complete the task.",
+        "Incorrect Action Corrected by": "none",
+        "Verb": "pull",
+        "Adjective": "none",
+        "Noun": "battery_door",
+        "adverbial": "none"
+      },
+      "end": 54.817
+    },
+    {
+      "id": 21,
+      "label": "Fine grained action",
+      "start": 54.89,
+      "type": "range",
+      "attributes": {
+        "Action Correctness": "Wrong Action, corrected by student",
+        "Incorrect Action Explanation": "The student cannot satisfactorily complete the task.",
+        "Incorrect Action Corrected by": "none",
+        "Verb": "push",
+        "Adjective": "none",
+        "Noun": "battery_door",
+        "adverbial": "none"
+      },
+      "end": 61.3
+    },
+    {
+      "id": 22,
+      "label": "Fine grained action",
+      "start": 62.1,
+      "type": "range",
+      "attributes": {
+        "Action Correctness": "Wrong Action, corrected by student",
+        "Incorrect Action Explanation": "The student cannot satisfactorily complete the task.",
+        "Incorrect Action Corrected by": "none",
+        "Verb": "pull",
+        "Adjective": "none",
+        "Noun": "battery_door",
+        "adverbial": "none"
+      },
+      "end": 82.868
+    },
+    {
+      "id": 23,
+      "label": "Fine grained action",
+      "start": 82.939,
+      "type": "range",
+      "attributes": {
+        "Action Correctness": "Wrong Action, corrected by student",
+        "Incorrect Action Explanation": "The student cannot satisfactorily complete the task.",
+        "Incorrect Action Corrected by": "none",
+        "Verb": "hold",
+        "Adjective": "none",
+        "Noun": "gopro",
+        "adverbial": "none"
+      },
+      "end": 92.014
+    },
+    {
+      "id": 24,
+      "label": "Conversation",
+      "start": 86.595,
+      "type": "range",
+      "attributes": {
+        "Conversation Purpose": "instructor-reply-to-student_follow-up instruction",
+        "Transcription": "You are gonna have to use your finger and pull really hard."
+      },
+      "end": 93.4
+    },
+    {
+      "id": 25,
+      "label": "Fine grained action",
+      "start": 92.08,
+      "type": "range",
+      "attributes": {
+        "Action Correctness": "Wrong Action, corrected by student",
+        "Incorrect Action Explanation": "The student cannot satisfactorily complete the task.",
+        "Incorrect Action Corrected by": "none",
+        "Verb": "pull",
+        "Adjective": "none",
+        "Noun": "battery_door",
+        "adverbial": "none"
+      },
+      "end": 95.404
+    },
+    {
+      "id": 26,
+      "label": "Fine grained action",
+      "start": 95.527,
+      "type": "range",
+      "attributes": {
+        "Action Correctness": "Correct Action",
+        "Incorrect Action Explanation": "none",
+        "Incorrect Action Corrected by": "none",
+        "Verb": "rotate",
+        "Adjective": "none",
+        "Noun": "gopro",
+        "adverbial": "none"
+      },
+      "end": 96.714
+    },
+    {
+      "id": 27,
+      "label": "Fine grained action",
+      "start": 96.811,
+      "type": "range",
+      "attributes": {
+        "Action Correctness": "Wrong Action, corrected by student",
+        "Incorrect Action Explanation": "The student cannot satisfactorily complete the task.",
+        "Incorrect Action Corrected by": "none",
+        "Verb": "pull",
+        "Adjective": "none",
+        "Noun": "battery_door",
+        "adverbial": "none"
+      },
+      "end": 104.432
+    },
+    {
+      "id": 28,
+      "label": "Conversation",
+      "start": 98.3,
+      "type": "range",
+      "attributes": {
+        "Conversation Purpose": "instructor-reply-to-student_follow-up instruction",
+        "Transcription": "Just try to lift it up."
+      },
+      "end": 99.9
+    },
+    {
+      "id": 29,
+      "label": "Fine grained action",
+      "start": 104.533,
+      "type": "range",
+      "attributes": {
+        "Action Correctness": "Wrong Action, corrected by student",
+        "Incorrect Action Explanation": "The student cannot acomplish the task",
+        "Incorrect Action Corrected by": "none",
+        "Verb": "rotate",
+        "Adjective": "none",
+        "Noun": "gopro",
+        "adverbial": "none"
+      },
+      "end": 105.538
+    },
+    {
+      "id": 30,
+      "label": "Fine grained action",
+      "start": 105.964,
+      "type": "range",
+      "attributes": {
+        "Action Correctness": "Correct Action",
+        "Incorrect Action Explanation": "none",
+        "Incorrect Action Corrected by": "none",
+        "Verb": "pull",
+        "Adjective": "none",
+        "Noun": "battery_door",
+        "adverbial": "none"
+      },
+      "end": 108.32
+    },
+    {
+      "id": 31,
+      "label": "Fine grained action",
+      "start": 108.471,
+      "type": "range",
+      "attributes": {
+        "Action Correctness": "Wrong Action, corrected by student",
+        "Incorrect Action Explanation": "The student cannot satisfactorily complete the task.",
+        "Incorrect Action Corrected by": "none",
+        "Verb": "hold",
+        "Adjective": "none",
+        "Noun": "gopro",
+        "adverbial": "none"
+      },
+      "end": 114.4
+    },
+    {
+      "id": 32,
+      "label": "Conversation",
+      "start": 112.613,
+      "type": "range",
+      "attributes": {
+        "Conversation Purpose": "instructor-start-conversation_follow-up instruction",
+        "Transcription": "Just do it again so just hold your hand right there and then just lift it up and try to pull it out."
+      },
+      "end": 119.8
+    },
+    {
+      "id": 33,
+      "label": "Fine grained action",
+      "start": 115.2,
+      "type": "range",
+      "attributes": {
+        "Action Correctness": "Wrong Action, corrected by student",
+        "Incorrect Action Explanation": "The student cannot satisfactorily complete the task.",
+        "Incorrect Action Corrected by": "none",
+        "Verb": "pull",
+        "Adjective": "none",
+        "Noun": "battery_door",
+        "adverbial": "none"
+      },
+      "end": 146.957
+    },
+    {
+      "id": 34,
+      "label": "Conversation",
+      "start": 120.634,
+      "type": "range",
+      "attributes": {
+        "Conversation Purpose": "instructor-start-conversation_follow-up instruction",
+        "Transcription": "Try to find your longest nail but that's easier."
+      },
+      "end": 126.92
+    },
+    {
+      "id": 35,
+      "label": "Fine grained action",
+      "start": 147.018,
+      "type": "range",
+      "attributes": {
+        "Action Correctness": "Wrong Action, corrected by student",
+        "Incorrect Action Explanation": "The student cannot satisfactorily complete the task.",
+        "Incorrect Action Corrected by": "none",
+        "Verb": "grab",
+        "Adjective": "none",
+        "Noun": "gopro",
+        "adverbial": "none"
+      },
+      "end": 148.567
+    },
+    {
+      "id": 36,
+      "label": "Fine grained action",
+      "start": 148.606,
+      "type": "range",
+      "attributes": {
+        "Action Correctness": "Wrong Action, corrected by student",
+        "Incorrect Action Explanation": "The student cannot satisfactorily complete the task.",
+        "Incorrect Action Corrected by": "none",
+        "Verb": "pull",
+        "Adjective": "none",
+        "Noun": "battery_door",
+        "adverbial": "none"
+      },
+      "end": 161.157
+    },
+    {
+      "id": 37,
+      "label": "Conversation",
+      "start": 151.086,
+      "type": "range",
+      "attributes": {
+        "Conversation Purpose": "instructor-start-conversation_follow-up instruction",
+        "Transcription": "No, push down and up."
+      },
+      "end": 154.313
+    },
+    {
+      "id": 38,
+      "label": "Fine grained action",
+      "start": 161.293,
+      "type": "range",
+      "attributes": {
+        "Action Correctness": "Correct Action",
+        "Incorrect Action Explanation": "none",
+        "Incorrect Action Corrected by": "none",
+        "Verb": "pull",
+        "Adjective": "none",
+        "Noun": "battery_door",
+        "adverbial": "none"
+      },
+      "end": 167.3
+    },
+    {
+      "id": 39,
+      "label": "Fine grained action",
+      "start": 168.1,
+      "type": "range",
+      "attributes": {
+        "Action Correctness": "Wrong Action, corrected by student",
+        "Incorrect Action Explanation": "The student cannot satisfactorily complete the task.",
+        "Incorrect Action Corrected by": "none",
+        "Verb": "pull",
+        "Adjective": "none",
+        "Noun": "battery_door",
+        "adverbial": "none"
+      },
+      "end": 182.798
+    },
+    {
+      "id": 40,
+      "label": "Fine grained action",
+      "start": 182.867,
+      "type": "range",
+      "attributes": {
+        "Action Correctness": "Wrong Action, corrected by student",
+        "Incorrect Action Explanation": "The student cannot satisfactorily complete the task.",
+        "Incorrect Action Corrected by": "none",
+        "Verb": "hold",
+        "Adjective": "none",
+        "Noun": "gopro",
+        "adverbial": "none"
+      },
+      "end": 193.943
+    },
+    {
+      "id": 41,
+      "label": "Conversation",
+      "start": 191.009,
+      "type": "range",
+      "attributes": {
+        "Conversation Purpose": "instructor-start-conversation_follow-up instruction",
+        "Transcription": "You just keep trying."
+      },
+      "end": 193.746
+    },
+    {
+      "id": 42,
+      "label": "Fine grained action",
+      "start": 194.05,
+      "type": "range",
+      "attributes": {
+        "Action Correctness": "Wrong Action, corrected by student",
+        "Incorrect Action Explanation": "The student cannot satisfactorily complete the task.",
+        "Incorrect Action Corrected by": "none",
+        "Verb": "pull",
+        "Adjective": "none",
+        "Noun": "battery_door",
+        "adverbial": "none"
+      },
+      "end": 197.217
+    },
+    {
+      "id": 43,
+      "label": "Conversation",
+      "start": 196.2,
+      "type": "range",
+      "attributes": {
+        "Conversation Purpose": "instructor-reply-to-student_follow-up instruction",
+        "Transcription": "So if you turn it the other way."
+      },
+      "end": 198.606
+    },
+    {
+      "id": 44,
+      "label": "Fine grained action",
+      "start": 197.342,
+      "type": "range",
+      "attributes": {
+        "Action Correctness": "Correct Action",
+        "Incorrect Action Explanation": "none",
+        "Incorrect Action Corrected by": "none",
+        "Verb": "flip",
+        "Adjective": "none",
+        "Noun": "gopro",
+        "adverbial": "none"
+      },
+      "end": 198.922
+    },
+    {
+      "id": 45,
+      "label": "Conversation",
+      "start": 198.682,
+      "type": "range",
+      "attributes": {
+        "Conversation Purpose": "instructor-reply-to-student_follow-up instruction",
+        "Transcription": "and then lift up as hard as you can."
+      },
+      "end": 202.5
+    },
+    {
+      "id": 46,
+      "label": "Fine grained action",
+      "start": 199.038,
+      "type": "range",
+      "attributes": {
+        "Action Correctness": "Correct Action",
+        "Incorrect Action Explanation": "none",
+        "Incorrect Action Corrected by": "none",
+        "Verb": "pull",
+        "Adjective": "none",
+        "Noun": "battery_door",
+        "adverbial": "none"
+      },
+      "end": 202.9
+    },
+    {
+      "id": 47,
+      "label": "Fine grained action",
+      "start": 203.069,
+      "type": "range",
+      "attributes": {
+        "Action Correctness": "Correct Action",
+        "Incorrect Action Explanation": "none",
+        "Incorrect Action Corrected by": "none",
+        "Verb": "grab",
+        "Adjective": "none",
+        "Noun": "battery_door",
+        "adverbial": "none"
+      },
+      "end": 203.542
+    },
+    {
+      "id": 49,
+      "label": "Fine grained action",
+      "start": 204.164,
+      "type": "range",
+      "attributes": {
+        "Action Correctness": "Correct Action",
+        "Incorrect Action Explanation": "The student can´t open the battery door.",
+        "Incorrect Action Corrected by": "none",
+        "Verb": "press",
+        "Adjective": "none",
+        "Noun": "battery_door",
+        "adverbial": "none"
+      },
+      "end": 206.033
+    },
+    {
+      "id": 48,
+      "label": "Conversation",
+      "start": 204.4,
+      "type": "range",
+      "attributes": {
+        "Conversation Purpose": "instructor-reply-to-student_follow-up instruction",
+        "Transcription": "And them it should kind of pop out."
+      },
+      "end": 206.7
+    },
+    {
+      "id": 50,
+      "label": "Fine grained action",
+      "start": 206.156,
+      "type": "range",
+      "attributes": {
+        "Action Correctness": "Correct Action",
+        "Incorrect Action Explanation": "none",
+        "Incorrect Action Corrected by": "none",
+        "Verb": "grab",
+        "Adjective": "none",
+        "Noun": "battery_door",
+        "adverbial": "none"
+      },
+      "end": 207.841
+    },
+    {
+      "id": 51,
+      "label": "Fine grained action",
+      "start": 208.182,
+      "type": "range",
+      "attributes": {
+        "Action Correctness": "Correct Action",
+        "Incorrect Action Explanation": "none",
+        "Incorrect Action Corrected by": "none",
+        "Verb": "pull",
+        "Adjective": "none",
+        "Noun": "battery_door",
+        "adverbial": "none"
+      },
+      "end": 209.905
+    },
+    {
+      "id": 52,
+      "label": "Fine grained action",
+      "start": 210.199,
+      "type": "range",
+      "attributes": {
+        "Action Correctness": "Correct Action",
+        "Incorrect Action Explanation": "none",
+        "Incorrect Action Corrected by": "none",
+        "Verb": "grab",
+        "Adjective": "none",
+        "Noun": "battery_door",
+        "adverbial": "none"
+      },
+      "end": 211.4
+    },
+    {
+      "id": 53,
+      "label": "Fine grained action",
+      "start": 212.2,
+      "type": "range",
+      "attributes": {
+        "Action Correctness": "Correct Action",
+        "Incorrect Action Explanation": "none",
+        "Incorrect Action Corrected by": "none",
+        "Verb": "pull",
+        "Adjective": "none",
+        "Noun": "battery_door",
+        "adverbial": "none"
+      },
+      "end": 214.816
+    },
+    {
+      "id": 54,
+      "label": "Fine grained action",
+      "start": 215.011,
+      "type": "range",
+      "attributes": {
+        "Action Correctness": "Correct Action",
+        "Incorrect Action Explanation": "none",
+        "Incorrect Action Corrected by": "none",
+        "Verb": "rotate",
+        "Adjective": "none",
+        "Noun": "gopro",
+        "adverbial": "none"
+      },
+      "end": 215.522
+    },
+    {
+      "id": 55,
+      "label": "Fine grained action",
+      "start": 216.02,
+      "type": "range",
+      "attributes": {
+        "Action Correctness": "Correct Action",
+        "Incorrect Action Explanation": "none",
+        "Incorrect Action Corrected by": "none",
+        "Verb": "pull",
+        "Adjective": "none",
+        "Noun": "battery_door",
+        "adverbial": "none"
+      },
+      "end": 216.522
+    },
+    {
+      "id": 56,
+      "label": "Fine grained action",
+      "start": 217.041,
+      "type": "range",
+      "attributes": {
+        "Action Correctness": "Correct Action",
+        "Incorrect Action Explanation": "none",
+        "Incorrect Action Corrected by": "none",
+        "Verb": "press",
+        "Adjective": "none",
+        "Noun": "battery_door",
+        "adverbial": "none"
+      },
+      "end": 218.5
+    },
+    {
+      "id": 57,
+      "label": "Conversation",
+      "start": 220.253,
+      "type": "range",
+      "attributes": {
+        "Conversation Purpose": "instructor-start-conversation_confirming the previous action",
+        "Transcription": "Okay."
+      },
+      "end": 221.432
+    },
+    {
+      "id": 58,
+      "label": "Conversation",
+      "start": 221.484,
+      "type": "range",
+      "attributes": {
+        "Conversation Purpose": "instructor-start-conversation_closing remarks",
+        "Transcription": "Just stop the video."
+      },
+      "end": 222.612
+    }
+  ],
+  "taskId": "63dadf7301075c1696eb805c",
+  "taskType": "setup gopro",
+  "video_name": "R087-27July-GoPro"
+}

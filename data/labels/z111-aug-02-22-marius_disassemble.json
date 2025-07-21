@@ -1,0 +1,984 @@
+{
+  "batch": "202301_2221_10fps",
+  "videoMetadata": {
+    "audio": {
+      "codec": "aac",
+      "bitrate": "70",
+      "sample_rate": 48000,
+      "stream": 0,
+      "channels": {
+        "raw": "mono",
+        "value": 1
+      }
+    },
+    "video": {
+      "container": "mov",
+      "bitrate": 1681,
+      "stream": 0,
+      "codec": "h264",
+      "resolution": {
+        "w": 896,
+        "h": 504
+      },
+      "resolutionSquare": {
+        "w": 896,
+        "h": 504
+      },
+      "aspect": {
+        "x": 16,
+        "y": 9,
+        "string": "16:9",
+        "value": 1.7777777777777777
+      },
+      "rotate": 0,
+      "fps": 29.98,
+      "pixelString": "1:1",
+      "pixel": 1
+    },
+    "duration": {
+      "raw": "00:02:43.86",
+      "seconds": 163
+    }
+  },
+  "events": [
+    {
+      "id": 2,
+      "label": "Narration",
+      "start": 0.129,
+      "type": "range",
+      "attributes": {
+        "Long form description": "The student rotates the stool and try to remove the middle hex nut, it gets a little complicated so he just loosens it up, then he removes the four side screws and then removes the seat from the legs, lifts them up and removes the hex nut, disassembles the legs and arranges them on the table."
+      },
+      "end": 162.129
+    },
+    {
+      "id": 1,
+      "label": "Conversation",
+      "start": 0.771,
+      "type": "range",
+      "attributes": {
+        "Conversation Purpose": "instructor-start-conversation_describing high-level instruction",
+        "sequence": "none",
+        "Transcription": "Now please disassemble this chair.",
+        "Transcription Confidence": "none"
+      },
+      "end": 2.565
+    },
+    {
+      "id": 3,
+      "label": "Coarse grained action",
+      "start": 2.435,
+      "type": "range",
+      "attributes": {
+        "Action sentence": "The student unscrews the middle hex nut.",
+        "Verb": "disassemble",
+        "Adjective": "middle",
+        "Noun": "hex_nut"
+      },
+      "end": 35.104
+    },
+    {
+      "id": 5,
+      "label": "Fine grained action",
+      "start": 2.5039348970799433,
+      "type": "range",
+      "attributes": {
+        "Action Correctness": "Correct Action",
+        "Verb": "grab",
+        "Noun": "stool"
+      },
+      "end": 3.603934897079943
+    },
+    {
+      "id": 6,
+      "label": "Fine grained action",
+      "start": 3.64314983245572,
+      "type": "range",
+      "attributes": {
+        "Action Correctness": "Correct Action",
+        "Verb": "lift",
+        "Noun": "stool"
+      },
+      "end": 5.243149832455721
+    },
+    {
+      "id": 7,
+      "label": "Fine grained action",
+      "start": 5.286270943034945,
+      "type": "range",
+      "attributes": {
+        "Action Correctness": "Correct Action",
+        "Verb": "flip",
+        "Noun": "stool"
+      },
+      "end": 6.452943992340833
+    },
+    {
+      "id": 8,
+      "label": "Fine grained action",
+      "start": 6.50391574916228,
+      "type": "range",
+      "attributes": {
+        "Action Correctness": "Correct Action",
+        "Verb": "place",
+        "Noun": "stool"
+      },
+      "end": 8.10391574916228
+    },
+    {
+      "id": 9,
+      "label": "Fine grained action",
+      "start": 8.18039253231211,
+      "type": "range",
+      "attributes": {
+        "Action Correctness": "Correct Action",
+        "Verb": "approach",
+        "Adjective": "middle",
+        "Noun": "hexagonal_wrench"
+      },
+      "end": 10.15491622786022
+    },
+    {
+      "id": 10,
+      "label": "Fine grained action",
+      "start": 10.190196266156054,
+      "type": "range",
+      "attributes": {
+        "Action Correctness": "Correct Action",
+        "Verb": "insert",
+        "Noun": "hexagonal_wrench"
+      },
+      "end": 12.064719961704164
+    },
+    {
+      "id": 11,
+      "label": "Fine grained action",
+      "start": 12.12,
+      "type": "range",
+      "attributes": {
+        "Action Correctness": "Correct Action",
+        "Incorrect Action Explanation": "The student tries to unscrew the hex nut in the incorrect way.",
+        "Incorrect Action Corrected by": "none",
+        "Verb": "unscrew",
+        "Adjective": "none",
+        "Noun": "hex_nut",
+        "adverbial": "none"
+      },
+      "end": 14.62
+    },
+    {
+      "id": 12,
+      "label": "Fine grained action",
+      "start": 14.639205361416943,
+      "type": "range",
+      "attributes": {
+        "Action Correctness": "Correct Action",
+        "Verb": "withdraw",
+        "Noun": "hexagonal_wrench"
+      },
+      "end": 15.233336524652945
+    },
+    {
+      "id": 13,
+      "label": "Fine grained action",
+      "start": 15.276467209190999,
+      "type": "range",
+      "attributes": {
+        "Action Correctness": "Correct Action",
+        "Verb": "insert",
+        "Noun": "hexagonal_wrench"
+      },
+      "end": 15.825505026328358
+    },
+    {
+      "id": 14,
+      "label": "Fine grained action",
+      "start": 15.855037338439447,
+      "type": "range",
+      "attributes": {
+        "Action Correctness": "Wrong Action, corrected by instructor verbally",
+        "Incorrect Action Explanation": "The student unscrews the middle hex nut in wrong direction.",
+        "Incorrect Action Corrected by": "15",
+        "Verb": "unscrew",
+        "Adjective": "none",
+        "Noun": "hex_nut",
+        "adverbial": "none"
+      },
+      "end": 20.36103733843945
+    },
+    {
+      "id": 15,
+      "label": "Conversation",
+      "start": 20.071,
+      "type": "range",
+      "attributes": {
+        "Conversation Purpose": "instructor-start-conversation_follow-up instruction",
+        "sequence": "14",
+        "Transcription": "You should turn it counterclockwise.",
+        "Transcription Confidence": "none"
+      },
+      "end": 22.084504547630445
+    },
+    {
+      "id": 16,
+      "label": "Fine grained action",
+      "start": 20.415682144566777,
+      "type": "range",
+      "attributes": {
+        "Action Correctness": "Correct Action",
+        "Verb": "withdraw",
+        "Noun": "leg"
+      },
+      "end": 21.81568214456678
+    },
+    {
+      "id": 18,
+      "label": "Fine grained action",
+      "start": 21.992,
+      "type": "range",
+      "attributes": {
+        "Action Correctness": "Wrong Action, corrected by instructor verbally",
+        "Incorrect Action Explanation": "The student can not unscrew it.",
+        "Incorrect Action Corrected by": "19",
+        "Verb": "unscrew",
+        "Adjective": "none",
+        "Noun": "hex_nut",
+        "adverbial": "none"
+      },
+      "end": 24.739046433700338
+    },
+    {
+      "id": 19,
+      "label": "Conversation",
+      "start": 23.484,
+      "type": "range",
+      "attributes": {
+        "Conversation Purpose": "instructor-start-conversation_correct the wrong action",
+        "sequence": "18",
+        "Transcription": "So is the other one.",
+        "Transcription Confidence": "none"
+      },
+      "end": 24.813467209191
+    },
+    {
+      "id": 20,
+      "label": "Fine grained action",
+      "start": 24.766653901388217,
+      "type": "range",
+      "attributes": {
+        "Action Correctness": "Correct Action",
+        "Verb": "withdraw",
+        "Noun": "hexagonal_wrench"
+      },
+      "end": 26.266653901388217
+    },
+    {
+      "id": 21,
+      "label": "Fine grained action",
+      "start": 26.31762565820967,
+      "type": "range",
+      "attributes": {
+        "Action Correctness": "Correct Action",
+        "Verb": "flip",
+        "Noun": "hexagonal_wrench"
+      },
+      "end": 26.747056007659168
+    },
+    {
+      "id": 22,
+      "label": "Fine grained action",
+      "start": 26.84508377213978,
+      "type": "range",
+      "attributes": {
+        "Action Correctness": "Correct Action",
+        "Verb": "insert",
+        "Noun": "hexagonal_wrench"
+      },
+      "end": 29.04508377213978
+    },
+    {
+      "id": 23,
+      "label": "Fine grained action",
+      "start": 29.2,
+      "type": "range",
+      "attributes": {
+        "Action Correctness": "Correct Action",
+        "Verb": "unscrew",
+        "Noun": "screw"
+      },
+      "end": 33.6
+    },
+    {
+      "id": 24,
+      "label": "Conversation",
+      "start": 29.786,
+      "type": "range",
+      "attributes": {
+        "Conversation Purpose": "instructor-start-conversation_follow-up instruction",
+        "sequence": "none",
+        "Transcription": "You should...",
+        "Transcription Confidence": "none"
+      },
+      "end": 30.082
+    },
+    {
+      "id": 25,
+      "label": "Conversation",
+      "start": 30.58999042604117,
+      "type": "range",
+      "attributes": {
+        "Conversation Purpose": "instructor-start-conversation_confirming the previous action",
+        "sequence": "none",
+        "Transcription": "Yeah.",
+        "Transcription Confidence": "none"
+      },
+      "end": 30.840971756821446
+    },
+    {
+      "id": 26,
+      "label": "Fine grained action",
+      "start": 33.847046433700335,
+      "type": "range",
+      "attributes": {
+        "Action Correctness": "Correct Action",
+        "Verb": "withdraw",
+        "Noun": "hexagonal_wrench"
+      },
+      "end": 34.847046433700335
+    },
+    {
+      "id": 27,
+      "label": "Coarse grained action",
+      "start": 35.182,
+      "type": "range",
+      "attributes": {
+        "Action sentence": "The student removes four screws.",
+        "Verb": "disassemble",
+        "Adjective": "none",
+        "Noun": "screw"
+      },
+      "end": 119.57900000000001
+    },
+    {
+      "id": 28,
+      "label": "Fine grained action",
+      "start": 35.24901866921973,
+      "type": "range",
+      "attributes": {
+        "Action Correctness": "Correct Action",
+        "Verb": "grab",
+        "Noun": "screwdriver"
+      },
+      "end": 36.22157012924844
+    },
+    {
+      "id": 30,
+      "label": "Fine grained action",
+      "start": 36.25884155098133,
+      "type": "range",
+      "attributes": {
+        "Action Correctness": "Correct Action",
+        "Verb": "insert",
+        "Adjective": "first",
+        "Noun": "screwdriver"
+      },
+      "end": 38.358841550981325
+    },
+    {
+      "id": 31,
+      "label": "Fine grained action",
+      "start": 38.78824317855433,
+      "type": "range",
+      "attributes": {
+        "Action Correctness": "Correct Action",
+        "Verb": "unscrew",
+        "Adjective": "first",
+        "Noun": "screw"
+      },
+      "end": 53.98824317855433
+    },
+    {
+      "id": 32,
+      "label": "Fine grained action",
+      "start": 54.05098133078028,
+      "type": "range",
+      "attributes": {
+        "Action Correctness": "Correct Action",
+        "Verb": "grab",
+        "Noun": "washer"
+      },
+      "end": 54.89020584011489
+    },
+    {
+      "id": 33,
+      "label": "Fine grained action",
+      "start": 54.93333652465294,
+      "type": "range",
+      "attributes": {
+        "Action Correctness": "Correct Action",
+        "Verb": "disassemble",
+        "Adjective": "first",
+        "Noun": "screw"
+      },
+      "end": 56.333336524652935
+    },
+    {
+      "id": 35,
+      "label": "Fine grained action",
+      "start": 56.58040210627095,
+      "type": "range",
+      "attributes": {
+        "Action Correctness": "Correct Action",
+        "Verb": "place",
+        "Noun": "screw"
+      },
+      "end": 58.08040210627095
+    },
+    {
+      "id": 37,
+      "label": "Fine grained action",
+      "start": 58.200019147917665,
+      "type": "range",
+      "attributes": {
+        "Action Correctness": "Correct Action",
+        "Verb": "rotate",
+        "Noun": "stool"
+      },
+      "end": 59.90001914791766
+    },
+    {
+      "id": 39,
+      "label": "Fine grained action",
+      "start": 60.070607946385834,
+      "type": "range",
+      "attributes": {
+        "Action Correctness": "Correct Action",
+        "Verb": "insert",
+        "Adjective": "second",
+        "Noun": "screwdriver"
+      },
+      "end": 61.77060794638583
+    },
+    {
+      "id": 40,
+      "label": "Fine grained action",
+      "start": 61.88628051699378,
+      "type": "range",
+      "attributes": {
+        "Action Correctness": "Correct Action",
+        "Verb": "unscrew",
+        "Adjective": "second",
+        "Noun": "screw"
+      },
+      "end": 72.1862805169938
+    },
+    {
+      "id": 41,
+      "label": "Fine grained action",
+      "start": 72.2196074676879,
+      "type": "range",
+      "attributes": {
+        "Action Correctness": "Correct Action",
+        "Verb": "grab",
+        "Adjective": "second",
+        "Noun": "screw"
+      },
+      "end": 72.77452369554811
+    },
+    {
+      "id": 42,
+      "label": "Fine grained action",
+      "start": 72.80588798468166,
+      "type": "range",
+      "attributes": {
+        "Action Correctness": "Correct Action",
+        "Verb": "disassemble",
+        "Adjective": "second",
+        "Noun": "screw"
+      },
+      "end": 73.94511249401629
+    },
+    {
+      "id": 43,
+      "label": "Fine grained action",
+      "start": 74.03137386309238,
+      "type": "range",
+      "attributes": {
+        "Action Correctness": "Correct Action",
+        "Verb": "approach",
+        "Noun": "screw"
+      },
+      "end": 75.3313738630924
+    },
+    {
+      "id": 44,
+      "label": "Fine grained action",
+      "start": 75.35685974150311,
+      "type": "range",
+      "attributes": {
+        "Action Correctness": "Correct Action",
+        "Verb": "place",
+        "Adjective": "second",
+        "Noun": "screw"
+      },
+      "end": 77.65685974150311
+    },
+    {
+      "id": 46,
+      "label": "Fine grained action",
+      "start": 77.8666730493059,
+      "type": "range",
+      "attributes": {
+        "Action Correctness": "Correct Action",
+        "Verb": "rotate",
+        "Noun": "stool"
+      },
+      "end": 79.3666730493059
+    },
+    {
+      "id": 47,
+      "label": "Fine grained action",
+      "start": 79.46471996170415,
+      "type": "range",
+      "attributes": {
+        "Action Correctness": "Correct Action",
+        "Verb": "insert",
+        "Adjective": "third",
+        "Noun": "screwdriver"
+      },
+      "end": 81.06471996170414
+    },
+    {
+      "id": 48,
+      "label": "Fine grained action",
+      "start": 81.1,
+      "type": "range",
+      "attributes": {
+        "Action Correctness": "Correct Action",
+        "Verb": "unscrew",
+        "Adjective": "third",
+        "Noun": "screw"
+      },
+      "end": 93.6
+    },
+    {
+      "id": 49,
+      "label": "Fine grained action",
+      "start": 93.62156055528962,
+      "type": "range",
+      "attributes": {
+        "Action Correctness": "Correct Action",
+        "Verb": "grab",
+        "Adjective": "third",
+        "Noun": "screw"
+      },
+      "end": 94.06471996170416
+    },
+    {
+      "id": 50,
+      "label": "Fine grained action",
+      "start": 94.1,
+      "type": "range",
+      "attributes": {
+        "Action Correctness": "Correct Action",
+        "Verb": "disassemble",
+        "Noun": "washer"
+      },
+      "end": 95.19413116323601
+    },
+    {
+      "id": 51,
+      "label": "Fine grained action",
+      "start": 95.32744853997127,
+      "type": "range",
+      "attributes": {
+        "Action Correctness": "Correct Action",
+        "Verb": "place",
+        "Noun": "screw"
+      },
+      "end": 97.92744853997127
+    },
+    {
+      "id": 53,
+      "label": "Fine grained action",
+      "start": 97.95686931546196,
+      "type": "range",
+      "attributes": {
+        "Action Correctness": "Correct Action",
+        "Verb": "rotate",
+        "Noun": "stool"
+      },
+      "end": 99.05686931546197
+    },
+    {
+      "id": 54,
+      "label": "Fine grained action",
+      "start": 99.09412158927715,
+      "type": "range",
+      "attributes": {
+        "Action Correctness": "Correct Action",
+        "Verb": "insert",
+        "Adjective": "fourth",
+        "Noun": "screw"
+      },
+      "end": 101.58826232647199
+    },
+    {
+      "id": 56,
+      "label": "Fine grained action",
+      "start": 101.65883197702252,
+      "type": "range",
+      "attributes": {
+        "Action Correctness": "Correct Action",
+        "Verb": "unscrew",
+        "Noun": "screw"
+      },
+      "end": 115.95883197702253
+    },
+    {
+      "id": 57,
+      "label": "Fine grained action",
+      "start": 116.03333652465295,
+      "type": "range",
+      "attributes": {
+        "Action Correctness": "Correct Action",
+        "Verb": "grab",
+        "Noun": "screw"
+      },
+      "end": 117.83333652465295
+    },
+    {
+      "id": 58,
+      "label": "Fine grained action",
+      "start": 118.01370990904739,
+      "type": "range",
+      "attributes": {
+        "Action Correctness": "Correct Action",
+        "Verb": "disassemble",
+        "Adjective": "fourth",
+        "Noun": "washer"
+      },
+      "end": 118.50196266156055
+    },
+    {
+      "id": 59,
+      "label": "Fine grained action",
+      "start": 118.69802776448063,
+      "type": "range",
+      "attributes": {
+        "Action Correctness": "Correct Action",
+        "Verb": "place",
+        "Noun": "screw"
+      },
+      "end": 119.44705600765919
+    },
+    {
+      "id": 69,
+      "label": "Coarse grained action",
+      "start": 119.719,
+      "type": "range",
+      "attributes": {
+        "Action sentence": "The student disassembles legs.",
+        "Verb": "disassemble",
+        "Adjective": "none",
+        "Noun": "leg"
+      },
+      "end": 160.029
+    },
+    {
+      "id": 61,
+      "label": "Fine grained action",
+      "start": 119.77647678314983,
+      "type": "range",
+      "attributes": {
+        "Action Correctness": "Correct Action",
+        "Verb": "pull",
+        "Noun": "leg"
+      },
+      "end": 120.97647678314983
+    },
+    {
+      "id": 63,
+      "label": "Fine grained action",
+      "start": 121.00392532312117,
+      "type": "range",
+      "attributes": {
+        "Action Correctness": "Correct Action",
+        "Incorrect Action Explanation": "The leg didn't detach.",
+        "Verb": "grab",
+        "Adjective": "second",
+        "Noun": "leg"
+      },
+      "end": 121.98628051699383
+    },
+    {
+      "id": 64,
+      "label": "Fine grained action",
+      "start": 122.02157012924843,
+      "type": "range",
+      "attributes": {
+        "Action Correctness": "Correct Action",
+        "Verb": "withdraw",
+        "Noun": "leg"
+      },
+      "end": 122.6784490186692
+    },
+    {
+      "id": 65,
+      "label": "Fine grained action",
+      "start": 122.75099090473911,
+      "type": "range",
+      "attributes": {
+        "Action Correctness": "Correct Action",
+        "Verb": "grab",
+        "Noun": "leg"
+      },
+      "end": 123.941196744854
+    },
+    {
+      "id": 66,
+      "label": "Fine grained action",
+      "start": 124.1,
+      "type": "range",
+      "attributes": {
+        "Action Correctness": "Correct Action",
+        "Verb": "lift",
+        "Noun": "leg"
+      },
+      "end": 126.5
+    },
+    {
+      "id": 67,
+      "label": "Fine grained action",
+      "start": 126.729401627573,
+      "type": "range",
+      "attributes": {
+        "Action Correctness": "Correct Action",
+        "Verb": "flip",
+        "Noun": "leg"
+      },
+      "end": 129.02940162757298
+    },
+    {
+      "id": 68,
+      "label": "Fine grained action",
+      "start": 129.70977501196742,
+      "type": "range",
+      "attributes": {
+        "Action Correctness": "Correct Action",
+        "Verb": "place",
+        "Noun": "leg"
+      },
+      "end": 130.90977501196744
+    },
+    {
+      "id": 70,
+      "label": "Fine grained action",
+      "start": 131.27648635710867,
+      "type": "range",
+      "attributes": {
+        "Action Correctness": "Correct Action",
+        "Verb": "lift",
+        "Noun": "hexagonal_wrench"
+      },
+      "end": 132.67648635710867
+    },
+    {
+      "id": 71,
+      "label": "Fine grained action",
+      "start": 132.77647678314983,
+      "type": "range",
+      "attributes": {
+        "Action Correctness": "Correct Action",
+        "Verb": "approach",
+        "Noun": "hexagonal_wrench"
+      },
+      "end": 135.07647678314984
+    },
+    {
+      "id": 72,
+      "label": "Fine grained action",
+      "start": 135.23725227381522,
+      "type": "range",
+      "attributes": {
+        "Action Correctness": "Correct Action",
+        "Verb": "insert",
+        "Noun": "hexagonal_wrench"
+      },
+      "end": 136.73725227381522
+    },
+    {
+      "id": 73,
+      "label": "Fine grained action",
+      "start": 136.82549545236955,
+      "type": "range",
+      "attributes": {
+        "Action Correctness": "Correct Action",
+        "Verb": "withdraw",
+        "Noun": "hexagonal_wrench"
+      },
+      "end": 137.22549545236956
+    },
+    {
+      "id": 74,
+      "label": "Fine grained action",
+      "start": 137.33727142173288,
+      "type": "range",
+      "attributes": {
+        "Action Correctness": "Correct Action",
+        "Verb": "insert",
+        "Noun": "hexagonal_wrench"
+      },
+      "end": 138.73727142173288
+    },
+    {
+      "id": 75,
+      "label": "Fine grained action",
+      "start": 138.7960842508377,
+      "type": "range",
+      "attributes": {
+        "Action Correctness": "Correct Action",
+        "Verb": "unscrew",
+        "Noun": "hex_nut"
+      },
+      "end": 145.49608425083773
+    },
+    {
+      "id": 76,
+      "label": "Fine grained action",
+      "start": 145.57057922450934,
+      "type": "range",
+      "attributes": {
+        "Action Correctness": "Correct Action",
+        "Verb": "withdraw",
+        "Noun": "hexagonal_wrench"
+      },
+      "end": 146.07057922450934
+    },
+    {
+      "id": 77,
+      "label": "Fine grained action",
+      "start": 146.10196266156058,
+      "type": "range",
+      "attributes": {
+        "Action Correctness": "Correct Action",
+        "Verb": "unscrew",
+        "Noun": "hex_nut"
+      },
+      "end": 148.7019626615606
+    },
+    {
+      "id": 78,
+      "label": "Fine grained action",
+      "start": 148.73724269985638,
+      "type": "range",
+      "attributes": {
+        "Action Correctness": "Correct Action",
+        "Verb": "place",
+        "Noun": "hex_nut"
+      },
+      "end": 149.88824317855435
+    },
+    {
+      "id": 79,
+      "label": "Fine grained action",
+      "start": 149.92349449497362,
+      "type": "range",
+      "attributes": {
+        "Action Correctness": "Correct Action",
+        "Verb": "disassemble",
+        "Noun": "hex_nut"
+      },
+      "end": 150.62349449497364
+    },
+    {
+      "id": 80,
+      "label": "Fine grained action",
+      "start": 150.67842029679272,
+      "type": "range",
+      "attributes": {
+        "Action Correctness": "Correct Action",
+        "Verb": "grab",
+        "Noun": "bolt"
+      },
+      "end": 152.47842029679273
+    },
+    {
+      "id": 81,
+      "label": "Fine grained action",
+      "start": 152.5999712781235,
+      "type": "range",
+      "attributes": {
+        "Action Correctness": "Correct Action",
+        "Verb": "disassemble",
+        "Noun": "bolt"
+      },
+      "end": 152.9215605552896
+    },
+    {
+      "id": 84,
+      "label": "Fine grained action",
+      "start": 153.10001914791766,
+      "type": "range",
+      "attributes": {
+        "Action Correctness": "Correct Action",
+        "Verb": "rotate",
+        "Noun": "leg"
+      },
+      "end": 154.30001914791768
+    },
+    {
+      "id": 85,
+      "label": "Fine grained action",
+      "start": 154.39609382479657,
+      "type": "range",
+      "attributes": {
+        "Action Correctness": "Correct Action",
+        "Verb": "approach",
+        "Noun": "leg"
+      },
+      "end": 156.09609382479658
+    },
+    {
+      "id": 86,
+      "label": "Fine grained action",
+      "start": 156.2,
+      "type": "range",
+      "attributes": {
+        "Action Correctness": "Correct Action",
+        "Verb": "place",
+        "Noun": "leg"
+      },
+      "end": 159.9
+    },
+    {
+      "id": 87,
+      "label": "Conversation",
+      "start": 159.7236377670077,
+      "type": "range",
+      "attributes": {
+        "Conversation Purpose": "instructor-start-conversation_confirming the previous action",
+        "sequence": "none",
+        "Transcription": "Perfect, thank you!",
+        "Transcription Confidence": "none"
+      },
+      "end": 160.6651416262789
+    },
+    {
+      "id": 88,
+      "label": "Conversation",
+      "start": 160.7,
+      "type": "range",
+      "attributes": {
+        "Conversation Purpose": "instructor-start-conversation_closing remarks",
+        "sequence": "none",
+        "Transcription": "You can press the stop button.",
+        "Transcription Confidence": "none"
+      },
+      "end": 162.01771674744208
+    }
+  ],
+  "taskId": "63dadf911df6d779168096f8",
+  "taskType": "disassemble stool",
+  "video_name": "z111-aug-02-22-marius_disassemble"
+}

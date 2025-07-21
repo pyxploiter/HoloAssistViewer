@@ -1,0 +1,877 @@
+{
+  "batch": "202301_2221_10fps",
+  "videoMetadata": {
+    "audio": {
+      "codec": "aac",
+      "bitrate": "70",
+      "sample_rate": 48000,
+      "stream": 0,
+      "channels": {
+        "raw": "mono",
+        "value": 1
+      }
+    },
+    "video": {
+      "container": "mov",
+      "bitrate": 2158,
+      "stream": 0,
+      "codec": "h264",
+      "resolution": {
+        "w": 896,
+        "h": 504
+      },
+      "resolutionSquare": {
+        "w": 896,
+        "h": 504
+      },
+      "aspect": {
+        "x": 16,
+        "y": 9,
+        "string": "16:9",
+        "value": 1.7777777777777777
+      },
+      "rotate": 0,
+      "fps": 29.96,
+      "pixelString": "1:1",
+      "pixel": 1
+    },
+    "duration": {
+      "raw": "00:04:44.69",
+      "seconds": 284
+    }
+  },
+  "events": [
+    {
+      "id": 1,
+      "label": "Conversation",
+      "start": 0.2,
+      "type": "range",
+      "attributes": {
+        "Conversation Purpose": "instructor-start-conversation_opening remarks",
+        "Transcription": "Hello, thanks for agreeing to take part in our study."
+      },
+      "end": 2.956
+    },
+    {
+      "id": 63,
+      "label": "Narration",
+      "start": 0.2,
+      "type": "range",
+      "attributes": {
+        "Long form description": "The student tries to assemble the chair but does not understand the instruction. The student assembles the legs to the circle and screws the bolts into the chair. The student tightens the hex socket head using an allen wrench and presses the stop button."
+      },
+      "end": 28.4
+    },
+    {
+      "id": 2,
+      "label": "Conversation",
+      "start": 3.4,
+      "type": "range",
+      "attributes": {
+        "Conversation Purpose": "instructor-start-conversation_describing high-level instruction",
+        "Transcription": "In front of you, you will see the parts needed to assemble a stool from IKEA. The task, for now, is to assemble it. You'll now begin."
+      },
+      "end": 10.8
+    },
+    {
+      "id": 6,
+      "label": "Coarse grained action",
+      "start": 12.039348555291522,
+      "type": "range",
+      "attributes": {
+        "Action sentence": "The student assembles the chair legs.",
+        "Verb": "assemble",
+        "Noun": "leg"
+      },
+      "end": 81.1
+    },
+    {
+      "id": 4,
+      "label": "Fine grained action",
+      "start": 12.1,
+      "type": "range",
+      "attributes": {
+        "Action Correctness": "Wrong Action, corrected by instructor verbally",
+        "Incorrect Action Explanation": "The student assembles first the saddle washer.",
+        "Incorrect Action Corrected by": "5",
+        "Verb": "insert",
+        "Adjective": "first",
+        "Noun": "washer",
+        "adverbial": "none"
+      },
+      "end": 17.6
+    },
+    {
+      "id": 5,
+      "label": "Conversation",
+      "start": 16.561,
+      "type": "range",
+      "attributes": {
+        "Conversation Purpose": "instructor-reply-to-student_correct the wrong action",
+        "sequence": "4",
+        "Transcription": "Please, first take the two feet and place them vertically."
+      },
+      "end": 20.275
+    },
+    {
+      "id": 7,
+      "label": "Fine grained action",
+      "start": 20.1,
+      "type": "range",
+      "attributes": {
+        "Action Correctness": "Correct Action",
+        "Incorrect Action Explanation": "none",
+        "Incorrect Action Corrected by": "none",
+        "Verb": "grab",
+        "Adjective": "none",
+        "Noun": "leg",
+        "adverbial": "none"
+      },
+      "end": 22.5
+    },
+    {
+      "id": 8,
+      "label": "Fine grained action",
+      "start": 23.1,
+      "type": "range",
+      "attributes": {
+        "Action Correctness": "Correct Action",
+        "Incorrect Action Explanation": "none",
+        "Incorrect Action Corrected by": "none",
+        "Verb": "place",
+        "Adjective": "none",
+        "Noun": "leg",
+        "adverbial": "none"
+      },
+      "end": 29.6
+    },
+    {
+      "id": 10,
+      "label": "Fine grained action",
+      "start": 32.1,
+      "type": "range",
+      "attributes": {
+        "Action Correctness": "Correct Action",
+        "Incorrect Action Explanation": "none",
+        "Incorrect Action Corrected by": "none",
+        "Verb": "grab",
+        "Adjective": "middle",
+        "Noun": "bolt",
+        "adverbial": "none"
+      },
+      "end": 37.034
+    },
+    {
+      "id": 11,
+      "label": "Fine grained action",
+      "start": 37.107,
+      "type": "range",
+      "attributes": {
+        "Action Correctness": "Correct Action",
+        "Incorrect Action Explanation": "none",
+        "Incorrect Action Corrected by": "none",
+        "Verb": "insert",
+        "Adjective": "middle",
+        "Noun": "hex_socket_head",
+        "adverbial": "none"
+      },
+      "end": 40.4
+    },
+    {
+      "id": 12,
+      "label": "Fine grained action",
+      "start": 41.1,
+      "type": "range",
+      "attributes": {
+        "Action Correctness": "Correct Action",
+        "Incorrect Action Explanation": "none",
+        "Incorrect Action Corrected by": "none",
+        "Verb": "place",
+        "Adjective": "none",
+        "Noun": "hex_nut",
+        "adverbial": "none"
+      },
+      "end": 43.5
+    },
+    {
+      "id": 13,
+      "label": "Fine grained action",
+      "start": 44.2,
+      "type": "range",
+      "attributes": {
+        "Action Correctness": "Correct Action",
+        "Incorrect Action Explanation": "none",
+        "Incorrect Action Corrected by": "none",
+        "Verb": "screw",
+        "Adjective": "none",
+        "Noun": "hex_nut",
+        "adverbial": "none"
+      },
+      "end": 56.3
+    },
+    {
+      "id": 14,
+      "label": "Conversation",
+      "start": 52.056,
+      "type": "range",
+      "attributes": {
+        "Conversation Purpose": "instructor-reply-to-student_follow-up instruction",
+        "Transcription": "Please use the wrench provided to tighten the screw."
+      },
+      "end": 55.827
+    },
+    {
+      "id": 15,
+      "label": "Fine grained action",
+      "start": 57.1,
+      "type": "range",
+      "attributes": {
+        "Action Correctness": "Correct Action",
+        "Incorrect Action Explanation": "none",
+        "Incorrect Action Corrected by": "none",
+        "Verb": "screw",
+        "Adjective": "none",
+        "Noun": "hex_nut",
+        "adverbial": "none"
+      },
+      "end": 80.5
+    },
+    {
+      "id": 16,
+      "label": "Conversation",
+      "start": 69,
+      "type": "range",
+      "attributes": {
+        "Conversation Purpose": "instructor-reply-to-student_follow-up instruction",
+        "Transcription": "Please make sure both hands are within the energy.",
+        "Transcription Confidence": "low-confidence-transcription"
+      },
+      "end": 71.5
+    },
+    {
+      "id": 18,
+      "label": "Fine grained action",
+      "start": 84.2,
+      "type": "range",
+      "attributes": {
+        "Action Correctness": "Correct Action",
+        "Incorrect Action Explanation": "The student places the saddle washer.",
+        "Incorrect Action Corrected by": "none",
+        "Verb": "place",
+        "Adjective": "none",
+        "Noun": "washer",
+        "adverbial": "none"
+      },
+      "end": 92.6
+    },
+    {
+      "id": 19,
+      "label": "Conversation",
+      "start": 86.3,
+      "type": "range",
+      "attributes": {
+        "Conversation Purpose": "instructor-reply-to-student_follow-up instruction",
+        "Transcription": "Please, place the feet on top of the baseboard.",
+        "Transcription Confidence": "low-confidence-transcription"
+      },
+      "end": 90.522
+    },
+    {
+      "id": 20,
+      "label": "Conversation",
+      "start": 93.275,
+      "type": "range",
+      "attributes": {
+        "Conversation Purpose": "instructor-start-conversation_follow-up instruction",
+        "Transcription": "Please, take the feet, flip them, and put them on top of the baseboard.",
+        "Transcription Confidence": "low-confidence-transcription"
+      },
+      "end": 96.825
+    },
+    {
+      "id": 21,
+      "label": "Fine grained action",
+      "start": 96.1,
+      "type": "range",
+      "attributes": {
+        "Action Correctness": "Correct Action",
+        "Incorrect Action Explanation": "none",
+        "Incorrect Action Corrected by": "none",
+        "Verb": "withdraw",
+        "Adjective": "none",
+        "Noun": "washer",
+        "adverbial": "none"
+      },
+      "end": 101.6
+    },
+    {
+      "id": 22,
+      "label": "Conversation",
+      "start": 99.317,
+      "type": "range",
+      "attributes": {
+        "Conversation Purpose": "instructor-start-conversation_follow-up instruction",
+        "Transcription": "Please, take them at the feet from the base.",
+        "Transcription Confidence": "low-confidence-transcription"
+      },
+      "end": 102.05
+    },
+    {
+      "id": 23,
+      "label": "Fine grained action",
+      "start": 102.3,
+      "type": "range",
+      "attributes": {
+        "Action Correctness": "Correct Action",
+        "Incorrect Action Explanation": "none",
+        "Incorrect Action Corrected by": "none",
+        "Verb": "insert",
+        "Adjective": "none",
+        "Noun": "washer",
+        "adverbial": "none"
+      },
+      "end": 106.3
+    },
+    {
+      "id": 24,
+      "label": "Conversation",
+      "start": 105.041,
+      "type": "range",
+      "attributes": {
+        "Conversation Purpose": "instructor-start-conversation_describing high-level instruction",
+        "Transcription": "Please, remove the saddle washers from the baseboard and leave them, nothing on the baseboard, and leave the baseboard on the table.",
+        "Transcription Confidence": "low-confidence-transcription"
+      },
+      "end": 111.919
+    },
+    {
+      "id": 25,
+      "label": "Fine grained action",
+      "start": 108.1,
+      "type": "range",
+      "attributes": {
+        "Action Correctness": "Correct Action",
+        "Incorrect Action Explanation": "none",
+        "Incorrect Action Corrected by": "none",
+        "Verb": "slide",
+        "Adjective": "none",
+        "Noun": "washer",
+        "adverbial": "none"
+      },
+      "end": 116.857
+    },
+    {
+      "id": 27,
+      "label": "Fine grained action",
+      "start": 116.96119623239314,
+      "type": "range",
+      "attributes": {
+        "Action Correctness": "Correct Action",
+        "Incorrect Action Explanation": "none",
+        "Incorrect Action Corrected by": "none",
+        "Verb": "grab",
+        "Adjective": "none",
+        "Noun": "circle",
+        "adverbial": "none"
+      },
+      "end": 119.07019623239313
+    },
+    {
+      "id": 26,
+      "label": "Conversation",
+      "start": 117.2,
+      "type": "range",
+      "attributes": {
+        "Conversation Purpose": "instructor-start-conversation_follow-up instruction",
+        "Transcription": "Please, please leave the baseboard on the table and flip the feet on top of the baseboard."
+      },
+      "end": 122.777
+    },
+    {
+      "id": 28,
+      "label": "Fine grained action",
+      "start": 119.18,
+      "type": "range",
+      "attributes": {
+        "Action Correctness": "Correct Action",
+        "Incorrect Action Explanation": "none",
+        "Incorrect Action Corrected by": "none",
+        "Verb": "place",
+        "Adjective": "none",
+        "Noun": "circle",
+        "adverbial": "none"
+      },
+      "end": 121.4
+    },
+    {
+      "id": 29,
+      "label": "Coarse grained action",
+      "start": 122.3,
+      "type": "range",
+      "attributes": {
+        "Action sentence": "The student assembles the legs to the circle.",
+        "Verb": "assemble",
+        "Adjective": "first",
+        "Noun": "leg"
+      },
+      "end": 132.15
+    },
+    {
+      "id": 30,
+      "label": "Fine grained action",
+      "start": 123.1,
+      "type": "range",
+      "attributes": {
+        "Action Correctness": "Correct Action",
+        "Incorrect Action Explanation": "none",
+        "Incorrect Action Corrected by": "none",
+        "Verb": "flip",
+        "Adjective": "none",
+        "Noun": "leg",
+        "adverbial": "none"
+      },
+      "end": 124.732
+    },
+    {
+      "id": 31,
+      "label": "Fine grained action",
+      "start": 125.195,
+      "type": "range",
+      "attributes": {
+        "Action Correctness": "Correct Action",
+        "Incorrect Action Explanation": "none",
+        "Incorrect Action Corrected by": "none",
+        "Verb": "assemble",
+        "Adjective": "none",
+        "Noun": "leg",
+        "adverbial": "none"
+      },
+      "end": 129.9
+    },
+    {
+      "id": 32,
+      "label": "Fine grained action",
+      "start": 131.1,
+      "type": "range",
+      "attributes": {
+        "Action Correctness": "Correct Action",
+        "Incorrect Action Explanation": "none",
+        "Incorrect Action Corrected by": "none",
+        "Verb": "grab",
+        "Adjective": "first",
+        "Noun": "washer",
+        "adverbial": "none"
+      },
+      "end": 131.734
+    },
+    {
+      "id": 33,
+      "label": "Fine grained action",
+      "start": 132.06,
+      "type": "range",
+      "attributes": {
+        "Action Correctness": "Correct Action",
+        "Incorrect Action Explanation": "none",
+        "Incorrect Action Corrected by": "none",
+        "Verb": "place",
+        "Adjective": "first",
+        "Noun": "washer",
+        "adverbial": "none"
+      },
+      "end": 132.532
+    },
+    {
+      "id": 34,
+      "label": "Coarse grained action",
+      "start": 132.15,
+      "type": "range",
+      "attributes": {
+        "Action sentence": "The student screws the first bolt onto the chair.",
+        "Verb": "screw",
+        "Noun": "bolt"
+      },
+      "end": 185.25
+    },
+    {
+      "id": 35,
+      "label": "Fine grained action",
+      "start": 132.582,
+      "type": "range",
+      "attributes": {
+        "Action Correctness": "Correct Action",
+        "Incorrect Action Explanation": "none",
+        "Incorrect Action Corrected by": "none",
+        "Verb": "insert",
+        "Adjective": "none",
+        "Noun": "screw",
+        "adverbial": "none"
+      },
+      "end": 133.977
+    },
+    {
+      "id": 36,
+      "label": "Fine grained action",
+      "start": 135.469,
+      "type": "range",
+      "attributes": {
+        "Action Correctness": "Correct Action",
+        "Incorrect Action Explanation": "none",
+        "Incorrect Action Corrected by": "none",
+        "Verb": "screw",
+        "Adjective": "none",
+        "Noun": "screwdriver",
+        "adverbial": "none"
+      },
+      "end": 167.6
+    },
+    {
+      "id": 37,
+      "label": "Conversation",
+      "start": 161.225,
+      "type": "range",
+      "attributes": {
+        "Conversation Purpose": "instructor-start-conversation_follow-up instruction",
+        "Transcription": "Please rotate the bolt clockwise to screw it."
+      },
+      "end": 163.475
+    },
+    {
+      "id": 39,
+      "label": "Fine grained action",
+      "start": 168.3,
+      "type": "range",
+      "attributes": {
+        "Action Correctness": "Correct Action",
+        "Incorrect Action Explanation": "none",
+        "Incorrect Action Corrected by": "none",
+        "Verb": "rotate",
+        "Adjective": "none",
+        "Noun": "screwdriver",
+        "adverbial": "none"
+      },
+      "end": 176.709
+    },
+    {
+      "id": 38,
+      "label": "Conversation",
+      "start": 168.628,
+      "type": "range",
+      "attributes": {
+        "Conversation Purpose": "instructor-start-conversation_follow-up instruction",
+        "Transcription": "And heads up, pulling the bolt down, please rotate the drum to change the screw direction.",
+        "Transcription Confidence": "low-confidence-transcription"
+      },
+      "end": 174.4
+    },
+    {
+      "id": 40,
+      "label": "Fine grained action",
+      "start": 176.781,
+      "type": "range",
+      "attributes": {
+        "Action Correctness": "Correct Action",
+        "Incorrect Action Explanation": "none",
+        "Incorrect Action Corrected by": "none",
+        "Verb": "screw",
+        "Adjective": "first",
+        "Noun": "leg",
+        "adverbial": "none"
+      },
+      "end": 184.8
+    },
+    {
+      "id": 41,
+      "label": "Coarse grained action",
+      "start": 185.25,
+      "type": "range",
+      "attributes": {
+        "Action sentence": "The student screws the second bolt onto the chair.",
+        "Verb": "screw",
+        "Adjective": "second",
+        "Noun": "bolt"
+      },
+      "end": 203.2
+    },
+    {
+      "id": 42,
+      "label": "Fine grained action",
+      "start": 186.1,
+      "type": "range",
+      "attributes": {
+        "Action Correctness": "Correct Action",
+        "Incorrect Action Explanation": "none",
+        "Incorrect Action Corrected by": "none",
+        "Verb": "place",
+        "Adjective": "none",
+        "Noun": "washer",
+        "adverbial": "none"
+      },
+      "end": 188.2
+    },
+    {
+      "id": 43,
+      "label": "Fine grained action",
+      "start": 189.2,
+      "type": "range",
+      "attributes": {
+        "Action Correctness": "Correct Action",
+        "Incorrect Action Explanation": "none",
+        "Incorrect Action Corrected by": "none",
+        "Verb": "insert",
+        "Adjective": "second",
+        "Noun": "bolt",
+        "adverbial": "none"
+      },
+      "end": 190.8
+    },
+    {
+      "id": 44,
+      "label": "Fine grained action",
+      "start": 192.2,
+      "type": "range",
+      "attributes": {
+        "Action Correctness": "Correct Action",
+        "Incorrect Action Explanation": "none",
+        "Incorrect Action Corrected by": "none",
+        "Verb": "screw",
+        "Adjective": "second",
+        "Noun": "bolt",
+        "adverbial": "none"
+      },
+      "end": 202.3
+    },
+    {
+      "id": 45,
+      "label": "Coarse grained action",
+      "start": 203.2,
+      "type": "range",
+      "attributes": {
+        "Action sentence": "The student screws the third bolt into the chair.",
+        "Verb": "screw",
+        "Adjective": "third",
+        "Noun": "bolt"
+      },
+      "end": 232.1
+    },
+    {
+      "id": 46,
+      "label": "Fine grained action",
+      "start": 204.1,
+      "type": "range",
+      "attributes": {
+        "Action Correctness": "Correct Action",
+        "Incorrect Action Explanation": "none",
+        "Incorrect Action Corrected by": "none",
+        "Verb": "grab",
+        "Adjective": "none",
+        "Noun": "washer",
+        "adverbial": "none"
+      },
+      "end": 206.3
+    },
+    {
+      "id": 47,
+      "label": "Fine grained action",
+      "start": 207.2,
+      "type": "range",
+      "attributes": {
+        "Action Correctness": "Correct Action",
+        "Incorrect Action Explanation": "none",
+        "Incorrect Action Corrected by": "none",
+        "Verb": "insert",
+        "Adjective": "third",
+        "Noun": "bolt",
+        "adverbial": "none"
+      },
+      "end": 210.5
+    },
+    {
+      "id": 49,
+      "label": "Fine grained action",
+      "start": 212.2,
+      "type": "range",
+      "attributes": {
+        "Action Correctness": "Correct Action",
+        "Incorrect Action Explanation": "none",
+        "Incorrect Action Corrected by": "none",
+        "Verb": "screw",
+        "Adjective": "third",
+        "Noun": "bolt",
+        "adverbial": "none"
+      },
+      "end": 231.6
+    },
+    {
+      "id": 50,
+      "label": "Coarse grained action",
+      "start": 232.14901883803424,
+      "type": "range",
+      "attributes": {
+        "Action sentence": "The student screws the fourth bolt onto the chair.",
+        "Verb": "screw",
+        "Adjective": "fourth",
+        "Noun": "bolt"
+      },
+      "end": 259.5195054585529
+    },
+    {
+      "id": 51,
+      "label": "Fine grained action",
+      "start": 232.2,
+      "type": "range",
+      "attributes": {
+        "Action Correctness": "Correct Action",
+        "Incorrect Action Explanation": "none",
+        "Incorrect Action Corrected by": "none",
+        "Verb": "grab",
+        "Adjective": "none",
+        "Noun": "washer",
+        "adverbial": "none"
+      },
+      "end": 235.4
+    },
+    {
+      "id": 52,
+      "label": "Fine grained action",
+      "start": 236.2,
+      "type": "range",
+      "attributes": {
+        "Action Correctness": "Correct Action",
+        "Incorrect Action Explanation": "none",
+        "Incorrect Action Corrected by": "none",
+        "Verb": "insert",
+        "Adjective": "none",
+        "Noun": "bolt",
+        "adverbial": "none"
+      },
+      "end": 239.7
+    },
+    {
+      "id": 53,
+      "label": "Fine grained action",
+      "start": 241.2,
+      "type": "range",
+      "attributes": {
+        "Action Correctness": "Correct Action",
+        "Incorrect Action Explanation": "none",
+        "Incorrect Action Corrected by": "none",
+        "Verb": "screw",
+        "Adjective": "fourth",
+        "Noun": "bolt",
+        "adverbial": "none"
+      },
+      "end": 252.4
+    },
+    {
+      "id": 55,
+      "label": "Fine grained action",
+      "start": 255.1,
+      "type": "range",
+      "attributes": {
+        "Action Correctness": "Correct Action",
+        "Incorrect Action Explanation": "none",
+        "Incorrect Action Corrected by": "none",
+        "Verb": "flip",
+        "Adjective": "the",
+        "Noun": "stool",
+        "adverbial": "none"
+      },
+      "end": 259.3
+    },
+    {
+      "id": 64,
+      "label": "Conversation",
+      "start": 260.2,
+      "type": "range",
+      "attributes": {
+        "Conversation Purpose": "instructor-start-conversation_confirming the previous action",
+        "sequence": "none",
+        "Transcription": "Alright",
+        "Transcription Confidence": "none"
+      },
+      "end": 260.546
+    },
+    {
+      "id": 56,
+      "label": "Conversation",
+      "start": 260.553,
+      "type": "range",
+      "attributes": {
+        "Conversation Purpose": "instructor-start-conversation_follow-up instruction",
+        "Transcription": "please tighten the center screw. Please tighten the center screw."
+      },
+      "end": 265.104
+    },
+    {
+      "id": 57,
+      "label": "Coarse grained action",
+      "start": 264.2,
+      "type": "range",
+      "attributes": {
+        "Action sentence": "The student tightens the hex socket head using an allen wrench.",
+        "Verb": "screw",
+        "Adjective": "middle",
+        "Noun": "screw"
+      },
+      "end": 281.1
+    },
+    {
+      "id": 58,
+      "label": "Fine grained action",
+      "start": 265.2,
+      "type": "range",
+      "attributes": {
+        "Action Correctness": "Correct Action",
+        "Incorrect Action Explanation": "none",
+        "Incorrect Action Corrected by": "none",
+        "Verb": "flip",
+        "Adjective": "none",
+        "Noun": "stool",
+        "adverbial": "none"
+      },
+      "end": 273.151
+    },
+    {
+      "id": 59,
+      "label": "Conversation",
+      "start": 266.3,
+      "type": "range",
+      "attributes": {
+        "Conversation Purpose": "instructor-start-conversation_follow-up instruction",
+        "Transcription": "Please, while the table stand is all right. Please, while the stool is upright, tighten up the bolt.",
+        "Transcription Confidence": "low-confidence-transcription"
+      },
+      "end": 274.245
+    },
+    {
+      "id": 60,
+      "label": "Fine grained action",
+      "start": 273.288,
+      "type": "range",
+      "attributes": {
+        "Action Correctness": "Correct Action",
+        "Incorrect Action Explanation": "none",
+        "Incorrect Action Corrected by": "none",
+        "Verb": "screw",
+        "Adjective": "top",
+        "Noun": "hex_socket_head",
+        "adverbial": "none"
+      },
+      "end": 280.6
+    },
+    {
+      "id": 61,
+      "label": "Conversation",
+      "start": 279.975,
+      "type": "range",
+      "attributes": {
+        "Conversation Purpose": "instructor-start-conversation_closing remarks",
+        "Transcription": "Thank you very much, this was everything for this task. You may now press stop."
+      },
+      "end": 283.925
+    }
+  ],
+  "taskId": "63dadf119e512c4685f67a77",
+  "taskType": "assemble tray table",
+  "video_name": "z077-july-01-22-gladom_assemble"
+}

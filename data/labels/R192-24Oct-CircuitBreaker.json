@@ -1,0 +1,1202 @@
+{
+  "batch": "202301_2221_10fps",
+  "videoMetadata": {
+    "audio": {
+      "codec": "aac",
+      "bitrate": "70",
+      "sample_rate": 48000,
+      "stream": 0,
+      "channels": {
+        "raw": "mono",
+        "value": 1
+      }
+    },
+    "video": {
+      "container": "mov",
+      "bitrate": 3944,
+      "stream": 0,
+      "codec": "h264",
+      "resolution": {
+        "w": 896,
+        "h": 504
+      },
+      "resolutionSquare": {
+        "w": 896,
+        "h": 504
+      },
+      "aspect": {
+        "x": 16,
+        "y": 9,
+        "string": "16:9",
+        "value": 1.7777777777777777
+      },
+      "rotate": 0,
+      "fps": 29.93,
+      "pixelString": "1:1",
+      "pixel": 1
+    },
+    "duration": {
+      "raw": "00:02:52.74",
+      "seconds": 172
+    }
+  },
+  "events": [
+    {
+      "id": 77,
+      "label": "Narration",
+      "start": 0.035,
+      "type": "range",
+      "attributes": {
+        "Long form description": "The student is repairing a circuit breaker. They turn off the power, open the panel, inspect the components, replace a broken one, and turn the power back on."
+      },
+      "end": 172.653
+    },
+    {
+      "id": 1,
+      "label": "Conversation",
+      "start": 1.4,
+      "type": "range",
+      "attributes": {
+        "Conversation Purpose": "instructor-start-conversation_opening remarks",
+        "Transcription": "Alright, for the second test, we're gonna be doing a circuit breaker repair.",
+        "Transcription Confidence": "none"
+      },
+      "end": 4.8
+    },
+    {
+      "id": 3,
+      "label": "Conversation",
+      "start": 5.15,
+      "type": "range",
+      "attributes": {
+        "Conversation Purpose": "instructor-start-conversation_describing high-level instruction",
+        "sequence": "none",
+        "Transcription": "So go ahead and switch the main part of the circuit breaker off on the switch on the right.",
+        "Transcription Confidence": "none"
+      },
+      "end": 12.665
+    },
+    {
+      "id": 2,
+      "label": "Coarse grained action",
+      "start": 7.094,
+      "type": "range",
+      "attributes": {
+        "Action sentence": "The student turns off the circuit breaker box.",
+        "Verb": "turn_off",
+        "Adjective": "none",
+        "Noun": "circuit_breaker"
+      },
+      "end": 15
+    },
+    {
+      "id": 4,
+      "label": "Fine grained action",
+      "start": 9.95,
+      "type": "range",
+      "attributes": {
+        "Action Correctness": "Correct Action",
+        "Incorrect Action Explanation": "none",
+        "Incorrect Action Corrected by": "none",
+        "Verb": "push",
+        "Adjective": "none",
+        "Noun": "lever",
+        "adverbial": "none"
+      },
+      "end": 14.6
+    },
+    {
+      "id": 78,
+      "label": "Conversation",
+      "start": 13.732,
+      "type": "range",
+      "attributes": {
+        "Conversation Purpose": "instructor-start-conversation_describing high-level instruction",
+        "sequence": "none",
+        "Transcription": "Go ahead and open the panel.",
+        "Transcription Confidence": "none"
+      },
+      "end": 16.843
+    },
+    {
+      "id": 6,
+      "label": "Coarse grained action",
+      "start": 15.2,
+      "type": "range",
+      "attributes": {
+        "Action sentence": "The student opens the door of the front panel.",
+        "Verb": "open",
+        "Adjective": "none",
+        "Noun": "front_panel_door"
+      },
+      "end": 22
+    },
+    {
+      "id": 8,
+      "label": "Fine grained action",
+      "start": 16.218,
+      "type": "range",
+      "attributes": {
+        "Action Correctness": "Correct Action",
+        "Incorrect Action Explanation": "none",
+        "Incorrect Action Corrected by": "none",
+        "Verb": "open",
+        "Adjective": "none",
+        "Noun": "front_panel_door",
+        "adverbial": "none"
+      },
+      "end": 19.7
+    },
+    {
+      "id": 9,
+      "label": "Conversation",
+      "start": 20.0,
+      "type": "range",
+      "attributes": {
+        "Conversation Purpose": "instructor-start-conversation_describing high-level instruction",
+        "Transcription": "Now see if there's any visible damage."
+      },
+      "end": 22.4
+    },
+    {
+      "id": 10,
+      "label": "Coarse grained action",
+      "start": 23.1,
+      "type": "range",
+      "attributes": {
+        "Action sentence": "The student inspects for visible damage.",
+        "Verb": "inspect",
+        "Adjective": "none",
+        "Noun": "circuit_breaker"
+      },
+      "end": 45
+    },
+    {
+      "id": 11,
+      "label": "Fine grained action",
+      "start": 32.1,
+      "type": "range",
+      "attributes": {
+        "Action Correctness": "Wrong Action, corrected by instructor verbally",
+        "Incorrect Action Explanation": "The student touches the wrong place.",
+        "Incorrect Action Corrected by": "12",
+        "Verb": "touch",
+        "Adjective": "wrong",
+        "Noun": "box",
+        "adverbial": "none"
+      },
+      "end": 37.4
+    },
+    {
+      "id": 12,
+      "label": "Conversation",
+      "start": 34.4,
+      "type": "range",
+      "attributes": {
+        "Conversation Purpose": "instructor-start-conversation_correct the wrong action",
+        "sequence": "11",
+        "Transcription": "Should be somewhere in the middle.",
+        "Transcription Confidence": "none"
+      },
+      "end": 36.3
+    },
+    {
+      "id": 13,
+      "label": "Fine grained action",
+      "start": 39.2,
+      "type": "range",
+      "attributes": {
+        "Action Correctness": "Correct Action",
+        "Incorrect Action Explanation": "none",
+        "Incorrect Action Corrected by": "none",
+        "Verb": "touch",
+        "Adjective": "none",
+        "Noun": "circuit_breaker",
+        "adverbial": "none"
+      },
+      "end": 41.5
+    },
+    {
+      "id": 14,
+      "label": "Conversation",
+      "start": 40.1,
+      "type": "range",
+      "attributes": {
+        "Conversation Purpose": "student-start-conversation_ask questions",
+        "sequence": "none",
+        "Transcription": "This thing?",
+        "Transcription Confidence": "none",
+        "Conversation Purpose -- Other": "none"
+      },
+      "end": 41.2
+    },
+    {
+      "id": 15,
+      "label": "Conversation",
+      "start": 41.267,
+      "type": "range",
+      "attributes": {
+        "Conversation Purpose": "instructor-reply-to-student_confirming past or future action",
+        "sequence": "none",
+        "Transcription": "Yes",
+        "Transcription Confidence": "none"
+      },
+      "end": 42.267
+    },
+    {
+      "id": 79,
+      "label": "Fine grained action",
+      "start": 42.225,
+      "type": "range",
+      "attributes": {
+        "Action Correctness": "Correct Action",
+        "Incorrect Action Explanation": "none",
+        "Incorrect Action Corrected by": "none",
+        "Verb": "grab",
+        "Adjective": "none",
+        "Noun": "circuit_breaker",
+        "adverbial": "none"
+      },
+      "end": 43.842
+    },
+    {
+      "id": 16,
+      "label": "Conversation",
+      "start": 43.209,
+      "type": "range",
+      "attributes": {
+        "Conversation Purpose": "instructor-start-conversation_describing high-level instruction",
+        "sequence": "none",
+        "Transcription": "Go ahead and unplug the components. *unintelligible*",
+        "Transcription Confidence": "low-confidence-transcription"
+      },
+      "end": 48.3
+    },
+    {
+      "id": 17,
+      "label": "Coarse grained action",
+      "start": 45.035,
+      "type": "range",
+      "attributes": {
+        "Action sentence": "The student unplugs the components.",
+        "Verb": "withdraw",
+        "Adjective": "none",
+        "Noun": "circuit_breaker"
+      },
+      "end": 51.735
+    },
+    {
+      "id": 18,
+      "label": "Fine grained action",
+      "start": 45.335,
+      "type": "range",
+      "attributes": {
+        "Action Correctness": "Correct Action",
+        "Incorrect Action Explanation": "none",
+        "Incorrect Action Corrected by": "none",
+        "Verb": "withdraw",
+        "Adjective": "none",
+        "Noun": "circuit_breaker",
+        "adverbial": "none"
+      },
+      "end": 50.653
+    },
+    {
+      "id": 20,
+      "label": "Conversation",
+      "start": 52.086,
+      "type": "range",
+      "attributes": {
+        "Conversation Purpose": "instructor-start-conversation_confirming the previous action",
+        "sequence": "none",
+        "Transcription": "All right.",
+        "Transcription Confidence": "none"
+      },
+      "end": 53.229
+    },
+    {
+      "id": 21,
+      "label": "Conversation",
+      "start": 53.679,
+      "type": "range",
+      "attributes": {
+        "Conversation Purpose": "instructor-start-conversation_describing high-level instruction",
+        "Transcription": "Place that into the quality control table."
+      },
+      "end": 57.088
+    },
+    {
+      "id": 22,
+      "label": "Coarse grained action",
+      "start": 55.4,
+      "type": "range",
+      "attributes": {
+        "Action sentence": "The student puts the circuit breaker on the quality control table.",
+        "Verb": "place",
+        "Adjective": "none",
+        "Noun": "circuit_breaker"
+      },
+      "end": 62.3
+    },
+    {
+      "id": 23,
+      "label": "Conversation",
+      "start": 57.2,
+      "type": "range",
+      "attributes": {
+        "Conversation Purpose": "student-start-conversation_ask questions",
+        "Transcription": "To my right?",
+        "Conversation Purpose -- Other": "none"
+      },
+      "end": 58.1
+    },
+    {
+      "id": 24,
+      "label": "Conversation",
+      "start": 57.938,
+      "type": "range",
+      "attributes": {
+        "Conversation Purpose": "instructor-reply-to-student_confirming past or future action",
+        "sequence": "none",
+        "Transcription": "Yes.",
+        "Transcription Confidence": "none"
+      },
+      "end": 58.638
+    },
+    {
+      "id": 25,
+      "label": "Fine grained action",
+      "start": 59.1,
+      "type": "range",
+      "attributes": {
+        "Action Correctness": "Correct Action",
+        "Incorrect Action Explanation": "none",
+        "Incorrect Action Corrected by": "none",
+        "Verb": "place",
+        "Adjective": "none",
+        "Noun": "circuit_breaker",
+        "adverbial": "none"
+      },
+      "end": 61.5
+    },
+    {
+      "id": 26,
+      "label": "Conversation",
+      "start": 60.624,
+      "type": "range",
+      "attributes": {
+        "Conversation Purpose": "student-start-conversation_other",
+        "Transcription": "There you go.",
+        "Conversation Purpose -- Other": "none"
+      },
+      "end": 61.724
+    },
+    {
+      "id": 27,
+      "label": "Conversation",
+      "start": 61.8,
+      "type": "range",
+      "attributes": {
+        "Conversation Purpose": "instructor-start-conversation_describing high-level instruction",
+        "Transcription": "Now if you look down, you should see the red toolbox. Go ahead and over the top apartment.",
+        "Transcription Confidence": "none"
+      },
+      "end": 67.8
+    },
+    {
+      "id": 28,
+      "label": "Coarse grained action",
+      "start": 65.3,
+      "type": "range",
+      "attributes": {
+        "Action sentence": "The student plugs a new component into a socket.",
+        "Verb": "assemble",
+        "Adjective": "none",
+        "Noun": "circuit_breaker"
+      },
+      "end": 88.3
+    },
+    {
+      "id": 30,
+      "label": "Fine grained action",
+      "start": 67.332,
+      "type": "range",
+      "attributes": {
+        "Action Correctness": "Correct Action",
+        "Incorrect Action Explanation": "none",
+        "Incorrect Action Corrected by": "none",
+        "Verb": "open",
+        "Adjective": "none",
+        "Noun": "toolbox",
+        "adverbial": "none"
+      },
+      "end": 69.132
+    },
+    {
+      "id": 80,
+      "label": "Conversation",
+      "start": 68.997,
+      "type": "range",
+      "attributes": {
+        "Conversation Purpose": "instructor-start-conversation_follow-up instruction",
+        "sequence": "none",
+        "Transcription": "And grab replacement parts.",
+        "Transcription Confidence": "low-confidence-transcription"
+      },
+      "end": 71.071
+    },
+    {
+      "id": 32,
+      "label": "Fine grained action",
+      "start": 70.494,
+      "type": "range",
+      "attributes": {
+        "Action Correctness": "Correct Action",
+        "Incorrect Action Explanation": "none",
+        "Incorrect Action Corrected by": "none",
+        "Verb": "grab",
+        "Adjective": "none",
+        "Noun": "cable",
+        "adverbial": "none"
+      },
+      "end": 72.621
+    },
+    {
+      "id": 82,
+      "label": "Fine grained action",
+      "start": 72.63,
+      "type": "range",
+      "attributes": {
+        "Action Correctness": "Correct Action",
+        "Incorrect Action Explanation": "none",
+        "Incorrect Action Corrected by": "none",
+        "Verb": "place",
+        "Adjective": "none",
+        "Noun": "cable",
+        "adverbial": "none"
+      },
+      "end": 73.203
+    },
+    {
+      "id": 83,
+      "label": "Conversation",
+      "start": 73.233,
+      "type": "range",
+      "attributes": {
+        "Conversation Purpose": "student-start-conversation_other",
+        "sequence": "none",
+        "Transcription": "*unintelligible*",
+        "Transcription Confidence": "low-confidence-transcription",
+        "Conversation Purpose -- Other": "none"
+      },
+      "end": 75.218
+    },
+    {
+      "id": 81,
+      "label": "Fine grained action",
+      "start": 73.35,
+      "type": "range",
+      "attributes": {
+        "Action Correctness": "Correct Action",
+        "Incorrect Action Explanation": "none",
+        "Incorrect Action Corrected by": "none",
+        "Verb": "grab",
+        "Adjective": "none",
+        "Noun": "circuit_breaker",
+        "adverbial": "none"
+      },
+      "end": 75.865
+    },
+    {
+      "id": 84,
+      "label": "Conversation",
+      "start": 75.203,
+      "type": "range",
+      "attributes": {
+        "Conversation Purpose": "instructor-start-conversation_confirming the previous action",
+        "sequence": "none",
+        "Transcription": "yes.",
+        "Transcription Confidence": "none"
+      },
+      "end": 75.733
+    },
+    {
+      "id": 33,
+      "label": "Fine grained action",
+      "start": 75.953,
+      "type": "range",
+      "attributes": {
+        "Action Correctness": "Correct Action",
+        "Incorrect Action Explanation": "none",
+        "Incorrect Action Corrected by": "none",
+        "Verb": "close",
+        "Adjective": "none",
+        "Noun": "toolbox",
+        "adverbial": "none"
+      },
+      "end": 77.682
+    },
+    {
+      "id": 34,
+      "label": "Conversation",
+      "start": 76.053,
+      "type": "range",
+      "attributes": {
+        "Conversation Purpose": "instructor-start-conversation_follow-up instruction",
+        "sequence": "none",
+        "Transcription": "Go ahead and plug the new component into the socket.",
+        "Transcription Confidence": "none"
+      },
+      "end": 79.829
+    },
+    {
+      "id": 35,
+      "label": "Fine grained action",
+      "start": 79.748,
+      "type": "range",
+      "attributes": {
+        "Action Correctness": "Correct Action",
+        "Incorrect Action Explanation": "none",
+        "Incorrect Action Corrected by": "none",
+        "Verb": "rotate",
+        "Adjective": "none",
+        "Noun": "circuit_breaker",
+        "adverbial": "none"
+      },
+      "end": 83.045
+    },
+    {
+      "id": 36,
+      "label": "Fine grained action",
+      "start": 83.097,
+      "type": "range",
+      "attributes": {
+        "Action Correctness": "Correct Action",
+        "Incorrect Action Explanation": "none",
+        "Incorrect Action Corrected by": "none",
+        "Verb": "assemble",
+        "Adjective": "none",
+        "Noun": "circuit_breaker",
+        "adverbial": "none"
+      },
+      "end": 86.8
+    },
+    {
+      "id": 37,
+      "label": "Conversation",
+      "start": 87.224,
+      "type": "range",
+      "attributes": {
+        "Conversation Purpose": "instructor-start-conversation_describing high-level instruction",
+        "sequence": "none",
+        "Transcription": "Close the panel door.",
+        "Transcription Confidence": "none"
+      },
+      "end": 89.624
+    },
+    {
+      "id": 38,
+      "label": "Coarse grained action",
+      "start": 89.168,
+      "type": "range",
+      "attributes": {
+        "Action sentence": "The student closes the panel door.",
+        "Verb": "close",
+        "Adjective": "none",
+        "Noun": "front_panel_door"
+      },
+      "end": 94.068
+    },
+    {
+      "id": 39,
+      "label": "Fine grained action",
+      "start": 89.306,
+      "type": "range",
+      "attributes": {
+        "Action Correctness": "Correct Action",
+        "Incorrect Action Explanation": "none",
+        "Incorrect Action Corrected by": "none",
+        "Verb": "close",
+        "Adjective": "none",
+        "Noun": "front_panel_door",
+        "adverbial": "none"
+      },
+      "end": 92.906
+    },
+    {
+      "id": 40,
+      "label": "Conversation",
+      "start": 93.247,
+      "type": "range",
+      "attributes": {
+        "Conversation Purpose": "instructor-start-conversation_describing high-level instruction",
+        "Transcription": "Switch the main power back on."
+      },
+      "end": 95.747
+    },
+    {
+      "id": 41,
+      "label": "Coarse grained action",
+      "start": 94.4,
+      "type": "range",
+      "attributes": {
+        "Action sentence": "The student turns on the main power.",
+        "Verb": "turn_on",
+        "Adjective": "none",
+        "Noun": "circuit_breaker"
+      },
+      "end": 99.1
+    },
+    {
+      "id": 42,
+      "label": "Fine grained action",
+      "start": 96.1,
+      "type": "range",
+      "attributes": {
+        "Action Correctness": "Correct Action",
+        "Incorrect Action Explanation": "none",
+        "Incorrect Action Corrected by": "none",
+        "Verb": "pull",
+        "Adjective": "none",
+        "Noun": "lever",
+        "adverbial": "none"
+      },
+      "end": 98.4
+    },
+    {
+      "id": 44,
+      "label": "Conversation",
+      "start": 99.1,
+      "type": "range",
+      "attributes": {
+        "Conversation Purpose": "instructor-start-conversation_describing high-level instruction",
+        "sequence": "none",
+        "Transcription": "And press the reset button on the left side of the second break box.",
+        "Transcription Confidence": "none"
+      },
+      "end": 102.6
+    },
+    {
+      "id": 43,
+      "label": "Coarse grained action",
+      "start": 99.4,
+      "type": "range",
+      "attributes": {
+        "Action sentence": "The student presses the reset button on the left side of the second break box.",
+        "Verb": "reset",
+        "Adjective": "none",
+        "Noun": "circuit_breaker"
+      },
+      "end": 110
+    },
+    {
+      "id": 45,
+      "label": "Conversation",
+      "start": 103.1,
+      "type": "range",
+      "attributes": {
+        "Conversation Purpose": "student-start-conversation_other",
+        "Transcription": "The second.",
+        "Conversation Purpose -- Other": "none"
+      },
+      "end": 104.4
+    },
+    {
+      "id": 46,
+      "label": "Fine grained action",
+      "start": 104.482,
+      "type": "range",
+      "attributes": {
+        "Action Correctness": "Correct Action",
+        "Incorrect Action Explanation": "none",
+        "Incorrect Action Corrected by": "none",
+        "Verb": "press",
+        "Adjective": "none",
+        "Noun": "reset_button",
+        "adverbial": "none"
+      },
+      "end": 108.344
+    },
+    {
+      "id": 47,
+      "label": "Conversation",
+      "start": 109.785,
+      "type": "range",
+      "attributes": {
+        "Conversation Purpose": "instructor-start-conversation_describing high-level instruction",
+        "sequence": "none",
+        "Transcription": "*unintelligible*. Go ahead and press it again.",
+        "Transcription Confidence": "low-confidence-transcription"
+      },
+      "end": 112.5
+    },
+    {
+      "id": 48,
+      "label": "Coarse grained action",
+      "start": 111.571,
+      "type": "range",
+      "attributes": {
+        "Action sentence": "The student presses the button again to turn it off.",
+        "Verb": "reset",
+        "Adjective": "none",
+        "Noun": "circuit_breaker"
+      },
+      "end": 115
+    },
+    {
+      "id": 49,
+      "label": "Fine grained action",
+      "start": 112.979,
+      "type": "range",
+      "attributes": {
+        "Action Correctness": "Correct Action",
+        "Incorrect Action Explanation": "none",
+        "Incorrect Action Corrected by": "none",
+        "Verb": "press",
+        "Adjective": "none",
+        "Noun": "reset_button",
+        "adverbial": "none"
+      },
+      "end": 114.479
+    },
+    {
+      "id": 50,
+      "label": "Conversation",
+      "start": 114.2,
+      "type": "range",
+      "attributes": {
+        "Conversation Purpose": "instructor-start-conversation_describing high-level instruction",
+        "sequence": "none",
+        "Transcription": "Gonna move back to the front of the sixth breaker and switch the main power back off.",
+        "Transcription Confidence": "none"
+      },
+      "end": 121
+    },
+    {
+      "id": 51,
+      "label": "Coarse grained action",
+      "start": 116.2,
+      "type": "range",
+      "attributes": {
+        "Action sentence": "The student turns off the main power.",
+        "Verb": "turn_off",
+        "Adjective": "none",
+        "Noun": "circuit_breaker"
+      },
+      "end": 124
+    },
+    {
+      "id": 52,
+      "label": "Fine grained action",
+      "start": 120.009,
+      "type": "range",
+      "attributes": {
+        "Action Correctness": "Correct Action",
+        "Incorrect Action Explanation": "none",
+        "Incorrect Action Corrected by": "none",
+        "Verb": "push",
+        "Adjective": "none",
+        "Noun": "lever",
+        "adverbial": "none"
+      },
+      "end": 123.709
+    },
+    {
+      "id": 53,
+      "label": "Conversation",
+      "start": 123.862,
+      "type": "range",
+      "attributes": {
+        "Conversation Purpose": "instructor-start-conversation_describing high-level instruction",
+        "sequence": "none",
+        "Transcription": "*unintelligible* Open the panel.",
+        "Transcription Confidence": "low-confidence-transcription"
+      },
+      "end": 126.3
+    },
+    {
+      "id": 54,
+      "label": "Coarse grained action",
+      "start": 125.2,
+      "type": "range",
+      "attributes": {
+        "Action sentence": "The student opens the panel.",
+        "Verb": "open",
+        "Adjective": "none",
+        "Noun": "front_panel_door"
+      },
+      "end": 129.306
+    },
+    {
+      "id": 55,
+      "label": "Fine grained action",
+      "start": 125.274,
+      "type": "range",
+      "attributes": {
+        "Action Correctness": "Correct Action",
+        "Incorrect Action Explanation": "none",
+        "Incorrect Action Corrected by": "none",
+        "Verb": "open",
+        "Adjective": "none",
+        "Noun": "front_panel_door",
+        "adverbial": "none"
+      },
+      "end": 129.256
+    },
+    {
+      "id": 57,
+      "label": "Conversation",
+      "start": 129.3,
+      "type": "range",
+      "attributes": {
+        "Conversation Purpose": "instructor-start-conversation_describing high-level instruction",
+        "sequence": "none",
+        "Transcription": "Unplugg the replacement parts on the sucket.",
+        "Transcription Confidence": "none"
+      },
+      "end": 133.3
+    },
+    {
+      "id": 56,
+      "label": "Coarse grained action",
+      "start": 131.826,
+      "type": "range",
+      "attributes": {
+        "Action sentence": "The student disconnects the replacement and puts it in the toolbox, then grabs the other breaker and reconnects it.",
+        "Verb": "withdraw",
+        "Adjective": "none",
+        "Noun": "circuit_breaker"
+      },
+      "end": 162
+    },
+    {
+      "id": 58,
+      "label": "Fine grained action",
+      "start": 132.6,
+      "type": "range",
+      "attributes": {
+        "Action Correctness": "Correct Action",
+        "Incorrect Action Explanation": "none",
+        "Incorrect Action Corrected by": "none",
+        "Verb": "withdraw",
+        "Adjective": "none",
+        "Noun": "circuit_breaker",
+        "adverbial": "none"
+      },
+      "end": 135.712
+    },
+    {
+      "id": 59,
+      "label": "Conversation",
+      "start": 135.582,
+      "type": "range",
+      "attributes": {
+        "Conversation Purpose": "instructor-start-conversation_follow-up instruction",
+        "sequence": "none",
+        "Transcription": "Place it back into the red toolbox.",
+        "Transcription Confidence": "none"
+      },
+      "end": 138.082
+    },
+    {
+      "id": 60,
+      "label": "Fine grained action",
+      "start": 135.745,
+      "type": "range",
+      "attributes": {
+        "Action Correctness": "Correct Action",
+        "Incorrect Action Explanation": "none",
+        "Incorrect Action Corrected by": "none",
+        "Verb": "hold",
+        "Adjective": "none",
+        "Noun": "circuit_breaker",
+        "adverbial": "none"
+      },
+      "end": 138.945
+    },
+    {
+      "id": 61,
+      "label": "Fine grained action",
+      "start": 139.021,
+      "type": "range",
+      "attributes": {
+        "Action Correctness": "Correct Action",
+        "Incorrect Action Explanation": "none",
+        "Incorrect Action Corrected by": "none",
+        "Verb": "open",
+        "Adjective": "none",
+        "Noun": "toolbox",
+        "adverbial": "none"
+      },
+      "end": 140.021
+    },
+    {
+      "id": 62,
+      "label": "Fine grained action",
+      "start": 140.1,
+      "type": "range",
+      "attributes": {
+        "Action Correctness": "Correct Action",
+        "Incorrect Action Explanation": "none",
+        "Incorrect Action Corrected by": "none",
+        "Verb": "place",
+        "Adjective": "none",
+        "Noun": "circuit_breaker",
+        "adverbial": "none"
+      },
+      "end": 141.3
+    },
+    {
+      "id": 63,
+      "label": "Fine grained action",
+      "start": 141.321,
+      "type": "range",
+      "attributes": {
+        "Action Correctness": "Correct Action",
+        "Incorrect Action Explanation": "none",
+        "Incorrect Action Corrected by": "none",
+        "Verb": "close",
+        "Adjective": "none",
+        "Noun": "toolbox",
+        "adverbial": "none"
+      },
+      "end": 143.021
+    },
+    {
+      "id": 64,
+      "label": "Conversation",
+      "start": 142.867,
+      "type": "range",
+      "attributes": {
+        "Conversation Purpose": "student-start-conversation_ask questions",
+        "Transcription": "I had to put the bad one back in.",
+        "Conversation Purpose -- Other": "none"
+      },
+      "end": 145.267
+    },
+    {
+      "id": 65,
+      "label": "Conversation",
+      "start": 145.283,
+      "type": "range",
+      "attributes": {
+        "Conversation Purpose": "instructor-reply-to-student_confirming past or future action",
+        "sequence": "none",
+        "Transcription": "Yes.",
+        "Transcription Confidence": "none"
+      },
+      "end": 145.817
+    },
+    {
+      "id": 66,
+      "label": "Fine grained action",
+      "start": 146.174,
+      "type": "range",
+      "attributes": {
+        "Action Correctness": "Correct Action",
+        "Incorrect Action Explanation": "none",
+        "Incorrect Action Corrected by": "none",
+        "Verb": "grab",
+        "Adjective": "none",
+        "Noun": "circuit_breaker",
+        "adverbial": "none"
+      },
+      "end": 147.488
+    },
+    {
+      "id": 85,
+      "label": "Conversation",
+      "start": 146.7,
+      "type": "range",
+      "attributes": {
+        "Conversation Purpose": "student-start-conversation_other",
+        "sequence": "none",
+        "Transcription": "Cool.",
+        "Transcription Confidence": "none",
+        "Conversation Purpose -- Other": "none"
+      },
+      "end": 147.45
+    },
+    {
+      "id": 86,
+      "label": "Fine grained action",
+      "start": 147.583,
+      "type": "range",
+      "attributes": {
+        "Action Correctness": "Correct Action",
+        "Incorrect Action Explanation": "none",
+        "Incorrect Action Corrected by": "none",
+        "Verb": "hold",
+        "Adjective": "none",
+        "Noun": "circuit_breaker",
+        "adverbial": "none"
+      },
+      "end": 151.459
+    },
+    {
+      "id": 67,
+      "label": "Fine grained action",
+      "start": 151.521,
+      "type": "range",
+      "attributes": {
+        "Action Correctness": "Correct Action",
+        "Incorrect Action Explanation": "none",
+        "Incorrect Action Corrected by": "none",
+        "Verb": "rotate",
+        "Adjective": "none",
+        "Noun": "circuit_breaker",
+        "adverbial": "none"
+      },
+      "end": 155.785
+    },
+    {
+      "id": 68,
+      "label": "Conversation",
+      "start": 154,
+      "type": "range",
+      "attributes": {
+        "Conversation Purpose": "student-start-conversation_ask questions",
+        "Transcription": "This way, right?",
+        "Conversation Purpose -- Other": "none"
+      },
+      "end": 155.5
+    },
+    {
+      "id": 87,
+      "label": "Fine grained action",
+      "start": 155.876,
+      "type": "range",
+      "attributes": {
+        "Action Correctness": "Correct Action",
+        "Incorrect Action Explanation": "none",
+        "Incorrect Action Corrected by": "none",
+        "Verb": "assemble",
+        "Adjective": "none",
+        "Noun": "circuit_breaker",
+        "adverbial": "none"
+      },
+      "end": 161.494
+    },
+    {
+      "id": 69,
+      "label": "Conversation",
+      "start": 156.1,
+      "type": "range",
+      "attributes": {
+        "Conversation Purpose": "instructor-reply-to-student_other",
+        "Transcription": "Yes."
+      },
+      "end": 156.8
+    },
+    {
+      "id": 70,
+      "label": "Conversation",
+      "start": 161.1,
+      "type": "range",
+      "attributes": {
+        "Conversation Purpose": "student-start-conversation_other",
+        "Transcription": "Cool.",
+        "Conversation Purpose -- Other": "none"
+      },
+      "end": 161.9
+    },
+    {
+      "id": 73,
+      "label": "Conversation",
+      "start": 162.056,
+      "type": "range",
+      "attributes": {
+        "Conversation Purpose": "instructor-start-conversation_describing high-level instruction",
+        "sequence": "none",
+        "Transcription": "Close the panel.",
+        "Transcription Confidence": "none"
+      },
+      "end": 163.183
+    },
+    {
+      "id": 71,
+      "label": "Coarse grained action",
+      "start": 162.4,
+      "type": "range",
+      "attributes": {
+        "Action sentence": "The student closes the panel.",
+        "Verb": "close",
+        "Adjective": "none",
+        "Noun": "front_panel_door"
+      },
+      "end": 166.3
+    },
+    {
+      "id": 72,
+      "label": "Fine grained action",
+      "start": 162.512,
+      "type": "range",
+      "attributes": {
+        "Action Correctness": "Correct Action",
+        "Incorrect Action Explanation": "none",
+        "Incorrect Action Corrected by": "none",
+        "Verb": "close",
+        "Adjective": "none",
+        "Noun": "front_panel_door",
+        "adverbial": "none"
+      },
+      "end": 164.829
+    },
+    {
+      "id": 88,
+      "label": "Conversation",
+      "start": 165.168,
+      "type": "range",
+      "attributes": {
+        "Conversation Purpose": "instructor-start-conversation_describing high-level instruction",
+        "sequence": "none",
+        "Transcription": "Turn the main power back on.",
+        "Transcription Confidence": "none"
+      },
+      "end": 167.362
+    },
+    {
+      "id": 74,
+      "label": "Coarse grained action",
+      "start": 167.094,
+      "type": "range",
+      "attributes": {
+        "Action sentence": "The student turns the circuit breaker back on.",
+        "Verb": "turn_on",
+        "Adjective": "none",
+        "Noun": "circuit_breaker"
+      },
+      "end": 169.894
+    },
+    {
+      "id": 75,
+      "label": "Fine grained action",
+      "start": 167.2,
+      "type": "range",
+      "attributes": {
+        "Action Correctness": "Correct Action",
+        "Incorrect Action Explanation": "none",
+        "Incorrect Action Corrected by": "none",
+        "Verb": "pull",
+        "Adjective": "none",
+        "Noun": "lever",
+        "adverbial": "none"
+      },
+      "end": 169.068
+    },
+    {
+      "id": 76,
+      "label": "Conversation",
+      "start": 170.2,
+      "type": "range",
+      "attributes": {
+        "Conversation Purpose": "instructor-start-conversation_closing remarks",
+        "Transcription": "Go ahead and stop capturing."
+      },
+      "end": 172.2
+    }
+  ],
+  "taskId": "63dadfa7b3b9700931204d3c",
+  "taskType": "change circuit breaker",
+  "video_name": "R192-24Oct-CircuitBreaker"
+}

@@ -1,0 +1,1928 @@
+{
+  "batch": "202301_2221_10fps",
+  "videoMetadata": {
+    "audio": {
+      "codec": "aac",
+      "bitrate": "70",
+      "sample_rate": 48000,
+      "stream": 0,
+      "channels": {
+        "raw": "mono",
+        "value": 1
+      }
+    },
+    "video": {
+      "container": "mov",
+      "bitrate": 2251,
+      "stream": 0,
+      "codec": "h264",
+      "resolution": {
+        "w": 896,
+        "h": 504
+      },
+      "resolutionSquare": {
+        "w": 896,
+        "h": 504
+      },
+      "aspect": {
+        "x": 16,
+        "y": 9,
+        "string": "16:9",
+        "value": 1.7777777777777777
+      },
+      "rotate": 0,
+      "fps": 29.99,
+      "pixelString": "1:1",
+      "pixel": 1
+    },
+    "duration": {
+      "raw": "00:05:58.42",
+      "seconds": 358
+    }
+  },
+  "events": [
+    {
+      "id": 92,
+      "label": "Narration",
+      "start": 0.151,
+      "type": "range",
+      "attributes": {
+        "Long form description": "The student is assembling a stool. They attach the legs and secure them with a bolt, then screw the legs into the seat. Finally, they inspect the stool to make sure everything is tight."
+      },
+      "end": 35.351
+    },
+    {
+      "id": 1,
+      "label": "Conversation",
+      "start": 0.649,
+      "type": "range",
+      "attributes": {
+        "Conversation Purpose": "instructor-start-conversation_opening remarks",
+        "sequence": "none",
+        "Transcription": "Okay, now we are going to be looking at some IKEA furniture.",
+        "Transcription Confidence": "none"
+      },
+      "end": 3.714
+    },
+    {
+      "id": 2,
+      "label": "Conversation",
+      "start": 4.159,
+      "type": "range",
+      "attributes": {
+        "Conversation Purpose": "instructor-start-conversation_describing high-level instruction",
+        "sequence": "none",
+        "Transcription": "So please, build this chair.",
+        "Transcription Confidence": "none"
+      },
+      "end": 5.773
+    },
+    {
+      "id": 4,
+      "label": "Coarse grained action",
+      "start": 5.694,
+      "type": "range",
+      "attributes": {
+        "Action sentence": "The student assembles the legs of the stool.",
+        "Verb": "assemble",
+        "Adjective": "none",
+        "Noun": "leg"
+      },
+      "end": 155.683
+    },
+    {
+      "id": 93,
+      "label": "Fine grained action",
+      "start": 5.784,
+      "type": "range",
+      "attributes": {
+        "Action Correctness": "Wrong Action, corrected by instructor verbally",
+        "Incorrect Action Explanation": "The student should start by assembling the legs.",
+        "Incorrect Action Corrected by": "3",
+        "Verb": "grab",
+        "Adjective": "none",
+        "Noun": "seat",
+        "adverbial": "none"
+      },
+      "end": 9.118
+    },
+    {
+      "id": 3,
+      "label": "Conversation",
+      "start": 9.1,
+      "type": "range",
+      "attributes": {
+        "Conversation Purpose": "instructor-start-conversation_correct the wrong action",
+        "sequence": "93",
+        "Transcription": "You should start by taking, uh, the two legs and put that one on top of the other in a cross shape.",
+        "Transcription Confidence": "none"
+      },
+      "end": 15.798
+    },
+    {
+      "id": 94,
+      "label": "Fine grained action",
+      "start": 9.147,
+      "type": "range",
+      "attributes": {
+        "Action Correctness": "Correct Action",
+        "Incorrect Action Explanation": "none",
+        "Incorrect Action Corrected by": "none",
+        "Verb": "rotate",
+        "Adjective": "none",
+        "Noun": "seat",
+        "adverbial": "none"
+      },
+      "end": 12.441
+    },
+    {
+      "id": 95,
+      "label": "Fine grained action",
+      "start": 12.471,
+      "type": "range",
+      "attributes": {
+        "Action Correctness": "Correct Action",
+        "Incorrect Action Explanation": "none",
+        "Incorrect Action Corrected by": "none",
+        "Verb": "place",
+        "Adjective": "none",
+        "Noun": "seat",
+        "adverbial": "left hand"
+      },
+      "end": 15.01
+    },
+    {
+      "id": 5,
+      "label": "Fine grained action",
+      "start": 13.404,
+      "type": "range",
+      "attributes": {
+        "Action Correctness": "Correct Action",
+        "Incorrect Action Explanation": "none",
+        "Incorrect Action Corrected by": "none",
+        "Verb": "lift",
+        "Adjective": "none",
+        "Noun": "leg",
+        "adverbial": "right hand"
+      },
+      "end": 17.367
+    },
+    {
+      "id": 96,
+      "label": "Fine grained action",
+      "start": 15.039,
+      "type": "range",
+      "attributes": {
+        "Action Correctness": "Correct Action",
+        "Incorrect Action Explanation": "none",
+        "Incorrect Action Corrected by": "none",
+        "Verb": "lift",
+        "Adjective": "none",
+        "Noun": "leg",
+        "adverbial": "left hand"
+      },
+      "end": 17.372
+    },
+    {
+      "id": 7,
+      "label": "Fine grained action",
+      "start": 17.404,
+      "type": "range",
+      "attributes": {
+        "Action Correctness": "Correct Action",
+        "Incorrect Action Explanation": "none",
+        "Incorrect Action Corrected by": "none",
+        "Verb": "align",
+        "Adjective": "none",
+        "Noun": "leg",
+        "adverbial": "none"
+      },
+      "end": 22.067
+    },
+    {
+      "id": 10,
+      "label": "Fine grained action",
+      "start": 22.1,
+      "type": "range",
+      "attributes": {
+        "Action Correctness": "Correct Action",
+        "Incorrect Action Explanation": "none",
+        "Incorrect Action Corrected by": "none",
+        "Verb": "grab",
+        "Adjective": "none",
+        "Noun": "bolt",
+        "adverbial": "none"
+      },
+      "end": 23.324
+    },
+    {
+      "id": 12,
+      "label": "Fine grained action",
+      "start": 23.355,
+      "type": "range",
+      "attributes": {
+        "Action Correctness": "Correct Action",
+        "Incorrect Action Explanation": "none",
+        "Incorrect Action Corrected by": "none",
+        "Verb": "insert",
+        "Adjective": "none",
+        "Noun": "bolt",
+        "adverbial": "none"
+      },
+      "end": 26.582
+    },
+    {
+      "id": 13,
+      "label": "Fine grained action",
+      "start": 26.612,
+      "type": "range",
+      "attributes": {
+        "Action Correctness": "Wrong Action, corrected by instructor verbally",
+        "Incorrect Action Explanation": "The student should use the bolt to secure the screw.",
+        "Incorrect Action Corrected by": "15",
+        "Verb": "screw",
+        "Adjective": "none",
+        "Noun": "bolt",
+        "adverbial": "none"
+      },
+      "end": 27.537
+    },
+    {
+      "id": 14,
+      "label": "Fine grained action",
+      "start": 27.562,
+      "type": "range",
+      "attributes": {
+        "Action Correctness": "Wrong Action, corrected by instructor verbally",
+        "Incorrect Action Explanation": "The student should use the bolt to secure the screw.",
+        "Incorrect Action Corrected by": "15",
+        "Verb": "hold",
+        "Adjective": "none",
+        "Noun": "leg",
+        "adverbial": "none"
+      },
+      "end": 32.488
+    },
+    {
+      "id": 15,
+      "label": "Conversation",
+      "start": 30.514,
+      "type": "range",
+      "attributes": {
+        "Conversation Purpose": "instructor-start-conversation_correct the wrong action",
+        "sequence": "13, 14",
+        "Transcription": "You should use the bolt to secure the screw.",
+        "Transcription Confidence": "none"
+      },
+      "end": 32.467
+    },
+    {
+      "id": 17,
+      "label": "Fine grained action",
+      "start": 32.522,
+      "type": "range",
+      "attributes": {
+        "Action Correctness": "Correct Action",
+        "Incorrect Action Explanation": "none",
+        "Incorrect Action Corrected by": "none",
+        "Verb": "grab",
+        "Adjective": "none",
+        "Noun": "hex_nut",
+        "adverbial": "none"
+      },
+      "end": 35.313
+    },
+    {
+      "id": 97,
+      "label": "Fine grained action",
+      "start": 35.343,
+      "type": "range",
+      "attributes": {
+        "Action Correctness": "Correct Action",
+        "Incorrect Action Explanation": "none",
+        "Incorrect Action Corrected by": "none",
+        "Verb": "place",
+        "Adjective": "none",
+        "Noun": "hex_nut",
+        "adverbial": "none"
+      },
+      "end": 35.696
+    },
+    {
+      "id": 18,
+      "label": "Fine grained action",
+      "start": 35.727,
+      "type": "range",
+      "attributes": {
+        "Action Correctness": "Wrong Action, corrected by instructor verbally",
+        "Incorrect Action Explanation": "The student has to take the hex nut, not the saddle washer.",
+        "Incorrect Action Corrected by": "19",
+        "Verb": "grab",
+        "Adjective": "none",
+        "Noun": "washer",
+        "adverbial": "none"
+      },
+      "end": 36.625
+    },
+    {
+      "id": 98,
+      "label": "Fine grained action",
+      "start": 36.656,
+      "type": "range",
+      "attributes": {
+        "Action Correctness": "Wrong Action, corrected by instructor verbally",
+        "Incorrect Action Explanation": "The student has to take the hex nut, not the saddle washer.",
+        "Incorrect Action Corrected by": "19",
+        "Verb": "insert",
+        "Adjective": "none",
+        "Noun": "washer",
+        "adverbial": "none"
+      },
+      "end": 37.49
+    },
+    {
+      "id": 19,
+      "label": "Conversation",
+      "start": 36.802,
+      "type": "range",
+      "attributes": {
+        "Conversation Purpose": "instructor-start-conversation_correct the wrong action",
+        "sequence": "18, 98",
+        "Transcription": "No, the bolt is the metal thing, please.",
+        "Transcription Confidence": "none"
+      },
+      "end": 39.433
+    },
+    {
+      "id": 99,
+      "label": "Fine grained action",
+      "start": 37.52,
+      "type": "range",
+      "attributes": {
+        "Action Correctness": "Correct Action",
+        "Incorrect Action Explanation": "none",
+        "Incorrect Action Corrected by": "none",
+        "Verb": "place",
+        "Adjective": "none",
+        "Noun": "washer",
+        "adverbial": "none"
+      },
+      "end": 38.255
+    },
+    {
+      "id": 20,
+      "label": "Fine grained action",
+      "start": 38.286,
+      "type": "range",
+      "attributes": {
+        "Action Correctness": "Correct Action",
+        "Incorrect Action Explanation": "none",
+        "Incorrect Action Corrected by": "none",
+        "Verb": "grab",
+        "Adjective": "none",
+        "Noun": "hex_nut",
+        "adverbial": "none"
+      },
+      "end": 39.196
+    },
+    {
+      "id": 21,
+      "label": "Fine grained action",
+      "start": 39.228,
+      "type": "range",
+      "attributes": {
+        "Action Correctness": "Wrong Action, corrected by instructor verbally",
+        "Incorrect Action Explanation": "The student incorrectly assemble the hex nut.",
+        "Incorrect Action Corrected by": "24",
+        "Verb": "insert",
+        "Adjective": "none",
+        "Noun": "hex_nut",
+        "adverbial": "none"
+      },
+      "end": 48.832
+    },
+    {
+      "id": 24,
+      "label": "Conversation",
+      "start": 46.516,
+      "type": "range",
+      "attributes": {
+        "Conversation Purpose": "instructor-start-conversation_correct the wrong action",
+        "sequence": "21",
+        "Transcription": "And you should be holding it, uh, upside down of what you're doing.",
+        "Transcription Confidence": "none"
+      },
+      "end": 50.329
+    },
+    {
+      "id": 25,
+      "label": "Fine grained action",
+      "start": 48.867,
+      "type": "range",
+      "attributes": {
+        "Action Correctness": "Correct Action",
+        "Incorrect Action Explanation": "none",
+        "Incorrect Action Corrected by": "none",
+        "Verb": "insert",
+        "Adjective": "none",
+        "Noun": "hex_nut",
+        "adverbial": "none"
+      },
+      "end": 52.173
+    },
+    {
+      "id": 26,
+      "label": "Conversation",
+      "start": 50.492,
+      "type": "range",
+      "attributes": {
+        "Conversation Purpose": "instructor-start-conversation_confirming the previous action",
+        "sequence": "none",
+        "Transcription": "Um huh.",
+        "Transcription Confidence": "none"
+      },
+      "end": 51.304
+    },
+    {
+      "id": 27,
+      "label": "Fine grained action",
+      "start": 52.21,
+      "type": "range",
+      "attributes": {
+        "Action Correctness": "Correct Action",
+        "Incorrect Action Explanation": "none",
+        "Incorrect Action Corrected by": "none",
+        "Verb": "screw",
+        "Adjective": "none",
+        "Noun": "hex_nut",
+        "adverbial": "none"
+      },
+      "end": 68.684
+    },
+    {
+      "id": 29,
+      "label": "Fine grained action",
+      "start": 68.71,
+      "type": "range",
+      "attributes": {
+        "Action Correctness": "Wrong Action, corrected by instructor verbally",
+        "Incorrect Action Explanation": "The student should use the tool provided to secure the hex nut.",
+        "Incorrect Action Corrected by": "30",
+        "Verb": "inspect",
+        "Adjective": "none",
+        "Noun": "leg",
+        "adverbial": "none"
+      },
+      "end": 72.336
+    },
+    {
+      "id": 30,
+      "label": "Conversation",
+      "start": 70.296,
+      "type": "range",
+      "attributes": {
+        "Conversation Purpose": "instructor-start-conversation_correct the wrong action",
+        "sequence": "29",
+        "Transcription": "Please use, uh, the tool that you have to secure the bolt.",
+        "Transcription Confidence": "none"
+      },
+      "end": 73.739
+    },
+    {
+      "id": 32,
+      "label": "Fine grained action",
+      "start": 72.367,
+      "type": "range",
+      "attributes": {
+        "Action Correctness": "Wrong Action, corrected by instructor verbally",
+        "Incorrect Action Explanation": "The student has to use the wrench, not the screwdriver to tight it.",
+        "Incorrect Action Corrected by": "33",
+        "Verb": "grab",
+        "Adjective": "none",
+        "Noun": "screwdriver",
+        "adverbial": "none"
+      },
+      "end": 76.143
+    },
+    {
+      "id": 33,
+      "label": "Conversation",
+      "start": 74.286,
+      "type": "range",
+      "attributes": {
+        "Conversation Purpose": "instructor-start-conversation_correct the wrong action",
+        "sequence": "32, 34",
+        "Transcription": "The other tool. Uh, the other, the metal one that you have next to the leg.",
+        "Transcription Confidence": "none"
+      },
+      "end": 80.486
+    },
+    {
+      "id": 34,
+      "label": "Fine grained action",
+      "start": 76.18,
+      "type": "range",
+      "attributes": {
+        "Action Correctness": "Wrong Action, corrected by instructor verbally",
+        "Incorrect Action Explanation": "The student has tot take the wrench, not the saddle washer.",
+        "Incorrect Action Corrected by": "33",
+        "Verb": "grab",
+        "Adjective": "none",
+        "Noun": "washer",
+        "adverbial": "none"
+      },
+      "end": 78.88
+    },
+    {
+      "id": 100,
+      "label": "Fine grained action",
+      "start": 78.912,
+      "type": "range",
+      "attributes": {
+        "Action Correctness": "Correct Action",
+        "Incorrect Action Explanation": "none",
+        "Incorrect Action Corrected by": "none",
+        "Verb": "place",
+        "Adjective": "none",
+        "Noun": "washer",
+        "adverbial": "none"
+      },
+      "end": 80
+    },
+    {
+      "id": 35,
+      "label": "Fine grained action",
+      "start": 80.031,
+      "type": "range",
+      "attributes": {
+        "Action Correctness": "Correct Action",
+        "Incorrect Action Explanation": "none",
+        "Incorrect Action Corrected by": "none",
+        "Verb": "insert",
+        "Adjective": "none",
+        "Noun": "hexagonal_wrench",
+        "adverbial": "none"
+      },
+      "end": 82.223
+    },
+    {
+      "id": 36,
+      "label": "Conversation",
+      "start": 80.584,
+      "type": "range",
+      "attributes": {
+        "Conversation Purpose": "instructor-start-conversation_confirming the previous action",
+        "sequence": "none",
+        "Transcription": "Yes.",
+        "Transcription Confidence": "none"
+      },
+      "end": 80.984
+    },
+    {
+      "id": 37,
+      "label": "Fine grained action",
+      "start": 82.257,
+      "type": "range",
+      "attributes": {
+        "Action Correctness": "Wrong Action, corrected by student",
+        "Incorrect Action Explanation": "The student realizes that was using the wrench to screw to the wrong side.",
+        "Incorrect Action Corrected by": "none",
+        "Verb": "screw",
+        "Adjective": "none",
+        "Noun": "hex_nut",
+        "adverbial": "none"
+      },
+      "end": 106.594
+    },
+    {
+      "id": 101,
+      "label": "Fine grained action",
+      "start": 106.627,
+      "type": "range",
+      "attributes": {
+        "Action Correctness": "Correct Action",
+        "Incorrect Action Explanation": "none",
+        "Incorrect Action Corrected by": "none",
+        "Verb": "withdraw",
+        "Adjective": "none",
+        "Noun": "hexagonal_wrench",
+        "adverbial": "none"
+      },
+      "end": 107.156
+    },
+    {
+      "id": 102,
+      "label": "Fine grained action",
+      "start": 107.186,
+      "type": "range",
+      "attributes": {
+        "Action Correctness": "Correct Action",
+        "Incorrect Action Explanation": "none",
+        "Incorrect Action Corrected by": "none",
+        "Verb": "screw",
+        "Adjective": "none",
+        "Noun": "hex_nut",
+        "adverbial": "none"
+      },
+      "end": 115.068
+    },
+    {
+      "id": 103,
+      "label": "Fine grained action",
+      "start": 115.097,
+      "type": "range",
+      "attributes": {
+        "Action Correctness": "Correct Action",
+        "Incorrect Action Explanation": "none",
+        "Incorrect Action Corrected by": "none",
+        "Verb": "insert",
+        "Adjective": "none",
+        "Noun": "hexagonal_wrench",
+        "adverbial": "none"
+      },
+      "end": 118.804
+    },
+    {
+      "id": 39,
+      "label": "Fine grained action",
+      "start": 118.835,
+      "type": "range",
+      "attributes": {
+        "Action Correctness": "Correct Action",
+        "Incorrect Action Explanation": "none",
+        "Incorrect Action Corrected by": "none",
+        "Verb": "screw",
+        "Adjective": "none",
+        "Noun": "hex_nut",
+        "adverbial": "none"
+      },
+      "end": 123.927
+    },
+    {
+      "id": 40,
+      "label": "Fine grained action",
+      "start": 123.963,
+      "type": "range",
+      "attributes": {
+        "Action Correctness": "Wrong Action, corrected by student",
+        "Incorrect Action Explanation": "The student dropped the wrench while he was using it.",
+        "Incorrect Action Corrected by": "none",
+        "Verb": "drop",
+        "Adjective": "none",
+        "Noun": "hexagonal_wrench",
+        "adverbial": "none"
+      },
+      "end": 125.269
+    },
+    {
+      "id": 41,
+      "label": "Fine grained action",
+      "start": 125.296,
+      "type": "range",
+      "attributes": {
+        "Action Correctness": "Correct Action",
+        "Incorrect Action Explanation": "none",
+        "Incorrect Action Corrected by": "none",
+        "Verb": "grab",
+        "Adjective": "none",
+        "Noun": "hexagonal_wrench",
+        "adverbial": "none"
+      },
+      "end": 126.322
+    },
+    {
+      "id": 104,
+      "label": "Fine grained action",
+      "start": 126.352,
+      "type": "range",
+      "attributes": {
+        "Action Correctness": "Correct Action",
+        "Incorrect Action Explanation": "none",
+        "Incorrect Action Corrected by": "none",
+        "Verb": "insert",
+        "Adjective": "none",
+        "Noun": "hexagonal_wrench",
+        "adverbial": "none"
+      },
+      "end": 127.656
+    },
+    {
+      "id": 42,
+      "label": "Fine grained action",
+      "start": 127.688,
+      "type": "range",
+      "attributes": {
+        "Action Correctness": "Correct Action",
+        "Incorrect Action Explanation": "none",
+        "Incorrect Action Corrected by": "none",
+        "Verb": "screw",
+        "Adjective": "none",
+        "Noun": "hex_nut",
+        "adverbial": "none"
+      },
+      "end": 153.08
+    },
+    {
+      "id": 105,
+      "label": "Fine grained action",
+      "start": 153.107,
+      "type": "range",
+      "attributes": {
+        "Action Correctness": "Correct Action",
+        "Incorrect Action Explanation": "none",
+        "Incorrect Action Corrected by": "none",
+        "Verb": "withdraw",
+        "Adjective": "none",
+        "Noun": "hexagonal_wrench",
+        "adverbial": "none"
+      },
+      "end": 153.891
+    },
+    {
+      "id": 107,
+      "label": "Fine grained action",
+      "start": 153.921,
+      "type": "range",
+      "attributes": {
+        "Action Correctness": "Correct Action",
+        "Incorrect Action Explanation": "none",
+        "Incorrect Action Corrected by": "none",
+        "Verb": "place",
+        "Adjective": "none",
+        "Noun": "hexagonal_wrench",
+        "adverbial": "hand not visible"
+      },
+      "end": 155.617
+    },
+    {
+      "id": 46,
+      "label": "Coarse grained action",
+      "start": 155.755,
+      "type": "range",
+      "attributes": {
+        "Action sentence": "The student assembles the legs onto the seat.",
+        "Verb": "assemble",
+        "Adjective": "none",
+        "Noun": "seat"
+      },
+      "end": 186.088
+    },
+    {
+      "id": 109,
+      "label": "Fine grained action",
+      "start": 155.862,
+      "type": "range",
+      "attributes": {
+        "Action Correctness": "Correct Action",
+        "Incorrect Action Explanation": "none",
+        "Incorrect Action Corrected by": "none",
+        "Verb": "grab",
+        "Adjective": "none",
+        "Noun": "leg",
+        "adverbial": "none"
+      },
+      "end": 156.999
+    },
+    {
+      "id": 108,
+      "label": "Fine grained action",
+      "start": 157.028,
+      "type": "range",
+      "attributes": {
+        "Action Correctness": "Correct Action",
+        "Incorrect Action Explanation": "none",
+        "Incorrect Action Corrected by": "none",
+        "Verb": "grab",
+        "Adjective": "none",
+        "Noun": "screw",
+        "adverbial": "none"
+      },
+      "end": 158.744
+    },
+    {
+      "id": 43,
+      "label": "Conversation",
+      "start": 158.586,
+      "type": "range",
+      "attributes": {
+        "Conversation Purpose": "instructor-start-conversation_follow-up instruction",
+        "sequence": "none",
+        "Transcription": "The next step is to take.",
+        "Transcription Confidence": "none"
+      },
+      "end": 160.089
+    },
+    {
+      "id": 110,
+      "label": "Fine grained action",
+      "start": 158.774,
+      "type": "range",
+      "attributes": {
+        "Action Correctness": "Wrong Action, corrected by instructor verbally",
+        "Incorrect Action Explanation": "The student should leave the seat where it is on the table.",
+        "Incorrect Action Corrected by": "44",
+        "Verb": "grab",
+        "Adjective": "none",
+        "Noun": "seat",
+        "adverbial": "none"
+      },
+      "end": 159.989
+    },
+    {
+      "id": 111,
+      "label": "Fine grained action",
+      "start": 160.019,
+      "type": "range",
+      "attributes": {
+        "Action Correctness": "Wrong Action, corrected by instructor verbally",
+        "Incorrect Action Explanation": "The student should leave the seat where it is on the table.",
+        "Incorrect Action Corrected by": "44",
+        "Verb": "place",
+        "Adjective": "lift",
+        "Noun": "seat",
+        "adverbial": "none"
+      },
+      "end": 162.45
+    },
+    {
+      "id": 44,
+      "label": "Conversation",
+      "start": 160.19,
+      "type": "range",
+      "attributes": {
+        "Conversation Purpose": "instructor-start-conversation_correct the wrong action",
+        "sequence": "110, 111",
+        "Transcription": "You can leave the seat where it is on the table.",
+        "Transcription Confidence": "none"
+      },
+      "end": 162.269
+    },
+    {
+      "id": 112,
+      "label": "Fine grained action",
+      "start": 162.48,
+      "type": "range",
+      "attributes": {
+        "Action Correctness": "Wrong Action, corrected by instructor verbally",
+        "Incorrect Action Explanation": "The student should leave the seat where it is on the table.",
+        "Incorrect Action Corrected by": "45",
+        "Verb": "align",
+        "Adjective": "none",
+        "Noun": "seat",
+        "adverbial": "none"
+      },
+      "end": 162.941
+    },
+    {
+      "id": 113,
+      "label": "Fine grained action",
+      "start": 162.97,
+      "type": "range",
+      "attributes": {
+        "Action Correctness": "Correct Action",
+        "Incorrect Action Explanation": "none",
+        "Incorrect Action Corrected by": "none",
+        "Verb": "lift",
+        "Adjective": "none",
+        "Noun": "seat",
+        "adverbial": "none"
+      },
+      "end": 164.911
+    },
+    {
+      "id": 45,
+      "label": "Conversation",
+      "start": 163.278,
+      "type": "range",
+      "attributes": {
+        "Conversation Purpose": "instructor-start-conversation_describing high-level instruction",
+        "sequence": "112",
+        "Transcription": "You can leave the seat where it was on the table and you can take the legs and put them upside down on the seat.",
+        "Transcription Confidence": "none"
+      },
+      "end": 169.276
+    },
+    {
+      "id": 114,
+      "label": "Fine grained action",
+      "start": 164.941,
+      "type": "range",
+      "attributes": {
+        "Action Correctness": "Correct Action",
+        "Incorrect Action Explanation": "none",
+        "Incorrect Action Corrected by": "none",
+        "Verb": "place",
+        "Adjective": "none",
+        "Noun": "seat",
+        "adverbial": "none"
+      },
+      "end": 168.675
+    },
+    {
+      "id": 47,
+      "label": "Fine grained action",
+      "start": 168.7,
+      "type": "range",
+      "attributes": {
+        "Action Correctness": "Correct Action",
+        "Incorrect Action Explanation": "none",
+        "Incorrect Action Corrected by": "none",
+        "Verb": "rotate",
+        "Adjective": "none",
+        "Noun": "leg",
+        "adverbial": "none"
+      },
+      "end": 174.063
+    },
+    {
+      "id": 48,
+      "label": "Fine grained action",
+      "start": 174.09,
+      "type": "range",
+      "attributes": {
+        "Action Correctness": "Correct Action",
+        "Incorrect Action Explanation": "none",
+        "Incorrect Action Corrected by": "none",
+        "Verb": "lift",
+        "Adjective": "none",
+        "Noun": "leg",
+        "adverbial": "none"
+      },
+      "end": 175.378
+    },
+    {
+      "id": 49,
+      "label": "Fine grained action",
+      "start": 175.414,
+      "type": "range",
+      "attributes": {
+        "Action Correctness": "Correct Action",
+        "Incorrect Action Explanation": "none",
+        "Incorrect Action Corrected by": "none",
+        "Verb": "align",
+        "Adjective": "none",
+        "Noun": "leg",
+        "adverbial": "none"
+      },
+      "end": 185.998
+    },
+    {
+      "id": 51,
+      "label": "Coarse grained action",
+      "start": 186.178,
+      "type": "range",
+      "attributes": {
+        "Action sentence": "The student screws the legs onto the stool.",
+        "Verb": "assemble",
+        "Adjective": "none",
+        "Noun": "leg"
+      },
+      "end": 321.2
+    },
+    {
+      "id": 52,
+      "label": "Fine grained action",
+      "start": 186.229,
+      "type": "range",
+      "attributes": {
+        "Action Correctness": "Wrong Action, corrected by instructor verbally",
+        "Incorrect Action Explanation": "The student has to put a saddle washer between the screw.",
+        "Incorrect Action Corrected by": "55",
+        "Verb": "insert",
+        "Adjective": "none",
+        "Noun": "screw",
+        "adverbial": "none"
+      },
+      "end": 190.8
+    },
+    {
+      "id": 53,
+      "label": "Fine grained action",
+      "start": 190.827,
+      "type": "range",
+      "attributes": {
+        "Action Correctness": "Wrong Action, corrected by instructor verbally",
+        "Incorrect Action Explanation": "The student has to put a saddle washer between the screw.",
+        "Incorrect Action Corrected by": "55",
+        "Verb": "grab",
+        "Adjective": "none",
+        "Noun": "screwdriver",
+        "adverbial": "none"
+      },
+      "end": 191.763
+    },
+    {
+      "id": 115,
+      "label": "Fine grained action",
+      "start": 191.793,
+      "type": "range",
+      "attributes": {
+        "Action Correctness": "Wrong Action, corrected by instructor verbally",
+        "Incorrect Action Explanation": "The student has to put a saddle washer between the screw.",
+        "Incorrect Action Corrected by": "55",
+        "Verb": "insert",
+        "Adjective": "none",
+        "Noun": "screwdriver",
+        "adverbial": "none"
+      },
+      "end": 195.195
+    },
+    {
+      "id": 54,
+      "label": "Fine grained action",
+      "start": 195.227,
+      "type": "range",
+      "attributes": {
+        "Action Correctness": "Wrong Action, corrected by instructor verbally",
+        "Incorrect Action Explanation": "The student has to put a saddle washer between the screw.",
+        "Incorrect Action Corrected by": "55",
+        "Verb": "screw",
+        "Adjective": "none",
+        "Noun": "screw",
+        "adverbial": "none"
+      },
+      "end": 208.007
+    },
+    {
+      "id": 55,
+      "label": "Conversation",
+      "start": 203.28,
+      "type": "range",
+      "attributes": {
+        "Conversation Purpose": "instructor-start-conversation_correct the wrong action",
+        "sequence": "52, 53, 115, 54",
+        "Transcription": "You should put, uh, a small white thing between the screw and the leg.",
+        "Transcription Confidence": "none"
+      },
+      "end": 208.325
+    },
+    {
+      "id": 56,
+      "label": "Fine grained action",
+      "start": 208.041,
+      "type": "range",
+      "attributes": {
+        "Action Correctness": "Correct Action",
+        "Incorrect Action Explanation": "none",
+        "Incorrect Action Corrected by": "none",
+        "Verb": "unscrew",
+        "Adjective": "none",
+        "Noun": "screw",
+        "adverbial": "none"
+      },
+      "end": 214.947
+    },
+    {
+      "id": 116,
+      "label": "Fine grained action",
+      "start": 214.979,
+      "type": "range",
+      "attributes": {
+        "Action Correctness": "Correct Action",
+        "Incorrect Action Explanation": "none",
+        "Incorrect Action Corrected by": "none",
+        "Verb": "withdraw",
+        "Adjective": "none",
+        "Noun": "screwdriver",
+        "adverbial": "none"
+      },
+      "end": 215.577
+    },
+    {
+      "id": 117,
+      "label": "Fine grained action",
+      "start": 215.597,
+      "type": "range",
+      "attributes": {
+        "Action Correctness": "Correct Action",
+        "Incorrect Action Explanation": "none",
+        "Incorrect Action Corrected by": "none",
+        "Verb": "unscrew",
+        "Adjective": "none",
+        "Noun": "screw",
+        "adverbial": "none"
+      },
+      "end": 218.822
+    },
+    {
+      "id": 118,
+      "label": "Fine grained action",
+      "start": 218.852,
+      "type": "range",
+      "attributes": {
+        "Action Correctness": "Correct Action",
+        "Incorrect Action Explanation": "none",
+        "Incorrect Action Corrected by": "none",
+        "Verb": "withdraw",
+        "Adjective": "none",
+        "Noun": "screw",
+        "adverbial": "none"
+      },
+      "end": 219.293
+    },
+    {
+      "id": 57,
+      "label": "Fine grained action",
+      "start": 219.325,
+      "type": "range",
+      "attributes": {
+        "Action Correctness": "Correct Action",
+        "Incorrect Action Explanation": "none",
+        "Incorrect Action Corrected by": "none",
+        "Verb": "grab",
+        "Adjective": "none",
+        "Noun": "washer",
+        "adverbial": "none"
+      },
+      "end": 220.125
+    },
+    {
+      "id": 58,
+      "label": "Fine grained action",
+      "start": 220.151,
+      "type": "range",
+      "attributes": {
+        "Action Correctness": "Correct Action",
+        "Incorrect Action Explanation": "none",
+        "Incorrect Action Corrected by": "none",
+        "Verb": "insert",
+        "Adjective": "none",
+        "Noun": "screw",
+        "adverbial": "none"
+      },
+      "end": 225.061
+    },
+    {
+      "id": 59,
+      "label": "Fine grained action",
+      "start": 225.08,
+      "type": "range",
+      "attributes": {
+        "Action Correctness": "Correct Action",
+        "Incorrect Action Explanation": "none",
+        "Incorrect Action Corrected by": "none",
+        "Verb": "insert",
+        "Adjective": "none",
+        "Noun": "screw",
+        "adverbial": "none"
+      },
+      "end": 227.194
+    },
+    {
+      "id": 60,
+      "label": "Fine grained action",
+      "start": 227.227,
+      "type": "range",
+      "attributes": {
+        "Action Correctness": "Correct Action",
+        "Incorrect Action Explanation": "none",
+        "Incorrect Action Corrected by": "none",
+        "Verb": "grab",
+        "Adjective": "none",
+        "Noun": "screwdriver",
+        "adverbial": "none"
+      },
+      "end": 227.912
+    },
+    {
+      "id": 119,
+      "label": "Fine grained action",
+      "start": 227.94,
+      "type": "range",
+      "attributes": {
+        "Action Correctness": "Correct Action",
+        "Incorrect Action Explanation": "none",
+        "Incorrect Action Corrected by": "none",
+        "Verb": "insert",
+        "Adjective": "none",
+        "Noun": "screwdriver",
+        "adverbial": "none"
+      },
+      "end": 229.254
+    },
+    {
+      "id": 61,
+      "label": "Fine grained action",
+      "start": 229.286,
+      "type": "range",
+      "attributes": {
+        "Action Correctness": "Correct Action",
+        "Incorrect Action Explanation": "none",
+        "Incorrect Action Corrected by": "none",
+        "Verb": "screw",
+        "Adjective": "none",
+        "Noun": "screw",
+        "adverbial": "none"
+      },
+      "end": 242.069
+    },
+    {
+      "id": 120,
+      "label": "Fine grained action",
+      "start": 242.097,
+      "type": "range",
+      "attributes": {
+        "Action Correctness": "Correct Action",
+        "Incorrect Action Explanation": "none",
+        "Incorrect Action Corrected by": "none",
+        "Verb": "withdraw",
+        "Adjective": "none",
+        "Noun": "screwdriver",
+        "adverbial": "none"
+      },
+      "end": 242.695
+    },
+    {
+      "id": 121,
+      "label": "Fine grained action",
+      "start": 242.724,
+      "type": "range",
+      "attributes": {
+        "Action Correctness": "Correct Action",
+        "Incorrect Action Explanation": "none",
+        "Incorrect Action Corrected by": "none",
+        "Verb": "place",
+        "Adjective": "none",
+        "Noun": "screwdriver",
+        "adverbial": "none"
+      },
+      "end": 243.636
+    },
+    {
+      "id": 62,
+      "label": "Fine grained action",
+      "start": 243.669,
+      "type": "range",
+      "attributes": {
+        "Action Correctness": "Correct Action",
+        "Incorrect Action Explanation": "none",
+        "Incorrect Action Corrected by": "none",
+        "Verb": "grab",
+        "Adjective": "none",
+        "Noun": "washer",
+        "adverbial": "none"
+      },
+      "end": 244.506
+    },
+    {
+      "id": 63,
+      "label": "Fine grained action",
+      "start": 244.541,
+      "type": "range",
+      "attributes": {
+        "Action Correctness": "Correct Action",
+        "Incorrect Action Explanation": "none",
+        "Incorrect Action Corrected by": "none",
+        "Verb": "align",
+        "Adjective": "none",
+        "Noun": "washer",
+        "adverbial": "none"
+      },
+      "end": 245.655
+    },
+    {
+      "id": 64,
+      "label": "Fine grained action",
+      "start": 245.688,
+      "type": "range",
+      "attributes": {
+        "Action Correctness": "Correct Action",
+        "Incorrect Action Explanation": "none",
+        "Incorrect Action Corrected by": "none",
+        "Verb": "grab",
+        "Adjective": "none",
+        "Noun": "screw",
+        "adverbial": "none"
+      },
+      "end": 247.012
+    },
+    {
+      "id": 65,
+      "label": "Fine grained action",
+      "start": 247.033,
+      "type": "range",
+      "attributes": {
+        "Action Correctness": "Correct Action",
+        "Incorrect Action Explanation": "none",
+        "Incorrect Action Corrected by": "none",
+        "Verb": "insert",
+        "Adjective": "none",
+        "Noun": "screw",
+        "adverbial": "none"
+      },
+      "end": 250.878
+    },
+    {
+      "id": 66,
+      "label": "Fine grained action",
+      "start": 250.914,
+      "type": "range",
+      "attributes": {
+        "Action Correctness": "Correct Action",
+        "Incorrect Action Explanation": "none",
+        "Incorrect Action Corrected by": "none",
+        "Verb": "grab",
+        "Adjective": "none",
+        "Noun": "screwdriver",
+        "adverbial": "none"
+      },
+      "end": 251.949
+    },
+    {
+      "id": 122,
+      "label": "Fine grained action",
+      "start": 251.979,
+      "type": "range",
+      "attributes": {
+        "Action Correctness": "Correct Action",
+        "Incorrect Action Explanation": "none",
+        "Incorrect Action Corrected by": "none",
+        "Verb": "insert",
+        "Adjective": "none",
+        "Noun": "screwdriver",
+        "adverbial": "none"
+      },
+      "end": 254.175
+    },
+    {
+      "id": 67,
+      "label": "Fine grained action",
+      "start": 254.2,
+      "type": "range",
+      "attributes": {
+        "Action Correctness": "Correct Action",
+        "Incorrect Action Explanation": "none",
+        "Incorrect Action Corrected by": "none",
+        "Verb": "screw",
+        "Adjective": "none",
+        "Noun": "screw",
+        "adverbial": "none"
+      },
+      "end": 270.288
+    },
+    {
+      "id": 123,
+      "label": "Fine grained action",
+      "start": 270.322,
+      "type": "range",
+      "attributes": {
+        "Action Correctness": "Correct Action",
+        "Incorrect Action Explanation": "none",
+        "Incorrect Action Corrected by": "none",
+        "Verb": "withdraw",
+        "Adjective": "none",
+        "Noun": "screwdriver",
+        "adverbial": "none"
+      },
+      "end": 270.989
+    },
+    {
+      "id": 124,
+      "label": "Fine grained action",
+      "start": 271.018,
+      "type": "range",
+      "attributes": {
+        "Action Correctness": "Correct Action",
+        "Incorrect Action Explanation": "none",
+        "Incorrect Action Corrected by": "none",
+        "Verb": "place",
+        "Adjective": "none",
+        "Noun": "screwdriver",
+        "adverbial": "none"
+      },
+      "end": 272.067
+    },
+    {
+      "id": 68,
+      "label": "Fine grained action",
+      "start": 272.1,
+      "type": "range",
+      "attributes": {
+        "Action Correctness": "Correct Action",
+        "Incorrect Action Explanation": "none",
+        "Incorrect Action Corrected by": "none",
+        "Verb": "grab",
+        "Adjective": "none",
+        "Noun": "washer",
+        "adverbial": "none"
+      },
+      "end": 272.711
+    },
+    {
+      "id": 125,
+      "label": "Fine grained action",
+      "start": 272.743,
+      "type": "range",
+      "attributes": {
+        "Action Correctness": "Correct Action",
+        "Incorrect Action Explanation": "none",
+        "Incorrect Action Corrected by": "none",
+        "Verb": "align",
+        "Adjective": "none",
+        "Noun": "washer",
+        "adverbial": "none"
+      },
+      "end": 274.253
+    },
+    {
+      "id": 69,
+      "label": "Fine grained action",
+      "start": 274.278,
+      "type": "range",
+      "attributes": {
+        "Action Correctness": "Correct Action",
+        "Incorrect Action Explanation": "none",
+        "Incorrect Action Corrected by": "none",
+        "Verb": "rotate",
+        "Adjective": "none",
+        "Noun": "stool",
+        "adverbial": "none"
+      },
+      "end": 276.874
+    },
+    {
+      "id": 70,
+      "label": "Fine grained action",
+      "start": 276.904,
+      "type": "range",
+      "attributes": {
+        "Action Correctness": "Correct Action",
+        "Incorrect Action Explanation": "none",
+        "Incorrect Action Corrected by": "none",
+        "Verb": "align",
+        "Adjective": "none",
+        "Noun": "washer",
+        "adverbial": "none"
+      },
+      "end": 277.839
+    },
+    {
+      "id": 71,
+      "label": "Fine grained action",
+      "start": 277.875,
+      "type": "range",
+      "attributes": {
+        "Action Correctness": "Correct Action",
+        "Incorrect Action Explanation": "none",
+        "Incorrect Action Corrected by": "none",
+        "Verb": "grab",
+        "Adjective": "none",
+        "Noun": "screw",
+        "adverbial": "none"
+      },
+      "end": 279.979
+    },
+    {
+      "id": 72,
+      "label": "Fine grained action",
+      "start": 280.004,
+      "type": "range",
+      "attributes": {
+        "Action Correctness": "Correct Action",
+        "Incorrect Action Explanation": "none",
+        "Incorrect Action Corrected by": "none",
+        "Verb": "insert",
+        "Adjective": "none",
+        "Noun": "screw",
+        "adverbial": "none"
+      },
+      "end": 282.604
+    },
+    {
+      "id": 73,
+      "label": "Fine grained action",
+      "start": 282.639,
+      "type": "range",
+      "attributes": {
+        "Action Correctness": "Correct Action",
+        "Incorrect Action Explanation": "none",
+        "Incorrect Action Corrected by": "none",
+        "Verb": "grab",
+        "Adjective": "none",
+        "Noun": "screwdriver",
+        "adverbial": "none"
+      },
+      "end": 283.304
+    },
+    {
+      "id": 126,
+      "label": "Fine grained action",
+      "start": 283.332,
+      "type": "range",
+      "attributes": {
+        "Action Correctness": "Correct Action",
+        "Incorrect Action Explanation": "none",
+        "Incorrect Action Corrected by": "none",
+        "Verb": "insert",
+        "Adjective": "none",
+        "Noun": "screwdriver",
+        "adverbial": "none"
+      },
+      "end": 285.214
+    },
+    {
+      "id": 74,
+      "label": "Fine grained action",
+      "start": 285.247,
+      "type": "range",
+      "attributes": {
+        "Action Correctness": "Correct Action",
+        "Incorrect Action Explanation": "none",
+        "Incorrect Action Corrected by": "none",
+        "Verb": "screw",
+        "Adjective": "none",
+        "Noun": "screw",
+        "adverbial": "none"
+      },
+      "end": 297.063
+    },
+    {
+      "id": 127,
+      "label": "Fine grained action",
+      "start": 297.096,
+      "type": "range",
+      "attributes": {
+        "Action Correctness": "Correct Action",
+        "Incorrect Action Explanation": "none",
+        "Incorrect Action Corrected by": "none",
+        "Verb": "withdraw",
+        "Adjective": "none",
+        "Noun": "screwdriver",
+        "adverbial": "none"
+      },
+      "end": 297.802
+    },
+    {
+      "id": 75,
+      "label": "Fine grained action",
+      "start": 297.827,
+      "type": "range",
+      "attributes": {
+        "Action Correctness": "Correct Action",
+        "Incorrect Action Explanation": "none",
+        "Incorrect Action Corrected by": "none",
+        "Verb": "rotate",
+        "Adjective": "none",
+        "Noun": "stool",
+        "adverbial": "none"
+      },
+      "end": 301.005
+    },
+    {
+      "id": 76,
+      "label": "Fine grained action",
+      "start": 301.041,
+      "type": "range",
+      "attributes": {
+        "Action Correctness": "Correct Action",
+        "Incorrect Action Explanation": "none",
+        "Incorrect Action Corrected by": "none",
+        "Verb": "grab",
+        "Adjective": "none",
+        "Noun": "washer",
+        "adverbial": "none"
+      },
+      "end": 301.441
+    },
+    {
+      "id": 77,
+      "label": "Fine grained action",
+      "start": 301.473,
+      "type": "range",
+      "attributes": {
+        "Action Correctness": "Correct Action",
+        "Incorrect Action Explanation": "none",
+        "Incorrect Action Corrected by": "none",
+        "Verb": "align",
+        "Adjective": "none",
+        "Noun": "washer",
+        "adverbial": "none"
+      },
+      "end": 302.677
+    },
+    {
+      "id": 78,
+      "label": "Fine grained action",
+      "start": 302.708,
+      "type": "range",
+      "attributes": {
+        "Action Correctness": "Correct Action",
+        "Incorrect Action Explanation": "none",
+        "Incorrect Action Corrected by": "none",
+        "Verb": "grab",
+        "Adjective": "none",
+        "Noun": "screw",
+        "adverbial": "none"
+      },
+      "end": 303.769
+    },
+    {
+      "id": 79,
+      "label": "Fine grained action",
+      "start": 303.798,
+      "type": "range",
+      "attributes": {
+        "Action Correctness": "Correct Action",
+        "Incorrect Action Explanation": "none",
+        "Incorrect Action Corrected by": "none",
+        "Verb": "insert",
+        "Adjective": "none",
+        "Noun": "screw",
+        "adverbial": "none"
+      },
+      "end": 305.996
+    },
+    {
+      "id": 80,
+      "label": "Fine grained action",
+      "start": 306.031,
+      "type": "range",
+      "attributes": {
+        "Action Correctness": "Correct Action",
+        "Incorrect Action Explanation": "none",
+        "Incorrect Action Corrected by": "none",
+        "Verb": "grab",
+        "Adjective": "none",
+        "Noun": "screwdriver",
+        "adverbial": "none"
+      },
+      "end": 306.631
+    },
+    {
+      "id": 128,
+      "label": "Fine grained action",
+      "start": 306.665,
+      "type": "range",
+      "attributes": {
+        "Action Correctness": "Correct Action",
+        "Incorrect Action Explanation": "none",
+        "Incorrect Action Corrected by": "none",
+        "Verb": "insert",
+        "Adjective": "none",
+        "Noun": "screwdriver",
+        "adverbial": "none"
+      },
+      "end": 310.077
+    },
+    {
+      "id": 81,
+      "label": "Fine grained action",
+      "start": 310.104,
+      "type": "range",
+      "attributes": {
+        "Action Correctness": "Correct Action",
+        "Incorrect Action Explanation": "none",
+        "Incorrect Action Corrected by": "none",
+        "Verb": "screw",
+        "Adjective": "none",
+        "Noun": "screw",
+        "adverbial": "none"
+      },
+      "end": 319.455
+    },
+    {
+      "id": 129,
+      "label": "Fine grained action",
+      "start": 319.489,
+      "type": "range",
+      "attributes": {
+        "Action Correctness": "Correct Action",
+        "Incorrect Action Explanation": "none",
+        "Incorrect Action Corrected by": "none",
+        "Verb": "withdraw",
+        "Adjective": "none",
+        "Noun": "screwdriver",
+        "adverbial": "none"
+      },
+      "end": 320.145
+    },
+    {
+      "id": 130,
+      "label": "Fine grained action",
+      "start": 320.175,
+      "type": "range",
+      "attributes": {
+        "Action Correctness": "Correct Action",
+        "Incorrect Action Explanation": "none",
+        "Incorrect Action Corrected by": "none",
+        "Verb": "place",
+        "Adjective": "none",
+        "Noun": "screwdriver",
+        "adverbial": "none"
+      },
+      "end": 321.096
+    },
+    {
+      "id": 84,
+      "label": "Coarse grained action",
+      "start": 321.32,
+      "type": "range",
+      "attributes": {
+        "Action sentence": "The student inspects whether the bolt is properly tightened.",
+        "Verb": "screw",
+        "Adjective": "none",
+        "Noun": "screw"
+      },
+      "end": 349.267
+    },
+    {
+      "id": 131,
+      "label": "Fine grained action",
+      "start": 321.37,
+      "type": "range",
+      "attributes": {
+        "Action Correctness": "Correct Action",
+        "Incorrect Action Explanation": "none",
+        "Incorrect Action Corrected by": "none",
+        "Verb": "rotate",
+        "Adjective": "none",
+        "Noun": "stool",
+        "adverbial": "none"
+      },
+      "end": 324.292
+    },
+    {
+      "id": 82,
+      "label": "Conversation",
+      "start": 321.424,
+      "type": "range",
+      "attributes": {
+        "Conversation Purpose": "instructor-start-conversation_confirming the previous action",
+        "sequence": "none",
+        "Transcription": "Great!",
+        "Transcription Confidence": "none"
+      },
+      "end": 321.718
+    },
+    {
+      "id": 83,
+      "label": "Conversation",
+      "start": 321.799,
+      "type": "range",
+      "attributes": {
+        "Conversation Purpose": "instructor-start-conversation_describing high-level instruction",
+        "sequence": "none",
+        "Transcription": "The last step before you turn it around is to make sure that the bolt is well secured with, umm, the tool that you have.",
+        "Transcription Confidence": "none"
+      },
+      "end": 327.733
+    },
+    {
+      "id": 132,
+      "label": "Fine grained action",
+      "start": 324.322,
+      "type": "range",
+      "attributes": {
+        "Action Correctness": "Correct Action",
+        "Incorrect Action Explanation": "none",
+        "Incorrect Action Corrected by": "none",
+        "Verb": "place",
+        "Adjective": "none",
+        "Noun": "stool",
+        "adverbial": "none"
+      },
+      "end": 327.782
+    },
+    {
+      "id": 85,
+      "label": "Fine grained action",
+      "start": 327.816,
+      "type": "range",
+      "attributes": {
+        "Action Correctness": "Correct Action",
+        "Incorrect Action Explanation": "none",
+        "Incorrect Action Corrected by": "none",
+        "Verb": "grab",
+        "Adjective": "none",
+        "Noun": "hexagonal_wrench",
+        "adverbial": "none"
+      },
+      "end": 329.69
+    },
+    {
+      "id": 86,
+      "label": "Fine grained action",
+      "start": 329.72,
+      "type": "range",
+      "attributes": {
+        "Action Correctness": "Correct Action",
+        "Incorrect Action Explanation": "none",
+        "Incorrect Action Corrected by": "none",
+        "Verb": "insert",
+        "Adjective": "none",
+        "Noun": "hexagonal_wrench",
+        "adverbial": "none"
+      },
+      "end": 332.22
+    },
+    {
+      "id": 87,
+      "label": "Fine grained action",
+      "start": 332.257,
+      "type": "range",
+      "attributes": {
+        "Action Correctness": "Wrong Action, corrected by student",
+        "Incorrect Action Explanation": "Rotates the hex nut in the wrong direction, then he realizes and change screwing direction.",
+        "Incorrect Action Corrected by": "none",
+        "Verb": "unscrew",
+        "Adjective": "none",
+        "Noun": "hex_nut",
+        "adverbial": "none"
+      },
+      "end": 335.857
+    },
+    {
+      "id": 88,
+      "label": "Fine grained action",
+      "start": 335.894,
+      "type": "range",
+      "attributes": {
+        "Action Correctness": "Correct Action",
+        "Incorrect Action Explanation": "none",
+        "Incorrect Action Corrected by": "none",
+        "Verb": "screw",
+        "Adjective": "none",
+        "Noun": "hex_nut",
+        "adverbial": "none"
+      },
+      "end": 345.643
+    },
+    {
+      "id": 89,
+      "label": "Fine grained action",
+      "start": 345.678,
+      "type": "range",
+      "attributes": {
+        "Action Correctness": "Correct Action",
+        "Incorrect Action Explanation": "none",
+        "Incorrect Action Corrected by": "none",
+        "Verb": "withdraw",
+        "Adjective": "none",
+        "Noun": "hexagonal_wrench",
+        "adverbial": "none"
+      },
+      "end": 346.39
+    },
+    {
+      "id": 133,
+      "label": "Fine grained action",
+      "start": 346.42,
+      "type": "range",
+      "attributes": {
+        "Action Correctness": "Correct Action",
+        "Incorrect Action Explanation": "none",
+        "Incorrect Action Corrected by": "none",
+        "Verb": "place",
+        "Adjective": "none",
+        "Noun": "hexagonal_wrench",
+        "adverbial": "right hand"
+      },
+      "end": 348.282
+    },
+    {
+      "id": 134,
+      "label": "Fine grained action",
+      "start": 347.949,
+      "type": "range",
+      "attributes": {
+        "Action Correctness": "Correct Action",
+        "Incorrect Action Explanation": "none",
+        "Incorrect Action Corrected by": "none",
+        "Verb": "rotate",
+        "Adjective": "none",
+        "Noun": "stool",
+        "adverbial": "left hand"
+      },
+      "end": 349.184
+    },
+    {
+      "id": 90,
+      "label": "Conversation",
+      "start": 349.198,
+      "type": "range",
+      "attributes": {
+        "Conversation Purpose": "instructor-start-conversation_confirming the previous action",
+        "sequence": "none",
+        "Transcription": "Great! Thank you.",
+        "Transcription Confidence": "none"
+      },
+      "end": 350.301
+    },
+    {
+      "id": 91,
+      "label": "Conversation",
+      "start": 350.413,
+      "type": "range",
+      "attributes": {
+        "Conversation Purpose": "instructor-start-conversation_closing remarks",
+        "sequence": "none",
+        "Transcription": "It's over, you can press the stop button.",
+        "Transcription Confidence": "none"
+      },
+      "end": 353.369
+    }
+  ],
+  "taskId": "63dadf8b01075c1696eb880c",
+  "taskType": "assemble stool",
+  "video_name": "z086-july-07-22-marius_assemble"
+}
