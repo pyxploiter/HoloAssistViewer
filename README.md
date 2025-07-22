@@ -33,5 +33,4 @@ Download the dataset from [here](https://holoassist.github.io/). Only "Videos" f
 
 
 ## Online Testing
-- Visit [pyxploiter.github.io/HoloAssistViewer](pyxploiter.github.io/HoloAssistViewer)
-- Select `R007-7July-DSLR.json` for online testing
+- Visit [pyxploiter.github.io/HoloAssistViewer](https://pyxploiter.github.io/HoloAssistViewer)
