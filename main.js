@@ -5,7 +5,12 @@ const videoMeta = document.getElementById("videoMeta");
 const listContainer = document.getElementById("listContainer");
 const rawJsonEl = document.getElementById("rawJson");
 const narrationContainer = document.getElementById("narrationContainer");
-// Label filter state
+
+const DEFAULT_JSON_PATH = "./data/labels/R007-7July-DSLR.json";
+// All annotations (raw order)
+let annotations = [];
+// Only the segments we auto‑highlight
+let highlightSegments = [];
 let showConversations = true;
 let showFineGrainedActions = true;
 
@@ -36,10 +41,58 @@ document.getElementById("showFineGrainedActions").addEventListener("change", (e)
     }
 });
 
-// All annotations (raw order)
-let annotations = [];
-// Only the segments we auto‑highlight
-let highlightSegments = [];
+function handleParsed(parsed) {
+    /* ------ show raw JSON ------ */
+    // rawJsonEl.textContent = JSON.stringify(parsed, null, 2);
+
+    /* ------ auto-load video ------ */
+    const vidName = parsed.video_name || parsed.videoName;
+    const taskType = parsed.taskType || parsed.task_type;
+
+    const videoDuration = parsed.videoMetadata.duration.seconds;
+    const videoResolutionWidth = parsed.videoMetadata.video.resolution.w;
+    const videoResolutionHeight = parsed.videoMetadata.video.resolution.h;
+    // console.log(`Video duration: ${videoDuration} seconds`);
+    // console.log(`Video resolution: ${videoResolutionWidth}x${videoResolutionHeight}`);
+
+    if (vidName) {
+        video.src = `./data/videos/${vidName}/Export_py/Video_pitchshift.mp4`;
+        videoMeta.innerHTML = `<strong>Video</strong>: ${vidName}`;
+        videoMeta.classList.remove("hidden");
+
+        if (taskType) {
+            videoMeta.innerHTML += `<br><strong>Task Type</strong>: ${taskType}`;
+        }
+
+        if (videoDuration) {
+            videoMeta.innerHTML += `<br><strong>Duration</strong>: ${formatTime(videoDuration)} (${videoDuration} seconds)`;
+        }
+
+        if (videoResolutionWidth && videoResolutionHeight) {
+            videoMeta.innerHTML += `<br><strong>Resolution</strong>: ${videoResolutionWidth}x${videoResolutionHeight}`;
+        }
+        
+        video.onerror = function() {
+            videoMeta.innerHTML = `<p style="color:red;">Error: Video file not found - ${vidName}</p>`;
+            console.error(`Failed to load video: ${video.src}`);
+        };
+    } else {
+        console.warn("`video_name` not found in JSON; cannot auto-load video.");
+    }
+
+    /* ------ pull annotation list ------ */
+    annotations =
+    parsed.events ||
+    parsed.annotations ||
+    (Array.isArray(parsed) ? parsed : []);
+
+    if (!annotations.length) {
+        throw new Error("No `events`/`annotations` array found.");
+    }
+
+    renderNarration();
+    renderAnnotations();
+}
 
 /* ----------- Load & parse JSON --------- */
 annoInput.addEventListener("change", () => {
@@ -49,58 +102,7 @@ annoInput.addEventListener("change", () => {
     const reader = new FileReader();
     reader.onload = ({ target }) => {
         try {
-            const parsed = JSON.parse(target.result);
-
-            /* ------ show raw JSON ------ */
-            // rawJsonEl.textContent = JSON.stringify(parsed, null, 2);
-
-            /* ------ auto-load video ------ */
-            const vidName = parsed.video_name || parsed.videoName;
-            const taskType = parsed.taskType || parsed.task_type;
-
-            const videoDuration = parsed.videoMetadata.duration.seconds;
-            const videoResolutionWidth = parsed.videoMetadata.video.resolution.w;
-            const videoResolutionHeight = parsed.videoMetadata.video.resolution.h;
-            // console.log(`Video duration: ${videoDuration} seconds`);
-            // console.log(`Video resolution: ${videoResolutionWidth}x${videoResolutionHeight}`);
-
-            if (vidName) {
-                video.src = `./data/videos/${vidName}/Export_py/Video_pitchshift.mp4`;
-                videoMeta.innerHTML = `<strong>Video</strong>: ${vidName}`;
-                videoMeta.classList.remove("hidden");
-
-                if (taskType) {
-                    videoMeta.innerHTML += `<br><strong>Task Type</strong>: ${taskType}`;
-                }
-
-                if (videoDuration) {
-                    videoMeta.innerHTML += `<br><strong>Duration</strong>: ${formatTime(videoDuration)} (${videoDuration} seconds)`;
-                }
-
-                if (videoResolutionWidth && videoResolutionHeight) {
-                    videoMeta.innerHTML += `<br><strong>Resolution</strong>: ${videoResolutionWidth}x${videoResolutionHeight}`;
-                }
-                
-                video.onerror = function() {
-                    videoMeta.innerHTML = `<p style="color:red;">Error: Video file not found - ${vidName}</p>`;
-                    console.error(`Failed to load video: ${video.src}`);
-                };
-            } else {
-                console.warn("`video_name` not found in JSON; cannot auto-load video.");
-            }
-
-            /* ------ pull annotation list ------ */
-            annotations =
-            parsed.events ||
-            parsed.annotations ||
-            (Array.isArray(parsed) ? parsed : []);
-
-            if (!annotations.length) {
-            throw new Error("No `events`/`annotations` array found.");
-            }
-
-            renderNarration();
-            renderAnnotations();
+            handleParsed(JSON.parse(target.result));
         } catch (err) {
             listContainer.innerHTML = `<p style="color:red;">Failed to parse JSON: ${err.message}</p>`;
             rawJsonEl.textContent = "";
@@ -110,6 +112,29 @@ annoInput.addEventListener("change", () => {
     };
     reader.readAsText(file);
 });
+
+function tryLoadDefaultJson() {
+    if (location.protocol === "file:") {
+        console.warn(
+            "Running from file:// — the browser blocks fetch(). " +
+            "Start a local server (e.g. python -m http.server) or deploy to GitHub Pages " +
+            "to auto-load the default JSON."
+        );
+        return;                     // skip auto-load
+    }
+
+    fetch(DEFAULT_JSON_PATH)
+        .then((r) => {
+            if (!r.ok) throw new Error(r.statusText);
+            return r.json();
+        })
+        .then(handleParsed)         // <- your existing parser / renderer
+        .catch((err) =>
+            console.error("Failed to load default JSON:", DEFAULT_JSON_PATH, err)
+        );
+}
+
+window.addEventListener("DOMContentLoaded", tryLoadDefaultJson);
 
 /* ------------ Render narration -------------- */
 function renderNarration() {
